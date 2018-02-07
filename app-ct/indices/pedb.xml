@@ -1,48 +1,49 @@
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pedb">
-  <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Title</title>
-         </titleStmt>
-         <publicationStmt>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
                 <ab/>
-         </publicationStmt>
-         <sourceDesc>
-<ab/>
-         </sourceDesc>
-      </fileDesc>
-  </teiHeader>
-  <text>
-      <body>
-             <listPerson>
-    <person xml:id="pe0001">
-        <persName>
-            <surname>Anderson</surname>
-            <forename>James</forename>
-            <roleName/>
-    </persName>
-        <note/>
-    </person>
-    <person xml:id="pe0002">
+            </publicationStmt>
+            <sourceDesc>
+                <ab/>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <listPerson>
+                <person xml:id="pe0001">
                     <persName>
-        <surname>Anderson</surname>
-        <forename/>
-        <roleName>Mr</roleName>
-        <addName/>
-        <note/>
-    </persName>
+                        <surname>Anderson</surname>
+                        <forename>James</forename>
+                        <roleName/>
+                    </persName>
+                    <note/>
                 </person>
-    <person xml:id="pe0003">
+                <person xml:id="pe0002">
                     <persName>
-        <surname>Markham</surname>
-        <forename>William</forename>
-        <roleName>Archbishop</roleName>
-        <addName>Archbishop of York</addName>
-        <note/>
-    </persName>
+                        <surname>Anderson</surname>
+                        <forename/>
+                        <roleName>Mr</roleName>
+                        <addName/>
+                        <note/>
+                    </persName>
                 </person>
-      </body>
-  </text>
+                <person xml:id="pe0003">
+                    <persName>
+                        <surname>Markham</surname>
+                        <forename>William</forename>
+                        <roleName>Archbishop</roleName>
+                        <addName>Archbishop of York</addName>
+                        <note/>
+                    </persName>
+                </person>
+            </listPerson>
+        </body>
+    </text>
 </TEI>
