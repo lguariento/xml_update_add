@@ -154,7 +154,7 @@
             <xsl:apply-templates/>
         </xsl:when>
             <xsl:otherwise>
-                <a href="http://130.209.97.222:8080/exist/apps/app-ct/pages/hits.html?searchkey={@ref}">
+                <a href="http://localhost:8080/exist/apps/app-ct/pages/hits.html?searchkey={@ref}">
                     <xsl:apply-templates/>
                 </a>
             </xsl:otherwise>
@@ -163,7 +163,7 @@
 
     <!-- Places -->
     <xsl:template match="tei:placeName">
-        <a href="http://130.209.97.222:8080/exist/apps/app-ct/places/{@ref}">
+        <a href="http://localhost:8080/exist/apps/app-ct/places/{@ref}">
             <xsl:apply-templates/>
         </a>
     </xsl:template>
