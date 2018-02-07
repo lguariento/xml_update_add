@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1002">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Richard Bull to Thomas Pennant</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire Country Record Office</repository>
+                        <idno>CR2017</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>TP 189/5</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0313">Richard Bull</persName>
+                    <date when="1778-06-28"/>
+                    <placeName ref="pldb.xml#pl0757">Watcombe Place, Southampton</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I did not understand till a very short time since, that I was oblig’d to You for
+                    two Prints which you was kind enough to leave at Bretherton’s<note type="editorial">This may refer to <persName ref="pe0320">James
+                            Bretherton</persName>, engraver and printseller at <placeName ref="pldb.xml#pl0758">134 New Bond Street</placeName> from 1771 to 1799.
+                        Exeter Working Papers in Book History @bookhistory.blogspot.co.uk
+                        [ABB]</note> for me. I desire to give you my best thanks for them, and to
+                    assure you that I think myself very much honor’d in having a place in your
+                    remembrance. I have built a House in <placeName ref="pldb.xml#pl0759">Stratton
+                        Street Picadilly</placeName>,<note type="editorial">
+                        <persName ref="pe0313">Richard Bull</persName>'s house in town was
+                            <placeName ref="pldb.xml#pl0759">no. 10 Stratton Street</placeName>.
+                        Evans, ‘Richard Bull and Thomas Pennant’, 271. The earliest letter from
+                            <persName ref="pe0232">Pennant</persName> addressed to
+                            <persName ref="pe0313">Bull</persName> there is NLW 5500C, no.
+                        4, [no. IN THIS EDITION] 20 April 1780.</note> and if business or amusement
+                    should call you to <placeName ref="pldb.xml#pl0699">London</placeName> next
+                    winter, I should have a real pleasure in seeing you there, because you always
+                    amuse and inform me, &amp; I have besides some few things, which I wish to ask
+                    your opinion of.</p>
+                <closer>
+                    <salute>I am Dear Sir Yours very much</salute>
+                    <signed>
+                        <persName ref="pe0313">Rich<hi rend="superscript">d</hi>:
+                        Bull</persName>
+                    </signed>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0757">Watcombe Place
+                            Southampton</placeName> 28 June 1778</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

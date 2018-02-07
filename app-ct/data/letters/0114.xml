@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0114">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton: soliciting Paton's help in finding a
+                    replacement artist</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>23</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1772-05-13"/>
+                    <placeName ref="pldb.xml#pl0002">Chester</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+
+                <p>By the usual folly &amp; desultoriness of artists I am disappointed of my
+                        <persName ref="pe0303">
+                        <sic>Lanscape</sic> painter</persName> at a
+                    moments notice. As one is essential to my scheme, I must trouble you to look out
+                    for one at <placeName ref="pldb.xml#pl0076">Edinburgh</placeName>, one that is
+                    alert quick in Inking sketches, with some taste, a fair character, peaceable
+                    disposition. I shall be at or near <placeName ref="pldb.xml#pl0229">Glasgow</placeName> from the 8<hi rend="superscript">th</hi> of June to the
+                        14<hi rend="superscript">th</hi> &amp; glad to see specimens of his
+                    performances in Indian Ink. I sh<hi rend="superscript">d</hi> ever be glad of
+                    the company of any independent person who is <add place="above">as</add> above
+                    qualified, &amp; he shall fare as I do; but I do not chuse one who must bring a
+                    servant, as I am fully manned.</p>
+                <p>One <persName ref="pe0024">Mr <unclear reason="illegbile">W</unclear>
+                        Richardson</persName> at <persName ref="pe0075">Doctor
+                        Blacklocks</persName>
+                    <placeName ref="pldb.xml#pl0076">edinburgh</placeName> offers his service but
+                    then he wants the command of the vessel. Be so good as to call &amp; let him
+                    know how incompatible that is with my views who wish for only an obedient hand.
+                    What his <sic>artist</sic> qualities are I know not.</p>
+                <p>Be so good as to communicate this to <persName ref="pe0022">D<hi rend="superscript">r</hi> Ramsay</persName>.</p>
+                <closer>
+                    <salute>with best wishes <lb/>y<hi rend="superscript">rs</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Thomas
+                            Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0002">Chester</placeName> May 13<hi rend="superscript">th</hi>. 1772</dateline>
+                <postscript>
+                    <p>I set out the 18<hi rend="superscript">th</hi>.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

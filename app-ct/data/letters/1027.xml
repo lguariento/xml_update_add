@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1027">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 30</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1783-07-25"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName>July 25<hi rend="superscript">th</hi> 1783.</dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I am very glad of <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice>
+                    success with <persName ref="pe0105">M<hi rend="superscript">r</hi> Grose</persName>. I know his good nature so well that he will deny nothing in reason. 
+                    <persName ref="pe0014">Moses</persName> began <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice>
+                    work on Tuesday &amp; goes on with that spirit that I may promise the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012">first volume</title>
+                    </bibl>
+                    in the course of next month. Let a welshman preach up patience for the rest. I am in Love with the performance <del>of</del>
+                    in your book: &amp; envy the fair fingers you possess which so adroitly puzzle about the inserted &amp; non-inserted.
+                    <note type="editorial">A reference to the work carried out by Bull's daughters, Elizabeth and Catherine, possibly accompanied by their half-sister Levinia Luther, on his extra-illustrated volumes.</note>
+                    a prodigious <hi rend="underline">spectacle</hi> invites you &amp; them to <placeName ref="pldb.xml#pl0002">Chester</placeName>
+                    the 16<hi rend="superscript">th</hi> of September. <note type="editorial">CHECK Chester Chronicle</note> If you will come before the 
+                    16<hi rend="superscript">th</hi> how happy shall I be, <del>for m</del> that I &amp; mine may receive <sic>Lecture Lectures</sic>
+                    in paste-ology.<note type="editorial">The reference to 'I and mine' suggests that members of the household besides Pennant and Moses Griffith (see no. 13) may have been involved in 'pasting'. His wife Anne Pennant (née Mostyn) and elder daughter, Arabella, are possible candidates. On Bull and Pennant's lack of overt reference to Catherine and Elizabeth Bull's involvement in pasting, and the underlying protection of females from explicit and acknowledged participation in the masculine world of antiquarianism, see Peltz, 'The Extra-Illustration of London', vol. 2, pp 502–6.</note>
+                </p>
+                <p>
+                    <persName ref="pe0431">Thane</persName>'s <sic>heads heads</sic> are admirable. Thanks for them: but place them to 
+                    account. how did I forget to bespeak the arch knave <hi rend="underline">
+                        <rs type="art" ref="ardb.xml#ar0058">
+                            <persName ref="pe0477">Dudly <choice>
+                                    <abbr>E.</abbr>
+                                    <expan>Earl</expan>
+                                </choice> of <placeName ref="pldb.xml#pl1019"/>Leiceter</persName>
+                        </rs>?
+                    <note type="editorial">Robert Dudley, first Earl of Leicester (1532/3–1588), a favourite of Elizabeth I, of whom there are 65 portraits lodged at NPG.</note>
+                    valde desideranda, The <rs type="art" ref="ardb.xml#ar0053">small views after <persName ref="pe0373 pe0374">Buck</persName>
+                        </rs>. 
+                        <rs type="art" ref="ardb.xml#ar0054">Prison scene from <persName ref="pe0478">Hayley</persName>'s Howard</rs>
+                    </hi>.
+                        <note type="editorial">William Hayley (1745–1820), poet and biographer, author of an Ode, inscribed to John Howard (London, 1780). Howard was a prison reformer. ODNB s.v. William Hayley. An engraving by [Francesco] Bartolozzi of a scene entitled 'Howard on Prisons' is included in Pennant's extra-illustrated Tour in Wales, ONE (NLW).</note>
+                    <hi rend="underline">
+                        <persName ref="pe0479">Harris</persName>'s <rs type="art" ref="ardb.xml#ar0055">view of <placeName ref="pldb.xml#pl0002">Chester</placeName> cathedral</rs>.</hi>
+                    <note type="editorial">John Harris (fl. 1771–1812), map and print maker, was involved as the publisher of line engravings, mezzotints, etchings and stipple engravings housed at NPG. His engraving of 'The South Prospect of the Cathedral of Christ Church &amp; St Mary at Chester' appeared in Browne Willis, A survey of the cathedrals of York, Durham, Carlisle, Chester, Man, Litchfield, Hereford, Worcester, Gloucester, and Bristol (2 vols., London: R. Gosling, MDCCXXVII [1727]), I, p. 317.</note>
+                    <hi rend="underline">&amp; the <rs type="art" ref="ardb.xml#ar0056">canal bridges</rs>.</hi>
+                    <note type="editorial">A reference to the Barton Aqueduct, which carried the Bridgewater Canal over the River Irwell at Barton-upon Irwell in Greater Manchester. The bridge was first used in 1761.</note>
+                </p>
+                <p>In the course of my enriching my <bibl type="authorial">
+                        <title ref="bidb.xml#bi0001 bidb.xml#bi0009 bidb.xml#bi0010">scotch Tours</title>
+                    </bibl>
+                    I think I have some duplicate prints at <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> service.
+                    I ought to present you with a set of those from <persName ref="pe0058">Cordiner</persName>'s <bibl type="authorial">
+                        <title ref="bidb.xml#bi0250">Letters</title>
+                    </bibl>
+                if you have yet had them.</p>
+                <p>The Kings speech &amp; the fall of the stocks are melancholy confirmations of <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice>
+                    suspicions. <note type="editorial">The King's speech at the close of the session in 16 July 1783, when he prorogued Parliament to 9 September, mentioned that 'the consideration of the affairs of the East Indies will require to be resumed as early as possible', talking of 'terms of pacification' which he believed 'the several powers concerned' were much inclined to. This does not seem to corroborate Pennant's gloomy outlook, especially since the Anglo-French contest in the East Indies, afoot since 1778, was brought to a conclusion with the signing of the Paris Treaty on 3 September 1783 (see note to no. 18).</note>
+                    If we fall into another war inevitable ruin must ensue.</p>
+                <closer>
+                    <salute>I am Dear Sir
+                        <lb/>
+                        <choice>
+                            <abbr>Y<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>Your</expan>
+                        </choice> very faithful
+                        <lb/>humble <choice>
+                            <abbr>Serv<hi rend="superscript">t</hi>
+                            </abbr>
+                            <expan>Servant</expan>
+                        </choice>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>Tho.</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant.</persName>
+                    </signed>                    
+                </closer>
+                <postscript>
+                    <p>I beg my excuses may be made to <persName ref="pe0332">M<hi rend="superscript">r</hi> Storer</persName>
+                        for the trouble I give <persName ref="pe0015">Sir <choice>
+                                <abbr>R. M.</abbr>
+                                <expan>Roger Mostyn</expan>
+                            </choice>
+                        </persName>
+                        being absent. <note type="editorial">Pennant asks Anthony Morris Storer, who was an MP, for franks, in the unavailability of franks from his kinsman Sir Roger Mostyn.</note>
+                    </p>
+                </postscript>
+            </div>           
+        </body>
+    </text>
+</TEI>

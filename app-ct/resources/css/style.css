@@ -1,0 +1,61 @@
+/* Application styles could go here */
+footer .poweredby { float: right; margin: 33px 10px 0 0;}
+footer .poweredby img { width: 120px; }
+
+html{
+    height:100%;
+}
+
+#content{
+    
+    background-color: #f4edd8;
+}
+
+body{
+
+    height:100%;
+    background-color: #a1aa8d;
+}
+header{
+    background-color:#333; /*#F8F8F8*/
+    color:#ffffff;
+}
+
+footer{
+
+    background-color:#333; /*#F8F8F8*/
+    color:#ffffff;
+    font-size:13px;
+    padding:20px;
+    /* position: absolute;*/
+    left:0;
+    right:0;
+    width:100%;
+    margin-top:10px;
+}
+
+
+/* Table search  */
+
+tfoot input {
+
+        padding: 3px;
+        box-sizing: border-box;
+    }
+    
+.center-block{
+    
+        margin-top: 1%;
+}
+
+.opener{
+    
+    margin-left: 2em;
+    
+}
+
+.closer{
+    
+    margin-left: 2em;
+    
+}

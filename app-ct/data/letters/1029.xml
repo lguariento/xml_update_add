@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1029">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 32</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1783-11-21"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> <choice>
+                            <abbr>Nov<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>November</expan>
+                        </choice> 21. 1783.</dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I inclose  <rs type="art" ref="ardb.xml#ar0057">
+                        <persName ref="pe0014">Moses</persName>'s Portrait by himself</rs>. 
+                    he thinks himself highly flattered by <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice>
+                    attention – He also sends his bill as you desired. I see that <persName ref="pe0105">M<hi rend="superscript">r</hi> Grose</persName>
+                    advertises his work in <choice>
+                        <abbr>oct<hi rend="superscript">vo</hi>
+                        </abbr>
+                        <expan>octavo</expan>
+                    </choice>. 
+                    so that I can b<del>e</del>uy what numbers I like without troubling you. But my 
+                    <hi rend="underline">mind still turns on <rs type="art" ref="ardb.xml#ar0054">the Jail scene the frontespiece to <persName ref="pe0478">M<hi rend="superscript">r</hi> Haily</persName>'s Poem to M<hi rend="superscript">r</hi> Howard</rs>
+                    </hi>.
+                    I write in great haste as we are going eighteen miles to dinner. I with <persName ref="pe0391">M<hi rend="superscript">r</hi> Fitzmaurice</persName>
+                    comptroller of a hunt <persName ref="pe0238">M<hi rend="superscript">rs</hi> Pennant</persName>
+                    with <persName ref="pe0483">his Lady</persName>. This is quite reluctantly: but my regard for 
+                    <persName ref="pe0391">M<hi rend="superscript">r</hi> <choice>
+                            <abbr>Fitz..</abbr>
+                            <expan>Fitzmaurice</expan>
+                        </choice>
+                    </persName>
+                    whom<del>it</del> a party is trying to run down, urges me to make my appearance. I beg to have a little news especially about stocks 
+                    &amp; taxes, &amp; shall rejoice to have a cordial from you this gloomy month.</p>
+                <closer>
+                    <salute>I am Dear Sir
+                        <lb/>most truely <choice>
+                            <abbr>y<hi rend="superscript">rs</hi>
+                            </abbr>
+                            <expan>yours</expan>
+                        </choice>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>T</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant.</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <hi rend="underline">
+                            <persName ref="pe0026">M<hi rend="superscript">r</hi> White</persName> has a parcel</hi>
+                        coming down, so will <hi rend="underline">receive</hi> any trifles you may have.</p>
+                </postscript>
+            </div>           
+        </body>
+    </text>
+</TEI>

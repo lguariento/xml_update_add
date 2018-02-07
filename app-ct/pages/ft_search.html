@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<div class="templates:surround?with=templates/page.html&amp;at=content">
+    <head/>
+    <div>
+        <form method="get" class="form-inline" id="pageform">
+            <div class="form-group">
+                <div class="input-group">
+                    <input type="text" class="form-control" name="searchexpr"/>
+                </div>
+                <button type="submit" class="btn btn-primary">Go!</button>
+            </div>
+        </form>
+    </div>
+    <h3>
+        <span id="hitcount"/> for <strong>
+            <span id="searchexpr"/>
+        </strong>
+    </h3>
+    <hr/>
+    <table>
+        <thead>
+            <tr>
+                <th>KWIC</th>
+                <th>Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr data-template="app:ft_search"/>
+        </tbody>
+    </table>
+    <script type="text/javascript" src="$app-root/resources/js/count.js"/>
+</div>

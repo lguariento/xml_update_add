@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0104">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, on natural history matters and drawings of
+                    Scotland</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>5</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1771-04-15"/>
+                    <placeName ref="pldb.xml#pl0699">London</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> 
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Sir</salute>
+                </opener>
+                <p>I met y<hi rend="superscript">r</hi> obliging favor here &amp; shall be happy to
+                    receive y<hi rend="superscript">r</hi> list of birds. I think you judge very
+                    right in sending me the descriptions, which may save much trouble, if there are
+                    no nondescripts. if there are I shall accept y<hi rend="superscript">r</hi> kind
+                    offer, &amp; you may depend on a safe return of them.</p>
+                <p>I am much obliged to you for the offer of the loan of drawings, which will be
+                    truly acceptable as to those of the Scotch subjects let me entreat you to send
+                    them with speed, as they will be great ornaments to <bibl type="authorial">
+                        <title ref="bidb.xml#bi0001">my tour thro n. Britain</title>
+                    </bibl>
+                    which will go to the press in May. I also heartily wish for sketches of
+                    picturesque scenes of any parts I visited.<note type="editorial">As Pennant had
+                        not travelled with an artist (see his letter to George Paton on 21<hi rend="superscript">st</hi> November 1779), he illustrated his <bibl type="editorial">
+                            <title ref="bi0001">
+                                <hi rend="italic">Tour in Scotland
+                                    in 1769</hi>
+                            </title>
+                        </bibl> with plates engraved from views by
+                            <persName ref="pe0330">Paul Sandby</persName> and <persName ref="pe0579">William Tomkins</persName>.</note>
+                </p>
+                <p>Y<hi rend="superscript">r</hi>
+                    <placeName ref="pldb.xml#pl0700">Shetland</placeName>
+                    <persName ref="pe0301">voyager</persName> &amp; <placeName ref="pldb.xml#pl0701">orkney</placeName> friends will I hope enable you to
+                    explain to me the Bird Lyre, of which I have for years in vain expected an
+                    elucidation.</p>
+                <p>I must soon trouble you with another parcel for that worthy man <persName ref="pe0215">M<hi rend="superscript">r</hi> Brodie.</persName>
+                </p>
+                <p>Excuse D<hi rend="superscript">r</hi> Sir short Letters; for my time is fully
+                    taken up I cannot give anybody long ones. I hope you will write soon else
+                        <persName ref="pe0015">Sir R. Mostyn</persName> will be gone into
+                        <placeName ref="pldb.xml#pl0702">Flintshire</placeName>.</p>
+                <closer>
+                    <salute>I am with much esteem <lb/>y<hi rend="superscript">r</hi> most obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <lb/>
+                    <signed>
+                        <persName ref="pe0232">Tho.
+                    Pennant</persName>.</signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0699">London</placeName> April 15th
+                    1771.</dateline>
+            </div>
+        </body>
+    </text>
+</TEI>

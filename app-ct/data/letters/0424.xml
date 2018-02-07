@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0424">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>John Stuart to Thomas Pennant, on place names of Arran</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP369</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>4/1a-4/1b</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0023">John Stuart</persName>
+                    <date when="1773-05-12"/>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+
+                <language ident="en">English</language>
+
+                <language ident="gd">Gaelic</language>
+
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName> May 12<hi rend="superscript">th.</hi> 1773.</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p> I am sorry that my being absent from home for some weeks past has prevented my
+                    writing a return sooner to your last agreeable letter, which has come to my
+                    hands without date, but I suppose must have been written about the beginning of
+                    last month.</p>
+                <p>I send you inclosed some Remarks relative to <placeName ref="pldb.xml#pl0719">the
+                        island of <hi rend="underline">Arran</hi>
+                    </placeName>. With regard to
+                        <placeName ref="pldb.xml#pl0714">
+                        <hi rend="underline">Bute</hi>
+                    </placeName>
+                    <hi rend="superscript">x</hi>, <placeName ref="pldb.xml#pl0621">
+                        <hi rend="underline">Insh-marnoc</hi>
+                    </placeName>, and
+                        <placeName ref="pldb.xml#pl0863">
+                        <hi rend="underline">Tarbat</hi>
+                    </placeName>, your own notes, which you favoured me with the
+                    perusal of, are so accurate and particular that I have nothing to add.<note type="editorial">The following locations and dates correspond to the itinerary of
+                        <bibl type="editorial">
+                            <title ref="bidb.xml#bi0008">Pennant's <hi rend="italic">Tour
+                                    in Scotland and Hebrides 1772</hi>
+                            </title>
+                        </bibl>.</note>
+                </p>
+                <p>On June 17<hi rend="superscript">th.</hi>, the first day of your voyage, you
+                    observe that <placeName ref="pldb.xml#pl0618">
+                        <hi rend="underline">Kingarth</hi>
+                        in <hi rend="underline">Bute</hi>
+                    </placeName>
+                    <hi rend="superscript">x</hi>
+                   <note resp="author" place="foot">x In Galic, <placeName ref="pldb.xml#pl0714">
+                            <hi rend="underline">Bòit</hi>
+                        </placeName>.</note> is so named from
+                        <hi rend="underline">Kin</hi> a head, and <hi rend="underline">garth</hi> a
+                    corn field. The Galic words are <hi rend="underline">Ceann</hi> a head and <hi rend="underline">gart</hi> a corn field.</p>
+                <p>
+                    <q>
+                        <placeName ref="pldb.xml#pl0864">
+                            <hi rend="underline">Loch-fad</hi>
+                        </placeName>
+                    </q> i.e. the long lake.</p>
+                <p>June 21<hi rend="superscript">st.</hi>
+                    <q>
+                        <placeName ref="pldb.xml#pl0865">
+                            <hi rend="underline">Corra</hi>
+                        </placeName>
+                    </q> It should be rather spelt <placeName ref="pldb.xml#pl0865">
+                        <hi rend="underline">Corry</hi>
+                    </placeName>
+                </p>
+                <p>22<hi rend="superscript">d.</hi>
+                    <q>
+                        <placeName ref="pldb.xml#pl0867">
+                            <hi rend="underline">Machrie</hi>
+                        </placeName>
+                    </q> rather <placeName ref="pldb.xml#pl0867">
+                        <hi rend="underline">Machry</hi>
+                    </placeName>.</p>
+                <p>
+                    <q>
+                        <placeName ref="pldb.xml#pl0866">
+                            <hi rend="underline">Torr-more</hi>
+                        </placeName>
+                    </q> i.e. the great round eminence.</p>
+                <p>
+                    <q>
+                        <placeName ref="pldb.xml#pl0628">
+                            <hi rend="underline">Drumadoon</hi>
+                        </placeName>
+                    </q> In Galic <placeName ref="pldb.xml#pl0628">
+                        <hi rend="underline">Druim-an-dùin</hi>
+                    </placeName>
+                    i.e. the ridge of the fort or castle; probably called so from the old round
+                    tower which you saw the remains of upon an eminence as you ascended from the
+                    shore after viewing the Cave.</p>
+                <p>
+                    <q>
+                        <hi rend="underline">Fin-mac-coul</hi>
+                    </q> rather <hi rend="underline">Fin-mac-Cuil</hi>, i.e. Fingal the son of Chumhal.</p>
+                <p>
+                    <q>
+                        <placeName ref="pldb.xml#pl0868">
+                            <hi rend="underline">Cairn a
+                            baan</hi>
+                        </placeName>
+                    </q> rather <placeName ref="pldb.xml#pl0868">
+                        <hi rend="underline">Carn-baan</hi>
+                    </placeName> i.e. the white cairn or heap
+                    of stones.</p>
+                <p>
+                    <q>
+                        <placeName ref="pldb.xml#pl0869">
+                            <hi rend="underline">Feoirlin</hi>
+                        </placeName>
+                    </q> should be written <placeName ref="pldb.xml#pl0869">
+                        <hi rend="underline">Feorling</hi>
+                    </placeName>; and
+                            <q>
+                        <placeName ref="pldb.xml#pl0870">
+                            <hi rend="underline">Shedeagh</hi>
+                        </placeName>
+                    </q>, <placeName ref="pldb.xml#pl0870">
+                        <hi rend="underline">Sheddag</hi>
+                    </placeName>.</p>
+                <p>June 23<hi rend="superscript">d.</hi>
+                    <q>
+                        <placeName ref="pldb.xml#pl0871">
+                            <hi rend="underline">Torr-an-schian</hi>
+                            castle</placeName>
+                    </q> I imagine it should be <placeName ref="pldb.xml#pl0871">
+                        <hi rend="underline">Torr-an-tian</hi>
+                        castle</placeName>, i.e. the castle of the fairy-haunted eminence.</p>
+                <p>
+                    <q>
+                        <placeName ref="pldb.xml#pl0626">
+                            <hi rend="underline">Goatfield</hi>
+                        </placeName> said to be 1/4<hi rend="superscript">th</hi>
+                        mile high</q>. I suppose it must at least be double that of perpendicular
+                    height.</p>
+                <p>
+                    <q>500 Bolls of <hi rend="underline">beare</hi>
+                    </q>. It is commonly written <hi rend="underline">bear</hi>.</p>
+                <p>According to your desire I have presented your compliments to <persName ref="pe0311">Achalader</persName>, who offers you his best
+                    respects, and is happy to learn that the book he sent you will be of service to
+                    you.</p>
+                <p>I return you many thanks for <bibl type="authorial">
+                        <title ref="bidb.xml#bi0045">your Synopsis of
+                            Quadrupeds</title>
+                    </bibl> though it is not as yet come to my hands, as I
+                    likewise do for <bibl type="authorial">
+                        <title ref="bidb.xml#bi0028">your new Genera of
+                            Birds</title>
+                    </bibl>, which <persName ref="pe0022">D<hi rend="superscript">r.</hi> Ramsay</persName> has sent me, and gives me
+                    great satisfaction. He is surely much obliged to you for your friendly
+                    dedication to him – I have no doubt but <persName ref="pe0022">the
+                        Doctor</persName> meant and wished to have assisted you in your researches
+                    into the Natural history of this country to the best of his power, however much
+                    the success may in some instances have fallen below his expectation.</p>
+                <p>
+                    <placeName ref="pldb.xml#pl0652">
+                        <hi rend="underline">Staffa</hi>
+                    </placeName> is
+                    without any variation the only Galic and English name of that island, and it’s
+                    etymon, like that of the greatest part of the other W. isles is only to be
+                    sought for in the Norse language.</p>
+                <p>It gives me much pleasure to hear that <persName ref="pe0008">M<hi rend="superscript">r</hi> Banks</persName> has consigned to you all his
+                    fine drawings of it.</p>
+                <p>I have as yet learned nothing with certainty as to the affair of <persName ref="pe0258">M<hi rend="superscript">r.</hi> Robertson Min<hi rend="superscript">r.</hi> of Loch-Broom</persName>. Whenever I do I
+                    shall be sure to acquaint you of it.</p>
+                <p>For fear of swelling this letter to too great a size, I send you one half of the
+                    Remarks upon <placeName ref="pldb.xml#pl0719">
+                        <hi rend="underline">Arran</hi>
+                    </placeName> by the same Post; but inclosed under another
+                    Cover.</p>
+                <closer>
+                    <salute>I am <lb/>With Sincere regard <lb/>Dear Sir <lb/>Your most obliged
+                        <lb/>and humble Servant</salute>
+                    <signed>
+                        <persName ref="pe0023">John Stuart</persName>
+                    </signed>
+                </closer>
+
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>To Thomas Pennant Esq<hi rend="superscript">r.</hi>
+                        </addrLine>
+                        <addrLine>Downing</addrLine>
+                        <addrLine>Flintshire</addrLine>
+                        <addrLine>S. Britain</addrLine>
+                    </address>
+                </p>
+                <p>
+                    <handShift/>
+                    <persName ref="pe0023">Mr Stuart</persName> on our
+                    voyage.</p>
+
+                <p> 83</p>
+                <p>
+                    <placeName ref="pldb.xml#pl0719">
+                        <hi rend="underline">Arran</hi>
+                    </placeName>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

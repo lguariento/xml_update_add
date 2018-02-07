@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0128">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, informing him that Benjamin White will print
+                    Sibbald's <hi rend="italic">Phalainologia nova</hi>
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>45</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-03-04"/>
+                    <placeName ref="pldb.xml#pl0699">London</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dr Sir</salute>
+                </opener>
+                <p>I have just time to thank you for y<hi rend="superscript">r</hi> favor &amp; to
+                    say that <persName ref="pe0026">M<hi rend="superscript">r</hi>
+                        White</persName> will print the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0050">Hist. of Whales</title>
+                    </bibl>. As a Bookseller
+                    undertakes it I drop my design of giving more plates. I will send you half a
+                    dozen copies. please to say how I must remit the money for <bibl type="authorial">
+                        <title ref="bidb.xml#bi0064">the magazines</title>
+                    </bibl>
+                    &amp;c. Have you <bibl type="authorial">
+                        <title ref="bidb.xml#bi0045">my syn.
+                            quad</title>
+                    </bibl>? also <bibl type="authorial">
+                        <title ref="bidb.xml#bi0026">
+                            <gap reason="illegible" unit="words" quantity="1"/> Zool</title>
+                    </bibl>. I will not offer it till the 3<hi rend="superscript">d</hi> Ed. appears. Inclose to <persName ref="pe0015">Mr Roger Mostyn Bart M.P.</persName>
+                    <placeName ref="pldb.xml#pl0734">Bruton street London</placeName>.</p>
+                <closer>
+                    <salute>D<hi rend="superscript">r</hi> Sir y<hi rend="superscript">r</hi>
+                        faithful humble Serv<hi rend="superscript">r</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">T. Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0699">London</placeName> March. 4<hi rend="superscript">th</hi> 1773.</dateline>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>M<hi rend="superscript">r</hi> Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+                <p>
+                    <unclear reason="illegible">Free</unclear>
+                    <persName ref="pe0110">Hotham</persName>
+                </p>
+                <p>
+                    <stamp>FREE</stamp>
+                </p>
+                <p>
+                    <stamp>6/MR</stamp>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

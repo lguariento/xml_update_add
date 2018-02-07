@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0536">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>George Paton to Thomas Pennant</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP326</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>6</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0228">George Paton</persName>
+                    <date when="1777-04-04"/>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>This day I received your favour of 19<hi rend="superscript">th.</hi> ultimo, hope
+                    you will have got my last on your arrival at London; yours for <persName ref="pe0100">M<hi rend="superscript">r</hi> Freebairn</persName> was sent
+                    off immediately, the postage was paid</p>
+                <p>I shall endeavour to get the East Coast as well supplied for you as possible, can
+                    recollect none further North, than what <persName ref="pe0565">Adair</persName>
+                    has done, which can be depended on unless <bibl type="authorial">
+                        <title ref="bi0247">M<hi rend="superscript">r.</hi> Mackenzie's Survey of the
+                            Coast</title>
+                    </bibl>
+                    <add place="above">which last has not yet appeared</add>, if you have not <bibl type="authorial">
+                        <title ref="bi0149">
+                            <hi rend="underline">Adairs Coast
+                                Maps</hi>
+                        </title>
+                    </bibl>, I will try to provide a Copy for you.</p>
+                <p>So soon as <bibl type="authorial">
+                        <title ref="bi0136">the Antiquities of
+                            Stirlingshire with the Map</title>
+                    </bibl> is published I shall beg your
+                    Acceptance of it; as also <bibl type="authorial">
+                        <title ref="bi0176">the History
+                            of Glasgow with a plan</title>
+                    </bibl> &amp; <bibl type="authorial">
+                        <title ref="bi0142">Sir David Lindsay's Works</title>
+                    </bibl> are by me
+                    for you there shall be sent to <persName ref="pe0026">M<hi rend="superscript">r</hi> White's</persName> Care at <placeName ref="pl0699">London</placeName>, with these you will receive a new <bibl type="authorial">
+                        <title ref="bi0144"> Plan of Dundee</title>
+                    </bibl>: there
+                    is a proposal of a Survey of <placeName ref="pl0733">Angusshire</placeName>
+                    shortly to be begun by the same hand, one <persName ref="pe0566">Crawford</persName> a Young man, it's thought he will do the Antiquities
+                        &amp;<hi rend="superscript">c.</hi> on a separate sheet from the Map</p>
+                <p>I shall soon write you again &amp; am</p>
+                <closer>
+                    <salute>Dear Sir <lb/>Your most obed<hi rend="superscript">t.</hi> Serv<hi rend="superscript">t.</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0228">GPaton</persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pl0696">Custom house Edinburgh</placeName>
+                    <lb/>4 April 1777.</dateline>
+            </div>
+        </body>
+    </text>
+</TEI>

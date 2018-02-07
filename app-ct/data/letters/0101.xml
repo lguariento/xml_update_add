@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0101">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, on natural history and publication
+                    plans</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>1-2</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1771-01-01"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> 
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Sir</salute>
+                </opener>
+                <p>I cannot sufficiently admire your communicative disposition, in so kindly sending
+                        <rs type="art" ref="ardb.xml#ar0045">the sketch of the curious fish</rs>
+                    taken on y<hi rend="superscript">r</hi> coast. Instead of receiving yr apology
+                    for troubling me as you are pleased to style, accept my best thanks for the
+                    favor done me, &amp; let me beg the continuance.</p>
+
+                <p>I am not clear that y<hi rend="superscript">r</hi> fish is described: but must
+                    inform you it is of the genus which <bibl type="authorial">
+                        <title ref="bidb.xml#bi0418">Linnaeus</title>
+                    </bibl> calls Esox &amp;
+                    approaches the species of Garfish or sea needle; but differs from it in having
+                    several spurious fins between the dorsal &amp; ventral fins &amp; the tail. I do
+                    presume that y<hi rend="superscript">r</hi> drawing is exact as to the mandibles
+                    of the jaws being of equal length; for in case the lower mandible was broken,
+                    &amp; had been originally much longer than the upper, in that case it will prove
+                    the same with a new fish <persName ref="pe0008">M<hi rend="superscript">r</hi> Banks</persName> favored me with from <placeName ref="pldb.xml#pl0694">Newfoundland</placeName>. Be so good as to inform me
+                    of the above particular.</p>
+                <p>In respect to my American Zoology, it is my design to divide it into two works
+                    one to take in the animals of <placeName ref="pldb.xml#pl0697">north
+                        America</placeName> the other of <placeName ref="pldb.xml#pl0698">south</placeName>: they will differ widely in their productions &amp; are
+                    besides <sic>to</sic> numerous to be treated of in one volume.<note type="editorial">In the advertisement to his 1784 <bibl type="editorial">
+                            <title ref="bidb.xml#bi0022">
+                                <hi rend="italic">Arctic
+                                Zoology</hi>
+                            </title>
+                        </bibl>, Pennant explains that he abandoned his
+                        plans for an American Zoology after American independence, and instead
+                        worked the materials he had acquired into the current volume.</note> The
+                    size will be octavo to be illustrated with plates of the new or rare kinds. Any
+                    communications of that kind will be acceptable; &amp; any whatever subjects I am
+                    favored with shall be safely restored. I shall be glad to hear that y<hi rend="superscript">r</hi>
+                    <persName ref="pe0299">friend</persName> gives you the history of each
+                    bird; for without that base descriptions make but dull work. You put an &amp;c
+                    to y<hi rend="superscript">r</hi> collection from <placeName ref="pldb.xml#pl0693">Jamaica</placeName>, pray does it comprehend any of
+                    the lesser beasts, especially the cane rat which I wish to see.</p>
+                <p>I am sorry y<hi rend="superscript">r</hi> fish came a little too late for a work
+                    I am about to publish: viz. the conclusion of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0019">my Br. Zool. illustrated</title>
+                    </bibl>. but it
+                    will serve to adorn <bibl type="authorial">
+                        <title ref="bidb.xml#bi0001">my tour
+                            in Scotland</title>
+                    </bibl> which I am very busy in transcribing.<note type="editorial">The title page of Pennant's <bibl type="editorial">
+                            <title ref="bidb.xml#bi0019">
+                                <hi rend="italic">British Zoology. Illustrated
+                                    by Plates and Brief Explanations.</hi>
+                            </title>
+                        </bibl> gives a
+                        publication date of 1770, reflecting the fact that it had already gone to
+                        press by the time Pennant wrote this letter on January 1<hi rend="superscript">st</hi> 1771.</note>Would you or any of y<hi rend="superscript">r</hi> friends favor me with exact drawings of any
+                    uncommon animals they shd find a place there. Please to let me know if I am to
+                    return the drawing: &amp; accept a few prints of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0001">my next publication</title>
+                    </bibl>.</p>
+                <closer>
+                    <salute>I am Sir <lb/>y<hi rend="superscript">r</hi> obliged <lb/>humble
+                        Servt</salute>
+                    <lb/>
+                    <signed>
+                        <persName ref="pe0232">Thomas
+                    Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName> Jan. 1.
+                    1771</dateline>
+
+                <postscript>
+                    <p>Please to put y<hi rend="superscript">r</hi> Letters under cover to,<persName ref="pe0015">Sir Roger Mostyn Bart M.P.</persName>
+                        <lb/>
+                        <lb/>At <placeName ref="pldb.xml#pl0695">Mostyn</placeName>
+                        <lb/>Flintshire</p>
+                    <p>Pray do Letters come free to y<hi rend="superscript">r</hi> office?</p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>To George Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

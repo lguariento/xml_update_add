@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, forwarding in an inquiry to Islay</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>70</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-11-16"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p> Be so good as to peruse the inclosed for perhaps you may get some answers. Seal
+                    it up &amp; pay postage to <placeName ref="pl0717">Ilay</placeName>. Get
+                        <persName ref="pe0018">M<hi rend="superscript">r</hi> Jackson</persName> to
+                    direct y<hi rend="superscript">r</hi> next for <persName ref="pe0015">Sir R.
+                        M.</persName> is gone from home for six weeks.</p>
+                <closer>
+                    <salute>y<hi rend="superscript">rs</hi> in much haste</salute>
+                    <signed>
+                        <persName ref="pe0232">T Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pl0001">Downing</placeName> Nov<hi rend="superscript">r</hi>
+                        16<hi rend="superscript">th</hi>. 1773 </dateline>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>M<hi rend="superscript">r</hi>. Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+                <p>
+                    <persName ref="pe0289">
+                        <unclear reason="illegible">
+                            <hi rend="underline">Walther
+                                Williams</hi>
+                        </unclear>
+                    </persName>
+                </p>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0703">NORTHOP</placeName>
+                    </stamp>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

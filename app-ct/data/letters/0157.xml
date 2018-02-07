@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0157.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, on arrangements for George Low and various
+                    deliveries</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>83</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1774-04-19"/>
+                    <placeName ref="pl0699">London</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>Y<hi rend="superscript">r</hi> favor with those inclosed came safe. I am much
+                    vexed at not hearing of <persName ref="pe0156">M<hi rend="superscript">r</hi>
+                        Low’s</persName> draft least it should prove an inconvenience to him. I do
+                    not know how to address him for I suppose he is set out, <sic>if you write let
+                        know</sic> I shall be glad to hear from him often: &amp; if He will put me
+                    in the way the order shall be paid in my absence. if sent after me to <placeName ref="pl0001">Downing</placeName> I will direct the payment here. a box of
+                        <bibl type="authorial">
+                        <title ref="bi0004">my Tours</title>
+                    </bibl> &amp;
+                        <bibl type="authorial">
+                        <title ref="bi0008">voyages</title>
+                    </bibl> will be
+                    sent to y<hi rend="superscript">r</hi> care. be so good to disperse them as
+                    directed.</p>
+                <closer>
+                    <salute>I am D<hi rend="superscript">r</hi> Sir <lb/>yr obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant </persName>
+                    </signed>
+                    <placeName ref="pl0699">London</placeName>
+                </closer>
+                <dateline>April 19<hi rend="superscript">th</hi>. 1774.</dateline>
+
+                <postscript>
+                    <p>I leave town next week: but shall be some time in getting home.</p>
+                </postscript>
+
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>M<hi rend="superscript">r</hi> Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

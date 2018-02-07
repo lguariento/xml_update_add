@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0108">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton: on natural history and plans for 1772 Tour of
+                    Scotland</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>12-13</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1771-12-13"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> 
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir,</salute>
+                </opener>
+
+                <p>your agreable favor reached me yesterday: The <hi rend="underline">Lyre</hi> at
+                    last proves my <hi rend="underline">shearwater</hi>
+                    <bibl type="authorial">
+                        <title ref="bidb.xml#bi0018">Br. Zool.</title> II.</bibl>
+                    <hi rend="underline">vide</hi> <bibl type="authorial">
+                        <title ref="bi0017">the great edition</title>
+                    </bibl> &amp; you will see <rs type="art" ref="ar0097">its figure</rs> taken from a stuft skin sent from
+                    the <placeName ref="pldb.xml#pl0707">isle of man</placeName>. by the dimensions
+                    yours must be a young bird; but I did not measure mine as I seldom care to trust
+                    to <sic>meer</sic> skins.</p>
+                <p>The <hi rend="underline">overgrown</hi> mackerel is my Tunny <bibl type="authorial">
+                        <title ref="bi0018">Br. Zool.</title> IV.</bibl>
+                    which I examined just caught at <placeName ref="pldb.xml#pl0217">Inveraray.</placeName>
+                </p>
+                <p>I hope you had my Letter in which I made some queries about the possibility of
+                    getting a comfortable vessel for a little voyage among the <placeName ref="pldb.xml#pl0708">western isles</placeName>, a ship that one might lie
+                    aboard in case of necessity. I wrote to <persName ref="pe0022">Dr
+                        Ramsay</persName> on the same subject &amp; hope to be favored with y<hi rend="superscript">r</hi> answer as soon as convenient.</p>
+                <closer>
+                    <salute>I am Dear Sir <lb/>your obliged humble <lb/>Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho.
+                    Pennant</persName>
+                    </signed>
+                </closer>
+
+                <dateline>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName> Dec<hi rend="superscript">r</hi> 13<hi rend="superscript">th</hi> 1771.</dateline>
+
+                <postscript>
+                    <p>I believe you may get <unclear reason="illegible">
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0046">Willoughby</title>
+                            </bibl>
+                        </unclear> for 2 guineas. It is a most
+                        excellent book.</p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>M<hi rend="superscript">r</hi> George Paton</addrLine>
+                        <addrLine>at the Custom house</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

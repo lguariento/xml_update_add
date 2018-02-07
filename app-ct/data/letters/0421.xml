@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0421">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>John Stuart to Thomas Pennant, on the plants and birds of Rannoch</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP369</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>1a-1b</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0023">John Stuart</persName>
+                    <date when="1773-01-19"/>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gd">Gaelic</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName> Jan. 19<hi rend="superscript">th.</hi> 1773 —</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I received yours of Dec<hi rend="superscript">r.</hi> 4<hi rend="superscript">th</hi> several days ago, but as I wrote you on the 23<hi rend="superscript">d.</hi> of that month a long letter in which the desire
+                    you exprest was complied with, I was not in any hurry to trouble you with
+                    another. About two hours ago however I was favoured with yours of Jan. 8<hi rend="superscript">th.</hi>, by which I was surprized to find that you had
+                    not received it. I now suspect that <persName ref="pe0018">M<hi rend="superscript">r.</hi> Jackson</persName>, to whom I sent it
+                    inclosed in a Cover, found it of such a size that he could not transmitt it to
+                    you by Post. If he has not, I dare say he would embrace the speediest method of
+                    conveying it to you another way. For the management of that affair I depended
+                    entirely on his prudence.</p>
+                <p>I am truly sorry that you should be thus obliged to write a second and a third
+                    letter before you received any answer. Be assured however, if there is at any
+                    time a delay of this kind, it must proceed from want of opportunity or some
+                    unavoidable avocations, and not from any failure in the desire of being of any
+                    little service to you in my power.</p>
+                <p>The <hi rend="underline">Astragalus Uralensis</hi>, as far as I could discover,
+                    is not a native of <placeName ref="pldb.xml#pl0751">Rannoch</placeName>. But if
+                    you incline, in the new edition of your Scotch Tour,<note type="editorial">
+                        Stuart's advice probably relates to revisions of the new edition of <bibl type="editorial">
+                            <title ref="bidb.xml#bi0004">
+                                <hi rend="italic">A tour in Scotland. MDCCLXIX</hi>
+                            </title>
+                        </bibl>,
+                        which would be published the following year, in 1774.</note> to give figures
+                    of any of the other plants observed in that country, I am apt to think the <hi rend="underline">Arbutus uva ursi</hi> should be one of them, as not many
+                    years ago it was here first observed to be of British growth. The berries which
+                    it bears are called in the Galic language <hi rend="underline">breilleaga-nan-con</hi> i.e. dog's berries. They resemble very much those
+                    of the <hi rend="underline">vaccinium vitis idæa</hi>, which the Highlanders
+                    call simply <hi rend="underline">breilleaga</hi>, and reckon much more
+                    wholesome. When there happened at any time to be a want of all other food, it is
+                    said that these last have been frequently the salutary means of preserving
+                    life.</p>
+                <p>For the remarks I have sent you on your <bibl type="authorial">
+                        <title ref="bidb.xml#bi0001">Scotch Tour</title>, which I submitt entirely to
+                        your own superior judgement to make what use of you think most proper, I
+                        forgot to hint that in <biblScope unit="page">the 86<hi rend="superscript">th.</hi> page</biblScope>
+                    </bibl> there is a small mistake. You
+                    mention there that <persName ref="pe0036">Lord Breadalbane's</persName>
+                    tenants carry his coal for him "from <placeName ref="pldb.xml#pl0094">Perth</placeName>". They have for many years past however been in the
+                    practice of carrying these coals from <placeName ref="pldb.xml#pl0295">Crieff</placeName> or some of the Coal-works south of it, but never from
+                        <placeName ref="pldb.xml#pl0094">Perth</placeName>.</p>
+                <p>I likewise omitted in the list of birds, which I sent you in a former letter, to
+                    write down the Osprey, though I saw one of them in Rannoch, and it is well known
+                    to breed in this same country, and added, if I mistake not, <sic>it's</sic>
+                    Galic name (<hi rend="underline">Ioluir'-uisg'</hi>) to the Sea Eagle or <hi rend="underline"> F: ossifragus</hi>
+                    <bibl type="authorial">
+                        <title ref="bidb.xml#bi0418">Lin.</title>
+                    </bibl>, a bird
+                    which the Highlanders distinguish by no particular name that I know from another
+                    large grey Eagle, which may possibly be the Golden one.</p>
+                <p>As you are to delay the publishing of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0026">a new ed. of your B. Zoology</title>
+                    </bibl> till
+                    next harvest I hope it may be in my power to add before that time to the List
+                    you received of Scotch birds to come to the knowledge of more of their Galic
+                    names, and be better ascertained with regard to others which I have already had.
+                    Among a people, who are unaccustomed to distinguish nicely the different species
+                    of animals, you may believe there must be sometimes a confusion of names.</p>
+                <p>I am obliged to you with regard to the birds I sent you a description of. As you
+                    inform that one of the ducks is certainly the female of <hi rend="underline">Teal</hi>, so I had little doubt, even before the receipt of your letter,
+                    but the other, believed to be the female <hi rend="underline">Golden-Eye</hi>.
+                    About the middle of Nov<hi rend="superscript">r.</hi> I got a male of this last
+                    species that was shot upon <placeName ref="pldb.xml#pl0104">Loch-tay</placeName>. It weighed two pounds and two drams. Upon dissecting it I
+                    observed an extraordinary expansion about the middle of it's <hi rend="underline">aspera arteria</hi>, which a female shot about the end of
+                    the same month wanted altogether. When the lungs were inflated with air, the
+                    opening was of an oval figure, the transverse axis of which was about an inch
+                    and a half long, and the lesser axis three quarters of an inch, whereas the
+                    windpipe itself above and below that was not above three tenths of an inch in
+                    diameter. In it's collapsed and ordinary state, the rings or <hi rend="underline">annular cartilages</hi> of this part folded upon one
+                    another, like those of a hoop petticoat. What the intention of such an uncommon
+                    organization may be I cannot comprehend, if it be not perhaps to assist in
+                    making some extraordinary cry or noise, which from <bibl type="authorial">
+                        <title ref="bidb.xml#bi0418">Linnæus's</title>
+                    </bibl> specifick name of <hi rend="underline">clangula</hi> I should be apt to think this duck accustomed
+                    to.</p>
+                <p>When in <placeName ref="pldb.xml#pl0751">Rannoch</placeName> I got a sportsman in
+                    that country engaged to send me from time to time such specimens as he could
+                    procure of their most remarkable birds or other animals. About the beginning of
+                    the last month he brought me the skins of two large Eagles which were shot ten
+                    or twelve days before that on the carrion of a dog, for which as well as for
+                    cat's flesh they discover it seems a greater fondness than for any other kind of
+                    food. He lay in wait for them in a concealment he had for himself hard by the
+                    dog. Though the Eagles were so excessively quick-sighted that the only tolerable
+                    chance he had for killing was by shooting as soon as they alighted before they
+                    had any time to look about them, yet he found that they were not frequently the
+                    first in observing the prey. They commonly came in consequence of <hi rend="underline">hooded crows</hi> and other birds flocks to it. He had at
+                    the same time the most convincing proof of their exquisite sense of hearing. Did
+                    a raven but once croak, he might lay his account that, if there was a single
+                    Eagle then in that part of the country, it would not fail to make use directly
+                    of the signal. — The bill of one of these birds I had from him is two inches and
+                    a half long, of a light bluish white at the base, bluish black at the point;
+                    cere yellow; from the eyes to the nostrils covered only with short black
+                    bristles; the back, throat, lower side of the neck, breast and belly all of a
+                    deep blackish brown, with some mixture of rust colour; the crown of the head and
+                    upper side of the neck of a light tawny colour; the quils, secondary feathers
+                    and coverts of the wings white at the base, above of a deep blackish brown; the
+                    tail thirteen inches long, with a broad band of white on it's upper part, and of
+                    a blackish brown colour at the end; the thighs very gross and brawny; feet
+                    covered with feathers to the very toes, measuring below the knee near four
+                    inches round and just above the toes near three inches and a half; toes yellow;
+                    hind claw two inches long, claw of the first fore-toe an inch and eight tenths,
+                    of the second an inch and four tenths, of the third one inch; from the point of
+                    the hind to that of the middle claw eight inches. — Whether this Eagle is in any
+                    measure a variety of the <hi rend="underline">Ringtail Eagle</hi>
+                    <bibl type="authorial">
+                        <title ref="bidb.xml#bi0026">B.Z.</title>
+                    </bibl> or <hi rend="underline">Falco fulous</hi> of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0418">Lin.</title>
+                    </bibl> I cannot say, but I have
+                    little doubt of it's being the same with the <hi rend="underline">melainætos</hi> of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0499">Sibbald</title>
+                    </bibl>, and <hi rend="underline">black Eagle</hi> of
+                        <bibl type="authorial">
+                        <title ref="bidb.xml#bi0116">Martin</title>
+                    </bibl>.
+                    By the Highlanders it is called <hi rend="underline">Ioluire dhubh</hi> i.e. the
+                    black eagle. In the summer it is seldom seen in the lower grounds, builds it's
+                    nest often in the clefts of high rocks in the neighbourhood of Deer-forests, and
+                    is one of the principal enemies of the fawn, white hare and tarmachan.</p>
+                <p>The other I have got from <placeName ref="pldb.xml#pl0751">Rannoch</placeName> is
+                    the <hi rend="underline">Sea Eagle</hi> or <hi rend="underline">F:
+                        ossifragus.</hi> The extent of each of it's wings from the body to the point
+                    is about three feet and a half; bill from the angle of the mouth above three
+                    inches long, below the nostrils an inch and a half broad; the short strong hairs
+                    or bristles immediately below the bill hardly so numerous or so remarkable as in
+                    the <hi rend="underline">Ringtail Eagle</hi>; the spaces between the eyes and
+                    nostrils cover'd with the same; tail thirteen inches long; the legs yellow,
+                    feathered on the sides and fore-part but little below the knees, but bare on the
+                    hind part from the middle of the joint; middle of the thigh six inches round;
+                    legs below the knee three inches and a half round; and just above the toes two
+                    inches and eight tenths; length of the hind claw an inch and a half, of that of
+                    the first fore-toe an inch and a half, of the second an inch and three tenths,
+                    and of the third an inch and one tenth; from the point of the hind claw to that
+                    of the middle fore-claw seven inches</p>
+                <p>Eagles were very destructive and much more numerous in <placeName ref="pldb.xml#pl0751">Rannoch</placeName> and the neighbouring countries a
+                    few years ago than at present. The Commissioners of the annexed estates very
+                    judiciously offered a crown of reward for each of these noxious birds that
+                    should be killed. The consequence was that in a short space of time such numbers
+                    were destroyed that the Hon<hi rend="superscript">e.</hi> board thought the
+                    demands made upon them on that score too heavy. They have now therefore judged
+                    it proper to reduce to three shillings and sixpence a reward, which, if they
+                    meant it should have the proper effect, they ought rather to have increased in
+                    proportion to the growing scarcity of these pernicious birds.</p>
+                <p>In my last letter I told you that I sent word to <persName ref="pe0311">M<hi rend="superscript">rs.</hi> Campbell of Achalader</persName> to
+                        <unclear reason="illegible">treat</unclear> one of the skins of the white
+                    hares that were killed for her, in order to be sent to you. That same day I
+                    afterwards happened to see <persName ref="pe0312">M<hi rend="superscript">r.</hi> Campbell</persName> himself, and let him know
+                    that you wanted a skin of that kind should be preserved for you; upon which he
+                    very readily assured me that care should be taken to keep the very best of them
+                    for you. I expected therefore that it was to be sent to me in order to be
+                    properly stuft. From a desire however of serving you, and some mistake in the
+                    message, <persName ref="pe0312">M<hi rend="superscript">r.</hi>
+                        Campbell</persName> sent it directly to <placeName ref="pldb.xml#pl0076">Edin<hi rend="superscript">r.</hi>
+                    </placeName> to <persName ref="pe0022">D<hi rend="superscript">r.</hi> Ramsay</persName>'s
+                    care, trusting it to him to get it stuffed and then forwarded to you. The head
+                    and all the external parts were left intire. The fore-head and one of the eyes
+                    had some blood about them. In other respects the fur was as well preserved and
+                    as pure and white as any I have seen.</p>
+                <p>I am affraid however that it must have been considerably hurt in the carriage. If
+                    it has, I have hopes that a new specimen may be still procured some time this
+                    winter; and if it is, I shall endeavour to get it stuft for you of the natural
+                    size, and fixt in the attitude proper for drawing. <rs type="art" ref="ardb.xml#ar0038">The figure you have already given of the white hare in
+                        your S. Tour and I suppose in your Zoology,</rs> is perhaps the worst in
+                    either of those books.</p>
+                <p>I must now conclude with returning to yourself and family all the compliments of
+                    the season. I shall rejoice to hear the two agreeable young <q>"Prattlers"</q>
+                    are in health.<note resp="editorial">Stuart is referring to Pennant's son and
+                        daughter by his first wife, <persName ref="pe0219">Elizabeth (née
+                            Falconer)</persName>, <persName ref="pe0236">David</persName>
+                        and <persName ref="pe0234">Arabella</persName>, who Pennant alludes
+                        to in the last lines of the <bibl type="editorial">
+                            <title ref="bidb.xml#bi0001">
+                                <hi rend="italic">Tour in Scotland
+                                1769</hi>
+                            </title>
+                        </bibl>: <q>'finished my journey with a rapture of
+                            which no fond parent can be ignorant, that of being again restored to
+                            two innocent prattlers after an absence equally regretted by all
+                            parties.'</q>
+                        <bibl type="authorial">
+                            <biblScope unit="page">p.220</biblScope>
+                        </bibl>.</note> — I hope <persName ref="pe0101">Lewis</persName> has by this time recovered some
+                    marrow to his bones, happy in being no longer in hazard of starving, far from
+                    his beloved <placeName ref="pldb.xml#pl0001">Downing</placeName>, in the midst
+                    of tempest-beaten barrenness; and that <persName ref="pe0014">Moses</persName> possesses his soul in peace, perfectly secure from all the
+                    dangers of the swelling deep.</p>
+                <closer>
+                    <salute>I am, D<hi rend="superscript">r.</hi> Sir, with great esteem, your
+                        most obliged and most humble Servant</salute>
+                    <signed>
+                        <persName ref="pe0023">John Stuart</persName>
+                    </signed>.
+                </closer>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>Thomas Pennant Esq<hi rend="superscript">r.</hi>
+                        </addrLine>
+                        <addrLine>at Downing</addrLine>
+                        <addrLine>Flintshire</addrLine>
+                    </address>
+                </p>
+                <p>
+                    <handShift/>Birds</p>
+                <p>M<hi rend="superscript">r</hi> Stuart</p>
+            </div>
+        </body>
+    </text>
+</TEI>

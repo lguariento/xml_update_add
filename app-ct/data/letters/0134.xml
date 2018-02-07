@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0134">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, requesting information related to Scottish
+                    Tours and complaining of missing magazines</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>53-54</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-06-01"/>
+                    <placeName ref="pldb.xml#pl0002">Chester</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pl0002">Chester</placeName> June 1. 1773</dateline>
+                <opener>
+                    <salute>Dear Sir,</salute>
+                </opener>
+
+                <p>I give you many thanks for your kind favor &amp; for the verses. I must trouble
+                    you get this card answered. <persName ref="pe0199">M<hi rend="superscript">r</hi> Kincaid</persName> who I think is related to <persName ref="pe0166">the Marquiss of Lothian</persName> perhaps will readily do it
+                    from <persName ref="pe0594">the marchioness</persName>.</p>
+                <p>I wish much also to know who <persName ref="pe0240">Sir Peter Frazier</persName> was
+                    whose <rs type="art" ref="ar0114">picture</rs> I saw at <placeName ref="pl0142">Castle Gordon</placeName>, &amp; who <rs type="art" ref="ar0114">
+                        <persName ref="pe0029">Sir Alexander Frazier</persName>
+                    </rs>, <bibl type="authorial">
+                        <title ref="bi0001">
+                            <hi rend="underline">Scotch
+                            Tour</hi>
+                        </title>
+                        <biblScope unit="page">p.122</biblScope>
+                    </bibl> of what family &amp; what
+                    their history.</p>
+                <p>I will send <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName>
+                    the sheets of <bibl type="authorial">
+                        <title ref="bi0050">the
+                            Phalainologia</title>
+                    </bibl> as fast as they are printed, in franks.</p>
+                <p>I find several of <bibl type="authorial">
+                        <title ref="bi0064">the Edinburgh
+                            Magazines</title>
+                    </bibl> missing, some numbers by mistake never having
+                    been sent: so after this quarter I beg to have the whole quarter bound &amp;
+                    sent to <placeName ref="pl0699">London</placeName> as opportunity offers. I hope
+                    to get the numbers I want, when I have time to name them.</p>
+                <p>I am now <del rend="overstrike">
+                        <gap reason="illegible" unit="word" quantity="1"/>
+                    </del> at <placeName ref="pl0002">Chester</placeName>: &amp; enquire for
+                        <persName ref="pe0157">M<hi rend="superscript">r</hi> M<hi rend="superscript">c</hi>Govans</persName> parcel but it is not yet
+                    arrived: which you will please to let him know least he think me negligent in
+                    not <sic>acknowleging</sic> the receit.</p>
+                <closer>
+                    <salute>I am <lb/>Dear sir <lb/>truely yrs</salute>
+                    <signed>
+                        <persName ref="pe0232">Tho.
+                    Pennant</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

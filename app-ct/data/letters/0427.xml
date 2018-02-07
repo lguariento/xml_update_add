@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0427">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>John Stuart to Thomas Pennant: descriptions of Kintyre, Gigha, Jura and
+                    Islay</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP369</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>6a-6c</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0023">John Stuart</persName>
+                    <date notBefore="1773-01-01" notAfter="1774-04-30"/>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gd">Gaelic</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    <placeName ref="pldb.xml#pl0897">Cantyre</placeName>
+                </p>
+                <p>This Country derives its name from <hi rend="underline">ceann</hi> the head and
+                        <hi rend="underline">tire</hi> (of the Country), as it projects farther into
+                    the Sea than any other land on the west of Scotland. The branch of the Sea that
+                    comes into <placeName ref="pldb.xml#pl0633">Campbelltown</placeName> is called
+                        <placeName ref="pldb.xml#pl0898">
+                        <hi rend="underline">Loch
+                            Chille-Ciarain</hi>
+                    </placeName> i.e. the Loch of Kil-kerran, taking it's
+                    name from the old burying place and chapel built near it, and dedicated to <hi rend="underline">S.<hi rend="superscript">t</hi> Kerran</hi>.<hi rend="superscript">x</hi>
+                   <note resp="author" place="foot">In Galic, <hi rend="underline">Ciaran</hi>.</note>
+                    <placeName ref="pldb.xml#pl0633">The Town of Campbelltown</placeName> is still
+                    called in the Galic language <placeName ref="pldb.xml#pl0633">
+                        <hi rend="underline">Cean-loch-Chille-Ciarain</hi>
+                    </placeName> (i.e. the End
+                    of the Loch of Kil kerran.) </p>
+                <p>By a note which I received from <persName ref="pe0360">the Town
+                        Clerk</persName> it appears that on the 27<hi rend="superscript">th</hi> of
+                    June 1772. there were belonging to <placeName ref="pldb.xml#pl0633">Campbelltown</placeName> 78 Sail of Vessels from 20. to 80 tons each —
+                    Their burthen <gap reason="damage" unit="words" atLeast="1" atMost="2"/> about
+                        <unclear reason="damage"> 3500 tons</unclear> — all built for, and <del rend="overstrike">
+                        <gap quantity="2" unit="chars"/>
+                    </del> employed in the white Herring fishery — The number of Sailors when at the
+                    Buss fishery above 800. —</p>
+                <p> Soil in the neighbourhood of <placeName ref="pldb.xml#pl0633">Campbelltown</placeName> very improveable. — Land-rent at present from 15
+                    to 20 Shil. Ster. p<hi rend="superscript">r.</hi> Acre. <del rend="overstrike">
+                        <gap unit="char" atLeast="1" atMost="2"/>
+                    </del> On June 28<hi rend="superscript">th.</hi>
+                </p>
+                <p>
+                    <unclear reason="illegible">Riding</unclear> across <placeName ref="pldb.xml#pl0897">the Country of Cantyre</placeName> from <placeName ref="pldb.xml#pl0633">Camp<hi rend="superscript">n.</hi>
+                    </placeName> to the
+                    open dangerous <placeName ref="pldb.xml#pl0899">bay of <hi rend="underline">Machryhanish</hi>
+                    </placeName>
+                    <hi rend="superscript">x</hi>
+                   <note resp="author" place="foot">x <unclear reason="illegible">
+                            <hi rend="underline">Machrai-shanais</hi>
+                        </unclear>
+                    </note> on the west
+                    coast, we saw on the way the ruins of the <placeName ref="pldb.xml#pl0634">Chapel of <hi rend="underline">Kil-chyvain</hi>
+                    </placeName>.<hi rend="superscript">‡</hi>
+                   <note resp="author" place="foot">
+                        <unclear reason="illegible">
+                            <hi rend="underline">Cill-chaovain</hi>
+                        </unclear>. —</note> Within it
+                    are some old grave stones. On two of them are cut the figures of a two handed
+                    sword, and of dogs chacing Deer. —</p>
+                <p>Rode three miles along <placeName ref="pldb.xml#pl0899">
+                        <hi rend="underline">Machry-hanish</hi>
+                    </placeName> sands — Dined at <placeName ref="pldb.xml#pl0635">
+                        <hi rend="underline">Barr</hi>
+                    </placeName> in an inn
+                    built by <persName ref="pe0361">Col<hi rend="superscript">o.</hi>
+                        Campbell</persName> — Visited the <gap reason="damage" unit="chars" atLeast="1" atMost="3"/>
+                    <placeName ref="pldb.xml#pl0900">Remarkable cave of <hi rend="underline">Ballach-a-chychain</hi>
+                    </placeName>
+                    <hi rend="superscript">x</hi>
+                   <note resp="author" place="foot">x<placeName ref="pldb.xml#pl0900">
+                            <hi rend="underline">Bealach-a'-chaochain</hi>
+                        </placeName>.</note> —
+                    Crossed in a boat a ferry 5 or 6 miles broad to the Vessel lying in <placeName ref="pldb.xml#pl0901">the harbour of <unclear reason="damage">
+                            <hi rend="underline">Cylas-giglam</hi>
+                        </unclear>
+                    </placeName>
+                    <hi rend="superscript">†</hi>
+                   <note resp="author" place="foot">† <placeName ref="pldb.xml#pl0901">
+                            <hi rend="underline">Caolas-gioglam</hi>
+                        </placeName>
+                    </note> in
+                        <placeName ref="pldb.xml#pl0636">the small isle of <hi rend="underline">Gigha</hi>
+                    </placeName>
+                </p>
+                <p>
+                    <placeName ref="pldb.xml#pl0636"/>Gigha</p>
+                <p>This island is computed to be six miles long and one broad — <persName ref="pe0362">MacNeil of Taynish</persName> Proprietor of two thirds
+                    of it — The whole ground divided into <hi rend="underline">30 merk-lands</hi>,
+                    each of which has about 17 £ Ster. of rent, and is possessed commonly by one
+                    Farmer, together with two, four or six <hi rend="underline">cottars</hi> or
+                    Sub-tenants. Upon each <hi rend="underline">Merk-land</hi> about 12 bolls of
+                    Oats and 6 bolls of bear sown yearly — about 4 bolls planted of potatoes — and
+                    seventeen Cows maintained — The common return of oats that of three grains from
+                    each seed sown, of bear, five — about 150 bolls of bear exported yearly - No
+                    run-riggs — Leases mostly from 12 to 19 Years — The price of a good milk-cow
+                    from 3£ to 3£ 10 sh; of butter <unclear reason="illegible">10</unclear>Sh p<hi rend="superscript">r.</hi> stone; of cheese 5 Sh. Ster. — Wages of
+                    Men-Servants from 30 to 40 Sh. in the half-year of women from 10 to 13 Sh. — No
+                    day labour — Young-men mostly Herring-fishers in Summer, lazy in Winter — Two
+                    families emigrated lately to America —</p>
+                <p>In <placeName ref="pldb.xml#pl0903">Kil-chattan</placeName> in this island there
+                    is a stone erected, 16 feet high and about 2 feet broad — another on <placeName ref="pldb.xml#pl0902">
+                        <hi rend="underline">Knock-a-charra</hi>
+                    </placeName>
+                    <hi rend="superscript">x</hi>—<note resp="author" place="foot">x<placeName ref="pldb.xml#pl0902">Cnoc-a'-chara<hi rend="underline"/>
+                        </placeName>
+                    </note> The remains
+                    of a cross in <placeName ref="pldb.xml#pl0904">
+                        <hi rend="underline">Knock-a-chrosh</hi>
+                    </placeName>.<hi rend="superscript">†</hi> —<note resp="author" place="foot">† <placeName ref="pldb.xml#pl0904">
+                            <hi rend="underline">Cnoc'-a'-chrois</hi>
+                        </placeName>.</note>
+                </p>
+                <p>
+                    <placeName ref="pldb.xml#pl0716">Jura</placeName>
+                </p>
+                <p>Jura is computed to be twenty four miles long &amp; from four to eight miles
+                    broad — 15000 Acres of the island belonging to <persName ref="pe0052">M<hi rend="superscript">c</hi>Niel of Colonsay —</persName>
+                </p>
+                <p>The three high Mountains deonominated <placeName ref="pldb.xml#pl0639">the <hi rend="underline">Paps</hi> of Jura</placeName> naked and stony — That
+                    rising near <placeName ref="pldb.xml#pl0905">the sound of Islay</placeName> is
+                    called in Galic <placeName ref="pldb.xml#pl0906">
+                        <hi rend="underline"/>Beinn-a'-chaolais</placeName> i.e. the Mountain of the sound; that next to
+                    it, <placeName ref="pldb.xml#pl0907">
+                        <hi rend="underline">Beinn-an-òir</hi>
+                    </placeName> (i.e. the Mountain of <add place="above">the</add> Gold)and the other, <placeName ref="pldb.xml#pl0908">
+                        <hi rend="underline">Beinn-sheunta</hi>
+                    </placeName> (i.e. the hallowed
+                    Mountain) — Little arable ground — The increase of bear from <gap reason="damage" unit="chars" quantity="1"/> to 5 grains for each grain sown,
+                    of oats three grains –––––</p>
+                <p> The Islanders living to a great age &amp; subject to very few diseases — Hardly
+                    any fevers or agues known among them –––––</p>
+                <p>Very prolifick, having <unclear reason="damage">twins</unclear> often at a birth
+                    —</p>
+                <p>
+                    <unclear reason="illegible">
+                        <hi rend="underline">Mac-il-vuy</hi>
+                    </unclear> and
+                    Mac-ràine the oldest clans in the island — The principal Quadrupeds said to be
+                    found in <placeName ref="pldb.xml#pl0716">Jura</placeName>, are <hi rend="underline">Wild-cats, Weasels,</hi>
+                    <hi rend="underline">rats</hi>, <hi rend="underline">otters</hi>, <hi rend="underline">Seals</hi> — There are no <hi rend="underline">hares,</hi>
+                    <hi rend="underline">rabbits, foxes or polecats</hi> — The Principal Birds are
+                    the <hi rend="underline">black Cock,</hi>
+                    <hi rend="underline">Grous</hi>, <hi rend="underline">Tarmachan</hi>, <hi rend="underline">snipe,</hi>
+                    <hi rend="underline">Cuckoo</hi>, <hi rend="underline">Throstle</hi>, <hi rend="underline">Tit-lark</hi>, <hi rend="underline">wag-tail,</hi>
+                    <hi rend="underline">Eagle</hi>, <hi rend="underline">
+                        <gap reason="damage" unit="word" quantity="1"/>-harrier</hi>, <hi rend="underline">Raven</hi>, <hi rend="underline">hooded-crow</hi>, <choice>
+                        <abbr>
+                            <hi rend="underline">Corn<hi rend="superscript">h.</hi>-c<add place="above">hough</add>
+                            </hi>
+                        </abbr>
+                        <expan>Cornish chough</expan>
+                    </choice>
+                    <hi rend="underline">Goosander</hi>, <hi rend="underline">Teal</hi>, <hi rend="underline">Curlieu</hi>, <hi rend="underline">Lap-wing,</hi>
+                    <hi rend="underline">Divers</hi>, <hi rend="underline">shag</hi>
+                    <hi rend="underline">Cormorant</hi>, <hi rend="underline">Gulls</hi> —</p>
+                <p>
+                    <placeName ref="pldb.xml#pl0717">Islay</placeName>
+                    <hi rend="superscript">x</hi>
+                   <note resp="author" place="foot">x<placeName ref="pldb.xml#pl0717">
+                            <unclear reason="illegible">
+                                <hi rend="underline">Ile</hi>
+                            </unclear>
+                        </placeName>.</note>
+                </p>
+                <p>No considerable Mountains in this island — The highest hill called <placeName ref="pldb.xml#pl0909">
+                        <hi rend="underline">Ben-viggart</hi>
+                    </placeName>
+                    <hi rend="superscript">†</hi> —<note resp="author" place="foot">† <unclear reason="illegible">
+                            <placeName ref="pldb.xml#pl0909">
+                                <hi rend="underline">Beinn-a-Bhigair</hi>
+                            </placeName>
+                        </unclear>
+                    </note> Next to it
+                        <placeName ref="pldb.xml#pl0921">
+                        <hi rend="underline">Aird-inisdail</hi>
+                    </placeName>, <placeName ref="pldb.xml#pl0918">
+                        <hi rend="underline">Dùre-ven</hi>
+                    </placeName>,<hi rend="superscript">‡</hi>
+                   <note resp="author" place="foot">‡<placeName ref="pldb.xml#pl0918">
+                            <hi rend="underline">Diur-bheinn</hi>
+                        </placeName>.</note>
+                    <placeName ref="pldb.xml#pl0920">Sgàrv-ven</placeName>
+                    <hi rend="superscript">‖</hi>
+                   <note resp="author" place="foot">‖<placeName ref="pldb.xml#pl0920">
+                            <hi rend="underline">Sgàrbh-bheinn</hi>
+                        </placeName>
+                    </note>
+                    <placeName ref="pldb.xml#pl0919">
+                        <hi rend="underline">Dun-voraray</hi>
+                    </placeName>.<hi rend="superscript">x</hi>
+                   <note resp="author" place="foot">x<placeName ref="pldb.xml#pl0919">
+                            <hi rend="underline">Dun-Bhororaig</hi>
+                        </placeName>.</note>
+                </p>
+                <p>Upon the way from <placeName ref="pldb.xml#pl0640">
+                        <hi rend="underline">Free-bairn port</hi>
+                    </placeName> to <placeName ref="pldb.xml#pl0643">
+                        <hi rend="underline">Sunderland</hi>
+                    </placeName> dined at <placeName ref="pldb.xml#pl0642">
+                        <hi rend="underline">Kilarow</hi>
+                    </placeName> —
+                        <placeName ref="pldb.xml#pl0910">Bay of <hi rend="underline">Sall<gap reason="illegible" unit="chars                     " quantity="1"/>go</hi>
+                    </placeName> near <placeName ref="pldb.xml#pl0643">Sunderland</placeName> dangerous — Visited the small island in the shallow
+                    freshwater lake near <placeName ref="pldb.xml#pl0912">
+                        <hi rend="underline">Balnaby</hi>
+                    </placeName> called <placeName ref="pldb.xml#pl0911">
+                        <hi rend="underline">Loch-guirm</hi>
+                    </placeName> — Saw 7 or 8 Heron nests in
+                    it and the ruins of an old tower, with four bastions, once the retreat of the
+                        <hi rend="underline">Balnaby</hi> Family — Tower between <unclear reason="damage">the bas</unclear>tions 47 feet, 4 Inches, long; across the
+                    neck <gap reason="damage" quantity="1" unit="word"/> one of the bastions,12
+                    feet; S.E. bastion in Circumference 46 feet, 4 Inches — Saw at <placeName ref="pldb.xml#pl0912">
+                        <hi rend="underline">Balnaby</hi>
+                    </placeName> the
+                    Female of the <hi rend="underline">Red headed Goosander</hi> which was shot upon
+                        <placeName ref="pldb.xml#pl0911">
+                        <hi rend="underline">Loch-guirm</hi>
+                    </placeName>, and breeds among the rocks on it's shore —</p>
+                <p>It's breadth from the <unclear reason="damage">point</unclear> of one wing to the
+                    other <gap reason="damage" unit="chars" atLeast="1" atMost="3"/> feet; length
+                    from the point of the bill to the end of the tail, one foot, ten inches — </p>
+                <p>An extraordinary Cave seen at <placeName ref="pldb.xml#pl0645">
+                        <hi rend="underline">Saneg-mor</hi>
+                    </placeName> — Shots fired in it —
+                    Bag-pipe played upon — The echo very fine—</p>
+                <p>Another cave as remarkable, said to be at some distance East from this, called
+                        <placeName ref="pldb.xml#pl0913">
+                        <hi rend="underline">Sloc-<unclear reason="damage">a-Chùraich</unclear>
+                        </hi>
+                    </placeName> — The waves
+                    rolling into it cause a noise like the <hi rend="underline">roaring of a
+                        Bull</hi>, from which circumstance it derives it name. — It is heard often
+                    at <placeName ref="pldb.xml#pl0642">
+                        <hi rend="underline">Kilarow</hi>
+                    </placeName>, though at 7 Miles distance — But the most
+                    celebrated cave in this island is that of <placeName ref="pldb.xml#pl0914">
+                        <hi rend="underline">Ua-arnig</hi>
+                    </placeName>
+                    <hi rend="superscript">x</hi>
+                   <note resp="author" place="foot">x <placeName ref="pldb.xml#pl0914">
+                            <hi rend="underline">Uamh-<unclear reason="illegible">bhearnig</unclear>
+                            </hi>
+                        </placeName>
+                    </note> or <placeName ref="pldb.xml#pl0914">
+                        <hi rend="underline">Ua-vor</hi>
+                    </placeName>.<hi rend="superscript">†</hi>
+                   <note resp="author" place="foot">† <placeName ref="pldb.xml#pl0914">
+                            <hi rend="underline">Uamh-mhòr</hi>
+                        </placeName>.</note> i.e. the great
+                    cave at the mouth of <placeName ref="pldb.xml#pl0905">the sound of
+                        Islay</placeName> —</p>
+                <p>Fourteen or 15 <unclear reason="damage">families</unclear>
+                </p>
+                <p>Fourteen or 15 families <gap reason="damage" unit="words" atLeast="3" atMost="5"/> as their <hi rend="underline">Shealings</hi> or Summer <gap reason="damage" unit="words" atLeast="2" atMost="3"/> Three families constantly <unclear reason="damage">reside on it —</unclear> Upon the way returning from
+                        <placeName ref="pldb.xml#pl0643">Sunderland</placeName> to <placeName ref="pldb.xml#pl0640">F. port</placeName>, saw near the head of <placeName ref="pldb.xml#pl0646">
+                        <hi rend="underline">Loch-Druinard</hi>
+                    </placeName>
+                    the part where the battle of <hi rend="underline">
+                        <unclear reason="damage">Tràii-dhruinard</unclear>
+                    </hi> was fought A.D. 1598 — 1500 M<hi rend="superscript">c</hi>Leans and 1100 M<hi rend="superscript">c</hi>Donalds said to be killed on the field — </p>
+                <p>Thirty six square miles of lime stone computed to be in <placeName ref="pldb.xml#pl0717">Islay</placeName>— Coral sand for manure found near
+                        <placeName ref="pldb.xml#pl0915">the bay of <hi rend="underline">Lag-a-vùilin</hi>
+                    </placeName>
+                    <hi rend="superscript">x</hi> —<note resp="author" place="foot">x<placeName ref="pldb.xml#pl0915">
+                            <hi rend="underline">lag-a'-mhùilinn</hi>
+                        </placeName>.</note> Rack and
+                    pit marle found from <placeName ref="pldb.xml#pl0916">
+                        <hi rend="underline">Port-askaig</hi>
+                    </placeName> to <placeName ref="pldb.xml#pl0642">
+                        <hi rend="underline">Kilarow</hi>
+                    </placeName>— Seven or eight thousand Souls
+                    computed to live in <placeName ref="pldb.xml#pl0717">Islay</placeName>— The
+                    inhabitants not so healthy as in <placeName ref="pldb.xml#pl0716">Jura</placeName>— The Dropsy and <unclear reason="damage">cancer</unclear>
+                    frequent among them of late –––––</p>
+                <p>About 700 of the inhabitants employed as miners and <unclear reason="damage">fishers –––––</unclear>
+                </p>
+                <p>Eight families emigrated last year to America ––––– <persName ref="pe0363">Campbell of <hi rend="underline">Shaw-field</hi>
+                    </persName> principal Proprietor of <placeName ref="pldb.xml#pl0717">Islay</placeName> — Rent of the whole island 2500 £
+                    Ster. — 500 £ the old rent, now paid as the feu duty –––––</p>
+                <p>
+                    <placeName ref="pldb.xml#pl0917">Kilchoman</placeName> the best farm on
+                        <placeName ref="pldb.xml#pl0717">Islay</placeName> — Rent <unclear reason="damage">500</unclear> £ — It grazes nine score of milk cows, and 40
+                    mares, with their followers –––––</p>
+                <p>Increase of oats in this island sometimes sixfold, commonly fourfold; of barley
+                    sometimes elevenfold — Milk-cows and Sadle horses, housed, and these only in
+                    winter –––––</p>
+                <p>The women employed much in spinning Linnen-yarn, which is exported <gap reason="damage" unit="word" atLeast="1" atMost="2"/> to the value of 1000 £
+                    —</p>
+                <p>Seventeen hundred head of black Cattle exported annually, valued at an average at
+                    50 Sh Ster. each —</p>
+                <p>Meal imported every year to the value of above 1000 £ –––––</p>
+            </div>
+        </body>
+    </text>
+</TEI>

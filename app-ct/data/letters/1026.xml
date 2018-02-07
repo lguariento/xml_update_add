@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1026">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 28</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1783-07-06"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> July 6<hi rend="superscript">th</hi>. 1783</dateline>
+                </opener>
+                <p>Your beloved Babe <note type="editorial">book not identified!</note> reached this place safely: &amp; I hope in a few weeks will be 
+                    restored to you highly improved under the care of its Dry nurse <persName ref="pe0014">Moses</persName>. 
+                    but lay figure aside, did you not once say that except the flags you wished to have only subjects to which I refer in the text?</p>
+                <p>
+                    <persName ref="pe0293">Mr Burrel</persName> ma<del>
+                        <gap unit="chars" quantity="1" reason="illegible"/>
+                    </del>de
+                    instances at his table for my copy of the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0001">scotch tour</title>
+                    </bibl>
+                    otherwise I should not have troubled you with the message. <note type="editorial">This would appear to indicate that Pennant was lending illustrated copies of his work to fellow antiquaries.</note>
+                </p>
+                <p>I have a L.P. copy of the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0032">journey to London</title>
+                    </bibl> layed by for my friend in 
+                    <placeName ref="pldb.xml#pl0758">stratton street</placeName>. all his other instructions shall be most religiously observed.</p>
+                <p>I really think that if <persName ref="pe0105">
+                        <choice>
+                            <abbr>Capt<hi rend="superscript">n</hi>
+                            </abbr>
+                            <expan>Captain</expan>
+                        </choice> Grose</persName>
+                    would cause sets of his prints which relate to my tours to be printed on small <choice>
+                        <abbr>q<hi rend="superscript">to</hi>
+                        </abbr>
+                        <expan>quarto</expan>
+                    </choice>,
+                    he would get money by them. Had you not best speak to <persName ref="pe0403">Hooper his Bookseller</persName>,
+                    who may be more fixed.</p>
+                <p>Was I not to have had the loan of the <rs type="art" ref="ardb.xml#ar0050">print of <persName ref="pe0474">Sir <choice>
+                                <abbr>Tho.</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Urquhart</persName>
+                    </rs>.
+                    <note type="editorial">Sir Thomas Urquhart of Cromarty (1611–60), author and translator reputed for his translation of Rabelais. Pennant, who describes Urquhart as 'a second Rabelais, and the best translator of that extravagant author', refers to and quotes from his work in his account of 'The Life of James Crichton, of Clunie; Commonly Called the Admirable Crichton', A tour in Scotland, MDCCLXIX (Dublin, MDCCLXXV [1775], appendix no. III, pp. 295, 296, 302, 305. Several engravings of Urquhart were made by George Glover: an engraving dated 1640 now at the Scottish National Portrait Gallery; a line engraving 1641 and engraved facsimile 1646 at the British Museum, and the National Portrait Gallery. ODNB.</note>
+                    That or any others may be sent to <persName ref="pe0323">M<hi rend="superscript">r</hi> Panton</persName> 
+                    <placeName ref="pldb.xml#pl1015">n<hi rend="superscript">o</hi> 4 stone buildings Lincolns inn</placeName>. He will readily bring <sic>the</sic>
+                    down after term.</p>
+                <p>
+                    <persName ref="pe0475">Little Gibsons <rs type="art" ref="ardb.xml#ar0051">print</rs>
+                    </persName> <note type="editorial">Richard Gibson (1605/1615?–1690) was known as Dwarf Gibson because of his diminutive height. A miniature painter himself, he was the subject of several portraits, including by P. Lely, double portrait, oils, c.1650–1660 (with his wife); formerly at Kimbell Art Museum, Fort Worth, Texas; R. Gibson, self-portrait, chalk drawing, c.1658, British Muesum; oils (after P. Lely), NPG. ODNB. A print of Gibson (with his wife inlaid in a smaller oval frame), engraved by A. Walker, appears in NLW, Pennant's extra-illustrated Tour in Wales, FOUR.</note>
+                    should be got from <persName ref="pe0476">M<hi rend="superscript">r</hi> Walpole</persName> for our
+                    <bibl type="authorial">
+                        <title ref="bidb.xml#bi0014">welsh tour</title>
+                    </bibl>. I will not trouble him with a Letter about it as you are on the spot: 
+                    he will oblige me much by two impressions.</p>
+                <p>As for <persName ref="pe0431">M<hi rend="superscript">r</hi> Thane</persName> Be so good as to promise the following on my small 
+                    <choice>
+                        <abbr>q<hi rend="superscript">to</hi>
+                        </abbr>
+                        <expan>quarto</expan>
+                    </choice> size. <gap unit="words" quantity="30" reason="page torn"/> <note type="editorial">It appears that Pennant's list of prints to be promised to Thane was torn out, possibly by Bull.</note>
+                </p>
+                <p>Suffer me to charge you with another commission in which we are both interested <persName ref="pe0389">M<hi rend="superscript">r</hi> Faden</persName>
+                    <add place="above">Strand</add>
+                    <note type="editorial">in pencil</note> has already published <rs type="art" ref="ardb.xml#ar0052">maps
+                        of half <hi rend="underline">my</hi> road from <placeName ref="pldb.xml#pl0002">Chester</placeName> to
+                        <placeName ref="pldb.xml#pl0699">London</placeName>
+                    </rs>, &amp; told me that the other half (from <placeName ref="pldb.xml#pl0002">Chester</placeName>
+                    to <placeName ref="pldb.xml#pl1016">Coleshill</placeName> by <placeName ref="pldb.xml#pl1017">Lichfield</placeName>) was 
+                    engraving. <note type="editorial">Twenty-five maps of English counties were published by William Faden during 1749–96. COPAC.</note>
+                    Be so good as to enquire if it is done, also whether the road from <placeName ref="pldb.xml#pl0002">Chester</placeName> to
+                    <placeName ref="pldb.xml#pl1018">Holyhead</placeName> is completed <note type="editorial">Pennant included a series of road maps for the route between Chester and Holyhead in his extra-illustrated Tour in Wales, FOUR (NLW), post p. 342: 'From Chester to Holy-Well', 'From Holy-Well to St. Asaph', 'From St. Asaph to Aberconway', 'From Conway to Bangor', 'From Bangor to Half way House', and 'From Half-way House to Holy Head'. They were published by W[illiam] Faden in April 1786.</note> <unclear>that</unclear>
+                    <gap unit="words" quantity="30" reason="page torn"/>
+                </p>                
+            </div>           
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0151.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, requesting information on the history of the
+                    Macleans</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>77</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1774-01-30"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir,</salute>
+                </opener>
+                <p> In respect to <bibl type="authorial">
+                        <title ref="bi0229">the account of the
+                            Macleane’s</title>
+                    </bibl> if you can give the abstract of the extent of
+                    their dominions when in their Glory, the means how they came by <placeName ref="pl0729">Mull</placeName>, what sieges the castles of <placeName ref="pl0682">Aros</placeName>, <placeName ref="pl0684">Duwart</placeName> or
+                        <placeName ref="pl0738">Donen</placeName> sustained; or <placeName ref="pl0739">the fort on the little isle of Carnbergh</placeName>. I shall
+                    be glad to know; for as my Tour is just finished I shall also finish my queries
+                    for some weeks, &amp; give myself a holyday after my Long labor.<note type="editorial">The first edition of Pennant's <bibl type="editorial">
+                            <title ref="bi0008">
+                                <hi rend="italic">Tour in Scotland and Hebrides
+                                    1772</hi>
+                            </title>
+                        </bibl> was published in 1774. However
+                        Pennant's ongoing queries in this letter relating to the history of the
+                        Hebrides, suggest that the finished work referred to above was the revised
+                            <bibl type="editorial">
+                            <title ref="bi0004">
+                                <hi rend="italic">Tour in
+                                    Scotland 1769</hi>
+                            </title>, 3<hi rend="superscript">rd</hi> edn.
+                            (Warrington: 1774)</bibl>.</note> The sooner the above arrive the more
+                    welcome to</p>
+                <closer>
+                    <salute>D<hi rend="superscript">r</hi> Sir <lb/>y<hi rend="superscript">r</hi>
+                            obed<hi rend="superscript">t</hi>. Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pl0001">Downing</placeName>. Jan 30<hi rend="superscript">th</hi>. 1774.</dateline>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0103">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton: note identifying a natural history
+                    specimen</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>4</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1771-03-30"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> 
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    <persName ref="pe0232">Mr Pennant</persName> presents his compliments to
+                        <persName ref="pe0228">M<hi rend="superscript">r</hi>
+                        Paton</persName> &amp; informs him that his fish is the Saurus of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0526">Rondeletius</title>
+                        <biblScope unit="page">p.232.</biblScope>
+                    </bibl> &amp; not mentioned by
+                        <bibl type="authorial">
+                        <title ref="bidb.xml#bi0418">Linnaeus</title>
+                    </bibl>
+                </p>
+
+
+                <dateline>March 30th 1771.</dateline>
+            </div>
+        </body>
+    </text>
+</TEI>

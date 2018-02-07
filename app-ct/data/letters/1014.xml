@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1014">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 16</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1781-12-02"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                    <placeName ref="pldb.xml#pl0759">Stratton street Piccadilly</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                        <choice>
+                            <abbr>Dec<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>December</expan>
+                        </choice> 2<hi rend="superscript">d</hi> 1781</dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I had the happiness of being brought up under <persName ref="pe0341 pe0342">parents</persName> who instilled into
+                    me early, fit notions of the dispensations of providence. I <del>am</del> have
+                    in consequence been thereby enabled to rejoice at every piece of good fortune
+                    that has befallen us, &amp; bear resignedly the bad: of which Heaven at present
+                    has been pleased to pour down a very large portion indeed.</p>
+                <p>I shall continue in the Country as it becomes a man who h<gap unit="chars" quantity="1" reason="illegible"/>
+                    <supplied>a</supplied>s on him large
+                    dependencies: people who are not indifferent to my absence or presence. I
+                    rejoice that I have some amusements that at <del>d</del>times drive away the
+                    thoughts of our Calamities, &amp; those amusements I shall doubly cultivate.</p>
+                <p>
+                    <persName ref="pe0338">Bartollozi</persName> by dint of an attorney’s
+                    quil returned the drawings: one he had begun to etch: the others untouched. I
+                    hear a bad account of him.</p>
+                <p>
+                    <persName ref="pe0014">Moses</persName> is working hard for you: but
+                    there is no finishing till spring: Pray remember you cannot bind up <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012">snowdon</title>
+                    </bibl> as
+                    there is a second part to appear. which I shall endeavour to bring out by
+                    Christmas. 1782<note type="editorial">A Journey to Snowdon (1781) was vol. 2,
+                        part 1, of Pennant's A Tour in Wales. Vol. 2, part II, appeared in 1783
+                        (this also subdivided into 'The Continuation of the Journey' and 'From
+                        Downing to Montgomery and Shrewsbury'). LINK TO WORKS LIST: Continuation of
+                        the Journey (London: Henry Hughes, 1783): generic</note>
+                </p>
+                <closer>
+                    <salute>I am <lb/>most faithfully <lb/>
+                        <choice>
+                        <abbr>Y<hi rend="superscript">rs</hi>
+                            </abbr>
+                        <expan>Yours</expan>
+                    </choice>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>T.</abbr>
+                                <expan>Thomas</expan>
+                            </choice>Pen<gap unit="chars" quantity="4" reason="illegible"/>
+                            <supplied>nant</supplied>
+                        </persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>P.S. I enclose a rough list of the drawings in <bibl type="authorial">
+                            <title ref="bidb.xml#bi0012">vol. I. II.</title>
+                        </bibl>
+                       <note type="editorial">Vol. 1, part II, of A tour in Wales would be A
+                            Journey to Snowdon (1781). LINK TO WORKS LIST: A Journey to Snowdon
+                            (London: printed by Henry Hughes, 1781): generic</note> Pray return it
+                        after you have copied it.</p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <note type="editorial">triangular mark</note>
+                    <stamp type="postmark">PENY POST
+                        PAYD <gap unit="chars" quantity="3" reason="illegible"/>
+                       <note type="editorial">round stamp, only half of which is
+                        visible.</note>
+                    </stamp>
+                    <gap unit="chars" quantity="3" reason="illegible"/> 0</p>
+                <p>
+                    <address>
+                        <addrLine>
+                            <persName ref="pe0313">Richard Bull</persName>
+                            <choice>
+                                <abbr>esq<hi rend="superscript">r</hi>
+                                </abbr>
+                                <expan>esquire</expan>
+                            </choice> | <placeName ref="pldb.xml#pl0759">Stratton street |
+                                Piccadilly</placeName>
+                        </addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

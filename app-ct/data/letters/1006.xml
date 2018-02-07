@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1006">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 6</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1780-05-16"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> 
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> May 16<hi rend="superscript">th</hi>. 1780</dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>To quel the evil passion you so bitterly complain of &amp; which you charge me with raising, shall be my earnest study. 
+                    What say you if I begin my exorcisms with the loan of any duplicate drawings I may have, which you may cause to be copied &amp;
+                    with them lessen your envy malice &amp;c. I will rummage my papers &amp; collect &amp; send to you all I can <sic>possible</sic> 
+                    scrape together.</p>
+                <p>The <rs type="art" ref="ardb.xml#ar0010">oval drawing</rs> you mention is a view of the habitable part of <placeName ref="pldb.xml#pl0785">Valle crucis abby</placeName>
+                   <note>Plates of 'Valle Crucis Abby', near Llangollen in Denbighshire, are included in A tour in Wales MDCCLXX 
+                        (London, 1778) [ABBR], pp. 368+, 372+. Neither is oval in shape.</note>.</p>
+                <p>I would most <sic>chearfully</sic> permit <persName ref="pe0014">Moses</persName> to copy for you; but I give you my word his time 
+                    is so fully taken up <del>his</del> that. He has not a moments leisure. But if you wish for any particular things out of my 
+                    book I believe there is an ingenious young man one <persName ref="pe0324">Ingleby</persName>. who would copy them reasonably. I am, Dear Sir,</p>
+                <closer>
+                    <salute>
+                        <choice>
+                            <abbr>Y<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>Your</expan>
+                        </choice> obliged &amp; faithful humble <choice>
+                            <abbr>Ser<hi rend="superscript">t</hi>
+                            </abbr>
+                            <expan>Servant</expan>
+                        </choice>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>Th.</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Pray excuse the inclosed.<note type="editorial">No enclosure has been preserved.</note>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

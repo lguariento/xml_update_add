@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0393">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to David Skene</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberdeen</settlement>
+                        <repository>Aberdeen University Library, Special Collections</repository>
+                        <idno>MS 483</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>56</locus>
+                        </ab>
+                    </msContents>
+                    <additional>
+                        <p>Transcribed from a volume of scribal copies of Pennant's original letters
+                            to David Skene. The copies are likely the work of Alexander Thomson, who
+                            on his death in 1868, bequeathed the collection to Aberdeen University
+                            Library. See Colin A. McLaren, ‘Reports and surveys of archives in
+                            northern Scotland’ in <hi rend="italic">Northern Scotland: A Historical
+                                Journal</hi>, Volume 1 (1972), pp.115-125.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1769-08-10"/>
+                    <placeName ref="pl0132">Slains</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0210">David Skene</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I give you my best thanks for the great civilities I received from you at
+                        <placeName ref="pl0128">Aberdeen</placeName>; and which I shall take true
+                    pleasure in requiting when I return home. It will give me great pleasure to hear
+                    from you at <placeName ref="pl0076">Edinburgh</placeName> at the Post Office
+                    about 3 weeks hence and as I have not so good an account of the state of
+                    Stocking and Wool Trades of the country as I could wish, you will do me a great
+                    favour in promising one and inclosing it to me; for I would willingly be
+                    accurate should I publish.<note type="editorial">An account of Aberdeen's
+                        stocking trade is included in Pennant's <bibl type="editorial">
+                            <title ref="bi0004">
+                                <hi rend="italic">Tour in Scotland 1769</hi>
+                            </title>:
+                            see 3<hi rend="superscript">rd </hi> edition (Warrington: 1774),
+                                <biblScope unit="page">p.136</biblScope>
+                        </bibl>.</note> If you see
+                    <persName ref="pe0589">D. G. Skene</persName> or
+                        <persName ref="pe0586">D<hi rend="superscript">r.</hi> Levingston</persName>
+                    I beg my best complements to these. I am very happy in experiencing the
+                    hospitality of <persName ref="pe0588">Lord Errol</persName>.</p>
+                <closer>
+                    <salute>I am Dear Sir with <lb/>True regard <lb/>Your much obliged and most
+                        obedient Servant</salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pl0132">Slains</placeName> Aug. 10<hi rend="superscript">th.</hi> 1769.</dateline>
+                <postscript>
+                    <p>Be so good as to add to my box any <placeName ref="pl0128">
+                            <sic>Aberden</sic>
+                        </placeName> fossils with their history.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

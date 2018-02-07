@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0110">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton: on letters of recommendation for 1772 Tour;
+                    distribution of queries; natural history matters</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>16-17</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1772-03-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>March 18<hi rend="superscript">th</hi> 1772.</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>your very obliging favor &amp; the drawing reached me this day &amp; were most
+                    acceptable. As I hope to have the pleasure of seeing you the latter end of the
+                    summer, please not to trouble yrself with sending anything else, till I have the
+                    satisfaction of receiving them from y<hi rend="superscript">r</hi> own hand. But
+                    in the interim let me beg you &amp; every friend to favor me with instructions
+                    of what I sh<hi rend="superscript">d</hi> attend to. Such Letters may be wrote
+                    till April 26<hi rend="superscript">th</hi>. I purpose to be at <placeName ref="pldb.xml#pl0229">Glasgow</placeName> abt the 12<hi rend="superscript">th</hi> of June.</p>
+                <p>y<hi rend="superscript">r</hi> other Bird with a long under mandible I presume to
+                    be the Rhyncops of <persName ref="pe0140">Linnaeus</persName>, the
+                    cutwater of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0527">Catesby</title>
+                    </bibl>. It has been supposed to be peculiar to <placeName ref="pldb.xml#pl0710">America</placeName>.</p>
+                <p>I flatter myself that I shall find y<hi rend="superscript">r</hi> collection much
+                    encreased by means of y<hi rend="superscript">r</hi>
+                    <placeName ref="pldb.xml#pl0710">American </placeName>correspondents.</p>
+                <p>My best compliments attend <persName ref="pe0017">M<hi rend="superscript">r</hi> Clarke</persName>: let me beg the favor of him
+                    to leave the recommendatory Letters with <persName ref="pe0022">Doctor
+                        Ramsay</persName>. I imagine I shall not visit any of the western coasts
+                    till I meet my friend at <placeName ref="Glasgow">Glasgow</placeName>.<note type="editorial">During his stay at Glasgow in 1772, Pennant visited the
+                        engineer <persName ref="pe0103">John Golborne</persName>, who was then
+                        involved in deepening the River Clyde for navigation by larger vessels. See
+                            <bibl type="editorial">Pennant, <title ref="bi0008">
+                                <hi rend="italic">A
+                                    tour in Scotland, and voyage to the Hebrides</hi>
+                            </title>
+                            (Chester: 1774), <biblScope unit="page">p.58</biblScope>
+                        </bibl>.</note>
+                </p>
+                <p>You honor the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0528">queries</title>
+                    </bibl> much by y<hi rend="superscript">r</hi> intention.
+                    please to make any use of these you chuse; &amp; may success attend them: I also
+                    have requested <persName ref="pe0022">D<hi rend="superscript">r</hi>
+                        Ramsay</persName> to get some <bibl type="authorial">
+                        <title ref="bi0528">abridged copies</title>
+                    </bibl> printed to be sent as my
+                    avant-couriers.</p>
+                <p>It shall be my care to procure you a set of <rs type="art" ref="ar0098">the
+                        Prints</rs> of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0001">my
+                            Tour</title>
+                    </bibl>: also the imperfections of <bibl type="authorial">
+                        <title ref="bi0019">the Zoology</title>
+                    </bibl>. My best compliments
+                    attend <persName ref="pe0012">D<hi rend="superscript">r</hi>
+                        Hope</persName> &amp; every enquiring friend.</p>
+                <closer>
+                    <salute>I am Dear Sir <lb/>y<hi rend="superscript">r</hi> most obed<hi rend="superscript">t</hi> serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Th.
+                    Pennant.</persName>
+                    </signed>
+                </closer>
+            </div>
+            <div>
+                <p>
+                    <handShift/>
+                    <unclear reason="illegible">6 <hi rend="superscript">
+                            <hi rend="underline">y</hi>
+                        </hi>
+                    </unclear>
+                </p>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pldb.xml#pl0709">BARRINGTON</placeName>
+                    </stamp>
+                </p>
+                <p>
+                    <handShift/>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>Mr George Paton</addrLine>
+                        <addrLine>at the Custom house</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0426">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>John Stuart to Thomas Pennant: description of Oransay and Colonsay</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP369</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>5a-5c</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0023">John Stuart</persName>
+                    <date when="1773-12-04"/>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gd">Gaelic</language>
+
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="enclosed">
+                <p>
+                    <placeName ref="pldb.xml#pl0647">Oransa</placeName>
+                </p>
+                <p>
+                    <placeName ref="pldb.xml#pl0647">
+                        <hi rend="underline">Oransa</hi>
+                    </placeName> is
+                    separated by a narrow sound from the island of <placeName ref="pldb.xml#pl0649">
+                        <hi rend="underline">Colonsay</hi>
+                    </placeName> only at high water. It
+                    is computed to be two miles long and one broad. It contains 610 Acres, 1 R. and
+                    148. of arable ground, no meadow or green pasture, 256. Acres of meadow or green
+                    pasture., 256. Acres of rocky green pasture, no moss, 122 Acres. of mountainous
+                    ground. — It is all at present in the hands of <persName ref="pe0202">M<hi rend="superscript">r.</hi> M<hi rend="superscript">c</hi>
+                        Niel</persName>, Brother to <persName ref="pe00s52">the late M<hi rend="superscript">c</hi> Niel of <hi rend="underline">Colonsay</hi>
+                    </persName>. He pays but 30£ Ster. of annual Rent for it. He
+                    sows every year about 20 bolls of bear, &amp; plants 10 bolls of potatoes. —
+                    uses <unclear reason="damage">dung</unclear> or shell-sand for manure —
+                    maintains <gap reason="damage" unit="chars" atLeast="2" atMost="3"/> milk-cows,
+                    with their followers; eight or ten horses; a dozen of goats and 60 Irish sheep,
+                    valued at <gap reason="damage" unit="chars" atLeast="3" atMost="5"/> shillings
+                    each — exports to market every year from 60 to 80 head of black-cattle ––––– His
+                    number of servants, as it the case in all the principal farms in the W. isles,
+                    is very great. He has one principal labouring servant, who has 50 shillings
+                        p<hi rend="superscript">r.</hi> year for his wages, and a stone of meal
+                        p<hi rend="superscript">r.</hi> week for his maintenance; a principal hand
+                    or overseer of his Cattle, whose wages are grass for two milk-cows and meal for
+                    the maintenance of his family; a cow-herd; wages 12 Sh<hi rend="superscript">s.</hi> p<hi rend="superscript">r.</hi> half-year with shoes; another
+                    cow-herd, wages <gap reason="damage" unit="chars" quantity="1"/> or 9 shillings
+                        p<hi rend="superscript">r.</hi> half-year; a Calf-hand, wages five
+                    shillings; a maid for keeping his house, wages <unclear reason="illegible">3</unclear> £ p<hi rend="superscript">r.</hi> year; principal dairy-maid,
+                    wages 12 marks Scots p<hi rend="superscript">r.</hi> half-year; five other women
+                    servants, wages of each five marks Scots p<hi rend="superscript">r.</hi>
+                    half-year ––––– Besides these servants there are two other men, called by their
+                    occupation <hi rend="underline">aoireannan</hi>, who have the charge of
+                    labouring so much ground, and taking care of the cattle it <sic>mantains</sic>;
+                    and have for their trouble grass for two milk-cows, and six sheep, the tenth
+                    sheaf of the produce of the ground <unclear reason="damage">and</unclear> as
+                    many potatoes as they choose to plant –––––</p>
+                <p>The most numerous wild animals in this island are rabbits — There are likewise
+                    rats and mice — The weesel is but seldom seen. –––––</p>
+                <p>
+                    <placeName ref="pldb.xml#pl0649">Colonsay</placeName>
+                </p>
+                <p>Though the islands of <placeName ref="pldb.xml#pl0649">
+                        <hi rend="underline">Colonsay</hi>
+                    </placeName> and <placeName ref="pldb.xml#pl0647">
+                        <hi rend="underline">Oronsay</hi>
+                    </placeName> do not probably derive their
+                    names from any words in the Galic language, yet most of the farms and places in
+                    them evidently do, as <placeName ref="pldb.xml#pl0891">
+                        <hi rend="underline">Garv-alt</hi>
+                    </placeName> i.e. the rough or rocky rivulet, <placeName ref="pldb.xml#pl0893">
+                        <hi rend="underline">Macharabeg</hi>
+                    </placeName> i.e.
+                    the small field, <placeName ref="pldb.xml#pl0892">
+                        <hi rend="underline">Ballyvory</hi>
+                    </placeName> i.e. S<hi rend="superscript">t Mary's</hi>
+                    town or hamlet, <placeName ref="pldb.xml#pl0895">
+                        <hi rend="underline">Karra-more</hi>
+                    </placeName> i.e. the great stone, <placeName ref="pldb.xml#pl0894">
+                        <hi rend="underline">Kill-Oran</hi>
+                    </placeName> i.e.
+                    the church or burying place of S<hi rend="superscript">t.</hi> Ouran &amp;c.
+                    —</p>
+                <p>The island of <placeName ref="pldb.xml#pl0649">
+                        <hi rend="underline">Colonsay</hi>
+                    </placeName> contains 1969 Acres, 2 R. &amp; 16 P. of arable
+                    ground; 236 Acres 13 R., 24 P. of meadow and green pasture; 1693 Acres, 1 R. and
+                    80 P. of rocky green pasture, 191 Acres and 1 R. of moss; and 3421 Acres and 2
+                    R. of mountainous ground. –––––</p>
+                <p>Oats, bear and potatoes are almost the only crops reared — The sowing of oats
+                    begins about the middle of April. The common increase is that of three boles and
+                    a half of oats for each boll that is sown; of bear, eight ––––– </p>
+                <p>At an average 220 head of black-cattle are exported annually out of this island
+                    –––––</p>
+                <p>There are about 40 or 50 tun of Kelp exported every year, each tun of which is
+                    sold at 3£ 10 sh. or 4£ Sterling. — It is cut down about the middle of April,
+                    and exported about the beginning of August –––––</p>
+                <p>There are 467 examinable persons in <placeName ref="pldb.xml#pl0649">Colonsay</placeName>. The inhabitants here, as well as in most <unclear reason="damage">of the</unclear> other Western isles, very <unclear reason="damage">prolifick </unclear> having frequently twins <unclear reason="damage">at a birth.</unclear> They are subject to few diseases.
+                        <sic>Ninty</sic> years is the greatest age to which they commonly arrive.
+                    The <hi rend="underline">small-pox</hi> is said to visit them once in the six or
+                    seven years. The <hi rend="underline">Civans</hi> likewise sometimes prevails
+                    among them –––––<note type="editorial">Sibbens, also rendered 'sivvens',
+                        'civvens', or here, 'civans', was a skin disease often associated with the
+                        poor of Scotland in the eighteenth century. It was described by Pennant in
+                        an appendix to his <bibl type="editorial">
+                            <title ref="bidb.xml#bi0010">
+                                <hi rend="italic">Tour in Scotland 1772 Part II</hi>
+                            (1776)</title>
+                        </bibl>: <q>A Loathsome and very infectious disease of the
+                            venereal kind, called the <hi rend="italic">Sivvens</hi>, has long
+                            afflicted the inhabitants of the Highlands, and from thence some parts
+                            of the Lowlands in <hi rend="italic">Scotland</hi>, even as far as the
+                            border of <hi rend="italic">England</hi>. Tradition says that it was
+                            introduced by the soldiers of <hi rend="italic">Cromwell</hi> garrisoned
+                            in the Highlands.</q>
+                        <bibl>
+                            <biblScope unit="page">p.447</biblScope>
+                        </bibl>.</note>
+                </p>
+
+                <p>The Cornish Chough and <sic>Stirlings</sic> are frequent in this island —
+                    wood-cocks are said to visit it ––––– The Eider-Duck has been said to frequent
+                    it's coast, and that of <placeName ref="pldb.xml#pl0647">
+                        <hi rend="underline">Oransa</hi>
+                    </placeName>, for these thirty years past –––––</p>
+            </div>
+            <div type="letter">
+                <dateline>
+                    <placeName ref="pldb.xml#pl0277">Killin Dec<hi rend="superscript">r.</hi>
+                            4<hi rend="superscript">th.</hi> 1773</placeName>
+                </dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>In my last letter I proposed to send you some account of some round towers found
+                    in the inland parts of the Highlands; where the Danes certainly never
+                    penetrated. But as you express an anxiety for having the remainder of the notes
+                    I happened to get down during your Voyage to the W. isles sent you soon, I shall
+                    proceed to give you some more of them, and <unclear reason="damage">waive</unclear> the other subject at present –––––</p>
+                <p>
+                    <placeName ref="pldb.xml#pl0652">
+                        <hi rend="underline">Staffa</hi>
+                    </placeName>, I
+                    am informed, has received many visits this last summer from motives of curiosity
+                    — <persName ref="pe0053">MacQuary of Ulva</persName>, the Proprietor of
+                    it, is much involved in his circumstances, but he now hopes that some virtuoso
+                    will give him such a price for <placeName ref="pldb.xml#pl0652">the island of
+                            <hi rend="underline">Staffa</hi>
+                    </placeName>, as will enable him to
+                    retrieve his fortune, though two years ago I dare say he would chearfully sell
+                    it to any man for a few pounds Sterling –––––</p>
+                <p>
+                    <persName ref="pe0073">D<hi rend="superscript">r.</hi> Samuel
+                        Johnson</persName>, accompanied by <persName ref="pe0035">James
+                        Boswel Esq.</persName>, has lately it seems, made a long excursion to the
+                    North of Scotland and the W. isles. They had the misfortune of meeting at last
+                    with very bad weather. They were storm-stayed in <placeName ref="pldb.xml#pl0896">the island of <hi rend="underline">Coll</hi>
+                    </placeName> for near a fortnight, and were all the time obliged
+                    to feed upon oat-meal — <persName ref="pe0073">The D<hi rend="superscript">r.</hi>
+                    </persName>, it is said, intends to publish <bibl type="authorial">
+                        <title ref="bidb.xml#bi0095">his
+                    tour</title>
+                    </bibl>; but even if he does, I suppose it will interfere very little with your
+                    plan. </p>
+                <closer>
+                    <salute>I remain <lb/>Dear Sir <lb/>with great regard <lb/>your obliged and <lb/>humble
+                        Servant</salute>
+                    <signed>
+                        <persName ref="pe0023">John Stuart</persName>
+                    </signed>
+                </closer>
+
+            </div>
+            <div>
+                <p>
+                    <handShift/>
+                    <persName ref="pe0023">M<hi rend="superscript">r</hi>
+                        Stuart</persName> on <placeName ref="pldb.xml#pl0647">oransay</placeName>
+                    &amp; <placeName ref="pldb.xml#pl0649">Collonsay</placeName>
+                </p>
+                <dateline>Dec<hi rend="superscript">r</hi> 4<hi rend="superscript">th</hi>
+                    1773.</dateline>
+            </div>
+        </body>
+    </text>
+</TEI>

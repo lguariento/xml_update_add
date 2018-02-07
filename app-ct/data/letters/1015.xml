@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1015">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 17</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1782-01-29"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                    <placeName ref="pldb.xml#pl0759">Stratton street Piccadilly</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                        <choice>
+                            <abbr>Jan.</abbr>
+                            <expan>January</expan>
+                        </choice> 29<hi rend="superscript">th</hi>. 1782.</dateline>
+                    <salute>Dear
+                        Sir</salute>
+                </opener>
+                <p>
+                    <persName ref="pe0238">My good woman</persName> is much more indifferent
+                    to <placeName ref="pldb.xml#pl0699">London</placeName> than myself. her
+                    attachment to <persName ref="pe0235 pe0343">our two little
+                        ones</persName> quite supersedes all desires after the Capital. She offers
+                    me a furlow; but I am so old fashioned that I decline it. I suppose that this
+                    year every face will bear the most morose aspect; &amp; that alone will sour the
+                    amusements of the </p>
+                <p>You forget that you sent me the letter press of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012">snowdon</title>
+                    </bibl> let into Large paper. on
+                            wh<del>
+                        <gap unit="chars" quantity="2" reason="illegible"/>
+                    </del>ose
+                    margins numbers of drawings are already done for you.</p>
+                <p>
+                    <persName ref="pe0014">Moses</persName> has all the copies of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0032">The Journey to
+                        London</title>
+                    </bibl> on L.P. by way of perquisite &amp; will be glad to
+                    serve any Gentleman who bespeaks them. for the comfort of posterity <persName ref="pe0344">his spouse</persName> brought him the last week a
+                        <persName ref="pe0345">young Moses</persName>
+                </p>
+                <p>I wish much to get the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0014">welsh
+                            Tour</title>
+                    </bibl> fully of my my mind; so have begun t<del>a</del>he
+                    last part.<note type="editorial">Taken collectively, this refers to
+                        Continuation of the Journey (London: Henry Hughes, 1783), subdivided into
+                        part i, 'The Continuation of the Journey', and part ii, 'From Downing to
+                        Montgomery and Shrewsbury'. LINK TO WORKS LIST: Continuation of the Journey
+                        (London: Henry Hughes, 1783): generic</note> I have also sent out 6<hi rend="superscript">d</hi> worth of patriotism styled <bibl type="authorial">
+                        <title ref="bidb.xml#bi0035">free thoughts on the milita
+                        laws</title>
+                    </bibl> which I hope will do more good than all my works put
+                    together.</p>
+                <p>My best <choice>
+                        <abbr>complim<hi rend="superscript">ts</hi>
+                        </abbr>
+                        <expan>compliments</expan>
+                    </choice> attend <persName ref="pe0346">M<hi rend="superscript">rs</hi>
+                        Luther</persName> &amp; <persName ref="pe0331 pe0336">Miss
+                        Bulls</persName>: neither let <persName ref="pe0332">M<hi rend="superscript">r</hi> storer</persName> be forgotten. I am</p>
+                <closer>
+                    <salute>Dear Sir <lb/>Most truely <choice>
+                        <abbr>Y<hi rend="superscript">rs</hi>
+                            </abbr>
+                        <expan>Yours</expan>
+                    </choice>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>T</abbr>
+                                <expan>Thomas</expan>
+                            </choice>Pennant.</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>If any duplicate prints relative either to <bibl type="authorial">
+                            <title ref="bidb.xml#bi0012">snowdon</title>
+                        </bibl> or <bibl type="authorial">
+                            <title ref="bidb.xml#bi0032">Journey to
+                            London</title>
+                        </bibl> falls in <choice>
+                            <abbr>y<hi rend="superscript">rs</hi>
+                            </abbr>
+                            <expan>your</expan>
+                        </choice> way I shall be vastly obliged to you for them.</p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <stamp type="postmark">penny post.;<note type="editorial">handwritten by
+                            TP</note> PENY POST PAID <gap unit="chars" quantity="3" reason="illegible"/>
+                       <note type="editorial">in ink, triangular mark</note>
+                    </stamp>
+                    <gap unit="chars" quantity="3" reason="illegible"/> A 5 O'CLOCK<note type="editorial">round</note>
+                </p>
+                <p>
+                    <address>
+                        <addrLine>
+                            <persName ref="pe0313">Richard Bull</persName>
+                            <choice>
+                                <abbr>esq<hi rend="superscript">r</hi>
+                                </abbr>
+                                <expan>esquire</expan>
+                            </choice> | <placeName ref="pldb.xml#pl0759">Stratton street |
+                                Piccadilly</placeName>
+                        </addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

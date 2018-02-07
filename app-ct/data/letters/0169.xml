@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, on plates and drawings, subscription to
+                    Shaw's <hi rend="superscript">History of Moray</hi>, and advertising for
+                    Pennant's works</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>99</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1774-07-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>Jul 3<hi rend="superscript">d</hi> 1774.</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I inclose the very polite Letter from <persName ref="pe0132">M<hi rend="superscript">r</hi> Dundas</persName>. I fear success for our
+                    friend. but <persName ref="pe0132">M<hi rend="superscript">r</hi>
+                        Dundas</persName> behaves very handsomely. pray return it. <note type="editorial">In earlier letters to Paton, Pennant writes of his
+                        intention to solicit Lawrence Dundas as a patron for <persName ref="pe0156">George Low</persName>. </note>
+                </p>
+                <p>Thanks for y<hi rend="superscript">r</hi> last favors. &amp; thanks to <persName ref="pe0157">M<hi rend="superscript">r</hi> Macgovan</persName> for his kind
+                    design.</p>
+                <p>I shall be happy to subscribe to <persName ref="pe0265">M<hi rend="superscript">r</hi> Shaws</persName>
+                    <bibl type="authorial">
+                        <title ref="bi0081">work</title>
+                    </bibl>. Remember I
+                    commission you to do so to all national litterary works without exception the
+                    price of each not exceeding a guinea.</p>
+                <p>
+                    <rs type="art" ref="ar0126">Queen Mary’s seal</rs> will be most welcome.</p>
+                <p>I forgot to say that only <bibl type="authorial">
+                        <title ref="bi0103">
+                            <hi rend="underline">abercrombie</hi>
+                        </title>
+                    </bibl> came. not the other
+                    book.</p>
+                <p>As I wish the public to know my design to serve the purchasers of <bibl type="authorial">
+                        <title ref="bi0001">the first edition</title>
+                    </bibl> please
+                    to twice insert in two of the most public papers the inclosed
+                        advertisement.<note type="editorial">In 1774 Pennant issued <bibl type="editorial">
+                            <title ref="bi0005">
+                                <hi rend="italic">The additions to
+                                    the quarto edition of the Tour in Scotland</hi>
+                            </title>
+                        </bibl>,
+                        a separate volume containing the new plates and appendices of the third
+                        edition of the <bibl type="editorial">
+                            <title ref="bi0004">
+                                <hi rend="italic">Tour in Scotland 1769</hi>
+                            </title>
+                        </bibl>, to prevent those who
+                        owned earlier editions from having to purchase new copies of the entire
+                        tour.</note> let me know afterwards <hi rend="underline">what they
+                    cost</hi>.</p>
+                <p>Y<hi rend="superscript">r</hi> Letters with <rs type="art" ref="ar0127">drawings</rs>
+                    &amp;c are just come. I will do all I can to promote <persName ref="pe0005">M<hi rend="superscript">r</hi> Auld’s</persName> design. Let him get drawings
+                    if ill done <persName ref="pe0014">my Servant</persName> shall new draw them: but He
+                    must consent for all our credits that my engravers <gap reason="illegible" unit="word" atLeast="1"/> them. a few plates will enhance the <gap reason="illegible" unit="word" atLeast="1"/> let it be quarto like mine. you
+                        <gap reason="illegible" unit="chars" atLeast="2"/>erpower me with
+                    presents.</p>
+                <closer>I am <lb/>y<hi rend="superscript">r</hi> true friend <signed>
+                        <persName ref="pe0232">T. Pennant</persName>
+                    </signed>
+                </closer>
+
+                <postscript>
+                    <p>I have a <rs type="art" ref="ar0125">fine drawing</rs> of <placeName ref="pl1163">Pluscardin</placeName> by M<hi rend="superscript">r</hi>
+                        <persName ref="pe0058">Cordiner of Banff</persName>, but dare not lend it
+                        except you can get leave.</p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>To M<hi rend="superscript">r</hi> Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+                <p>
+                    <hi rend="superscript">Free</hi>
+                    <persName ref="pe0015">RMostyn</persName>
+                </p>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0703">NORTHOP</placeName>
+                    </stamp>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

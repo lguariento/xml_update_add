@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0125">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton: note requesting information on woodcock
+                    migrations</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>40</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-01-15"/>
+                    
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                                    </correspAction>
+            </correspDesc>
+            <langUsage> 
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    <persName ref="pe0232">M<hi rend="superscript">r</hi>
+                        Pennant’s</persName> complim<hi rend="superscript">ts</hi> to <persName ref="pe0228">M<hi rend="superscript">r</hi> Paton</persName> wishes
+                    he could in a post or two send an account of the migration of woodcocks to &amp;
+                    from the E. coasts such as <placeName ref="pldb.xml#pl0733">Angus</placeName>
+                    <placeName ref="pldb.xml#pl0331">Merns</placeName> &amp; <placeName ref="pldb.xml#pl0732">Aberdeenshire</placeName>, the times of coming &amp;
+                    departing &amp; Whether they are numerous.</p>
+                <p>Such may be picked up from natives of those counties now in <placeName ref="pldb.xml#pl0076">Edinburgh</placeName>. it is needless to write to any.
+                    Box of ores is arrived at last. <persName ref="pe0260">M<hi rend="superscript">r</hi> Ruddiman</persName> sends me no indexes</p>
+                <dateline>Jan. 15<hi rend="superscript">th</hi> 1773.</dateline>
+            </div>
+        </body>
+    </text>
+</TEI>

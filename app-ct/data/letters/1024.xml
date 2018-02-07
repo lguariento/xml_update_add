@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/relax-ng-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1024">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 26</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1783-01-31"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> <choice>
+                            <abbr>Jan.</abbr>
+                            <expan>January</expan>
+                        </choice> 31. <handShift/>1783 <note type="editorial">possibly in Richard Bull's hand</note>
+                    </dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I do allow that Christmas is a little passed: but be assured that your works before that time put my own so backward that I must bring 
+                    <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012">my first volume</title>
+                    </bibl> to <placeName ref="pldb.xml#pl0699">town</placeName> to be bound before all my drawings in it are finished. You may depend on having 
+                    yours delivered by myself by march 9<hi rend="superscript">th</hi>. Deo volente. by which time myself &amp; family hope to be in <placeName ref="pldb.xml#pl0699">town</placeName>.</p>
+                <p>I rejoice much at the thoughts of Peace <note type="editorial">Preliminary treatises of peace between Britain and the United States, France and Spain were presented to parliament on 27 January 1783. [ODNB s.v. William Pitt (1759-1806).]</note>:
+                    perhaps it may be equal to what we may expect after our ill run of fortune. But I discard politics for the rest of my days as <sic>the</sic>
+                    serve only uselessly to disquiet our minds. I hope to have with you some agreable talks on less perplexing subjects. </p>
+                <closer>&amp; am 
+                    <lb/>Dear Sir
+                    <lb/>
+                    <choice>
+                        <abbr>y <hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> faithful
+                    <lb/>humble <choice>
+                        <abbr>serv<hi rend="superscript">t</hi>
+                        </abbr>
+                        <expan>servant</expan>
+                    </choice>
+                    <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>Tho.</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant</persName>
+                    </signed>
+                    </closer>
+                <postscript>
+                    <p>
+                        <del>Be so good as to excuse the inclosed &amp; let go to the penny post.</del> <note type="editorial">The enclosure is not preserved in the manuscript.</note>
+                    </p>
+                </postscript>
+            </div>
+         </body>
+    </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0118">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, reporting that he is at Stonehaven en-route
+                    to St Andrews</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>29-30</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1772-09-02"/>
+                    <placeName ref="pldb.xml#pl0328">Stonehaven</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> 
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I have only time to thank you for two favors &amp; to say that I am now making
+                    southwards &amp; shall be glad to receive any other instructions at <placeName ref="pldb.xml#pl0354">St Andrews </placeName> the last of my stations for
+                    Letters. With best wishes I am</p>
+                <closer>
+                    <salute>Dear Sir <lb/>Your most obed<hi rend="superscript">t</hi> serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>Tho. Pennant.</signed>
+                    <placeName ref="pldb.xml#pl0328">Stonehive</placeName>
+                </closer>
+                <dateline>Sept<hi rend="superscript">r</hi> 2<hi rend="superscript">d</hi>
+                    1772.</dateline>
+            </div>
+            <div>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pldb.xml#pl0328">STONEHAVEN</placeName>
+                    </stamp>
+                </p>
+                <p>
+                    <handShift/>3</p>
+                <p>5/3</p>
+                <p>
+                    <handShift/>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>M<hi rend="superscript">r</hi> Paton</addrLine>
+                        <addrLine>at the Custom house</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

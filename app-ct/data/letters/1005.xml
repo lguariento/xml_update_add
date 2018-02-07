@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1005">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 4</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1780-04-20"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                    <placeName ref="pldb.xml#pl0759">Stratton Street Piccadilly</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    <persName ref="pe0232">M<hi rend="superscript">r</hi> Pennant</persName>
+                    presents his Compliments to M<hi rend="superscript">r</hi>
+                    <persName ref="pe0313">Bull</persName> &amp; many thanks for his
+                    trouble about the fine impression of the <rs type="art" ref="ardb.xml#ar0009">Dance of Death</rs>
+                   <note type="editorial">Dance of Death, 1538, by Hans Holbein the Younger was an
+                        inspiration to later etchers, such as the seventeenth-century Bohemian
+                        Wenceslaus Hollar, the Scotsman David Duchar (1743–1827), and the English
+                        painter and caricaturist Thomas Rowlandson (1756–1827).</note> Begs his
+                    patience till next week in respect to the <bibl>
+                        <title ref="bidb.xml#bi0012">G.P.
+                        Welsh tour,</title>
+                    </bibl>
+                   <note type="editorial">GP = great paper. Pennant may here be referring to his
+                        own extra-illustrated Tour in Wales, which he would have been prepared to
+                        show other like-minded illustrators such as Bull and, possibly, Gulston (see
+                        next note). LINK TO WORKS LIST: Thomas Pennant, A Tour in Wales. MDCCLXX
+                        (London: Henry Hughes, 1778): GP copy {?Pennant's; SEVEN, EIGHT}</note>
+                    which was left at <placeName ref="pldb.xml#pl0783">Ealing</placeName>
+                   <note type="editorial">Correspondence from Foote Gower addressed to Pennant at
+                        Great Ealing, Middlesex in April 1778, and from Pennant to his son, David at
+                        'Great Ealing by London' in January 1779, is found at WCRO CR 2017 / TP241
+                        and /429. It seems likely that David Pennant was a pupil at Great Ealing
+                        school. Note also that Ealing Grove in Middlesex was the home of the book
+                        and art collector Joseph Gulston, transformed into an Italianate villa
+                        following his marriage in 1767. ODNB s.v. Joseph Gulston.</note> last
+                    year</p>
+            </div>
+            <div>
+                <p>
+                    <lb/>`<stamp type="postmark">[triangular, <gap reason="illegible" quantity="1" unit="words"/>
+                    </stamp>
+                    <lb/>
+                    <stamp type="handstamp">
+                        <placeName ref="pldb.xml#pl0784">S<hi rend="superscript">r</hi> CLxxR W J</placeName>
+                    </stamp>
+                </p>
+                <p>
+                    <address>
+                        <addrLine>
+                            <persName ref="pe0313">Richard Bull esq<hi rend="superscript">r</hi>
+                            </persName> | <placeName ref="pldb.xml#pl0759">Stratton street |
+                            Piccadilly</placeName>.</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

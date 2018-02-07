@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0400">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to David Skene</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberdeen</settlement>
+                        <repository>Aberdeen University Library, Special Collections</repository>
+                        <idno>MS 483</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>68-69</locus>
+                        </ab>
+                    </msContents>
+                    <additional>
+                        <p>Transcribed from a volume of scribal copies of Pennant's original letters
+                            to David Skene. The copies are likely the work of Alexander Thomson, who
+                            on his death in 1868, bequeathed the collection to Aberdeen University
+                            Library. See Colin A. McLaren, ‘Reports and surveys of archives in
+                            northern Scotland’ in <hi rend="italic">Northern Scotland: A Historical
+                                Journal</hi>, Volume 1 (1972), pp.115-125.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1770-08-12"/>
+
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0210">David Skene</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I give you many thanks for your kind favor and for your agreable intelligence: be
+                    assured that I have not forgot my promise; I should be ashamed to be unmindful
+                    of your favors so far as to neglect you without some shew of reason. I have
+                    begun the list of the ores &amp;c. I mean to send. I only waited till the
+                    gentleman who is to paint your birds; has restored them to me that I may not be
+                    worse than my word but return them safely to you. My next letter will bring you
+                    the catalogue; and advice that the box is set off: You must wait with a little
+                    patience, as I am to set off to morrow on a Tour through <placeName ref="pl1183">the Welsh Alps</placeName> a country I am sorry to say far inferior in
+                    point of grandeur to <placeName ref="pl0711">the Highlands</placeName>.</p>
+                <p>I am now printing <bibl type="authorial">
+                        <title ref="bi0045">my synopsis of
+                            Quadrupeds</title>
+                    </bibl> which is to appear next winter: and much about
+                    the same time my second and last part of <bibl type="authorial">
+                        <title ref="bi0019">Br. Zool. illustrated &amp;c</title>
+                    </bibl>. to consist of
+                    the same number of plates with the first. I shall do myself <sic>the of
+                        sending</sic> it as soon as it appears.</p>
+                <p>Please to make my compliments to <persName ref="pe0247">M<hi rend="superscript">r.</hi> Oglevie</persName> and let him know I shall soon do myself the
+                    pleasure of writing to him.</p>
+                <closer>
+                    <salute>I am with true regard Dear Sir <lb/>Your obliged and <lb/>faithful
+                        humble Servant</salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>Aug. 12<hi rend="superscript">th.</hi> 1770.</dateline>
+            </div>
+        </body>
+    </text>
+</TEI>

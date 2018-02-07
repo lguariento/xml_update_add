@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0143">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, requesting information on maps and offering
+                    advice for George Low</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>65-67</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-11-05"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>Many thanks for y<hi rend="superscript">r</hi> Letter of oct<hi rend="superscript">r</hi> 26<hi rend="superscript">th</hi>. <bibl type="authorial">
+                        <title ref="bi0529">Barbour</title>
+                    </bibl> will be
+                    acceptable in any form: the little edition may come piece meal &amp; beg the
+                    favor of <persName ref="pe0018">M<hi rend="superscript">r</hi>
+                        Jackson</persName> to frank it.</p>
+                <p>Let me beg you w<hi rend="superscript">d</hi> enquire if <bibl type="authorial">
+                        <title ref="bi0093">Gordon’s maps in Blaeu’s atlas</title>
+                    </bibl> is to
+                    be had &amp; at what price. I mean the edition of 1662 with melvin’s topographie
+                    in it.</p>
+                <p>Also <bibl type="authorial">
+                        <title ref="bi0094">sacheverels voy. to Iona a small
+                                oct<hi rend="superscript">vo</hi>
+                        </title>
+                    </bibl>.</p>
+                <p>
+                    <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName> had best
+                    keep his materials till he has completed his collection. I urge him to visit
+                    every isle personally: &amp; shall soon send him a sketch of the <unclear reason="illegible">Imber</unclear>
+                </p>
+                <p>I imagine <persName ref="pe0022">Doctor Ramsay</persName> will not be worse for
+                    the loss of <persName ref="pe0603">his father</persName> who I hear was a
+                    strange fellow.</p>
+                <p>y<hi rend="superscript">r</hi> 2<hi rend="superscript">d</hi> favor is just come.
+                    &amp; many thanks for the sheet which I rejoice to see. Whatever else you send
+                    will be most welcome.</p>
+                <p>Had you my Letter to <persName ref="pe0100">M<hi rend="superscript">r</hi>
+                        Freebairn of Ilay</persName>.</p>
+                <closer>
+                    <salute>I am Dear Sir <lb/>in much haste y<hi rend="superscript">rs</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232"/>Tho. Pennant</signed>
+                </closer>
+
+                <dateline>Nov<hi rend="superscript">r</hi> 5<hi rend="superscript">th</hi>
+                    1773.</dateline>
+
+                <postscript>
+                    <p> Pray is it true that <persName ref="pe0073">the great Doctor
+                            Johnson</persName> was weather bound in <placeName ref="pl0715">Skie</placeName>. </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

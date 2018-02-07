@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0122">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, on receiving an offer of assistance from
+                    George Low</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>36</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1772-12-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>an hour after my last Letter went one came from y<hi rend="superscript">r</hi>
+                    friend <persName ref="pe0156">M<hi rend="superscript">r</hi>
+                        Low</persName> of <placeName ref="pldb.xml#pl0701">Orkney</placeName> which
+                    pleased me much he offers his service freely &amp; I dare say it will be of vast
+                    use. he speaks of <bibl type="authorial">
+                        <title ref="bi0058">a treatise of
+                            his</title>
+                    </bibl> that is soon to reach you. he permits me to have any
+                    extracts which I shall be happy to have when it reaches you. Inclose a Letter
+                    which I beg you would give my friend <persName ref="pe0018">M<hi rend="superscript">r</hi> Jackson of the Post office</persName> begging
+                    it may be sent by the first opportunity. if <bibl type="authorial">
+                        <title ref="bidb.xml#bi0058">M<hi rend="superscript">r</hi> Lows
+                            treatise</title>
+                    </bibl> is worth publishing I shall assist
+                        <sic>cheerfull</sic>.</p>
+                <closer>
+                    <salute>I am D<hi rend="superscript">r</hi> Sir <lb/>Truely y<hi rend="superscript">rs</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">T.Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>Dec<hi rend="superscript">r</hi> 24<hi rend="superscript">th.</hi>
+                    1772</dateline>
+
+                <postscript>
+                    <p>Pray let me know how the post goes to <placeName ref="pldb.xml#pl0701">the
+                            Orknies</placeName>, &amp; when this sets out.</p>
+                </postscript>
+
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1004">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 3</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1779-02-12"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> Febr. 12<hi rend="superscript">th</hi> 1779</dateline>
+                    <salute>Dear
+                    Sir</salute>
+                </opener>
+                <p>Please to accept the promised <rs type="art" ref="ardb.xml#ar0007">print</rs>.<note type="editorial">Print not identified.</note> I am sorry I
+                    cannot offer you <rs type="art" ref="ardb.xml#ar0008">that of myself</rs>:<note type="editorial">A line engraving of Thomas Pennant by John Keyse Sherwin,
+                        after Thomas Gainsborough, was published on 1 January 1779. See NPG
+                        D19671.</note> many reasons inducing me to make that venal. It may be had at
+                        <persName ref="pe0141">M<hi rend="superscript">r</hi>
+                        Majors</persName>
+                    <placeName ref="pldb.xml#pl0781">St Martin's lane</placeName>
+                   <note type="editorial">Thomas Major (1720–1799), engraver. In 1752 he moved to
+                        Chandos Street, off lower St Martin’s lane. ODNB.</note>. I hope next winter
+                    to pass some time in town; &amp; to enjoy a little of y<hi rend="superscript">r</hi> Company. Pray excuse the second tax I put on you by requesting the
+                    inclosed may be directed to <persName ref="pe0323">P. Panton esq<hi rend="superscript">r</hi>
+                    </persName>
+                   <note type="editorial">LINK TO BIOGRAPHIES: Paul Panton, junior</note>
+                    <placeName ref="pldb.xml#pl0782">N<hi rend="superscript">o</hi> 12 Serles street
+                        Lincolns inn London</placeName>. I am with much esteem</p>
+                <closer>
+                    <salute>Dear Sir <lb/>Y<hi rend="superscript">r</hi>obliged &amp; most
+                        obedient <lb/>
+                        <sic>humbl</sic> Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Thomas
+                    Pennant</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

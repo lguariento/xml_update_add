@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0398">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to David Skene</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberdeen</settlement>
+                        <repository>Aberdeen University Library, Special Collections</repository>
+                        <idno>MS 483</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>64-66</locus>
+                        </ab>
+                    </msContents>
+                    <additional>
+                        <p>Transcribed from a volume of scribal copies of Pennant's original letters
+                            to David Skene. The copies are likely the work of Alexander Thomson, who
+                            on his death in 1868, bequeathed the collection to Aberdeen University
+                            Library. See Colin A. McLaren, ‘Reports and surveys of archives in
+                            northern Scotland’ in <hi rend="italic">Northern Scotland: A Historical
+                                Journal</hi>, Volume 1 (1972), pp.115-125.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1770-04-07"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0210">David Skene</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>Your favour was forwarded to me here after I had left <placeName ref="pl0699">London</placeName>. I am truly rejoiced that you have escaped so alarming a
+                    complaint and sincerely hope you will never experience its return. </p>
+                <p>I never yet could procure the snake but hope through your means to have an
+                    opportunity of examining it.</p>
+                <p>I shall this summer send you specimens of our ones and add the notices you
+                    desire. The things you were so obliging to lend shall be returned with them.</p>
+                <p>I am obliged to <persName ref="pe0247">Mr. Oglevie</persName> for thinking of me;
+                    but should have been more happy had he wrote as he was so kind as to promise. Be
+                    so good as to present my compliments to him; and let him know. It will be of
+                    much use to me to be informed of the history <rs type="art" ref="ar0005">
+                        <add place="above">of the picture</add> of the admirable Crichton</rs>; such
+                    as In whose possession is it? In what garb? What time of life? and by whom
+                    painted: as I am now Transcribing <bibl type="authorial">
+                        <title ref="bi0001">my
+                            Scotch Tour</title>
+                    </bibl> and preparing it for the press these
+                    anecdotes will be of much service to me.</p>
+                <p>I have also another enquiry to trouble you about in respect to the account of
+                        a woman who fasted for an extraordinary length of
+                        time which I am told is preserved in the library of one of the
+                        Aberdeens.<note type="editorial">The use of the plural denotes the adjacent
+                        settlements of <placeName ref="pl0128">Aberdeen</placeName> to the south and
+                            <placeName ref="pl0129">Old Aberdeen</placeName> to the north, the
+                        latter being the site of the college.</note> I shall be much obliged to you
+                    for a Transcript of it.<note type="editorial">An 'Account of the fasting Woman
+                        of Rossshire' is given in <bibl type="editorial">
+                            <title ref="bi0001">
+                                <hi rend="italic">A Tour in Scotland 1769</hi>
+                            </title> (Warrington:
+                            1770), Appendix II., <biblScope unit="page">pp.248-252</biblScope>
+                        </bibl>.</note>
+                </p>
+                <p>Can you inform me where the Innes family live now; and where are the houses of
+                        <placeName ref="pl1182">Innes</placeName> and <placeName ref="pl1181">Innermarkie</placeName>. <persName ref="pe0247">M<hi rend="superscript">r.</hi> Oglevie</persName> will tell you whether I passed by either of
+                    them in <placeName ref="pl1141">Murray</placeName>.</p>
+                <p>Lastly I must beg the favour of you to inform me how much in English measure is a
+                    Boll of corn or meal.</p>
+                <p>I hope by this time <bibl type="authorial">
+                        <title ref="bi0019">my little work</title>
+                    </bibl> has
+                    reached you and that it meets your approbation. It will be finished about
+                    Christmas when you shall see the sequel.</p>
+                <p>I hope soon to have the pleasure of hearing you are well. Please to present my
+                    best compliments and wishes to <persName ref="pe0586">Dr. Levingston</persName>
+                    and <persName ref="pe0589">Dr. G. Skene</persName>
+                </p>
+                <closer>
+                    <salute>and think me Dear Sir <lb/>your faithful and obedient <lb/>humble
+                        Servant</salute>
+                    <signed>
+                        <persName ref="pe0232">Thomas Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>April 7<hi rend="superscript">th.</hi> 1770.</dateline>
+            </div>
+        </body>
+    </text>
+</TEI>

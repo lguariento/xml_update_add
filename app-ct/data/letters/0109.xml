@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0109">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton: declining offer of a Customs vessel for 1772
+                    Voyage</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>14-15</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1772-01-17"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> 
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I cannot possibly defer my thanks for y<hi rend="superscript">r</hi> obliging
+                    favor, so long as to the beginning of my journey: therefore let me beg of you
+                    not only to accept my acknowledgements, but convey the same to <persName ref="pe0017">M<hi rend="superscript">r</hi> Clark</persName> &amp;
+                    the other commissioners for their very polite offer; which I decline for no
+                    other reason, but that I believe I can get myself conveyed from island to island
+                    in a manner that will not clash with their service &amp; my own views. But in
+                    every other respect I shall esteem their friendship an honor. I do not think of
+                    beginning my voyage till the middle of June at soonest. but hope to reach
+                        <placeName ref="pldb.xml#pl0229">Glasgow</placeName> about the 1<hi rend="superscript">st</hi> of that month; from whence I purpose to make
+                    some short excursions northward. I shall not dwell on my plan at present but
+                    shall soon communicate it to <persName ref="pe0022">Doctor
+                        Ramsay</persName>; &amp; flatter myself that as I have not generally abused
+                    the N. Britons in <bibl type="authorial">
+                        <title ref="bidb.xml#bi0001">my late
+                        publication</title>
+                    </bibl>, I shall not find them backward in rendering my
+                    proposed tour safe &amp; agreeable.</p> <closer>
+                    <salute>With all good wishes,
+                I am Dear Sir <lb/>your most obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant.</persName>
+                    </signed>
+                </closer>
+
+                <dateline>Downing Jan. 17<hi rend="superscript">th</hi>1772.</dateline>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>M<hi rend="superscript">r</hi> George Paton</addrLine>
+                        <addrLine>at the Custom House</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+
+                <p>
+                    <stamp>
+                        <placeName ref="pldb.xml#pl0703">NORTHOP</placeName>
+                    </stamp>
+                </p>
+
+                <p>
+                    <unclear reason="illegible">
+                        <del rend="strikethrough">M — 6</del>
+                    </unclear>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

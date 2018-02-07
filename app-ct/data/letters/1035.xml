@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1035">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 37</locus>
+                        </ab>
+                    </msContents>
+                    <physDesc>
+                        <additions>
+                            <note type="editorial">Marginalia: beneath the signature in Thomas Pennant's hand</note>
+                            <del>Pray <persName ref="pe0431">Thane</persName> finished</del>     Good Duk<gap unit="chars" quantity="6" reason="illegible"/>
+                            <lb/>
+                            <del>
+                                <persName ref="pe0474">Urquart</persName> more Kings. Tombs. Q. how many got.</del>
+                        </additions>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1784-01-16"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                    <placeName ref="pldb.xml#pl0758">Stratton Street Piccadilly London</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute> <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> Jan. 16 1784.</dateline>
+                </opener>
+                <p>Last night I received your most acceptable present: which will enrich me past measure. but your generosity ties me up from future requests. 
+                    <persName ref="pe0014">Moses</persName> shall do all you want. at length we have begun <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012 bidb.xml#bi0013 bidb.xml#bi0032">
+                            <hi rend="underline">our</hi> books</title>
+                    </bibl> <note type="editorial">This refers to Bull and Pennant's extra-illustration projects on their personal copies of works by Pennant</note>,
+                    &amp; I do assure you he shall work only for you &amp; me till they are done. indeed he is anxious to do his best for his friend 
+                    <persName ref="pe0313">M<hi rend="superscript">r</hi> Bull</persName>. I have put <del>the three first</del> <add place="above">all the</add> volumes into boards: which keeps the prints safe, 
+                    &amp; drawings clean: &amp; you know we can take them to pieces when we please. I have done the same by three of my volumes of 
+                    scotch tours <!-- Generic: HOW TO TAG? --> &amp; made them very handsome. You may remember that by cancels I can divide the original three into six. if you have the 
+                    <bibl type="editorial">
+                        <title ref="bidb.xml#bi0001">first edition</title>
+                    </bibl>, <note type="editorial">(or possibly A tour in Scotland and voyage to the Hebrides 1772</note>
+                    pray change it &amp; get to which my cancels are adapted. <persName ref="pe0493">M<hi rend="superscript">r</hi> Taylor</persName>'s <rs type="art" ref="ardb.xml#ar0070">scenes of <persName ref="pe0494">shakespear</persName>
+                    </rs>
+                    <note type="editorial">The picturesque beauties of Shakspeare [sic], being a selection of scenes, from the works of that great author: engraved under the direction of Charles Taylor (London, [1783–7]). Macbeth featured in No. 2, published 1 May 1783, and included four plates.</note>
+                    furnish me with four excellent prints for my mention of Macbeth. I believe the new edition of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0410">vol. 1 Welsh Tour</title>
+                    </bibl> <note type="editorial">A tour in Wales. Quarto, 2 vols (London: Printed for Benjamin White, at Horace’s Head in Fleet Street, MDCCLXXXIV [1784]). Vol. I: generic</note>
+                    will soon come out of the press. I meant one for <persName ref="pe0293">M<hi rend="superscript">r</hi> Burrel</persName>
+                    but you must not tell, else he will do nothing for me, having the fear of bribery &amp; corruption before his Eyes. But I never bribe 
+                    <del>
+                        <gap unit="chars" quantity="1" reason="illegible"/>
+                    </del>but do good to my poor neighbors. Alas poor <persName ref="pe0332">M<hi rend="superscript">r</hi> Storer</persName>,
+                    but he is so used to falls, that he never minds them. The Post is remarkably late this day: which fills my mind with rebellions, depositions abdications 
+                    &amp; the Lord knows what. seriously the times have an horrid aspect, &amp; must make honest men dread events.</p>
+                <p>I passed two days with my family at the most hospitable house of <placeName ref="pldb.xml#pl1045">Lleweny</placeName>. Its master 
+                    <persName ref="pe0391">M<hi rend="superscript">r</hi>Fitzmaurice</persName> returned your Complim<hi rend="superscript">ts</hi> 
+                    tenfold. his Bleachery <note type="editorial">Fitzmaurice erected a large bleaching works at Lleweni, Denbighshire, at a cost of £20,000, for the treatment of linen woven on his Irish estate. See http://www.peerage.org/genealogy/lleweni.htm. For 'The bleachery, Lleweni', a watercolour by Moses Griffith, c.1790, see NLW, PB6532.</note>
+                    is an amazing sight: &amp; I hope will turn out to his profit. for his expences have been most amazingly great.</p>
+                <closer>
+                    <salute>adieu
+                        <lb/>most truely y<hi rend="superscript">rs</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant.</persName>
+                    </signed>
+                </closer>
+            </div>
+            <div>
+                <p>
+                    <stamp type="postmark">20 IA</stamp>
+                    <stamp type="handstamp">
+                        <placeName ref="pldb.xml#pl0703">NORTHOP; NORTHOP</placeName>
+                    </stamp>
+                    <address>
+                    <addrLine>
+                            <persName ref="pe0313">Richard Bull esq<hi rend="superscript">r</hi>
+                            </persName> | <placeName ref="pldb.xml#pl0758">Stratton Street | Piccadilly | London</placeName>
+                        </addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

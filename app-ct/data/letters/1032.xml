@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1032">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 34</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1783-12-21"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                    <placeName ref="pldb.xml#pl0758">Stratton Street Piccadilly</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+                <language ident="it">Italian</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>a Letter with two or three inclosures was sent I think last Friday sevenight inclosed to
+                    <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> friend 
+                    <persName ref="pe0384">Sir <choice>
+                            <abbr>H.</abbr>
+                            <expan>Henry Clinton</expan>
+                        </choice>
+                    </persName>,
+                    <persName ref="pe0015">our mentor</persName> being absent &amp; I was unwilling to charge you with a
+                    <del>dou</del>treble letter. your other favor &amp; the second part of the Bank bill came safe on Friday.</p>
+                <p>You will oblige me much by sending <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice>
+                    parcel to <persName ref="pe0237">M<hi rend="superscript">rs</hi> Pennant</persName>'s 
+                    <placeName ref="pldb.xml#pl0798">upper Grosvenour street</placeName>. <persName ref="pe0236">my son</persName>
+                    continues in <placeName ref="pldb.xml#pl0699">town</placeName> some time &amp; will take care of my virtù
+                    Concerns &amp; will certainly pay his respects to you. I got one number of <persName ref="pe0105">M<hi rend="superscript">r</hi> Grose</persName>'s
+                    pres<del>n</del>ent publication. I see that the prints are of the size which will suit me. therefore he will give himself the trouble of picking one for the present my desiderata for 
+                    <placeName ref="pldb.xml#pl0800">Cumberland</placeName> and <placeName ref="pldb.xml#pl1044">Lancashire</placeName>
+                    <note type="editorial">PENNANT EXTRA-ILLUSTRATING CUMBERLAND AND LANCASHIRE [may form part of Scotch tours]: Pennant's extra-illustrated presentation MS (1 vol. small folio) Tours in Durham Yorkshire Hampshire Dorsetshire and Buckinghamshire: From Alston Moor [=Cumberland] to Harrowgate [=County Durham], NLW 12708E. Ex inf. Lucy Peltz.</note>
+                    only I shall be content. I am going on forming a new set of my <bibl type="authorial">
+                        <title ref="bidb.xml#bi0009">scotch tours</title>
+                    </bibl>,<note type="editorial">CHECK WHICH BOOK EXACTLY</note>
+                    which I am impatient to put into half binding.</p>
+                <p>My best <choice>
+                        <abbr>compli<hi rend="superscript">nts</hi>
+                        </abbr>
+                        <expan>compliments</expan>
+                    </choice> to <persName ref="pe0293">M<hi rend="superscript">r</hi> Burrel</persName>.
+                    I thank him for his kind Letter: &amp; am convinced of his good intentions. my last recommend<gap unit="chars" quantity="2" reason="illegible"/>
+                    is lost: for <persName ref="pe0073">Johnson</persName> hearing of my ill success dropt his request to me.
+                    <note type="editorial">Samuel Johnson was impressed with Pennant's Scottish publication, famously retorting to James Boswell, who described Pennant as 'superficial', that 'Here is a man six feet high, and you are angry because he is not seven'. James Boswell, The Journal of a Tour to the Hebrides, with Samuel Johnson (Dublin, 1785), p. 29. This story about Johnson withdrawing his support for Pennant?</note>
+                    I am therefore to beg that <persName ref="pe0293">M<hi rend="superscript">r</hi> Burrel</persName> 
+                    would not strike me out of his books but leave a blank to be filled up hereafter. I <sic>am am</sic>
+                    a Leech to those whom I fix on with a view to serve my neighbors.</p>
+                <closer>
+                    <salute>Dear Sir
+                    <lb/>Yours most faithfully,</salute>
+                    <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>T</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant.</persName>
+                    </signed>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> <choice>
+                            <abbr>Dec<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>December</expan>
+                        </choice> 21. 1783.</dateline>
+                </closer>
+                <postscript>
+                    <p>Be so good as to remind <persName ref="pe0332">M<hi rend="superscript">r</hi> Storer</persName>
+                        ab<gap unit="chars" quantity="3" reason="illegible"/>
+                        <supplied>out</supplied>
+                        <note type="editorial">manuscript torn</note>
+                        the translation of <persName ref="pe0482">Olaffens</persName> <bibl type="authorial">
+                            <title ref="bidb.xml#bi0333">travels in Icela<gap unit="chars" quantity="2" reason="illegible"/>
+                                <supplied>nd</supplied>
+                            </title>
+                        </bibl>
+                        &amp; request him to enquire the Price of <bibl type="authorial">
+                            <title ref="bidb.xml#bi0561">Le voyage picturesque de Sicile</title>
+                        </bibl>.</p>
+                    <p>
+                        <persName ref="pe0236">My son</persName> will knock at <choice>
+                            <abbr>y<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>your</expan>
+                        </choice>
+                        door on Friday at 12: so I hope he will be let in.</p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <stamp type="postmark">2<gap unit="chars" quantity="1" reason="illegoble"/> DE</stamp>
+                    <stamp type="handstamp">
+                        <placeName ref="pldb.xml#pl0703">NORTHOP</placeName>
+                    </stamp>
+                    <address>
+                    <addrLine>
+                            <persName ref="pe0313">Richard Bull <choice>
+                                    <abbr>esq<hi rend="superscript">r</hi>
+                                    </abbr>
+                                    <expan>esquire</expan>
+                                </choice>
+                            </persName> | <placeName ref="pldb.xml#pl0758">Stratton Street Piccadilly | London</placeName>
+                        </addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

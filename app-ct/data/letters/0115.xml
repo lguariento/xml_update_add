@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0115">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, thanking him for letters of
+                    introduction</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>24</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1772-05-28"/>
+                    <placeName ref="pldb.xml#pl0253">Carlisle</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+
+                <p>all y<hi rend="superscript">r</hi> pacquets are here &amp; lay me under fresh
+                    obligations. I only lament the want of Letters to the <placeName ref="pldb.xml#pl0586">Leadhills</placeName>. my best complim<hi rend="superscript">ts</hi> &amp; thanks to <persName ref="pe0017">M<hi rend="superscript">r</hi> Clerk.</persName> let me beg more
+                    Letters to the S. E end of <placeName ref="pldb.xml#pl0223">L.
+                        Lomond</placeName> also to the east side to meet me at <placeName ref="pldb.xml#pl0229">Glasgow</placeName> the 7<hi rend="superscript">th</hi> or 8<hi rend="superscript">th</hi> of next month. I hope <persName ref="pe0023">M<hi rend="superscript">r</hi> Stuart</persName> will
+                    not disappoint me: &amp; a good free draughtsman got. excuse me for not
+                    answering <persName ref="pe0017">M<hi rend="superscript">r</hi>
+                        Clerke’s</persName> Letter. I am partly uncertain whether he is in town. my
+                    best compliments to <persName ref="pe0020">M<hi rend="superscript">r</hi> Oliphant.</persName>
+                </p>
+                <closer>
+                    <salute>y<hi rend="superscript">rs</hi> in much
+                            haste</salute>
+                    <signed>
+                        <persName ref="pe0232">Tho.
+                            Pennant</persName>
+                    </signed>
+                    <add place="margin">
+                        <del rend="overstrike">8 43</del>
+                    </add>
+                </closer>
+
+
+                <dateline>
+                    <placeName ref="pldb.xml#pl0253">Carlisle</placeName> May 28<hi rend="superscript">th</hi> 1772.</dateline>
+            </div>
+        </body>
+    </text>
+</TEI>

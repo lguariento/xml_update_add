@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0116">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, describing his tour of the Hebrides so far
+                    and directing correspondence to Taymouth</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>25-26</locus>
+                        </ab>
+                    </msContents>
+                    <additional>
+                        <p>Both the letter dated 16<hi rend="superscript">th</hi> July and Pennant's
+                            later note from Dunvegan are written on a single sheet, followed by the
+                            annex containing Pennant's itinerary, and are treated here as one item
+                            of correspondence.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1772-07-16"/>
+                    <placeName ref="pldb.xml#pl0656">Castle Moil, Kyleakin</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <dateline>July 16<hi rend="superscript">th</hi> 1772.</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>you have the strongest clame to my attention yet such has been the fulness of my
+                    employ, that be assured till I found myself weather bound under <placeName ref="pldb.xml#pl0656">M<hi rend="superscript">c</hi> Innon’s castle in
+                        Skie</placeName> I have not had a moments Leisure. Till last Saturday the
+                    season has been uncommonly fine &amp; favored every pursuit. since then, I have
+                    been assailed with Tempests &amp; rains: but hoping for better days keep up my
+                    spirits. I must first acknowledge the great politeness I received from every
+                    islander, then say that my acquisition in the knowledge of the oeconomy of the
+                    countries &amp; of their fossil productions are very considerable: <persName ref="pe0139">M<hi rend="superscript">r</hi> Lightfoot</persName>
+                    has made amazing progress among the Plants, &amp; <persName ref="pe0014">my Servant-painter</persName> been very happy in
+                    taking accurate figures not only of them but of all ruins, tombs &amp;
+                    antiquities that occur’d, so that some farther illustration of the country may
+                    be expected from our voyages. as it is impossible to visit all the isles, I mean
+                    to give up some for sake of completing the Tour of the mainland so purpose after
+                    visiting <placeName ref="pldb.xml#pl0712">Lewis</placeName> to sail directly for
+                    some port a little S. of <placeName ref="pldb.xml#pl0713">cape wrath</placeName>
+                    &amp; then visit all the remarkable Loughs between it &amp; <placeName ref="pldb.xml#pl0266">Ardmady</placeName>.<note type="editorial">Pennant was
+                        unable to visit Lewis during his voyage due to an outbreak of disease in
+                        Stornoway. He writes: 'It was my intention to have steered for that port,
+                        but was dissuaded from it by the accounts I had from the gentlemen of <hi rend="italic">Skie</hi>, that a putrid fever raged there with great
+                        violence.' <bibl type="editorial">Pennant, <title ref="bi0008">
+                                <hi rend="italic">Tour in Scotland 1772</hi>
+                            </title> (Chester:
+                            1774), <biblScope unit="page">p.362</biblScope>.</bibl>
+                    </note> as I wish
+                    &amp; entreat all possible remarks on what I have seen; I annex my Itinerary to
+                    this place, hoping you may be able to collect materials from gentlemen who have
+                    preceded me.</p>
+                <p>Be so good as to make my best complim<hi rend="superscript">ts</hi> to <persName ref="pe0019">M<hi rend="superscript">r</hi> Menzies</persName>
+                    &amp; <persName ref="pe0017">M<hi rend="superscript">r</hi>
+                        Clarke</persName> &amp; to every enquiring friend:</p>
+                <closer>
+                    <salute>&amp; think me, Dear Sir, <lb/>your obliged &amp; <lb/>most obedient
+                            Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Thomas
+                    Pennant</persName>
+                    </signed>
+                </closer>
+            </div>
+            <div type="letter">
+                <dateline>
+                    <placeName ref="pldb.xml#pl0665">Dunvegan</placeName> July 21<hi rend="superscript">st</hi>.</dateline>
+
+                <p>I met y<hi rend="superscript">r</hi> favor here. have only time to say that I
+                    shall thankfully receive any Instructions you may have, at <persName ref="pe0036">Ld Breadalbane’s</persName> at <placeName ref="pldb.xml#pl0101">Taymouth</placeName>.</p>
+                <p>I wish to pay the Lad’s master his expences for coming to at <placeName ref="pldb.xml#pl0229">Glasgow</placeName>, but he ought never to have come
+                    as his merit was so small.</p>
+                <p>Be so good as to present my best compliments to <persName ref="pe0022">D<hi rend="superscript">r</hi> Ramsay</persName> &amp; let him know I
+                    will answer his kind Letter when I reach <persName ref="pldb.xml#pl0266">Ardmady</persName>.</p>
+            </div>
+
+            <div type="enclosure">
+                <list>
+                    <item>
+                        <placeName ref="pldb.xml#pl0603">Greenock</placeName>
+                    </item>
+                    <item>
+                        <placeName ref="pldb.xml#pl0714">Bute</placeName>
+                    </item>
+                    <item>
+                        <placeName ref="pldb.xml#pl0222">The Tarbat</placeName>
+                    </item>
+                    <item>
+                        <placeName ref="pldb.xml#pl0719">Arran</placeName>
+                    </item>
+                    <item>
+                        <placeName ref="pldb.xml#pl0632">Ailsa rock</placeName>
+                    </item>
+                    <item>
+                        <placeName ref="pldb.xml#pl0633">Cambeltown</placeName>
+                    </item>
+                    <item>
+                        <placeName ref="pldb.xml#pl0636">Gigha</placeName>
+                    </item>
+                    <item>
+                        <placeName ref="pldb.xml#pl0716">Jurah</placeName>
+                    </item>
+                    <item>
+                        <placeName ref="pldb.xml#pl0717">Ilay</placeName>
+                    </item>
+                    <item>
+                        <placeName ref="pldb.xml#pl0647">Oransay</placeName>
+                    </item>
+                    <item>
+                        <placeName ref="pldb.xml#pl0649">Collansa</placeName>
+                    </item>
+                    <item>
+                        <placeName ref="pldb.xml#pl0651">Y Columkill</placeName>
+                    </item>
+                    <item>
+                        <placeName ref="pldb.xml#pl0653">Cannay</placeName>
+                    </item>
+                    <item>
+                        <placeName ref="pldb.xml#pl0718">Rum</placeName>
+                    </item>
+                    <item>
+                        <placeName ref="pldb.xml#pl0715">Skie</placeName>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

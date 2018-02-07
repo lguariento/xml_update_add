@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1028">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 31</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1783-11-02"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> <choice>
+                            <abbr>Nov<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>November</expan>
+                        </choice> 2<hi rend="superscript">d</hi>. 1783.</dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I hope this will meet you safely returned from your terrestrial paradise – the <placeName ref="pldb.xml#pl1020">isle of wight</placeName>.
+                    you would have certainly mispent your time at <placeName ref="pldb.xml#pl0002">Chester</placeName>
+                    numerous as the meeting was &amp; well conducted, the music. <note type="editorial">For this meeting at Chester on 16 September 1783 see no. 30.</note>
+                    <persName ref="pe0238">M<hi rend="superscript">rs</hi> Pennant</persName> &amp; I
+                    have this summer been considerable ramblers in the visiting way: we are now settled for the winter. 
+                    &amp; I hope to fix comfortably to my studies during the cold season. But I want a 
+                    <persName ref="pe0313">M<hi rend="superscript">r</hi> Bull</persName> to stimulate, to support &amp; council me – for all our amusements are to my few neighbors, foolishness. at this time I want everything that can divert my mind from attention to a heavy loss a near 
+                    <del>f</del>relation &amp; true friend <persName ref="pe0480">M<hi rend="superscript">r</hi> Mytton of Halston</persName>
+                    <note type="editorial">John Mytton of Halston (1737–83), son of John Mytton and Mary-Elizabeth, daughter of Henry Davenport of Davenport House, Shropshire. He married Rebecca, daughter of Robert Piggott, Chetwynd. Burke, II, p. 522.</note>
+                    who in the vigor of life was last week snatched from <gap unit="chars" quantity="7" reason="illegible"/> us.
+                    The goodness of his heart, the finess of his understanding &amp; the elegance of his taste was such, as to make me feel most sensibly his loss. I may say that I have lost a province for 
+                    <placeName ref="pldb.xml#pl1021">Shropshire</placeName> my maternal country is now become a mere blank to me: but too much of this funebrial subject.</p>
+                <p>I have begun by <persName ref="pe0014">moses</persName>'s help on the 
+                    <bibl type="authorial">
+                        <title ref="bidb.xml#bi0014">last part of the welsh Tour</title>
+                    </bibl>. Your copy shall
+                    by no means be neglected but you must wait with patience; especially when I assure you that you are first in my mind. I have also begun to illustrate a new copy of 
+                    <bibl type="authorial">
+                        <title ref="bidb.xml#bi0001 bidb.xml#bi0009 bidb.xml#bi0010">scotch Tours</title>
+                    </bibl>,
+                    therefore shall be obliged to you for any trumpery. I hear that <persName ref="pe0431">M<hi rend="superscript">r</hi>Thane</persName>
+                    has done great variety of prints therefore shall be glad of his list. 
+                    <hi rend="underline">I understand that the heads &amp; <rs type="art" ref="ardb.xml#ar0059">tombs to <persName ref="pe0481">Rapin</persName>
+                        </rs> 
+                        <note type="editorial">Paul de Rapin de Thoyras [Rapin] (1661–1725), army officer and historian, who published eight volumes of a history of England in 1723 followed by a further two in 1725. ODNB.</note> 
+                        <choice>
+                            <abbr>oct<hi rend="superscript">vo</hi>
+                            </abbr>
+                            <expan>octavo</expan>
+                        </choice> are to be </hi>
+                    had. I shall be glad if you would enquire, &amp; will <sic>chearfully</sic> pay what is reasonable. in my next you shall have 
+                    <rs type="art" ref="ardb.xml#ar0057">
+                        <persName ref="pe0014">Moses Griffith</persName>'s head.</rs>
+                    drawn by himself as you requested. <note type="editorial">The portrait promised was probably a copy of a watercolour self-portrait of Moses Griffith, c. 1770. See Pennant's extra-illustrated copy of A Literary life (NLW 12706E).</note>
+                </p>
+                <p>I suppose <persName ref="pe0332">M<hi rend="superscript">r</hi> Storer</persName> has left <placeName ref="pldb.xml#pl0775">England</placeName>.
+                    <note type="editorial">Storer was appointed secretary of the embassy at Paris on 21 September 1783 and made minister-plenipotentiary on 13 December.</note>
+                    if you write to him be so good as to request him to get the <choice>
+                        <abbr>fr.</abbr>
+                        <expan>french</expan>
+                    </choice> translation
+                    of <persName ref="pe0482">
+                        <sic>Olaffen</sic>
+                    </persName> <bibl type="authorial">
+                        <title ref="bidb.xml#bi0333">voyage to Iceland</title>
+                    </bibl>
+                    <note type="editorial">A French translation of Olafsen's work was printed at Sorø, Denmark, in 1772, under the title Voyage d’Islande LINK TO WORKS LIST: Olafsen, Voyage d'Islande (Sorø, 1772)</note>
+                    a book I cannot do without. with you I lament the times: &amp; the fall of the stocks <note type="editorial">For a previous reference to falls in the stock market, see no. 30.</note>
+                    having more in than I can afford to lose.</p>
+                <closer>
+                    <salute>I am Dear Sir
+                        <lb/>
+                        <choice>
+                            <abbr>Y<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>Your</expan>
+                        </choice> very faithful
+                        <lb/>humble <choice>
+                            <abbr>Serv<hi rend="superscript">t</hi>
+                            </abbr>
+                            <expan>Servant</expan>
+                        </choice>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>Tho.</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant.</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Be so good as to <sic>bearer</sic> of the inclosed <note type="editorial">The recipient of the enclosure is not named.</note>
+                        &amp; to the best of <choice>
+                            <abbr>y<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>your</expan>
+                        </choice> power,
+                        countenance my assurance.
+                        <lb/>The Pig of Lead <note type="editorial">See A tour in Wales MDCCLXX (London: Henry Hughes, 1778), I, pp. 55–7, for a discussion of 'Roman Pigs of Lead'.</note> in my next</p>
+                </postscript>            
+            </div>
+        </body>
+    </text>
+</TEI>

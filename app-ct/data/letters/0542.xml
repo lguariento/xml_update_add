@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0542">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>George Paton to Thomas Pennant</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP326</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>10</locus>
+                        </ab>
+                    </msContents>
+                    <physDesc>
+                        <additions>
+                            <p>The document bears the following note in pencil:</p>
+                            <p>Put by
+                                Pennant <lb/>into "Voyage to the Pacific Ocean</p>
+                        </additions>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0228">George Paton</persName>
+                    <date when="1787-10-09"/>
+                    <placeName ref="pl0076">Edinburgh</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I should have answered your Favours of 17<hi rend="superscript">th.</hi> Ultimo
+                    sooner being in expectation of hearing from <persName ref="pe0156">M<hi rend="superscript">r.</hi> Low</persName>, which has not happened, so
+                    postponed it no longer: since no better can be gained for <bibl type="authorial">
+                        <title ref="bi0058">his M.S.</title>
+                    </bibl> I intirely submit to your
+                    Management &amp; do suppose the Compiler must <sic>acquiece</sic> since proper
+                    Authority was consigned to you, it shall give me much pleasure to hear <add place="above">soon</add> of this Work going to the Press and then it's
+                    Publication; what Copies are laid aside for <persName ref="pe0156">M<hi rend="superscript">r.</hi> Low</persName> I shall use my best Influence
+                    to promote the Sale of for his Advantage: doubting not but he stands in need of
+                    Favour &amp;<hi rend="superscript">c.</hi>
+                </p>
+                <p>Our <sic>Cropt</sic> is luxuriant, some of it very unripe yet, but the best of it
+                    cut down and as the weather has been very favourable mostly got into the
+                    Barn-yard; so that we have a similar prospect of Plenty as prevails with you,
+                    Little or no Fruit this Year.</p>
+                <p>The Account you give of the <bibl type="authorial">
+                        <title ref="bi0580">American
+                            Ph. Transactions</title>
+                    </bibl> is agreeable, heartily do I wish you
+                    every valuable communication<del rend="oversrtike">s</del> from any Quarter to
+                    augment your <hi rend="underline">
+                        <placeName ref="pl1175">Arctic</placeName>
+                        Inquiries</hi>, a new Edition of this Zoology may, I hope, be at no great
+                        distance.<note type="editorial">Probably a reference to Pennant's 1787 <bibl type="editorial">
+                            <title ref="bi0021">
+                                <hi rend="italic">Supplement to the
+                                Arctic Zoology</hi>
+                            </title>
+                        </bibl> — the first volume of
+                        <bibl type="editorial">
+                            <title ref="bi0022">
+                                <hi rend="italic">Arctic Zoology</hi>
+                            </title>
+                        </bibl> was published in 1784.
+                    </note>
+                </p>
+                <p>I heartily wish the present bustle of impending War to soon subside, the
+                    Hollanders have no great reason to boast of their former Conduct from the
+                    consequences they presently feel, it is my hope &amp; wish that <persName ref="pe0236">your Son</persName> may find a peacable satisfactory excursion on
+                    <placeName ref="pl1176">the Continent</placeName>, without the smallest
+                    interruption to his Inquiries, which when performed may his Return to you
+                    increase your happyness &amp; Pleasure.</p>
+                <p>I am in hopes of picking up some Anecdotes of our late misfortunate
+                    Circumnavigator <persName ref="pe0045">Cap<hi rend="superscript">t.</hi>
+                        Cook</persName> of ever estimable memory, <persName ref="pe0574">his Father</persName> was a Native of
+                    <placeName ref="pl0705">Scotland</placeName>, born at <placeName ref="pl1177">Ednam</placeName> in the <sic>Nighbourhood</sic> of <placeName ref="pl0415">Kelso</placeName>, more particulars I am in hopes of shortly, understand
+                    <persName ref="pe0057">his Widow</persName> enjoys a comfortable Annuity.</p>
+                <p>Wishing you health &amp; every prosperity</p>
+                <closer>
+                    <salute>I am <lb/>D<hi rend="superscript">r</hi> Sir <lb/>Your most obed<hi rend="superscript">t.</hi> Serv<hi rend="superscript">t.</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0228">GPaton</persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pl0076">Edinburgh</placeName> 9 October <lb/>1784.</dateline>
+            </div>
+            <div>
+
+                <p>
+                    <address>
+                        <addrLine>Thomas Pennant Esq<hi rend="superscript">r.</hi>
+                        </addrLine>
+                        <addrLine>Downing</addrLine>
+                    </address>
+                </p>
+
+            </div>
+        </body>
+    </text>
+</TEI>

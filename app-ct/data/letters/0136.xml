@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0136">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, requesting materials and information on
+                    Scottish sites</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>57</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-07-09"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>I am obliged to you Dear Sir for the various communications in y<hi rend="superscript">r</hi> favor of the 18<hi rend="superscript">th</hi>
+                    past. I am now confirmed in what I always thought <rs type="art" ref="ar0117">the picture</rs> at <placeName ref="pl0724">Dunmore Lodgings</placeName>
+                    was not <persName ref="pe0595">vandycks</persName>: as you may see by my mark of
+                    doubt? p.51.<note type="editorial">See Pennant, <bibl type="editorial">
+                            <title ref="bi0001">
+                                <hi rend="italic">Tour in Scotland 1769</hi>
+                            </title>
+                            (Chester: 1771), <biblScope unit="page">p.51</biblScope>
+                        </bibl>. In
+                        subsequent editions Pennant credits the painting to <persName ref="pe0596">Daniel Mytens</persName>: see <bibl type="editorial">
+                            <title ref="bi0004">
+                                <hi rend="italic">Tour in Scotland 1769</hi>
+                            </title>,
+                            3rd edn. (Warrington: 1774), <biblScope unit="page">p.66</biblScope>.</bibl>
+                    </note>
+                </p>
+                <p>has any one the inscriptions in <placeName ref="pl1185">Douglas
+                        church</placeName>, or could you procure them.<note type="editorial">See the
+                        description of the church and engraving of the earl of Douglas's tomb in
+                            <bibl type="editorial">
+                            <title ref="bi0008">
+                                <hi rend="italic">Pennant,
+                                    Tour in Scotland 1772 Part I</hi>
+                            </title> (Chester: 1774), Plate
+                            XI, <biblScope unit="page">pp.134-35</biblScope>
+                        </bibl>.</note>
+                </p>
+                <p>I thank you for y<hi rend="superscript">r</hi> intentions ab<hi rend="superscript">t</hi>
+                    <persName ref="pe0597">Urqhart</persName>: but I have his strange work:<note type="editorial">Probably a reference to Thomas Urquhart's <bibl type="editorial">
+                            <title ref="bi0587">
+                                <hi rend="italic">Ekskubalauron</hi>, alternatively referred to by part of its
+                                subtitle: <hi rend="italic">A Vindication of the Scots
+                                Nation</hi>
+                            </title> (London: 1652)</bibl>. The work includes an
+                        account of the life of <persName ref="pe0060">'The Admirable' James
+                            Crichton</persName>, and is cited as a source in Pennant's account of
+                        him: see <bibl type="editorial">
+                            <title ref="bi0004">
+                                <hi rend="italic">Tour
+                                    in Scotland 1769</hi>
+                            </title>, 3rd edn. (Warrington: 1774),
+                            Appendix III., <biblScope unit="page">p.314</biblScope>
+                        </bibl>.</note>
+                    But <bibl type="authorial">
+                        <title ref="bi0080">Moyse’s memoirs</title>
+                    </bibl>
+                    would be of much use.</p>
+                <p>I have a M.S. of <persName ref="pe0265">M<hi rend="superscript">r</hi>
+                        Schaws</persName> relating to <placeName ref="pl0145">Elgin</placeName> but
+                    it consists of only pages. I shall print it with a plate.<note type="editorial">Pennant is probably referring to part of the work later published as <bibl type="editorial">
+                            <title ref="bi0081">
+                                <hi rend="superscript">The history
+                                    of the province of Moray</hi>
+                            </title> (Edinburgh; London:
+                            1775)</bibl>. Pennant presented a manuscript by Shaw 'of the
+                        Ecclesiastical antiquities of Murray' to the Society of Antiquaries of
+                        London (SAL/MS/32): see his covering letter addressed to <persName ref="pe0598">Daines Barrington</persName>, dated March 4<hi rend="superscript">th</hi> 1773. Shaw contributed an account 'Of Elgin
+                        and the Shire of Murray' to Pennant's <bibl type="editorial">
+                            <title ref="bi0004">
+                                <hi rend="italic">Tour in Scotland 1769</hi>
+                            </title>: see 3rd edn.
+                            (Warrington: 1769), Appendix II., <biblScope unit="page">pp.287-312</biblScope>
+                        </bibl>.</note>
+                </p>
+                <p>I think <persName ref="pe0190">M<hi rend="superscript">r</hi>
+                        Donaldson</persName> is the fittest man to print <bibl type="authorial">
+                        <title ref="bi0223">y<hi rend="superscript">r</hi> Inveraray friends
+                            tract</title>
+                    </bibl>: I like <persName ref="pe0190">M<hi rend="superscript">r</hi> Donaldsons</persName> spirit; though not his
+                    puffing me. It would sell.</p>
+                <p>I am glad to hear <persName ref="pe0156">M<hi rend="superscript">r</hi>
+                        Low</persName> goes on so well. it shall be my business to get <bibl type="authorial">
+                        <title ref="bi0058">his work</title>
+                    </bibl> printed in a
+                    handsome way.</p>
+                <p>When in <placeName ref="pl0699">town</placeName> last winter the admiralty
+                    permitted me to correct <bibl type="authorial">
+                        <title ref="bi0209">my
+                        map</title>
+                    </bibl> by <persName ref="pe0159">M<hi rend="superscript">r</hi>
+                        Mackenzie’s</persName>
+                    <bibl type="authorial">
+                        <title ref="bi0247">charts</title>
+                    </bibl>.</p>
+                <p>Be so good as to forward the inclosed. if <persName ref="pe0022">D<hi rend="superscript">r</hi> Ramsay</persName> is gone to <placeName ref="pl0101">Taymouth</placeName> pray fill the direction &amp; send it by
+                    post.</p>
+                <closer>I am Dear Sir <lb/>Y<hi rend="superscript">r</hi> most obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>July 9<hi rend="superscript">th</hi> 1773 </dateline>
+
+                <postscript>
+                    <p>Not a syllable about <persName ref="pe0157">M<hi rend="superscript">r</hi>
+                            Govan’s</persName> parcel.</p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>M<hi rend="superscript">r</hi> Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+                <p>
+                    <hi rend="superscript">Free</hi>
+                    <persName ref="pe0291">
+                        <unclear reason="illegible">RN</unclear>Bootle</persName>
+                </p>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0703">NORTHOP</placeName>
+                    </stamp>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0703">NORTHOP</placeName>
+                    </stamp>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

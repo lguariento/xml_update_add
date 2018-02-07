@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1009">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 9</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1780-09-12"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                    <placeName ref="pldb.xml#pl0759">Stratton Street Piccadilly</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="enclosed">
+               <note type="editorial">This may be in Ingleby's hand. The views listed do not
+                    feature in the NLW Ingleby Collection, where the items are dated to the 1790s,
+                    but are clearly intended for Bull's extra-illustrated A Tour in Wales</note>
+                <table>
+                    <row role="data">
+
+                        <cell role="data">
+                            <rs type="art" ref="ardb.xml#ar0019 ardb.xml#ar0020">2
+                                Views of <placeName ref="pldb.xml#pl0788">Hawarden
+                                    Castle</placeName>
+                            </rs>
+                           <note type="editorial">A watercolour painting signed by Moses Griffith
+                                of 'Hawarden Castle' is included in NLW, Pennant's extra-illustrated
+                                Tour in Wales, ONE; another, unsigned, watercolour appears in NLW,
+                                Pennant's extra-illustrated Tour in Wales, SEVEN, p. 97.</note> at
+                                10<hi rend="superscript">£</hi>.. 6<hi rend="superscript">s</hi>
+                            each – – –</cell>
+                        <cell role="data">1.1.0</cell>
+                    </row>
+                    <row role="data">
+
+                        <cell role="data">1 <rs type="art" ref="ardb.xml#ar0021">Ditto of <placeName ref="pldb.xml#pl0792">Wrexham</placeName> Church</rs>
+                           <note type="editorial">For a watercolour painting of 'Wrexham Town &amp;
+                                Church', see NLW, Pennant, extra-illustrated Tour in Wales, TWO (2nd
+                                edn., 1784).</note> – – – – – –</cell>
+                        <cell role="data">0.10.6</cell>
+
+                    </row>
+                    <row role="data">
+
+                        <cell role="data">1 <rs type="art" ref="ardb.xml#ar0022">Ditto of <placeName ref="pldb.xml#pl0793">Llangollen</placeName> Bridge</rs>
+                           <note type="editorial">A watercolour painting entitled 'Llangollen
+                                Bridge and Town' is included in NLW, Pennant, extra-illustrated Tour
+                                in Wales, TWO (2nd edn., 1784). The bridge is mentioned in the first
+                                edn., A tour in Wales (1778), p. 279.</note> – – – – – – –</cell>
+                        <cell role="data">0.10.6</cell>
+
+                    </row>
+                    <row role="data">
+
+                        <cell role="data">1 <rs type="art" ref="ardb.xml#ar0023">
+                                <choice>
+                                    <abbr>D<hi rend="superscript">o</hi>
+                                    </abbr>
+                                    <expan>Ditto</expan>
+                                </choice>
+                                <placeName ref="pldb.xml#pl0794">Castle Dinas Bran</placeName>
+                            </rs>
+                           <note type="editorial">A watercolour painting of Castell Dinas Brân
+                                appears in NLW, Pennant, extra-illustrated Tour in Wales, TWO (2nd
+                                edn., 1784).</note> – – – – – – –</cell>
+                        <cell role="data">0.10.6</cell>
+
+                    </row>
+                    <row role="data">
+
+                        <cell role="data">1 <rs type="art" ref="ardb.xml#ar0024">
+                                <choice>
+                                    <abbr>D<hi rend="superscript">o</hi>
+                                    </abbr>
+                                    <expan>Ditto</expan>
+                                </choice> of Tower<note type="editorial">Two watercolour drawings
+                                    of Tower are included in NLW, Pennant, extra-illustrated Tour in
+                                    Wales, TWO (2nd edn., 1784).</note> – – – – – – –</rs>
+                        </cell>
+                        <cell role="data">0.10.6</cell>
+
+                    </row>
+                    <row role="data">
+
+                        <cell role="data">1 <rs type="art" ref="ardb.xml#ar0025">
+                                <choice>
+                                    <abbr>D<hi rend="superscript">o</hi>
+                                    </abbr>
+                                    <expan>Ditto</expan>
+                                </choice> of <placeName ref="pldb.xml#pl0795">Eulo
+                                    Castle</placeName>
+                            </rs>
+                           <note type="editorial">For a watercolour of Eulo Castle, see NLW,
+                                Pennant, extra-illustrated Tour in Wales, SEVEN (1st edn., 1778),
+                                and ONE (2nd edn., 1784).</note> – – – – – – –</cell>
+                        <cell role="data">0.10.6</cell>
+
+                    </row>
+                    <row role="data">
+
+                        <cell role="data">81 <rs type="art" ref="ardb.xml#ar0026">Drawings of Coats
+                                of Arms &amp; small Views</rs>
+                           <note type="editorial">Small drawings of the arms of prominent north
+                                Wales families are prevalent throughout Pennant's extra-illustrated
+                                copies of his Tour in Wales. NLW.</note> at 1<hi rend="superscript">£</hi>. 2<hi rend="superscript">s</hi> each.</cell>
+                        <cell role="data">4.14.6 </cell>
+
+                    </row>
+                    <row>
+                        <cell> </cell>
+                        <cell>8.8.0</cell>
+                    </row>
+                </table>
+
+            </div>
+            <div type="letter">
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>above is a copy of <persName ref="pe0324">Ingleby</persName>'s Bill
+                    which shall be sent with its receit as soon as I can get a frank. I hope you
+                    will approve it; but I do not think it unreasonable as he assures me he had two
+                    months hard work. copies of any other drawings of mine will be freely at <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> service. Please to pay the 8 guineas <add place="above">on my
+                        account</add> into <persName ref="pe0329">Mess<hi rend="superscript">rs</hi> Gosling</persName>'s hands; &amp; favor me
+                    with their receit at any time. I rejoice at <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> freedom from <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice>
+                    <sic>parlementary</sic> labors.<note type="editorial">Richard Bull left
+                        Parliament in 1780. LINK TO FOOTNOTE IN no. 7</note> hard indeed is the
+                    service of an honest man in these days when so much is to <sic>reprehended
+                    </sic> on each side. The critical situation we are in gives me many an anxious
+                    moment.<note type="editorial">Britain was at war with the Americans, whose
+                        numbers were boosted in July 1780 by the arrival of a contingent of French
+                        soldiers.</note> I heartily wish you a good journey to <placeName ref="pldb.xml#pl0796">Bath</placeName>: on <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> return I shall make free to trouble you with inspecting the binding of
+                    four books as you so kindly offer. Perhaps by that time there may be some news
+                    of the remainder of the letter press of the swiss views.<note type="editorial">LINK TO FOOTNOTE in no. 8 on 'swiss views'</note>
+                </p>
+                <closer>
+                    <salute>I am, Dear Sir, <lb/>
+                        <choice>
+                        <abbr>Y<hi rend="superscript">r</hi>
+                            </abbr>
+                        <expan>Your</expan>
+                    </choice> obliged &amp; faithful <choice>
+                        <abbr>H. Serv<hi rend="superscript">t</hi>
+                            </abbr>
+                        <expan>Humble Servant</expan>
+                    </choice>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>Tho.</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant</persName>
+                    </signed>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                        <choice>
+                            <abbr>Sept<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>September</expan>
+                        </choice> 12<hi rend="superscript">th</hi>. 1780.</dateline>
+                </closer>
+            </div>
+            <div>
+                <p>
+                    <stamp type="postmark">15 SE</stamp>
+                    <stamp type="handstamp">
+                        <placeName ref="pldb.xml#pl0703">NORTHOP</placeName>
+                    </stamp>
+                </p>
+                <p>
+                    <address>
+                        <addrLine>To | Richard Bull <choice>
+                                <abbr>esq<hi rend="superscript">r</hi>
+                                </abbr>
+                                <expan>esquire</expan>
+                            </choice> | <placeName ref="pldb.xml#pl0759">Stratton street Piccadilly
+                                | London</placeName>
+                        </addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

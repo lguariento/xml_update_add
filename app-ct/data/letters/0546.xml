@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0546">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to John Murray, 3rd Duke of Atholl</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement/>
+                        <repository>Blair Atholl Castle Archives</repository>
+                        <idno>49 (8)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>107</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1769-09-14"/>
+                    <placeName ref="pl0076">Edinburgh</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0087">John Murray, 3<hi rend="superscript">rd</hi> Duke of
+                        Atholl</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pl0076">Edinburgh</placeName> Sept 14<hi rend="superscript">th</hi> 1769</dateline>
+                <opener>
+                    <salute>My Lord</salute>
+                </opener>
+                <p>Permit me to return my humble thanks for the honor you did me at <placeName ref="pl0110">Athol house</placeName>: &amp; I beg leave to assure your Grace
+                    I should be extremely happy of an opportunity of shewing my gratitude in any
+                    shape. If my Lord you are forming a collection of minerals, I may possibly add a
+                    few from my own Country that are not common.</p>
+                <p>I have considered what your Grace mentioned in respect to the engraving reduced
+                    plates of <bibl type="authorial">
+                        <title ref="bi0017">the great
+                        Zoology</title>
+                    </bibl>. I allow that a portable Zoology is much to be
+                    desired; but fear the censure of the world for publishing a lesser edition after
+                    putting it to the expence of a larger.<note type="editorial">Despite these
+                        misgivings, Pennant did produce a 'portable' octavo edition of his <bibl type="authorial">
+                            <title ref="bi0018">
+                                <hi rend="italic">British
+                                    Zoology</hi>
+                            </title>
+                        </bibl>, the title page of which gives a
+                        publication date of 1768. Pennant may be referring in this letter to the
+                        notion of publishing a more compact volume that would reproduce the full set
+                        of <persName ref="pe0576">Peter Paillou's</persName> 107 plates from the
+                        1766 edition of <bibl type="editorial">
+                            <title ref="bi0017">
+                                <hi rend="italic">The British Zoology</hi>
+                            </title>
+                        </bibl>. No such project was
+                        ever undertaken.</note> all I can propose is that I w<hi rend="superscript">d</hi> join with any Gentleman for <rs type="art" ref="ar0093">engraving
+                        some of the most capital birds of the great plates</rs>; not for sale but to
+                    give away to friends. not but it would be prudent to take the more lucrative
+                    method, for the Germans are now <bibl type="authorial">
+                        <title ref="bi0234">copying &amp; translating the great
+                            work</title>
+                    </bibl>. but as I dedicated that to a charity, I must do
+                    nothing that may carry reflections with it.</p>
+                <p>If your Grace honors me with the drawing of the Lizard please to inclose it to me
+                    at <placeName ref="pl0001">Downing Flintshire</placeName>.</p>
+                <p>I take the Liberty of presenting my best respects to <persName ref="pe0577">the
+                        Dutchess</persName> &amp; <persName ref="pe0578">Captain
+                    Murray</persName>
+                </p>
+                <closer>
+                    <salute>&amp; am my Lord <lb/>Your Grace's <lb/>most obliged <lb/>&amp;
+                            obed<hi rend="superscript">t</hi> humble Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho.
+                        Pennant</persName>
+                    </signed>
+                    <dateline>
+                        <placeName ref="pl0076">Edinburgh</placeName> Sept<hi rend="superscript">r</hi> 15<hi rend="superscript">th</hi>
+                        1769.</dateline>
+                </closer>
+            </div>
+            <div>
+                <p>
+                    <handShift/>from <persName ref="pe0232">M<hi rend="superscript">r.</hi> Th<hi rend="superscript">s.</hi> Penant</persName>
+                </p>
+                <p>
+                    <placeName ref="pl0076">Edinburgh</placeName> 16<hi rend="superscript">th.</hi>
+                        Sept<hi rend="superscript">r.</hi>
+                </p>
+                <p>1769</p>
+            </div>
+        </body>
+    </text>
+</TEI>

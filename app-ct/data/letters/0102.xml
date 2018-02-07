@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0102">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Thomas Pennant to George Paton, requesting rare birds</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>Edinburgh</settlement>
+            <repository>National Library of Scotland</repository>
+            <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+          </msIdentifier>
+          <msContents>
+            <ab>
+                            <locus>3</locus>
+                        </ab>
+          </msContents>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <correspDesc>
+        <correspAction type="sent">
+          <persName ref="pe0232">Thomas Pennant</persName>
+          <date when="1771-03-03"/>
+          <placeName ref="pldb.xml#pl0001">Downing</placeName>
+        </correspAction>
+        <correspAction type="received">
+          <persName ref="pe0228">George Paton</persName>
+          <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+        </correspAction>
+      </correspDesc>
+      <langUsage> 
+        <language ident="en">English</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <opener>
+          <salute>Sir</salute>
+        </opener>
+        <p>As I shall be in <placeName ref="pldb.xml#pl0699">London</placeName> the 10<hi rend="superscript">th</hi> of next month &amp; stay there till the same day in the
+          following, I shall be very happy in having a sight of any rare birds you will intrust me
+          with, by sending them to <persName ref="pe0026">M<hi rend="superscript">r</hi>
+            White the Bookseller</persName> &amp; they shall be speedily returned. I offer at the
+          same time my best services in town</p>
+        <closer>
+                    <salute>&amp; am Sir <lb/>y<hi rend="superscript">r</hi> obliged <lb/>humble Serv<hi rend="superscript">t</hi>
+                    </salute>
+          <lb/>
+                    <signed>
+                        <persName ref="pe0232">T Pennant</persName>
+                    </signed>
+                </closer>
+        <dateline>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName> March 3<hi rend="superscript">d</hi> 1771.</dateline>
+        <postscript>
+          <p>Please to desire <persName ref="pe0299">y<hi rend="superscript">r</hi>
+              <placeName ref="pldb.xml#pl0693">Jamaica</placeName> friend</persName> to get all the
+            water fowl he can.</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
+</TEI>

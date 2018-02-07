@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0132">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Unsigned and undated note to Andrew and Robert Foulis, Booksellers and
+                    Printers, Glasgow: requesting information on Zachary Boyd and his scriptual
+                    poems</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>51</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0307">Andrew Foulis</persName>
+                    <persName ref="pe0097">Robert Foulis</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>To <persName ref="pe0097 pe0307">Mess<hi rend="superscript">rs</hi>. Foulis</persName>,</salute>
+                </opener>
+                <p>You will most particularly oblige me in serving me with a distinct account of
+                    Articles viz. <bibl>
+                        <title ref="bidb.xml#bi0074">
+                            <hi rend="underline">M<hi rend="superscript">r</hi> Zach. Boyd’s poetical
+                                    <sic>paraphras</sic> on the Bible</hi>
+                        </title>
+                    </bibl>, it’s
+                    Size, whether the complete genuine M<hi rend="superscript">s</hi>
+                    <unclear reason="illegible">that</unclear> written by himself is deposited in
+                        <placeName ref="pl1184">the University Lib<hi rend="superscript">ry</hi>
+                    </placeName>. or if a Transcript, where is the Original reserved?
+                    what was the Reason of it’s being placed in y<hi rend="superscript">r</hi>.
+                        Lib<hi rend="superscript">ry</hi>? also the occasion of M<hi rend="superscript">r</hi>. <persName ref="pe0297">Boyd’s</persName> donating
+                    it to the University &amp; did he give orders for printing it &amp; why was <add place="above">it</add> not committed to the Press? did he enjoy an Estate,
+                    it’s name, where does it lye in this Country, who now possesses it, of what
+                    Family did he arise, his History, with any private anecdotes of him? Is it
+                    possible to have a few capital Quotations &amp; Verses from the Original or
+                    Copy.</p>
+                <p>Solicit your Answer, Interest &amp; good offices for this or acquaint to whom
+                    &amp; by what means I must apply obtain a <unclear reason="illegible">Solution</unclear>.<note type="editorial">Pennant gives a description and
+                        excerpt from Boyd's Bible in his <bibl type="editorial">
+                            <title ref="bi0008">
+                                <hi rend="italic">Tour in Scotland 1772 Part I</hi>
+                            </title>
+                            (Chester: 1774), <biblScope unit="page">p.156</biblScope>
+                        </bibl>.</note>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0399">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to David Skene</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberdeen</settlement>
+                        <repository>Aberdeen University Library, Special Collections</repository>
+                        <idno>MS 483</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>67</locus>
+                        </ab>
+                    </msContents>
+                    <additional>
+                        <p>Transcribed from a volume of scribal copies of Pennant's original letters
+                            to David Skene. The copies are likely the work of Alexander Thomson, who
+                            on his death in 1868, bequeathed the collection to Aberdeen University
+                            Library. See Colin A. McLaren, ‘Reports and surveys of archives in
+                            northern Scotland’ in <hi rend="italic">Northern Scotland: A Historical
+                                Journal</hi>, Volume 1 (1972), pp.115-125.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1770-05-22"/>
+
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0210">David Skene</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>Dear Sir</opener>
+                <p>I forget how the epistolary debts are between us but for fear of error on my side
+                    write to enquire how your health, and what acquisitions you make in your
+                    collection. I have had your molluscs drawn; and wish much for one of those
+                    long-legged sea insects to preserve it by a figure. When you and <persName ref="pe0247">Mr. Oglevie</persName> have settled the address of the box I am to
+                    send, I will do my best to collect our ores, &amp;c. for you. I cannot get the
+                    snake yet: it would make a good figure in <bibl type="authorial">
+                        <title ref="bi0001">my Tour</title>
+                    </bibl>, could it be procured but let me beg its
+                    description. Have you yet got my icons of B<hi rend="superscript">r.</hi> A<hi rend="superscript">n.</hi>
+                    <note type="editorial">Likely a reference to engravings in <bibl>Aylett Sammes, <title ref="bi0583">
+                                <hi rend="italic">Britannia antiqua illustrata, or, The
+                                    antiquities of ancient Britain, derived from the
+                                    Phoenicians</hi>
+                            </title>, (London: 1676)</bibl>.</note>
+                </p>
+                <closer>
+                    <salute>I am Dear Sir <lb/>your faithful humble Servant</salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant</persName>
+                    </signed>
+                </closer>
+
+                <dateline>May 22<hi rend="superscript">nd.</hi> 1770.</dateline>
+            </div>
+        </body>
+    </text>
+</TEI>

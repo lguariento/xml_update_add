@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0434">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>John Stuart to Thomas Pennant</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP369</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>13</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0023">John Stuart</persName>
+                    <date when="1798-08-29"/>
+                    <placeName ref="pldb.xml#pl0277">Mountstuart</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+
+            </langUsage>
+        </profileDesc>
+
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0616">Mountstuart</placeName> 29<hi rend="superscript">th</hi> Aug<hi rend="superscript">t</hi> 1790</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>While here upon a visit to <persName ref="pe0278">the Marquiss of
+                        Bute</persName>, I embrace the opportunity of dropping you a few lines
+                    franked by <persName ref="pe0278">his Lordship</persName> —</p>
+                <p>I now beg leave to return you many thanks for the entertainment I received from
+                    the perusal of your ingenious <bibl type="authorial">
+                        <title ref="bidb.xml#bi0034">Account of the Parishes of <sic>Holywood</sic>
+                            &amp;c</title>
+                    </bibl>, an Account which to me is the more entertaining,
+                    that it contains a particular description of the Family and Place of <persName ref="pe0232">a Gentleman</persName>, whose acquaintance and
+                    friendship I have now been so long honoured with, and whose welfare &amp;
+                    prosperity I will always rejoice at. My friend <persName ref="pe0158">M<hi rend="superscript">r</hi> M<hi rend="superscript">c</hi>Intyre,</persName> the Minister of <placeName ref="pldb.xml#pl0213">Glenorchay</placeName>, has likewise had the perusal of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0034">the book</title>
+                    </bibl>, for
+                    which he desires I will return you his best thanks. He is at present in good
+                    health. But in December last he met with one or two of those severe tryals, from
+                    which in this world even the best men are not often exempted. About two or three
+                    weeks after receiving the accounts of the death of a very promising young man, a
+                    son of his, in <placeName ref="pldb.xml#pl0704">the West Indies</placeName>,
+                        <persName ref="pe0469">M<hi rend="superscript">rs.</hi> M<hi rend="superscript">c</hi>Intyre</persName>, who upon the forenoon of the
+                        25<hi rend="superscript">th.</hi> day of said month paid a visit along with
+                    him to a Family in the neighbourhood, seemingly in her usual health, in the
+                    evening retired to her room, where not long after she was found by her Family
+                    upon her knees, and in a swoon. Every effort was used to recover, but without
+                    effect. She expired immediately without a sigh or a groan ––––– When you was
+                    here in 1772, I remember you was much pleased with this place. It is now still a
+                    finer place than it was then, the plantations having grown so considerably since
+                    that time, and the present <persName ref="pe0278">Lord Bute</persName>
+                    having with much taste improved it in many respects. I will always recollect,
+                    with pleasure, the happy hours I spent with you here that year, and in the other
+                    islands and places you visited. But it is with pain I reflect that our worthy
+                    and ingenious friend <persName ref="pe0139">M<hi rend="superscript">r.</hi> Lightfoot</persName>, whose memory will always be dear to me,
+                    is no more.</p>
+                <closer>
+                    <salute>I am, with great esteem <lb/>Dear Sir, <lb/>Your most obliged and
+                        <lb/>humble Servant</salute>
+                    <signed>
+                        <persName ref="pe0023">John Stuart</persName>
+                    </signed>
+                </closer>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

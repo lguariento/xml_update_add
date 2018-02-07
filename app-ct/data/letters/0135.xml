@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0135">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, on patronage for George Low, booksellers and
+                    printing costs</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>55-56</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-06-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <body>
+            <div>
+                <dateline>June 6<hi rend="superscript">th.</hi> 1773.</dateline>
+
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I have sent <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName>
+                    an answer &amp; a <rs type="art" ref="ar0116">set of his prints</rs> that he may
+                    shew his friends that something is going on for him. I wish <persName ref="pe0192">M<hi rend="superscript">r</hi> Elliot</persName> would fix on
+                    his own Bookseller <persName ref="pe0043">M<hi rend="superscript">r</hi>
+                        Cadel</persName> who is able &amp; eminent in his profession. as to the
+                    prints I Imagine they will not cost so much as I said perhaps they may come
+                    under 50.<hi rend="superscript">L</hi> as many will be guinea or two guinea
+                    plates only.</p>
+                <p>I only wish for the finishing of two to send a set as you direct: perhaps 2 sets
+                    that you put them in different hands. I think some friend should recomend
+                        <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName> for the
+                    patronage of <persName ref="pe0132">Sir L. Dundas</persName>. He wishes to
+                    dedicate the work to me. but I think <persName ref="pe0132">Sir L.</persName>
+                    the properer person &amp; one who may serve him better. excuse a short Letter
+                    for the weather is most intolerably hot.</p>
+                <closer>
+                    <salute>I am Dear Sir <lb/>Y<hi rend="superscript">r</hi> faithful humble
+                            Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho.
+                    Pennant</persName>
+                    </signed>
+                </closer>
+
+                <postscript>
+                    <p>Has <persName ref="pe0104">M<hi rend="superscript">r</hi> Gough</persName>
+                        read <bibl type="authorial">
+                            <title ref="bi0058">M<hi rend="superscript">r</hi> Lows M.S.</title>
+                        </bibl>
+                    </p>
+                </postscript>
+
+            </div>
+        </body>
+    </text>
+</TEI>

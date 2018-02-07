@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0530">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Daines Barrington, presenting Shaw's 'Ecclesiastical
+                    antiquities of Murray'</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>London</settlement>
+                        <repository>Society of Antiquaries of London</repository>
+                        <idno>SAL/MS/32</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>5-6</locus>
+                        </p>
+                    </msContents>
+                    <additional>
+                        <p>This letter is followed in the binding by 21 single-sided folios in
+                            another hand, detailing the establishment of religious orders and
+                            buildings in Scotland and titled by Pennant: 'of the Ecclesiastical
+                            antiquities of Murray.' The manuscript may be a copy of part of the work
+                            that would later be published as Lachlan Shaw's <bibl type="editorial">
+                                <title ref="bi0081">
+                                    <hi rend="italic">History of the Province of
+                                        Moray</hi>
+                                </title> (London: 1775)</bibl>, which Pennant had
+                            acquired for use in compiling his <bibl type="editorial">
+                                <title ref="bi0004">
+                                    <hi rend="italic">Tour in Scotland
+                                    1769</hi>
+                                </title>: see 3rd edn. (Warrington: 1769), Appendix
+                                II., <biblScope unit="page">pp.287-312</biblScope>
+                            </bibl>.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-03-04"/>
+
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0598">Daines Barrington</persName>
+
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>To The Hon<hi rend="superscript">ble</hi>
+                    <persName ref="pe0598">Daines Barrington</persName>
+                    <dateline>march 4.<hi rend="superscript">th</hi> 1773</dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I am honored by the report you made of the acceptance of my poor services from
+                    The Society of antiquaries. I am mortified much at the delay of correspondents
+                    from whom I expected materials for forming an account of the sacred antiquities
+                    of <placeName ref="pl0708">the <hi rend="underline">Hebrides:</hi>
+                    </placeName>
+                    <hi rend="underline">en attendant</hi>, let me beg the favor of you to introduce
+                    the following account of the antiquities of <hi rend="underline">
+                        <placeName ref="pl0145">Elgin</placeName>
+                    </hi> &amp; other places in the <placeName ref="pl1141">Shire of <hi rend="underline">Murray</hi>
+                    </placeName> composed
+                    by <persName ref="pe0265">the revd M<hi rend="superscript">r</hi>
+                        <hi rend="underline">Shaw</hi>
+                    </persName> The venerable minister of
+                        <placeName ref="pl0145">its Capital</placeName>, aged <sic>ninty</sic>.</p>
+                <p>I am with True regard, Dear Sir,</p>
+                <closer>
+                    <salute>Your obliged &amp; faithfull humble Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Thomas Pennant</persName>.</signed>
+                </closer>
+
+                <postscript>
+                    <p>This is attended by two drawings one <rs type="art" ref="ar0118">a general
+                            view</rs> of <placeName ref="pe0232">
+                            <hi rend="underline">Elgin</hi>
+                        </placeName> after <persName ref="pe0330                             ">Sandby</persName>; the other
+                            <rs type="art" ref="ar0119">a view of the Chapter house</rs> after the
+                        ingenious <persName ref="pe0599">
+                            <hi rend="underline">Bernard</hi>
+                            <hi rend="underline">Gilpin</hi> esq<hi rend="superscript">r</hi> of <hi rend="underline">Carlisle</hi>.</persName>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

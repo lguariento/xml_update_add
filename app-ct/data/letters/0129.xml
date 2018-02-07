@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0129">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, thanking him for gift of books; he has read
+                    Low's MS and requests materials relating to sites in Scotland</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>46-47</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-03-16"/>
+                    <placeName ref="pldb.xml#pl0699">London</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+
+                <p>Your kind Letter drawings &amp; most liberal present of books arrived all
+                    yesterday: <persName ref="pe0156">M<hi rend="superscript">r</hi>
+                        Low</persName> also favored me with an useful list of the animals of
+                        <placeName ref="pldb.xml#pl0701">orkney</placeName>: I read <bibl type="authorial">
+                        <title ref="bidb.xml#bi0058">his M.S.</title>
+                    </bibl> with
+                    pleasure: sent him my opinion &amp; advice; &amp; engaged when he has taken a
+                    little more time about it to make the best bargain I can for him with a
+                    Bookseller. I sent <rs type="art" ref="ar0047">Sibbald’s plates</rs> to be
+                    regraven so you need trouble yourself no more on that head. the copies shall be
+                    sent you as soon as printed. As a small mark of my gratitude for y<hi rend="superscript">r</hi> various <sic>present</sic> pray accept <persName ref="pe0105">M<hi rend="superscript">r</hi> Grose’s</persName>
+                    <rs type="art" ref="ar0105">views</rs> which are excellent, &amp; <rs type="art" ref="ar0093">a set of the prints of the great Br. Zool.</rs> the last are
+                    indeed plain for I am sorry that long before I had the pleasure of y<hi rend="superscript">r</hi> acquaintance I parted with the few <rs type="art" ref="ar0106">colored copies</rs> I had power over. do not bind nor write on
+                    them till <bibl type="authorial">
+                        <title ref="bi0020">the new edition of oct<hi rend="superscript">vo</hi> Zool.</title>
+                    </bibl> comes out.</p>
+
+                <p>Ask <persName ref="pe0022">Doctor Ramsay</persName> in my name for 2
+                    copies of <bibl type="authorial">
+                        <title ref="bi0028">genera of
+                        birds</title>
+                    </bibl> one for yrself one for <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName>. Transmit it with a <bibl type="authorial">
+                        <title ref="bi0045">syn. quad:</title>
+                    </bibl> to him if an
+                    early opportunity offers. &amp; you will find in the parcel another copy of
+                        <bibl type="authorial">
+                        <title ref="bi0045">the syn quad</title>
+                    </bibl> to
+                    replace it, if you send yours.</p>
+                <p>
+                    <persName ref="pe0049">M<hi rend="superscript">r</hi>
+                        Cardonnels</persName> drawings are very good Pray where is <placeName ref="pldb.xml#pl0735">Doun castle</placeName>? the other side of <placeName ref="pldb.xml#pl0386">Roslin &amp; its chapel</placeName> would be
+                        acceptable.<note type="editorial">Pennant's reference to 'the other side of
+                        Roslin Castle' suggests that the drawings mentioned here included one of
+                        Adam de Cardonnel's <rs type="art" ref="ar0108 ar0109">views of Roslin
+                            Castle</rs>, later published in his <bibl type="editorial">
+                            <title ref="bi0585">
+                                <hi rend="italic">Picturesque Antiquities of
+                                    Scotland</hi>
+                            </title>
+                        </bibl> (London: 1788). There is a strong
+                        resemblance between Cardonnel's earlier drawing of Roslin Castle from the
+                        south and <persName ref="pe0014">Moses Griffith's</persName>
+                        <rs type="art" ref="ar0110">view</rs> in <bibl type="editorial">
+                            <title ref="bi0010">
+                                <hi rend="italic">Pennant's Tour in Scotland 1772 Part
+                                    II</hi> (1776)</title>, Plate XXXII, <biblScope unit="page">p.255</biblScope>
+                        </bibl>.</note> I continue here all a fortnight
+                    longer; so inclose as before.</p>
+
+                <closer>
+                    <salute>I am Dear sir y<hi rend="superscript">r</hi> obliged &amp; faithful
+                        H. Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho.
+                    Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>London march 16<hi rend="superscript">th</hi> 1773.</dateline>
+
+                <postscript>
+                    <p>
+                        <persName ref="pe0104">M<hi rend="superscript">r</hi>
+                            Gough</persName> is well &amp; sends complim<hi rend="superscript">ts</hi>. I shall send the books by the carrier. &amp; the money in the
+                        parcel.</p>
+                    <p>I heartily wish if from any of the M.S. <sic>you you</sic> trace the time of
+                        building <placeName ref="pl0978">the cathedral at Y Columkil</placeName>. &amp; dates &amp;
+                        <sic>incriptions</sic> in tombs there &amp; at <placeName ref="pl0647">oransay</placeName>.</p>
+                    <p>The little book I want so much is <bibl type="authorial">
+                            <title ref="bidb.xml#bi0071">The History of the feuds &amp; conflicts of
+                                the clans &amp;c from 1031. to 1619. printed by Foulis
+                            1764</title>
+                        </bibl>. </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

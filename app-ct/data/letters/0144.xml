@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0144">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, notifying him that a parcel has arrived and
+                    praising reprints of 'little old tracts'</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>68-69</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-11-12"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p> at length arrived <persName ref="pe0157">Mr Macgovan’s</persName> parcel for
+                    which the poor engraver &amp; I are much obliged to you.</p>
+                <p>I am vastly pleased with y<hi rend="superscript">r</hi> booksellers. printing
+                    these little old tracts; I assure you I will puff them off.</p>
+                <p>Doctor Webster is most obliging. if he will be so good as to draw up a concise
+                    account of his excellent plan. It will be a great obligation.<note type="editorial">Possibly a reference to the Church of Scotland Minister
+                            <persName ref="pe0085">Alexander Webster</persName>, author of <bibl type="editorial">
+                            <title ref="bi0589">
+                                <hi rend="italic">An account of the
+                                    number of people in Scotland in the year one thousand seven
+                                    hundred and fifty-five</hi>
+                            </title> (1755)</bibl>.</note> I have
+                            <bibl type="authorial">
+                        <title ref="bi0075">the acts of parlement</title>
+                    </bibl> but do
+                    not understand the affair well enough to do it. I beg my best compliments though
+                    unknown to him.</p>
+                <closer>
+                    <salute>I am D<hi rend="superscript">r</hi> Sir in much haste y<hi rend="superscript">rs</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">T Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>Nov<hi rend="superscript">r</hi> 12<hi rend="superscript">th</hi>
+                    1773.</dateline>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>M<hi rend="superscript">r</hi> Paton</addrLine>
+                        <addrLine>at the Custom house</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

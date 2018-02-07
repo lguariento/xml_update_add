@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0397">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to David Skene</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberdeen</settlement>
+                        <repository>Aberdeen University Library, Special Collections</repository>
+                        <idno>MS 483</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>63</locus>
+                        </ab>
+                    </msContents>
+                    <additional>
+                        <p>Transcribed from a volume of scribal copies of Pennant's original letters
+                            to David Skene. The copies are likely the work of Alexander Thomson, who
+                            on his death in 1868, bequeathed the collection to Aberdeen University
+                            Library. See Colin A. McLaren, ‘Reports and surveys of archives in
+                            northern Scotland’ in <hi rend="italic">Northern Scotland: A Historical
+                                Journal</hi>, Volume 1 (1972), pp.115-125.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1770-03-05"/>
+                    <placeName ref="pl0001">London</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0210">David Skene</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pl0699">London</placeName>, March 5<hi rend="superscript">th.</hi> 1770.</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>As a slight token of my friendship please to accept my first part of <bibl type="authorial">
+                        <title ref="bi0019">the iconical Zoology of Great
+                            Britain</title>
+                    </bibl>, forwarded this day in a parcel to <persName ref="pe0022">Doctor Ramsay</persName> at <placeName ref="pl0076">Edinburgh</placeName>, who will deliver it to your order. I beg to have
+                    your opinion of it addressed as before under cover to <persName ref="pe0015">Sir
+                        Roger Mostyn Bart.</persName> at <placeName ref="pl0695">Mostyn
+                        Flintshire</placeName>; at the same time let me hear what new discoveries
+                    you have made. You will do me great pleasure in favouring me with whatsoever
+                    shells and mollusca you can get which will make part of my future work.</p>
+                <p>
+                    <persName ref="pe0592">Mr. Ellis</persName> is well and presents his
+                    complements.</p>
+                <closer>
+                    <salute>I am in much haste but Dear Sir <lb/>much <sic>your’s</sic>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">T. Pennant</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

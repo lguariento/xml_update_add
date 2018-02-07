@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0167.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, on George Low, his publication plans, and
+                    requesting topographical information on Perthshire</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>96-97</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1774-10-09"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>Downing Oct<hi rend="superscript">r</hi> 9<hi rend="superscript">th.</hi>
+                    1774.</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+
+                <p>your good news was sent after me here for I left <placeName ref="pl0699">London</placeName> before its arrival. Pray when you write to <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName>, express to him
+                    my sincere joy; for nothing can equal the happiness I have in hearing of the
+                    good fortune of my friends. He will now be settled so as to pursue his plan with
+                    ease. I long to hear from him &amp; beg neither you nor he would mind the
+                    cessation of franks.</p>
+                <p>I beg you to suspend the arrangement of the <rs type="art" ref="ar0102">Br. Zool.
+                        plates</rs> till my new edition is come out which will not be this
+                        twelvemonth.<note type="editorial">The publication of the fourth edition of
+                            <bibl type="editorial">
+                            <title ref="bi0020">
+                                <hi rend="italic">British
+                                    Zoology</hi>
+                            </title>
+                        </bibl> would be delayed until
+                        1776-77.</note> I am now busy about <bibl type="authorial">
+                        <title ref="bi0010">my 2<hi rend="superscript">d</hi> volume of my
+                        Tour</title>
+                    </bibl>, &amp; beg you to tell me immediately the exact
+                    situation of these places all in the lower parts of <placeName ref="pl0744">Perthshire</placeName>, <placeName ref="pl0733">Angus</placeName> or
+                    Perhaps <placeName ref="pl0331">the Merns</placeName>
+                </p>
+                <p>
+                    <placeName ref="pl0745">Lintrose</placeName>
+                </p>
+                <p>
+                    <placeName ref="pl0743">Battledikes</placeName>
+                </p>
+                <p>
+                    <placeName ref="pl0746">Kiethic<gap reason="illegible" unit="word" quantity="1"/>
+                    </placeName>
+                </p>
+                <p>
+                    <placeName ref="pl0747">Kirk of Monboddo</placeName>
+                </p>
+                <p>
+                    <placeName ref="pl0748">Water of <unclear reason="illegible">Errie</unclear>
+                    </placeName>
+                </p>
+                <p>Point out these, to other places in <bibl type="authorial">
+                        <title ref="bi0126">Dorrets great map</title>
+                    </bibl> as near as possible.</p>
+                <p>Can you also inform me of his authority for saying <placeName ref="pl0749">Inch
+                        Stuthil</placeName> between <placeName ref="pl0099">Dunkeld</placeName>
+                    &amp; <placeName ref="pl0094">Perth</placeName> was called the antient seat of
+                    the Picts. See the map. <note type="editorial">Pennant is referring to the
+                        following annotation on James Dorret's 1750 <bibl type="authorial">
+                            <title ref="bi0126">
+                                <hi rend="italic">A general map of Scotland and islands
+                                    thereto belonging</hi>
+                            </title>
+                        </bibl>: 'Inchstruthill Antiently
+                        the City of Cullen built with many Strong Castles. Burnt by the Picts to
+                        hinder the Romans from getting In &amp; Fortifying it.' Dorret's likely
+                        source was <bibl type="editorial">
+                            <title ref="bi0141">John Bellenden’s 1536
+                                translation from Latin into Scots, of Hector Boece’s 1526 <hi rend="italic">The History and Croniklis of
+                            Scotland</hi>
+                            </title>
+                        </bibl>.</note>
+                </p>
+                <closer>
+                    <salute>I am Dear Sir <lb/>y<hi rend="superscript">r</hi> faithfull
+                        friend</salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant</persName>
+                    </signed>
+                </closer>
+
+                <postscript>
+                    <p>By way of fore warning, shall be in <placeName ref="pl0699">London</placeName> from the 20 of Dec<hi rend="superscript">r</hi> to
+                        the 20<hi rend="superscript">th</hi> of January.</p>
+                    <p>Y<hi rend="superscript">r</hi> 4 Packets just came but I have not time to
+                        inspect them. you must inclose no more till I bid you. you must now <hi rend="underline">direct to me</hi> &amp; send only single Letters. but
+                        if you have much to say use large paper. <persName ref="pe0232">T.P.</persName>
+                    </p>
+                    <p>
+                        <persName ref="pe0232">T.P.</persName>
+                    </p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>M<hi rend="superscript">r</hi> Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+                <p>
+                    <del rend="overstrike">M</del>
+                </p>
+                <p>6</p>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0002">Chester</placeName>
+                    </stamp>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0535">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>George Paton to Thomas Pennant</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP326</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>5</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0228">George Paton</persName>
+                    <date when="1777-04-01"/>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>It is some time since I sent <persName ref="pe0006">M<hi rend="superscript">r.</hi> Bailey</persName> the last portion of <bibl type="authorial">
+                        <title ref="bi0209">the Map</title>
+                    </bibl> &amp; hope he is now
+                    advanced so far as to be near done with his work.</p>
+                <p>After the most minute search &amp; examining various Editions of <bibl type="authorial">
+                        <title ref="bi0142">Sir David Lindsay's
+                        Works</title>
+                    </bibl> I cannot find these lines on <persName ref="pe0063">
+                        <hi rend="underline">Cardinal Beaton's death</hi>
+                    </persName> inserted in any
+                    of them, these are attributed to <persName ref="pe0269">Sir David</persName> by
+                        <persName ref="pe0570">M<hi rend="superscript">r.</hi> Robert
+                        Wodrow</persName> in his <bibl type="authorial">
+                        <title ref="bi0574">
+                            <hi rend="underline">History of the Sufferings of the Church of
+                                Scotland</hi>
+                        </title>
+                        <biblScope unit="volume">Vol. 2<hi rend="superscript">d.</hi>
+                        </biblScope>
+                        <biblScope unit="page">pag. 33</biblScope>
+                    </bibl> after giving an Account of
+                        <persName ref="pe0004">Archb<hi rend="superscript">p.</hi>
+                        Sharp's</persName> murder he concludes with these Stanzas. <persName ref="pe0064">L<hi rend="superscript">d.</hi> Hailes</persName> writes me,
+                    that his Lordship thinks these are of a more modern stile than <persName ref="pe0269">the Knight's</persName>, as must be confest is the truth, my
+                    Lord says, <q>This Author was an honest &amp; laborious Man but he had not all
+                        the discernment necessary for an Historian of such disordered &amp; unhappy
+                        times.</q>
+                </p>
+                <p>I am sorry that it is out of my power to give you so small satisfaction; shall be
+                    happy that your are arrived safely in <placeName ref="pl0699">London</placeName>.</p>
+                <p>You will soon accept from me <bibl type="authorial">
+                        <title ref="bi0176">the
+                            History of Glasgow</title>
+                    </bibl> with a plan of the Town, also <bibl type="authorial">
+                        <title ref="bi0136">the Antiquities of
+                            Stirlingshire</title>
+                    </bibl> with <bibl type="authorial">
+                        <title ref="bi0575">Edgar's Map of the County</title>
+                    </bibl> so soon as
+                    published, and <bibl type="authorial">
+                        <title ref="bi0144">a Plan of the Town of
+                            Dundee</title>
+                    </bibl> with some Views of it just upon publishing: all
+                    shall be sent to <persName ref="pe0026">M<hi rend="superscript">r.</hi>
+                        White's</persName> Care for you.</p>
+                <closer>
+                    <salute>I ever am Dear Sir <lb/>Your most obed<hi rend="superscript">t.</hi>
+                            Serv<hi rend="superscript">t.</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0228">GPaton</persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pl0696">Custom h<hi rend="superscript">o.</hi>
+                        Edinburgh</placeName>
+                    <lb/>1 April 1777.</dateline>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>Thomas Pennant Esq<hi rend="superscript">r.</hi>
+                        </addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

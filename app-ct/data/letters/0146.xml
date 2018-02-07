@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, requesting tracts and information on the
+                    Macleans</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>71</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-12-11"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>Your kind favors of nov<hi rend="superscript">r</hi>. 18<hi rend="superscript">th</hi>, 20 <hi rend="superscript">th</hi>, 23<hi rend="superscript">d</hi>. &amp; 30<hi rend="superscript">th</hi> came safe to hand with their
+                    inclosures. all demand my best thanks. <bibl type="authorial">
+                        <title ref="bi0096">The q<hi rend="superscript">to</hi> Wallace &amp;
+                            Bruce</title>
+                    </bibl> also arrived.</p>
+                <p>Pray make no excuses, for you do more than ever correspondent did before.</p>
+                <p>I am sure <persName ref="pe0231">y<hi rend="superscript">r</hi>
+                        printer</persName> can not lose by printing these little old tracts. I will
+                    mention them honorably. if I knew who they are printed for in <placeName ref="pl0699">London</placeName>.</p>
+                <p>I wish <persName ref="pe0229">y<hi rend="superscript">r</hi>
+                        highlander</persName> would write a little detail of the maclean’s their
+                    origin &amp;c. how they got their <add place="above">possessions &amp;c.</add>
+                    <placeName ref="pl0724">Holyrood house</placeName> shall be thought of.</p>
+                <p>I suppose <bibl type="authorial">
+                        <title ref="bi0097">Cunninghams
+                        tract</title>
+                    </bibl> will be acceptable but know nothing of it. The public
+                    is always glad of rare things.</p>
+                <p>I hope <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName>is
+                    fixed: I shall send him all the notices I can.</p>
+                <p>Next year there will probably be <bibl type="authorial">
+                        <title ref="bi0026">a new
+                            edition of Br. Zoology</title>
+                    </bibl>.<note type="editorial">These plans
+                        were delayed: the next edition of Pennant's <bibl type="authorial">
+                            <title ref="bi0020">
+                                <hi rend="italic">British Zoology</hi>
+                            </title> to be
+                            published was the fourth edition of 1776-77.</bibl>
+                    </note>
+                </p>
+                <p>you need not mark y<hi rend="superscript">r</hi> Letters with a P. it gives
+                    suspicion to our jealous post office.</p>
+                <p>Please to stop <bibl type="authorial">
+                        <title ref="bi0064">the
+                        magazines</title>
+                    </bibl> after this quarter: for I will take them bound as I
+                    once proposed. pray send y<hi rend="superscript">r</hi> bill for them &amp;
+                    postage. my stock of franks to you happens to be out, so excuse this one charge.
+                    I will soon get more.</p>
+                <closer>
+                    <salute>I am Dear Sir very truely y<hi rend="superscript">rs</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>Decr 11<hi rend="superscript">r</hi>. 1773.</dateline>
+
+                <postscript>
+                    <p>I suppose <persName ref="pe0156">M<hi rend="superscript">r</hi>
+                            Low</persName> has <bibl type="authorial">
+                            <title ref="bi0098">mackenzies
+                                survey of orknies</title>
+                        </bibl>. he shd have them.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

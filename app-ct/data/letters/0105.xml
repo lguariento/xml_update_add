@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0105">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, thanking him for a drawing and enquiring
+                    after Scottish acquaintances</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>6-7</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1771-06-30"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> 
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Sir</salute>
+                </opener>
+                <p>your two favors came safe to hand: Please to attribute my silence to my daily
+                    expectation of the last. I am much obliged to you for <rs type="art" ref="ar0045">the drawing</rs> which shall be engraven with proper
+                    acknowledgements for <bibl type="authorial">
+                        <title ref="bidb.xml#bi0001">my
+                            scotch tour</title>
+                    </bibl>. Would that the Lyre from the <placeName ref="pldb.xml#pl0701">orknies</placeName> may prove new &amp; come in time
+                    to embellish my book.<note type="editorial">The work which Pennant has
+                        in mind here is probably <bibl type="editorial">
+                            <title ref="bi0001">
+                                <hi rend="italic">Tour in Scotland in
+                            1769</hi>
+                            </title>
+                        </bibl> (1771), although no such drawing appears in that
+                        volume. On the identification of the bird see Pennant's letter to George
+                        Paton on 13<hi rend="superscript">th</hi> December 1771.</note> I have
+                    perused y<hi rend="superscript">r</hi> list of birds but do not find any new
+                    except the little Snipe.</p>
+                <p>I am very sorry I left <placeName ref="pldb.xml#pl0699">London</placeName> before
+                    I could have the pleasure of enjoying the acquaintance of <persName ref="pe0220">M<hi rend="superscript">rs</hi> Fordyce</persName>
+                    &amp; <persName ref="pe0302">
+                        <unclear reason="illegible">M<hi rend="superscript">rs</hi>Flemming</unclear>
+                    </persName>
+                </p>
+                <p>I am in great hopes y<hi rend="superscript">r</hi> correspondence abroad will be
+                    productive of great matters. I beg to know how the publick museum goes on, &amp;
+                    whether my good friend the <persName ref="pe0022">Professor of N.
+                        H.</persName> has regained his health. Be so good as to make my
+                        <sic>complmints</sic> to <persName ref="pe0012">Doctor
+                        Hope</persName> &amp; let him know that the long delay of his friends not
+                    sending &amp; paying for the fine copy of the <bibl type="authorial">
+                        <title ref="bi0026">Br.
+                            Zool.</title>
+                    </bibl> is both a loss &amp; trouble to <persName ref="pe0216">M<hi rend="superscript">r</hi> Morris.</persName> ever
+                    happy to hear from you</p>
+                <closer>
+                    <salute>I am <lb/>Sir <lb/>your obliged humble Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho.
+                    Pennant</persName>
+                    </signed>
+                </closer>
+
+                <dateline>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName> June 30<hi rend="superscript">th</hi> 1771.</dateline>
+            </div>
+            <div>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pldb.xml#pl0703">NORTHOP</placeName>
+                    </stamp>
+                </p>
+
+
+                <p>
+                    <handShift/>
+                    <unclear reason="illegible">M</unclear>
+                </p>
+                <p>
+                    <unclear reason="illegible">6</unclear>
+                </p>
+
+                <p>
+                    <handShift/>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>M<hi rend="superscript">r</hi> George Paton</addrLine>
+                        <addrLine>at the Custom house</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0532">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>George Paton to Thomas Pennant</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP326</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>2</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0228">George Paton</persName>
+                    <date when="1775-04-04"/>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>4 April 1775.</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>Your favours of 24<hi rend="superscript">th</hi> past reached me have forwarded
+                    yours to <persName ref="pe0156">M<hi rend="superscript">r.</hi>
+                        Low</persName>, which <persName ref="pe0018">
+                        <hi rend="superscript">r.</hi> Jackson</persName> past with usual chearfullness, on reading
+                    the paragraph of yours to him, expresst his Compliments to be offer'd, adding,
+                    that he shall be always happy &amp; ready to do every thing to oblige you; since
+                        <persName ref="pe0026">M<hi rend="superscript">r.</hi>
+                        White</persName> omitted to transmit the Copies intended for your Friends
+                    here these will not as yet (if you incline) be unacceptable yet as you
+                        please.<note type="authorial">Pennant often presented copies of his own
+                        works, once completed, to friends and collaborators who had assisted in the
+                        composition or gathering of materials. A letter of 1774 lists several
+                        friends and correspondents, Paton among them, who were to recieve copies of
+                        Pennant's <bibl type="editorial">
+                            <title ref="bidb.xml#bi0008">
+                                <hi rend="italic">Tour in Scotland and Voyage to the Hebrides
+                                    1772</hi>
+                            </title>
+                        </bibl>.</note>
+                </p>
+                <p>T'other day I met <persName ref="pe0122">M<hi rend="superscript">r.</hi>
+                        Runciman Painter</persName> who told me he is possessed of <persName ref="pe0157">M<hi rend="superscript">r.</hi> Macgowan's</persName>
+                    <rs type="art" ref="ardb.xml#ar0065">Image</rs>, which he is sketching of, <del rend="overstrike">which</del>
+                    <add place="above">and</add> hope for it shortly hence.</p>
+                <p>
+                    <persName ref="pe0491">D<hi rend="superscript">r.</hi>
+                        Steedman</persName> told me some days <del rend="overstrike">ago</del>
+                    <add place="above">since</add>,while he resided many years ago at <placeName ref="pldb.xml#pl0371">Dunfermline</placeName>, when the Workmen busied in
+                    clearing out some Ground within <placeName ref="pldb.xml#pl1025">the Abbacy
+                        there</placeName>, in order to supply the inhabitants at that place with
+                    Stones for building their houses, a most infamous <hi rend="underline">dilapidation</hi> (to use <persName ref="pe0073">Johnson</persName>'s phrase)<note type="editorial">A reference to the
+                        definition of dilapidation given in <bibl type="editorial">
+                            <title ref="bidb.xml#bi0559">Johnson's <hi rend="italic">Dictionary</hi>
+                            </title>
+                        </bibl>: <q>The incumbent's suffering the
+                            chancel, or any other edifices of his ecclesiastical living, to go to
+                            ruin or decay, by neglecting to repair the same: and it likewise extends
+                            to his committing, or suffering to be committed, any wilful waste in or
+                            upon the glebe-woods, or any other inheritance of the church.</q>
+                    </note>
+                    there was discovered a secret passage underground, of which <persName ref="pe0491">D<hi rend="superscript">r.</hi> Steedman</persName>
+                    took <rs type="art" ref="ardb.xml#ar0064">a Sketch</rs>, this I expect to get a
+                    Copy of, with any remarks on it, &amp; shall be sent you.</p>
+                <p>If what has been communicated about our Hospitals will afford you materials for
+                    general accounts of them it is all to be expected from your performance.</p>
+                <p>Do you think it amiss to notice our <hi rend="underline">Sanctuaries</hi> for
+                    insolvent Debitors in this place, still used by the misfortunate to evade the
+                    Severities of the Law &amp; their Creditors, which are viz.<hi rend="superscript">
+                        <unclear reason="illegible">L</unclear>
+                    </hi>1. <placeName ref="pldb.xml#pl1026">the <hi rend="underline">
+                            <sic>Abbay</sic>
+                        </hi> of
+                        Holyroodhouse</placeName>, the precincts thereof &amp; all <placeName ref="pldb.xml#pl1027">the Kings park</placeName> including <placeName ref="pldb.xml#pl1028">Arthur seat or hill</placeName> to <placeName ref="pldb.xml#pl1029">Duddingston</placeName>, it's remarkable this
+                    priviledged place has a Baillie, who keeps Courts, <sic>punishs</sic> offenders
+                        &amp;<hi rend="superscript">c.</hi> within it's Jurisdiction. 2. another
+                    Sanctuary, for the space of a day or two at most for these unhappy people, was
+                        <placeName ref="pldb.xml#pl1030">the <hi rend="underline">King's
+                            Stables</hi> at the West port</placeName> under <placeName ref="pldb.xml#pl1031">the Castle</placeName>, now converted into a Brewerie
+                    &amp; dwelling houses, this is in the Jurisdiction of <placeName ref="pldb.xml#pl1032">the Barony of <hi rend="underline">Portsburgh</hi>
+                    </placeName> &amp; may be used yet as a protection to those
+                    poor insolvents for a short space: contiguous to that lies a spot of ground now
+                    swampy, (betwixt the road <add place="above">South &amp;</add> below <placeName ref="pldb.xml#pl1031">the Castle</placeName> &amp; <add place="above">north
+                        of</add> the Street of our Suburbs called <placeName ref="pldb.xml#pl1032">portsburgh</placeName>) whereon of old the Tournaments &amp;<hi rend="superscript">c.</hi> were decided &amp; to this day amongst the
+                    veteran residents is termed <placeName ref="pldb.xml#pl1033">the <hi rend="underline">Tilt-yard</hi>
+                    </placeName>. — Here was an old Chapel
+                    dedicated to the V. Mary now quite destroyed but from a name given to a Street
+                    or passage of old to it, the <del rend="overstrike">name</del>
+                    <placeName ref="pldb.xml#pl1034">
+                        <hi rend="underline">Mary Wynd</hi>
+                    </placeName>
+                    is Still retained,tho' now a waste: I am surprised that <del rend="overstrike">that</del>
+                    <hi rend="underline">Keith</hi> has omitted this in his <bibl type="authorial">
+                        <title ref="bidb.xml#bi0158">List of Religious houses in our
+                            place</title>
+                    </bibl>, it is almost adjacent to <placeName ref="pldb.xml#pl1035">the King's Stables</placeName>: in most others he may
+                    be justly depended on as a very faithfull compiler from <bibl type="authorial">
+                        <title ref="bidb.xml#bi0175">Father Hay &amp;<hi rend="superscript">c.</hi>
+                        </title>
+                    </bibl> there is still a 3<hi rend="superscript">d.</hi> Sanctuary in this place <placeName ref="pldb.xml#pl1036">the <hi rend="underline">Mint</hi>
+                    </placeName> of equal priviledge with
+                        <placeName ref="pldb.xml#pl0724">Holyroodhouse</placeName> altho' it's
+                    bounds is but small. — If you incline to know the different limits of the City I
+                    will endeavour to get these pointed out to you: I remember well the remains of a
+                    Port in <placeName ref="pldb.xml#pl1037">the <hi rend="underline">West
+                        Bow</hi>
+                    </placeName> as you pass from <placeName ref="pldb.xml#pl1038">the
+                        Weighhouse</placeName> to <placeName ref="pldb.xml#pl1039">the
+                        Grassmercat</placeName>, which was at the first Turn below it; this passage
+                    is zigzag ways <note type="editorial">Here Paton has drawn a small diagram of
+                        two parallel z-shapes, connected near the top by a horizontal line marked
+                            <q>(a)</q>
+                    </note>(a) was the old port: people used to pass from one side
+                    of <placeName ref="pldb.xml#pl1037">the Bow</placeName> to the other above the
+                    Arch of the Port.</p>
+                <p>In looking into <bibl type="authorial">
+                        <title ref="bidb.xml#bi0175">Father Hays
+                            M.SS. Collections</title>
+                    </bibl>, I find that there are <rs type="art" ref="ardb.xml#ar0066">two or else three Views of Roslin Castle,</rs> also a
+                    very neat <rs type="art" ref="ardb.xml#ar0067">one of the Chapel &amp;<hi rend="superscript">c.</hi>
+                    </rs>
+                    <placeName ref="pldb.xml#pl0967">the Castle</placeName> is more intire than at
+                    present &amp; cannot have been done <del rend="overstrike">earlier</del>
+                    <add place="above">later</add> than the beginning of this Century; <bibl type="authorial">
+                        <title ref="bidb.xml#bi0083">the Account of the Foundation
+                            of this Chapel published in the Edinburgh Magazine</title>
+                    </bibl> is
+                    extracted from <bibl type="authorial">
+                        <title ref="bidb.xml#bi0175">this
+                            Collection of Charters &amp;<hi rend="superscript">c.</hi>
+                        </title>
+                    </bibl> — I am to send you these Magazines sometime this
+                    month &amp; some things else all will be given into <persName ref="pe0026">M<hi rend="superscript">r</hi> White</persName>'s at
+                        <placeName ref="pldb.xml#pl0699">London</placeName> will write you
+                    particularly afterwards of it.</p>
+                <p>If you desire to be informed to whom two Daughters of Lord. <choice>
+                        <abbr>
+                            <hi rend="superscript">C</hi>
+                        </abbr>
+                        <expan>Cardinal</expan>
+                    </choice> Beton <del>was</del>
+                    <add>were</add> married, <del rend="overstrike">to</del> I can now inform you
+                    from <bibl type="authorial">
+                        <title ref="bidb.xml#bi0175">Father Hay's notes
+                                <unclear reason="illegible">&amp;c</unclear>
+                        </title>
+                    </bibl> Please
+                    look into <bibl type="authorial">
+                        <title ref="bidb.xml#bi0103">
+                            <hi rend="underline">Abercrombie's Martial
+                        Atchivements</hi>
+                        </title>
+                    </bibl> for the Battle of Roslin, his Account is
+                    reckoned the most exact we have, &amp; was very remarkable. — Should you want
+                        <rs type="art" ref="ardb.xml#ar0068">the Etching of <hi rend="underline">Jameson the Painter his Wife &amp; Child</hi>
+                    </rs>, I have got the
+                    promise of the Loan of it, but can not <sic>met</sic> with one to purchase, he
+                    is drawn as you describe him with his Hat on his Head.</p>
+                <p>The inclosed Letter is sent to all our <placeName ref="pldb.xml#pl1014">Nova
+                        Scotia</placeName> Knights.<note type="editorial">It is likely that Paton
+                        uses 'Knights' here to refer to members of the Freemasons. On Masonry in
+                        Scotland see David Stevenson, 'Four Hundred Years of Freemasonry in
+                        Scotland', <hi rend="italic">The Scottish Historical Review</hi> 90, no. 230
+                        (2011), pp.280-95.</note> I am desired to attend the Treasurer of <placeName ref="pldb.xml#pl1040">the Royal Infirmary</placeName> this Week to get an
+                    Extract of it's annual Revenue.</p>
+                <p>I shall send you the last <bibl type="authorial">
+                        <title ref="bidb.xml#bi0131">State of our Society for propagating Christian Knowledge in
+                            Scotland</title>
+                    </bibl>, which contains a list of the Parishes &amp; in
+                    what Counties with their different charges &amp;<hi rend="superscript">c.</hi>
+                    it is rather bulky for transmitting by post. Our <placeName ref="pldb.xml#pl1041">English Meeting</placeName> is finished but the Walls
+                    are not <sic>quit</sic> dry for painting, Worship is performed there now. you
+                    have a view of it in <bibl type="authorial">
+                        <title ref="bidb.xml#bi0130">the
+                                Edin<hi rend="superscript">r.</hi> Magazine</title>
+                    </bibl> I send
+                    you.</p>
+                <closer>
+                    <salute>I am <lb/>D<hi rend="superscript">r</hi> Sir Your most obed<hi rend="superscript">t.</hi> Serv<hi rend="superscript">t.</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0228">GPaton</persName>
+                    </signed>
+                </closer>
+            </div>
+            <div>
+                <p>
+                    <handShift/>Who is <persName ref="pe0262">M<hi rend="superscript">r</hi>
+                        Rudd</persName>.</p>
+                <p>
+                    <handShift/>
+                    <address>
+                        <addrLine>Thomas Pennant Esq<hi rend="superscript">r.</hi>
+                        </addrLine>
+                        <addrLine>Downing</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

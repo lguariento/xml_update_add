@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1033">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 35</locus>
+                        </ab>
+                    </msContents>
+                    <physDesc>
+                        <additions>
+                            <p>In 1803 but Q; <note type="editorial">top of 1st page; in pencil</note> ? <note type="editorial">in ink?</note>
+                            </p>
+                        </additions>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                    <placeName ref="pldb.xml#pl0758">Stratton Street Piccadilly</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>
+                    <note type="editorial">The dating of this letter presents some problems. Pennant mentions large paper copies of The journey from Chester to London in no.17 (29 January 1782); discusses the expense of extra-illustrating it, and promises to 'take care of the drawings of arms for the 1st vol Tour in Wales' in no. 18 (14 April 1782); orders large paper prints for The journey from Chester to London in no. 20 (26 May 1782); and says he has a large paper copy of it for Bull in no. 28 (6 July 1783). Bull says that he has shown his extra-illustrated copy of The journey from Chester to London to a 'dozen Amateurs' as a sample of Moses Griffith's work in TP 189 /2 (21 February 1786). This seems to point to around 1782 or 1783.</note>
+                    <persName ref="pe0014">Moses</persName> has done about 45 arms &amp; 12 tombs &amp; views in your &amp; my
+                    books <note type="editorial">It is unclear to which publication (extra-illustrated by both Pennant and Bull) Pennant is referring here. Since he refers to the first volume of his 'welsh Tour' later in this paragraph, might he here be referring to his Scottish works?</note>.
+                    I mean to have many more; but will not suffer him to proceed in yours till I hear farther from you. it is also his request to know whether you would chuse a Large paper copy of the
+                    <bibl type="authorial">
+                        <title ref="bidb.xml#bi0032">journey to London</title>
+                    </bibl>. they being his perquisite. He has made many additions to the
+                    <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012">first volume of my welsh Tour</title>
+                    </bibl>, &amp; wishes to know
+                    whether it would be agreable to you to have them done so that you may paste them on the margin of your copy. I have only to receive your commands &amp; they shall be immediately executed.</p>
+                <p>We hear the distant roll of political thunder: without any great hopes of being bettered: &amp; we are happily in too low a situation to be hurt by it. I dread the bolt which may fall on our northern coast; &amp; which I fear can scarcely be prevented as we are so out-fleeted.
+                    <note type="editorial">Need to be more certain of date before contextualizing this.</note>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <stamp type="postmark">PENY POST PAID O <gap unit="chars" quantity="2" reason="illegible"/>
+                    </stamp>
+                    <note type="editorial">in TP’s hand, in ink</note>
+                    penny post; <note type="editorial">round stamp: incomplete and illegible</note>
+                    <address>
+                    <addrLine>To <persName ref="pe0313">Richard Bull <choice>
+                                    <abbr>esq<hi rend="superscript">r</hi>
+                                    </abbr>
+                                    <expan>esquire</expan>
+                                </choice>
+                            </persName> | <placeName ref="pldb.xml#pl0758">Stratton Street | Piccadilly</placeName>
+                        </addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

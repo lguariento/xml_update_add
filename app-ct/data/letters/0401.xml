@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0401">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to David Skene</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberdeen</settlement>
+                        <repository>Aberdeen University Library, Special Collections</repository>
+                        <idno>MS 483</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>70-71</locus>
+                        </ab>
+                    </msContents>
+                    <additional>
+                        <p>Transcribed from a volume of scribal copies of Pennant's original letters
+                            to David Skene. The copies are likely the work of Alexander Thomson, who
+                            on his death in 1868, bequeathed the collection to Aberdeen University
+                            Library. See Colin A. McLaren, ‘Reports and surveys of archives in
+                            northern Scotland’ in <hi rend="italic">Northern Scotland: A Historical
+                                Journal</hi>, Volume 1 (1972), pp.115-125.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1769-11-10"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0210">David Skene</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>Oct<hi rend="superscript">r.</hi> 5<hi rend="superscript">th.</hi>
+                    1770.</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>The enclosed catalogue will inform you of the contents of a box that sets out for
+                        <persName ref="pe0593">Messrs. Hopkins’ &amp;c</persName> next week,
+                    carriage paid. In it is a small parcel for <persName ref="pe0247">Mr.
+                        Oglevie</persName>, and some birds he desired might be returned, also the
+                    little bottle and the two birds you favoured me with.</p>
+                <p>I heartily wish it had been in my power to have sent you more things; but it is a
+                    long time since I left off the fossil studying, and am now so taken up with
+                    Zoology that I have scarce time to attend to anything else. I shall be happy if
+                    I can ever be of use to my friends in <placeName ref="pl0705">N.
+                        Britain</placeName>, and beg you would continue to me your communications of
+                    such new things which fall in your way. I shall send you this winter the last
+                    part of <bibl type="authorial">
+                        <title ref="bi0019">my Br. Zool.
+                            illustrated.</title>
+                    </bibl> I shall not forget <bibl type="authorial">
+                        <title ref="bi0001">my tour through Scotland</title>
+                    </bibl> but I think
+                    that will scarce appear this winter.</p>
+                <closer>
+                    <salute>I am Dear Sir with true regard <lb/>Your much obliged and <lb/>most
+                        obedient Servant</salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant.</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

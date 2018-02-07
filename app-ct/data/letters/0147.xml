@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, on progress made by George Low; requesting
+                    work related to St Kilda</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>72</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-12-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I am very glad to hear both from you &amp; <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName> that he proceeds with such
+                    spirit. I wish he had some book that w<hi rend="superscript">d</hi> instruct him
+                    in perspective for I w<hi rend="superscript">d</hi> fain have him make all the
+                    drawings he can of places that may never again be visited by the curious
+                    traveller. you mention <bibl type="authorial">
+                        <title ref="bi0100">something</title>
+                    </bibl> that <sic>
+                        <persName ref="pe0231">y<hi rend="superscript">r</hi> printer</persName> have done</sic> ab<hi rend="superscript">t</hi>
+                    <placeName ref="pl0737">S<hi rend="superscript">t</hi> Kilda</placeName>: pray
+                    what is it. I am impatient to see his sheet about <bibl type="authorial">
+                        <title ref="bi0101">the Genealogies</title>
+                    </bibl>. Be so go<gap reason="illegible" unit="chars" quantity="2"/> as to forward the inclosed
+                    which will oblige</p>
+                <closer>
+                    <salute>D<hi rend="superscript">r</hi> Sir <lb/>Y<hi rend="superscript">r</hi> most obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>Dec<hi rend="superscript">r</hi>. 24<hi rend="superscript">th</hi>.
+                    1773</dateline>
+
+                <postscript>
+                    <p>Best wishes of the season attend you.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

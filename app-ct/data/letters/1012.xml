@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1012">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 14</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1781-07-13"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> July 13<hi rend="superscript">th</hi>. 1781.</dateline>
+                    <salute>Dear
+                    Sir</salute>
+                </opener>
+                <p>The plague of attendance on the military government called militia has so
+                    engrossed me that I could not attend sooner to <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> most obliging favor. my best thanks attend <persName ref="pe0331 pe0336">Miss Bulls</persName> for their useful
+                    communication:<note type="editorial">A direct communication from Bull's
+                        daughters, Elizabeth and Catherine, regarding techniques of
+                        extra-illustration is suggested here, but it does not appear to have
+                        survived.</note>
+                    <persName ref="pe0334"> M<hi rend="superscript">rs
+                            Pennant</hi>
+                    </persName> freely entrusts me to the tuition of <persName ref="pe0331 pe0336">
+                        <choice>
+                            <abbr>y<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>your</expan>
+                        </choice> fair daughters</persName> &amp; I hope to profit by their lessons. </p>
+                <p>
+                    <persName ref="pe0014">Moses</persName> is now on the point of becoming
+                    an absolute housekeeper &amp; to work on his own account unless when employed by
+                    me. he charges for the drawing of </p>
+                <p>
+                    <table>
+                        <row role="data">
+                            <cell role="data"> </cell>
+                            <cell role="data"> </cell>
+                            <cell role="data">s</cell>
+                            <cell role="data"/>
+                        </row>
+                        <row role="data">
+                            <cell role="data">
+                                <rs type="art" ref="ardb.xml#ar0029">
+                                    <placeName ref="pldb.xml#pl0799">Bangor</placeName>
+                                </rs>
+                            </cell>
+                            <cell role="data">0.</cell>
+                            <cell role="data">8.</cell>
+                            <cell role="data">0</cell>
+                        </row>
+                        <row role="data">
+                            <cell role="data">
+                                <rs type="art" ref="ardb.xml#ar0030">Owl</rs>
+                               <note type="editorial">A watercolour and pen and ink drawing by
+                                    Moses Griffith of Bangor Ch[urch] (Bangor Is-y-coed,
+                                    Flintshire), c.1782, is housed at the National Library of Wales.
+                                    Watercolours of an owl and of Bangor appear alongside each other
+                                    in both Pennant's extra-illustrated Tour in Wales, SEVEN, p.
+                                    229; and ONE, p. 238. NLW.</note>
+                            </cell>
+                            <cell role="data">0</cell>
+                            <cell role="data">2</cell>
+                            <cell role="data">6</cell>
+                        </row>
+                        <row role="data">
+                            <cell role="data">
+                                <rs type="art" ref="ardb.xml#ar0031">
+                                    <placeName ref="pldb.xml#pl0761">Wynnstay</placeName>
+                                </rs>
+                               <note type="editorial">A watercolour drawing of Wynnstay, the seat
+                                    of Sir Watkin Williams Wynn, fourth baronet, appears in
+                                    Pennant's extra-illustrated Tour in Wales, EIGHT.
+                                NLW.</note>
+                            </cell>
+                            <cell role="data">0</cell>
+                            <cell role="data">5.</cell>
+                            <cell role="data">0</cell>
+                        </row>
+                        <row role="data">
+                            <cell role="data">
+                                <rs type="art" ref="ardb.xml#ar0023">Arms</rs>
+                               <note type="editorial">LINK TO FOOTNOTE IN NLW 5500C, no. 9.: Small
+                                    drawings of the arms of prominent north Wales families are
+                                    prevalent throughout Pennant's extra-illustrated copies of his
+                                    Tour in Wales. NLW.</note>
+                            </cell>
+                            <cell role="data">0</cell>
+                            <cell role="data">1</cell>
+                            <cell role="data">6</cell>
+                        </row>
+                        <row role="data">
+                            <cell role="data"/>
+                            <cell role="data"/>
+                            <cell role="data">17.</cell>
+                            <cell role="data">0</cell>
+                        </row>
+                    </table>
+                </p>
+                <p>Things of more work he must have more for. single arms 14<hi rend="superscript">d</hi>. with quarters or coronets 18<hi rend="superscript">d</hi>. He shall
+                    observe all <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> directions. </p>
+                <p>I should not sleep very easy over such materials for a powder plot as you do.
+                       <note type="editorial">This may refer to anxieties about a repeat of the
+                        Gordon Riots of June 1780, when London was subjected to six days of mob
+                        rule, before Lord George Gordon (1751–93), widely seen as leader of the
+                        protest, was arrested and charged with high treason. History of Parliament
+                        on-line.</note> if you take a flight: the worst I wish that you &amp; yours
+                    may light safe before my door. I am </p>
+                <closer>
+                    <salute>Dear Sir <lb/>most faithfully <choice>
+                        <abbr>y<hi rend="superscript">rs</hi>
+                            </abbr>
+                        <expan>yours</expan>
+                    </choice>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>Th.</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant.</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <bibl type="authorial">
+                            <title ref="bidb.xml#bi0012">Snowdon</title>
+                        </bibl>
+                        arrived safely: &amp; will soon be made as fine as <persName ref="pe0014">moses</persName> can make it. <choice>
+                            <abbr>Y<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>your</expan>
+                        </choice> parcel was sent long ago. &amp; I hope you sent for it to
+                            <persName ref="pe0334">M<hi rend="superscript">rs
+                            Pennant</hi>
+                        </persName>
+                        <placeName ref="pldb.xml#pl0798">upper grosvenour street</placeName>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0159.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, with a list of people who are to receive
+                    copies of Pennant's tours as gifts</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>85</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1774-05-17"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pl0001">Downing</placeName> May. 17<hi rend="superscript">th</hi>1774</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I give you many thanks for y<hi rend="superscript">r</hi> kind Letters &amp;
+                    kinder present. all the books in the box are directed; if not advise me of it if
+                    you have doubts.</p>
+                <p>No prequel came by post from <persName ref="pe0018">M<hi rend="superscript">r</hi> Jackson</persName>. I trust it will the next. pray enquire
+                    whether it stopt at y<hi rend="superscript">r</hi> P.office. whence came it
+                    from? I am very <sic>sollicitous</sic> about it.</p>
+                <p>Be so good as to forward the inclosed.</p>
+                <closer>
+                    <salute>In much haste <lb/>y<hi rend="superscript">r</hi> obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>Tho. Pennant</signed>
+                </closer>
+
+                <postscript>
+                    <p> I just find a note of the contents of the Box.</p>
+                    <p>
+                        <list>
+                            <item>
+                                <persName ref="pe0228">M<hi rend="superscript">r</hi>
+                                    Paton</persName>.. 1<hi rend="superscript">st</hi>. &amp; 2<hi rend="superscript">d.</hi> vol.</item>
+                            <note type="editorial">Pennant's reference to two volumes possibly
+                                indicates two separate publications: the <bibl type="editorial">
+                                    <title ref="bi0004">
+                                        <hi rend="italic">Tour in Scotland
+                                            1769</hi>
+                                    </title>, 3<hi rend="superscript">rd</hi> edn.
+                                    (Warrington: 1774)</bibl> and <bibl type="editorial">
+                                    <title ref="bi0008">
+                                        <hi rend="italic">Tour in Scotland and Hebrides
+                                            1772</hi>
+                                    </title> (Chester: 1774)</bibl>.</note>
+                            <item>
+                                <persName ref="pe0022">Doctor Ramsay</persName>
+                                <hi rend="superscript">do</hi>
+                            </item>
+                            <item>
+                                <persName ref="pe0522">Lord <unclear reason="illegible">Kinnoule</unclear>
+                                </persName>
+                                <hi rend="superscript">do</hi>
+                            </item>
+                            <item>
+                                <persName ref="pe0023">M<hi rend="superscript">r</hi> John Stuart
+                                    Killin</persName>
+                            </item>
+                            <item>
+                                <persName ref="pe0022">To D<hi rend="superscript">r</hi> Ramsay’s
+                                    care</persName> } <hi rend="superscript">do</hi>
+                            </item>
+                            <item>
+                                <persName ref="pe0020">M<hi rend="superscript">r</hi>
+                                    Oliphant</persName> — <hi rend="superscript">do</hi>
+                            </item>
+                            <item>
+                                <persName ref="pe0069">Rev<hi rend="superscript">d</hi> M<hi rend="superscript">r</hi> Donald Macqueen</persName> of
+                                    <placeName ref="pl0742">Kilmuir Skie</placeName> — <bibl type="authorial">
+                                    <title ref="bi0008">the voyage 1772</title>
+                                </bibl>
+                            </item>
+                            <item>
+                                <persName ref="pe0018">M<hi rend="superscript">r</hi>
+                                    Jackson</persName> the same</item>
+                        </list>
+                    </p>
+                    <p> _______________________ </p>
+                    <p> and several parcels to be sent as directed or delivered to their friends in
+                            <placeName ref="pl0076">Edinburgh</placeName>. </p>
+                    <p>
+                        <add place="margin">
+                            <persName ref="pe0018">M<hi rend="superscript">r</hi>
+                                Jackson</persName> need not send the Letters to you but will be so
+                            good as to direct them to me here. </add>
+                    </p>
+                    <p>If by any mistake a parcel to <persName ref="pe0077">D<hi rend="superscript">r</hi> Bush</persName> was sent: Be so good as to try to forward it
+                        to the care of the <persName ref="pe0252">Revd M<hi rend="superscript">r</hi> Parish</persName>
+                        <placeName ref="pl0253">carlisle</placeName>. </p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>To M<hi rend="superscript">r</hi> Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+                <p>
+                    <hi rend="superscript">FREE</hi>
+                    <persName ref="pe0015">RMostyn</persName>
+                </p>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0002">CHESTER</placeName>
+                    </stamp>
+                </p>
+                <p>
+                    <handShift/>21<lb/>
+                    <hi rend="underline">44</hi>
+                    <lb/>
+                    <gap reason="illegible" unit="chars" quantity="2"/>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

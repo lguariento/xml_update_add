@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0432">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>John Stuart to Thomas Pennant: remarks on Breadalbane and Rannoch</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP369</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>11/1a-11/3c</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0023">John Stuart</persName>
+                    <date when="1774-04-07"/>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+
+                <language ident="en">English</language>
+
+                <language ident="gd">Gaelic</language>
+
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName> Ap<hi rend="superscript">l.</hi>
+                </dateline>
+                <salute>Dear Sir</salute>
+                <p>I was favoured with your obliging Letter of 11<hi rend="superscript">th</hi>
+                    March just as I was leaving home this day fortnight in order to attend another
+                    meeting of the Presbytery of <placeName ref="pldb.xml#pl0226">Dumbarton</placeName> and have not till now had any opportunity of writing
+                    you in return to it ––––– </p>
+                <p>It gives me no small uneasiness to find that none of the letters I wrote you
+                    relative to your voyage after leaving <placeName ref="pldb.xml#pl0718">
+                        <unclear reason="illegible">the island of Rum</unclear>
+                    </placeName>
+                    <gap reason="illegible" unit="words" atLeast="1" atMost="2"/> have come to your
+                    hands in due time, especially as I thought they contained <unclear reason="illegible">many</unclear> of the most material remarks which I had
+                    to communicate. In the course of corresponding with you upon that subject, I
+                    certainly met with many necessary avocations which I could not have foreseen;
+                    and you are accordingly so good as to forgive me, but I can hardly altogether
+                    forgive myself. My principal error was in not informing myself better as to the
+                    precise time of your publication. I cannot account however for the unexpected
+                    delay you mention with regard to the letters you received relative to <placeName ref="pldb.xml#pl0715">Sky</placeName> &amp;c, as from the moment I came to
+                    understand that your Printers went on with such rapidity I did not omit a single
+                    opportunity of writing you till all the observations which I had to send you
+                    upon the voyage were exhausted. Were I not from one of your letters led to
+                    imagine that you proposed to conclude the whole of your last <bibl type="authorial">
+                        <title ref="bidb.xml#bi0008">Scotch Tour, and not only the
+                            first volume</title>
+                    </bibl> of it, at <placeName ref="pldb.xml#pl0266">
+                        <hi rend="underline">Ardmaddy</hi>
+                    </placeName>, I would have likewise
+                        <sic>proceeded</sic> to send you Remarks relative to this country, at
+                    greater length than my time will now permit me ––––– </p>
+                <p>
+                    <placeName ref="pldb.xml#pl0213">
+                        <hi rend="underline">Glenurchay</hi>
+                    </placeName>
+                </p>
+                <p>The river which runs in this valley and from which it derives it's name is called
+                        <placeName ref="pldb.xml#pl0988">
+                        <hi rend="underline">Urchay</hi>
+                    </placeName> — Plenty of trout and some salmon are caught upon
+                    it. —</p>
+                <p>
+                    <placeName ref="pldb.xml#pl0989">
+                        <hi rend="underline">Clachan-dysart</hi>
+                    </placeName> is the name of the parish in this country,
+                    of which <persName ref="pe0158">M<hi rend="superscript">r.</hi> M<hi rend="superscript">c</hi>Intyre</persName> is Minister. —</p>
+                <p>
+                    <placeName ref="pldb.xml#pl0214">
+                        <hi rend="underline">Dalmaly</hi>
+                    </placeName> is
+                    the name of the inn where you lodged. In order to accomodate the Publick
+                        <persName ref="pe0036">Lord Breadalbane</persName> has been at the
+                    expence of building a good convenient house here, at <placeName ref="pldb.xml#pl0212">
+                        <hi rend="underline">Tyndrom</hi>
+                    </placeName>,
+                        <placeName ref="pldb.xml#pl0277">
+                        <hi rend="underline">Killin</hi>
+                    </placeName> and <placeName ref="pldb.xml#pl0103">
+                        <hi rend="underline">Kenmore</hi>
+                    </placeName> to each of which he has
+                    annexed a farm at <sic>any</sic> easy Rent —</p>
+                <p>The same customs and manners prevail nearly here as upon the W. coast ––––– </p>
+                <p> Upon leaving <placeName ref="pldb.xml#pl0213">
+                        <hi rend="underline">Glenurchay</hi>
+                    </placeName>, which is the last of what are properly
+                    called Cattle-countries that you had occasion to pass through, you have a good
+                    opportunity afforded you of adding any general observations or reflections upon
+                    the management of black Cattle or the rural œconomy of the N. Highlanders. Any
+                    hints of that nature that occurred to me I have already communicated to you in
+                    one or other of the last letters I wrote you ––––– </p>
+                <p>
+                    <placeName ref="pldb.xml#pl0813">Breadalbane</placeName>
+                </p>
+                <p>You entered into the district of <placeName ref="pldb.xml#pl0813">
+                        <hi rend="underline">Breadalbane</hi>
+                    </placeName>
+                    <hi rend="superscript">*</hi>
+                    <note type="authorial" place="foot">* <placeName ref="pldb.xml#pl0813">
+                            <hi rend="underline">Braid-albin</hi>
+                        </placeName> i.e. the higher part
+                        of Scotland.</note> a little West from <placeName ref="pldb.xml#pl0212">
+                        <hi rend="underline">Tyndrom</hi>
+                    </placeName>
+                    <hi rend="superscript">†</hi>
+                    <note type="authorial" place="foot">† <placeName ref="pldb.xml#pl0212">
+                            <hi rend="underline">Tigh-an-drom</hi>
+                        </placeName> i.e. the house of the
+                        height.</note> where the waters divide and run both into the W. and E. sea —
+                    The lead mines near <placeName ref="pldb.xml#pl0212">
+                        <hi rend="underline">Tyndrom</hi>
+                    </placeName> succeed at present pretty well. The richest
+                    part of the vein has always been found to be near the top of the hill. The ore
+                    is now smelted in the country and some silver has been extracted from it —</p>
+                <p>The valley which you entered into after leaving <placeName ref="pldb.xml#pl0212">
+                        <hi rend="underline">Tyndrom</hi>
+                    </placeName> is called <placeName ref="pldb.xml#pl0274">
+                        <hi rend="underline">Strath-fillan</hi>
+                    </placeName>,
+                    from <hi rend="underline">S<hi rend="superscript">t.</hi> Fillan</hi> who spent
+                    the latter part of his days here, and whose memory the inhabitants still greatly
+                    revere. You saw the <placeName ref="pldb.xml#pl0990">
+                        <hi rend="underline">holy
+                            pool</hi>
+                    </placeName> in the river which is thought to derive all it's
+                    virtue from his benediction, and to which, upon particular days numbers of
+                    persons repair from distant countries every summer, and particularly lunaticks
+                    and mad-people, in hopes of being cured of their diseases by being plunged
+                    thrice in the pool, and afterwards lyed down all night in the Chapel or
+                    preaching-house on the cold floor. The cure <sic>administred</sic> in this way
+                    has in some instances been such as to put a speedy period to the sorrows of this
+                    life. ––––– </p>
+                <p>
+                    <placeName ref="pldb.xml#pl0274">Strath-fillan</placeName> is part of <placeName ref="pldb.xml#pl0277">the parish of Killin</placeName>, which is one of the
+                    most extensive and populous in this part of the Highlands. Since you passed
+                    through this country <persName ref="pe0462">Lady Glenurchay</persName>
+                    with that laudable zeal for advancing the interests of religion so uncommon
+                    among persons of her fortune and rank in this age of luxury and refinement, has
+                    determined to mortify a considerable sum for supporting a Minister or Preacher
+                    who is after this constantly to reside here, <gap reason="illegible" unit="chars" quantity="1"/> has already built a good house for him, to which
+                        <persName ref="pe0036">Lord Breadalbane</persName> has been so good
+                    as to add a glebe ––––– </p>
+                <p>This part of the country is now almost entirely under south-country sheep which
+                    have hitherto answered very well, and turn out to much greater advantage than
+                    black Cattle.</p>
+                <p>The only Proprietors here are <persName ref="pe0036">Lord
+                        Breadalbane</persName>, <persName ref="pe0464">M<hi rend="superscript">r.</hi> Campbell of Lochdochart</persName> whose
+                    House you would have seen upon the North side of the river and <persName ref="pe0465">the King</persName>, who has here but one farm being a
+                    part of <placeName ref="pldb.xml#pl0991">the forfeited estate of
+                        Perth</placeName>. — Inclosures, planting and other improvements being to be
+                    carried on with greater spirit even in this higher part of <placeName ref="pldb.xml#pl0813">Breadalbane</placeName> than in most places upon the
+                    W. coast ––––– </p>
+                <p>
+                    <placeName ref="pldb.xml#pl0817">
+                        <hi rend="underline">Lochdochart</hi>
+                    </placeName> is the name of the lake which you passed by at
+                    the foot of <placeName ref="pldb.xml#pl0815">
+                        <hi rend="underline">Ben-more</hi>
+                    </placeName>,<hi rend="superscript">x</hi>
+                    <note type="authorial" place="foot">x <placeName ref="pldb.xml#pl0815">
+                            <hi rend="underline">Beinn-mhòr</hi>
+                        </placeName> i.e. the great mountain
+                        —</note> the loftiest mountain in <placeName ref="pldb.xml#pl0813">
+                        <hi rend="underline">Breadalbane</hi>
+                    </placeName> —</p>
+                <p>
+                    <gap reason="illegible" unit="word" quantity="1"/> english miles East from
+                        <placeName ref="pldb.xml#pl0212">
+                        <hi rend="underline">Tyndrom</hi>
+                    </placeName>, near the publick road, and opposite to <placeName ref="pldb.xml#pl0992">
+                        <hi rend="underline">Achessan</hi>
+                    </placeName> a farm
+                    belonging to <persName ref="pe0466">MacNab</persName> of that ilk, and
+                    now likewise under South-country sheep, you saw a small lake remarkable for
+                    having the only really floating island in it I ever saw.<note type="editorial">The measurements given by Stuart indicate a body of water considerably
+                        smaller than the nearby <placeName ref="pldb.xml#pl0817">Loch
+                            Dochart</placeName> or <placeName ref="pldb.xml#pl0993">Loch
+                            Iubhair</placeName>, perhaps <placeName ref="pldb.xml#pl0994">Lochan Dùn
+                            Saoraich</placeName> slightly further east.</note> I have seen it in the
+                    space of a few days driven by the winds to quite different end of the lake, so
+                    that there can be no doubt of it's actually floating — The lake itself is about
+                    200 feet long and 60 feet broad. <sic>The is</sic> 51 feet long, and 2y broad.
+                    At the edge it is about 25 inches in thickness. <sic>The it</sic> consists of is
+                    mostly mossy. It is covered with coarse grasses and willows. A young birch-tree,
+                    about three feet and a half high, likewise grows upon it ––––– </p>
+                <p>The valley you now entered into is called <placeName ref="pldb.xml#pl0276">
+                        <hi rend="underline">Glendochart</hi>
+                    </placeName>, and the river which runs
+                    in it that of <placeName ref="pldb.xml#pl0995">
+                        <hi rend="underline">Dochart</hi>
+                    </placeName>. This river a few years ago answered better for
+                    pearl-fishing than perhaps any other in the Highlands. Some of the largest and
+                    best were found in it, and sold mostly to merchants in Perth. It is computed
+                    that in the space of two or three years this commodity brought at least 300 £
+                    Sterl. of money to the country —</p>
+                <p>
+                    <placeName ref="pldb.xml#pl0276">
+                        <hi rend="underline">Glendochart</hi>
+                    </placeName> is in general to bare of wood both for
+                    ornament and shelter. This defect you would observe, <persName ref="pe0467">M<hi rend="superscript">r.</hi> Campbell of <hi rend="underline">Achlyne</hi>
+                    </persName> has endeavoured to remedy in
+                    the neighbourhood of his own house by considerable young plantations of fir on
+                    each side of the river. With an uncommon degree of publick spirit he had shewen
+                    a good example to others by extensive inclosures (the first capital step in the
+                    improvement of any country) both upon his estate in the country, and at
+                        <placeName ref="pldb.xml#pl0299">the W. end of <hi rend="underline">Lochern</hi>
+                    </placeName>, where he has likewise at no small expence
+                    built <placeName ref="pldb.xml#pl0997">a commodious Inn</placeName>, for the
+                    refreshment of Strangers just before they ascend <placeName ref="pldb.xml#pl0996">the hill of <hi rend="underline">Larig-<unclear reason="illegible">iele</unclear>
+                        </hi>
+                    </placeName>, in their way to
+                        <placeName ref="pldb.xml#pl0813">Breadalbane</placeName> ––––– </p>
+                <p>You'll remember that <placeName ref="pldb.xml#pl0995">the river <hi rend="underline">Dochart</hi>
+                    </placeName> where you crossed it along two
+                    bridges just as you entered into <placeName ref="pldb.xml#pl0277">
+                        <hi rend="underline">Killin</hi>
+                    </placeName>
+                    <hi rend="superscript">x</hi>
+                    <note type="authorial" place="foot">x Commonly thougt to be <placeName ref="pldb.xml#pl0277">
+                            <hi rend="underline">Cill-Fhinn</hi>
+                        </placeName>
+                        i.e. the burying-place of Fingal. His supposed grave is still pointed
+                        out.</note> divides into two branches, and forms two small islands planted
+                    with first, the eastmost of which is called <placeName ref="pldb.xml#pl0998">
+                        <hi rend="underline">Inish-buy</hi>
+                    </placeName>,<hi rend="superscript">†</hi>
+                    <note type="authorial" place="foot">† <placeName ref="pldb.xml#pl0998">
+                            <hi rend="underline">Inis-bui</hi>
+                        </placeName>, i.e. the green island
+                        –––––</note> and is exceedingly romantick and picturesque, especially when
+                    the river is high, and forms one continued broken Cascade on each side —</p>
+                <p>
+                    <placeName ref="pldb.xml#pl1000">
+                        <hi rend="underline">Finlarig</hi>
+                    </placeName>,
+                        <placeName ref="pldb.xml#pl1001">
+                        <hi rend="underline">Achmore</hi>
+                    </placeName>, and <placeName ref="pldb.xml#pl1001">
+                        <hi rend="underline">Kinell</hi>
+                    </placeName> it will be needless to describe
+                    to you. — Near the last of these there is the most entire Druidical Circle which
+                    remains in this part of the Highlands. It consists of six large stones fixed at
+                    equal distances from each other — You may remember to have seen another
+                    Druidical circle at <placeName ref="pldb.xml#pl1002">
+                        <hi rend="underline">Lawers</hi>
+                    </placeName> on the N. Side of <placeName ref="pldb.xml#pl0104">Loch-tay</placeName>, but it is not nearly so entire
+                    as this ––––– </p>
+                <p>If you thing it proper to give any account of the <hi rend="underline">round
+                        towers</hi> found in this country and <placeName ref="pldb.xml#pl0105">Glenlyon</placeName>, you have a better opportunity of bringing it in when
+                    passing through this Country than you could have had anywhere else. I wrote you
+                    fully already with regard to these in my Letter relative to <placeName ref="pldb.xml#pl0721">
+                        <hi rend="underline">Glenelg</hi>
+                    </placeName>––––– </p>
+                <p>The other river which passes by <placeName ref="pldb.xml#pl0277">
+                        <hi rend="underline">Killin</hi>
+                    </placeName> and <placeName ref="pldb.xml#pl0999">
+                        <hi rend="underline">Finlarig</hi>
+                    </placeName>, and
+                    joins the <placeName ref="pldb.xml#pl0995">
+                        <hi rend="underline">Dochart</hi>
+                    </placeName> before they both discharge themselves into
+                        <placeName ref="pldb.xml#pl0104">
+                        <hi rend="underline">Loch-tay</hi>
+                    </placeName>, is called <placeName ref="pldb.xml#pl1003">
+                        <hi rend="underline">Lochy</hi>
+                    </placeName> ––––– </p>
+                <p>
+                    <persName ref="pe0036">Lord B.</persName> has planted firs very
+                    extensively on different spots properly dispersed all along the N. side of
+                        <placeName ref="pldb.xml#pl0104">
+                        <hi rend="underline">Loch-Tay</hi>
+                    </placeName>. He likewise gives the greatest encouragement for
+                    inclosing the several farms by advancing money upon interest for that purpose.
+                    Contrary to the accounts which you had by some mistake in the publick papers,
+                    his tenants, though many of them have but small possessions and are poor, yet by
+                    the good management under which the affairs of the country <unclear reason="illegible">are</unclear>, are the object of envy of many of their
+                    neighbours ––––– </p>
+                <p>This country is perhaps the most populous of the same extent in the Highlands of
+                    Scotland — Upon the North side of <placeName ref="pldb.xml#pl0104">
+                        <hi rend="underline">Loch-tay</hi>
+                    </placeName>, from <placeName ref="pldb.xml#pl0999">
+                        <hi rend="underline">Finlarig</hi>
+                    </placeName> to
+                        <placeName ref="pldb.xml#pl1004">the point of <hi rend="underline">Lyon</hi>
+                    </placeName> there are about 1700 souls ––––– </p>
+                <p>Oats, bear, pease <add place="above">lint</add> and potatoes are the only Crops
+                    commonly sown in <placeName ref="pldb.xml#pl0813">
+                        <hi rend="underline">Breadalbane</hi>
+                    </placeName>. The greatest return of oats is from four
+                    to six grains for each grain sown, at an average but three or three and a half.
+                    The greatest produce of <hi rend="underline">bear</hi> is from eight to ten, at
+                    an average six. — When premiums were given a few years ago for the greatest
+                    crops of lint, <persName ref="pe0312">Achalader</persName> informs me
+                    that there were sown in <placeName ref="pldb.xml#pl0813">Breadalbane</placeName>
+                    from 70 to 120 hogsheads of Lintseed, each peck of which would at an average
+                    yield two stone of drest flax; and when the linnen yarn, which is the great
+                    staple commodity of this country, sold highest, there was no less than to the
+                    value of 2000 £ of it exported in one year out of the Country. One of the
+                    greatest losses therefore that the inhabitants at present sustain is the low
+                    price of that commodity; the manufacture of which is so universally carried on
+                    that there is commonly more flax imported every year than what grows in the
+                    country.</p>
+                <p> — There are great crops of potatoes reared by every person, the seed of which
+                    has been often changed with advantage. The kind which is at present cultivated
+                    most, and to best advantage is the <hi rend="underline">London-Lady</hi>, which
+                    upon some farms yields at average about ten bolls for each that is planted. The
+                    usual produce however among the common tenants is not above seven or eight fold
+                    — One or two families have fallen upon the art of extracting from the root a
+                    very strong and agreeable spirit, which turns out to be much cheaper than what
+                    is distilled from any kind of grain. Very good <hi rend="underline">starch</hi>
+                    is likewise made of it, which not only serves very well for dressing linnen, but
+                    it also found to answer in the oven in some instances as well as
+                        <sic>wheat-flower</sic> ––––– </p>
+                <p>For two years past very considerable quantities of the <hi rend="underline">Lichen omphalodes</hi>, called in the Galic lang. <hi rend="underline">Corcar</hi>, have been exported from this and all the neighbouring
+                    countries for the purposes of <hi rend="underline">dying</hi>, and sold from a
+                    shilling to sixteen pence p<hi rend="superscript">r.</hi> stone ––––– </p>
+                <p>Great quantities of wool are now likewise exported —</p>
+                <p>The best <add place="above">fat</add> weathers reared in the country and exported
+                    from it, sell at about eleven shillings each; but small sheep of the old breed
+                    sell only at about 6 shillings each ––––– </p>
+                <p>The best parcels of black Cattle reared by some of the Gentlemen in <placeName ref="pldb.xml#pl0813">
+                        <hi rend="underline">Breadalbane</hi>
+                    </placeName> have
+                    been sold at five guineas each but the black Cattle commonly reared in the
+                    country, sell at an average only at 2 £ 5 shillings each, when four years of
+                    age––––– </p>
+                <p>
+                    <unclear reason="illegible">A Few</unclear> horses are reared ––––– </p>
+                <p>These animals are in this and in many other parts of the Highlands seized with a
+                    very extraordinary kind of distemper, when they happen to feed upon the tops of
+                    the higher hills in the months of July and Aug<hi rend="superscript">t</hi>,
+                    which if no remedy is applyed proves fatal to them in less than 24 hours. The
+                    common opinion of the natives is that it is owing to an animal like a weesel,
+                    which some pretend to have seen, and which they imagine pours it's venom in
+                    great quantities upon the grass. <unclear reason="illegible">It</unclear> is a
+                    more probable conjecture however that the quality of the pasture must be the
+                    cause of it. Pontoppidan speaks of a similar disease, if I remember well in
+                        <bibl type="authorial">
+                        <title ref="bidb.xml#bi0538">his account of
+                            Norway</title>
+                    </bibl>, which he ascribes to the effects of a certain
+                    plant: — In the event however that this distemper proceeds from feeding on one
+                    of the <add place="above">Alpine</add> plants which grow upon the tops of our
+                    higher hills, it is remarkable that no other species of animals are hurt by that
+                    pasture but horses, and even they only in a certain season of the year, and more
+                    commonly <add place="above">then</add> after a fall of rain, or before dew rises
+                    from the grass in the morning —</p>
+                <p>A universal swelling over the body is the great symptom of this disorder and,
+                    when taken in time, a cure seldom fails to be effected by exercise, chaffing or
+                    any means for promoting the discharge of sweat and urine, if persisted in for
+                    some hours — The animal which is believed to do all this hurt is called by
+                    different names in different parts of the Highlands, &amp; is probably the same
+                    with the <hi rend="underline">Lavellan</hi> of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0499">
+                            <hi rend="underline">Sibbald</hi>
+                        </title>
+                    </bibl>.
+                    The accounts at least we have of both are, I dare say, fabulous––––– </p>
+                <p>Though this country is as much a grain or a Cattle country, yet it is so populous
+                    that there is commonly every year some meal imported — none exported –––––</p>
+                <p>Goats are banished for the sake of the woods —</p>
+                <p>
+                    <placeName ref="pldb.xml#pl0813">Breadalbane</placeName>
+                </p>
+                <p>The principal <add place="above">native</add> woods in this country are of Oak,
+                    Ash, Birch, and Hazel. There were once likewise some natural woods of the <hi rend="underline">Pinus sylvestris</hi>, which are now almost extinct.
+                    Different species of planted trees thrive here extremely well, particularly in
+                        <placeName ref="pldb.xml#pl0999">
+                        <hi rend="underline">Finlarig</hi>
+                    </placeName> —</p>
+                <p>Salmon are found clean and fresh in <placeName ref="pldb.xml#pl0104v">Loch-tay</placeName> on every day of the year, if search is made for them —
+                    The only other fishes known to be in this lake are Pike, trout, Red Charre,
+                    Perch, Lamprey, Eel, Bull-trout, parr, and minnow.</p>
+                <p> — In some of the small lakes in the hills there are likewise plenty of excellent
+                    trouts, and in one of them some pikes are found —</p>
+                <p>The wild quadrupeds of <placeName ref="pldb.xml#pl0813">
+                        <hi rend="underline">Breadalbane</hi>
+                    </placeName> are 1. Red Deer. The only forest in this
+                    country where this animal now remains belongs to <persName ref="pe0036">Lord B.,</persName> and lies at the W. end of <placeName ref="pldb.xml#pl1005">
+                        <hi rend="underline">Glenlochy</hi>
+                    </placeName>. It is
+                    called that of <placeName ref="pldb.xml#pl1006">
+                        <hi rend="underline">Mam-Lorn</hi>
+                    </placeName>, and by the common inhabitants <placeName ref="pldb.xml#pl1006">
+                        <hi rend="underline">Corry-cheïch</hi>
+                    </placeName>
+                    i.e. the bason of mist. When the females are in season, the males are frequently
+                    observed to fight bitterly; running against one another with a race, as rams do.
+                    At every other time they seem to have an aversion to the Does and their young,
+                    and keep always by themselves.</p>
+                <p>Eagles and foxes are very destructive to their young, but dare not approach when
+                    the dam is in sight. They arrive at their full size and growth at five years of
+                    age. After that period their horns become every year smaller and rougher, but
+                    continue to the same length. They cast them as they do their hair regularly once
+                    a year. They go always against the wind, so that by it's direction their Keeper
+                    knows exactly where at any time to find them. They have the senses of smelling
+                    and seeing, and hearing excessively acute. The male however is not so very
+                    quick-sighted as the female, on account of the grossness of it's horns. They
+                    have an aversion at feeding with sheep and black Cattle, but not so much with
+                    horses and goats, which in some forests are permitted to pasture along with
+                    them.</p>
+                <p>The severity of winter and spring often proves fatal to them. ––––– </p>
+                <p>2. Roe. This animal is now very rare in this country, but abounds at present in
+                        <placeName ref="pldb.xml#pl0105">the neighbouring valley of
+                        Glenlyon</placeName>, as for some years past <persName ref="pe0468">M<hi rend="superscript">r.</hi> Menzies of <hi rend="underline">Culdars</hi>
+                    </persName> has paid great attention to it's preservation
+                    ––––– </p>
+                <p>3. Alpine hare. 4. Common hare. 5 Fox. 6. Badger. 7. Polecat. 8. Wild-Cat. 9.
+                    Weesel. 10. Ermin. 11. Martin. This animal is exceedingly rare in this country.
+                    One of them was killed some years ago upon <placeName ref="pldb.xml#pl0815">
+                        <hi rend="underline">Ben-more</hi>
+                    </placeName>, but I cannot learn with
+                    certainty whether it was the <hi rend="underline">white</hi> or <hi rend="underline">yellow-breasted Martin</hi>. I have lately got the stuft
+                    skin of one that was killed in one of <placeName ref="pldb.xml#pl0751">the old
+                        birch-woods of Rannoch</placeName>, which was the <hi rend="underline">yellow-breasted</hi>, and I suppose the only species in that country. — 12.
+                    The Rat. none of the great <hi rend="underline">Norway rats</hi> have as yet
+                    penetrated into this country. 13. The Mouse. 14. The short-tailed field-mouse. I
+                    have found this animal high up in one of the hills of <placeName ref="pldb.xml#pl1007">
+                        <hi rend="underline">Glen-creran</hi>
+                    </placeName> and
+                    of this country. It feeds in harvest upon the ripe seeds of some of the coarse
+                    grasses, as appeared upon opening the stomach of one which was killed in that
+                    season. 14. The Shrew-mouse. 15. Water Shrew-mouse. 16. The Mole. 17. The
+                    Hedge-hog. 18. <hi rend="underline">The Otter</hi>. An opinion prevails in the
+                    Highlands that this species of animals have a King or Leader, which is rarely to
+                    be met with, and is always attended with a number of common otters.</p>
+                <p>They describe it as of a greater size than the common, and sometimes variegated
+                    with white spots. They believe that it is never killed without the sudden death
+                    of a man or some other animal at the same time, and ascribe the most
+                    extraordinary virtues to it's Skin. The least portion of it they think would
+                    render the warrior almost invulnerable, preserve the house in which it is lodged
+                    from the infection of diseases, and insure his vessel to the mariner amidst the
+                    severest storms.</p>
+                <p> — What might have at first given occasion to all this fabulous account, it is
+                    hard to say. It is a certain fact however that a few years ago an <add place="above">accidental</add> variety of this animal, with a number of
+                    round white spots upon it's back, such as they describe, has been killed in the
+                    neighbourhood of this country. I have had a description of it from the Furrier
+                    who brought it, and from others who saw it. —</p>
+                <p>19. The Bat –––––</p>
+                <p>It is extraordinary that though <hi rend="underline">vipers</hi> are found in
+                    great numbers in the countries lying both north and South of <placeName ref="pldb.xml#pl0813">
+                        <hi rend="underline">Breadalbane</hi>
+                    </placeName> yet
+                    here they are hardly ever seen. <hi rend="underline">Frogs</hi>, and <hi rend="underline">Lizards</hi>, both the <hi rend="underline">nimble</hi> and
+                        <hi rend="underline">brown</hi>, are common here ––––– </p>
+                <p>The birds of this country are 1. The <hi rend="underline">Ring-tailed Eagle</hi>.
+                    2 Sea-Eagle. 3. Osprey. —</p>
+                <p>4. Kite. 5. Common Buzzard. 6. Hen-Harrier 7. Kestrell. 8. Hobby. 9. Merlin. 10.
+                    Wite Owl. 11. Brown Owl. 12 Raven. 13. Crow. 14. Rook 15. Hooded Crow. This bird
+                    breeds in this country and never migrates out of it ––––– </p>
+                <p>16. Magpy. 17 Jay. 18. Jack-daw. 19. Greater Spotted woodpecker. 20. Cuckoo. 21.
+                    Nuthatch. 22. Creeper. 23. Cornish Chough. 24 Black Cock. 25 Grous. 26.
+                    Tarmachan. 27 Partridge. 28. Ringdove 29. Fieldfare. 30. Throstle. 31. Redwing.
+                    32. Blackbird. 33. Ring-ouzel 34. Water-Ouzel. 35. Sky-Lark. 36. Tit-Lark. 37.
+                    House swallow. 38 Martin. 39 Sand Martin 40. Swift. 41 Goatsucker. 42 Red-start.
+                    43. Red-Breast. 44 Fly-catcher. 45 Hedge sparrow. 46. Willow-wren. 47
+                    Golden-crested wren. — 48 Wren. 49. Wheat-Ear. 50. Whin-Chat. 51 White Throat.
+                    52. White Water Wagtail — 53. Yellow Water Wagtail. 54 Bull-Finch 55. Sparrow.
+                    56. Green-Finch. 57. Gold-Finch. 58. Chaffinch. 59. Brambling — 60. Linnet. 61.
+                    Red-headed Linnet — 62. Lesser red-headed Linnet. 63. Mountain Linnet. 64.
+                    Bunting. 65 Yellow-Hammer. 66. Reed Sparrow. 67. Greater Brambling. I imagine
+                    our <hi rend="underline">Snow-flake</hi> must be the same with this bird. I have
+                    had three or four fresh specimens of it, each of which answered to your
+                    description in the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0026">B.Z.</title>
+                    </bibl>, nor could I find that there was any material
+                    difference in the Hind-Claw or otherwise. 68. Great Titmouse. 69. Blue Titmouse.
+                    70 Colemouse. 71. Long-tailed Titmouse. 72. The Heron. 73. Wood-Cock — 74.
+                    Snipe. 75. Jack Snipe. 76. Lapwing — 77. Sand-Piper. 78. Green Plover. 79.
+                    Dottrel. 80 Water-Rail. 81. Land-Rail. 82. Little Grebe. 83. Common Gull. 84 Red
+                    headed Goosander — 85 Wild Swan. 86. Scaup-Duck. 87. Golden-Eye. 88.
+                    Shield-Drake. 89. Wild Duck. 90. Teal</p>
+                <p>Besides these, of the greatest part of which I have had fresh specimens, one of
+                    the <hi rend="underline">Divers</hi>, I suppose the same with that on <placeName ref="pldb.xml#pl0814">
+                        <hi rend="underline">Loch-Rannoch</hi>
+                    </placeName>,
+                    has been killed some years ago in <placeName ref="pldb.xml#pl0813">
+                        <hi rend="underline">Breadalbane</hi>
+                    </placeName>. The <hi rend="underline">Black Guillemot</hi> and one of the <hi rend="underline">Red-shanks</hi>
+                    have likewise been found <del rend="overstrike">found</del> here. And a few
+                    others, I dare say, may have still escaped observation. ––––– Upon the whole
+                    however the foregoing List, with the addition of the <hi rend="underline">Green
+                        Wood-Pecker</hi>, <hi rend="underline">Cross-Bill</hi>, the <hi rend="underline">Wood Lark</hi>
+                    <add place="above">and a few others,</add> may, as far as I know, be considered
+                    as comprehending the principal birds not only in this country, but in the
+                    greatest part of the inland Highlands. –––––</p>
+                <postscript>
+                    <p>P.S. Our seasons in <placeName ref="pldb.xml#pl0813">Breadalbane</placeName>
+                        are not nearly so moist as upon the W. Coast. Here however, as well as
+                        there, the greatest rains are carried to us by S.W. winds from the Atlantick
+                        —</p>
+                    <p>Upon some of our higher mountains spots of snow often continue all summer
+                        undissolved —</p>
+                    <p>Towards the end of Oct<hi rend="superscript">r.</hi> sometimes a thick heavy
+                        white mist moves slowly from the East, and covers all the vallies and lower
+                        grounds with universal darkness. It rises only to a certain height in the
+                        atmosphere; and I have once or twice had the pleasure of ascending above it
+                        to the top of some of our high hills. There the sky was perfectly serene,
+                        and the sun shone with great brightness. The prospect afforded on all hands
+                        was the most picturesque one could well imagine, a boundless Ocean of
+                        shining Mist, with the green tops of mountains rising every where out it,
+                        like so many round islands, shaped mostly like a sugar-loaf — I had at the
+                        same time the opportunity of attending to another phænomenon. When drawing
+                        at any time near the mist on the North side of the hill, my shadow fell upon
+                        it, the head, but no other part, appeared encircled with rays, forming at
+                        the same time a bright round rainbow –––––</p>
+                </postscript>
+            </div>
+
+        </body>
+    </text>
+</TEI>

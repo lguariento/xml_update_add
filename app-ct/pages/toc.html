@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title/>
+    </head>
+    <body>
+        <div class="templates:surround?with=templates/page.html&amp;at=content">
+            <h1>Table of Content</h1>
+            <table id="example" class="display table table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th class="col-md-5 col-xs-5">From</th>
+                        <th class="col-md-4 col-xs-4">To</th>
+                        <th class="col-md-3 col-xs-3">When</th>
+                    </tr>
+                </thead>
+                <tfoot>
+                    <tr>
+                        
+                        <th>ID</th>
+                        <th>From</th>
+                        <th>To</th>
+                        <th>When</th>
+                    </tr>
+                </tfoot>
+                <tbody data-template="app:toc">
+                </tbody>
+                </table>
+        </div>
+        
+        <script type="text/javascript" charset="utf8" src="$app-root/resources/js/jquery.dataTables.min.js"/>
+        <script type="text/javascript" src="$app-root/resources/js/tablesearch.js"/>
+    </body>
+    
+</html>

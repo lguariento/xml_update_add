@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0423">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>John Stuart to Thomas Pennant, on the mountains of Skye</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP369</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>3a-3d</ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0023">John Stuart</persName>
+                    <date when="1773-03-30"/>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gd">Gaelic</language>
+                <language ident="la">Latin</language>
+
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName> March 30<hi rend="superscript">th.</hi> 1773</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>Yours of the 9<hi rend="superscript">th.</hi> of this month has come safe to my
+                    hands, inclosing two of the Prints intended for <bibl type="authorial">
+                        <title ref="bidb.xml#bi0008">your late Tour</title>
+                    </bibl>, for which I return
+                    you thanks. You may believe it must give me no small satisfaction to see from
+                    the Press a lively representation of some of these objects, which in your
+                    company, I had last summer the <unclear reason="damage">pleasure</unclear> of
+                    visiting.</p>
+                <p>
+                    <rs type="art" ref="ardb.xml#ar0039">The View of the hills of <placeName ref="pldb.xml#pl0715">
+                            <gap unit="chars" quantity="2" reason="damage"/>y</placeName>
+                    </rs> is I suppose that which was taken from the top of
+                        <placeName ref="pldb.xml#pl0837">
+                        <hi rend="underline">Ben-na-callich</hi>
+                    </placeName>,*<note type="authorial" place="foot">* Or
+                        according to the orthography of the Galic language <placeName ref="pldb.xml#pl0837">
+                            <hi rend="underline">Beinn-na-caillich</hi>
+                        </placeName> i.e. the hill of the carline or old
+                        wife, said to be called so from a remarkable Gigantic woman which in
+                        Fingal's days was <del rend="strikethrough">
+                            <unclear reason="illegible">buried</unclear>
+                        </del> on it's top. The <hi rend="underline">cairn</hi> or heap of stones said to be raised upon her grave is still
+                        pointed out, and near it a stone in which there is a hollow 2 or 3 inches
+                        deep resembling the human foot. This is the account which <persName ref="pe0359">Young M<hi rend="superscript">r.</hi> M<hi rend="superscript">c</hi> Innon</persName> gave me. Whether the <hi rend="underline">cairn</hi> spoken of has the appearance of having been
+                        raised by art, or is purely natural, you can probably best judge.
+                        –––––</note> which you ascended above <persName ref="pe0358">M<hi rend="superscript">c</hi>Kinnon's</persName> of <placeName ref="pldb.xml#pl0658">
+                        <hi rend="underline">Coire-chattachan</hi>
+                    </placeName>. In such a group of mountains I am sorry I
+                    cannot pretend to let you know the particular names of all that you have
+                        marked.<note type="editorial">A copy of the<rs type="art" ref="ardb.xml#ar0039">'View from Beinn Na Caillich in Skie'</rs> taken
+                        by <persName ref="pe0014">Moses Griffith</persName> (presumably one
+                        of the two prints referred to above) is enclosed with this letter, with
+                        numbers written above the various mountains in the scene.</note>In order to
+                    do that with accuracy it was necessary to have gone about it in the spot. I
+                    cannot see however that the omission is of much consequence. — The principal
+                    hills of this island lie in one continued chain betwixt <placeName ref="pldb.xml#pl0838">
+                        <hi rend="underline">Loch-Eynord</hi>
+                    </placeName> and
+                        <placeName ref="pldb.xml#pl0839">
+                        <hi rend="underline">Strath-suardal</hi>
+                    </placeName>, and rise from the S.<unclear reason="illegible">shore</unclear>. On the East hand, the high romantick
+                    hill of <placeName ref="pldb.xml#pl0840">Blà-ven<hi rend="underline"/>
+                    </placeName>, with it's serrated tops, the inclosed <unclear reason="damage">draught</unclear> marked 2, fixes the attention of <gap unit="word" quantity="1" reason="damage"/> Beholder. On the West hand the
+                    lofty mountain, <gap unit="word" quantity="1" reason="damage"/> rather cluster
+                    of mountains, called <placeName ref="pldb.xml#pl0841">
+                        <hi rend="underline">Quillin</hi>
+                    </placeName>, is no less remarkable, being in height
+                    perhaps but little inferior to any in the Highlands of Scotland. The proper
+                    Galic name of it is <placeName ref="pldb.xml#pl0841">
+                        <hi rend="underline">Cuil-fhionn</hi>
+                    </placeName>, probably given it from the grey
+                    appearance of it's summits which are mostly covered with stones, <hi rend="underline">cùl</hi> signifying the back of any thing, and <hi rend="underline">fionn</hi> grey or whitish. The intermediate mountains,
+                    though some of them are likewise very high, have nothing singular in their
+                    appearance, being mostly shaped like a Sugar-loaf.</p>
+                <p>The mountains above <placeName ref="pldb.xml#pl0656">M<hi rend="superscript">c</hi>Kinnon's castle</placeName>, on the side of which <persName ref="pe0139">M<hi rend="superscript">r</hi> Lightfoot</persName>
+                    first observed the <hi rend="underline">arbutus Alpina</hi>, is called
+                        <placeName ref="pldb.xml#pl0842">
+                        <hi rend="underline">Glash-ven</hi>
+                    </placeName>.*<note type="authorial" place="foot">*<placeName ref="pldb.xml#pl0842">
+                            <hi rend="underline">Glais-bheinn</hi>
+                        </placeName>
+                        i.e. the grey mountain.</note>
+                </p>
+                <p>The hill on the East side of <placeName ref="pldb.xml#pl0843">
+                        <hi rend="underline">Kil-christ</hi> or Christ's church</placeName>, in
+                        <placeName ref="pldb.xml#pl0844">
+                        <hi rend="underline">Strath</hi>
+                    </placeName>, the limerocks of which were from the foot to it's
+                    very summit almost covered with <hi rend="underline">Dryas' octopetala</hi>, is
+                    called <placeName ref="pldb.xml#pl0845">
+                        <hi rend="underline">Ben-huardal</hi>.</placeName>
+                    <hi rend="superscript">†</hi>
+                    <note type="authorial" place="foot">†<placeName ref="pldb.xml#pl0845">
+                            <hi rend="underline">Beinn-shuardal</hi>
+                        </placeName>.</note>
+                </p>
+                <p>The mountain joined by a small low ridge to the East side of <placeName ref="pldb.xml#pl0837">
+                        <hi rend="underline">Ben-na-callich</hi>
+                    </placeName>,
+                    is called <placeName ref="pldb.xml#pl0846">
+                        <hi rend="underline">Ben-na-greean</hi>
+                    </placeName>.<hi rend="superscript">‡</hi>
+                    <note type="authorial" place="foot">‡<placeName ref="pldb.xml#pl0846">
+                            <hi rend="underline">Beinn-na-grian</hi>
+                        </placeName> i.e. the mountain
+                        of the sun. —</note> The perpendicular height of it above the level of the
+                    sea I found by <gap reason="damage" unit="word" atLeast="1" atMost="2"/> of the
+                    Barometer to be 1710 feet. I was computing <placeName ref="pldb.xml#pl0837">
+                        <hi rend="underline">Ben-na-callich</hi>
+                    </placeName> to be at least 5 or 600
+                    feet higher.</p>
+                <p>The hill which rises immediately to the East of the end of that small loch or arm
+                    of the sea, which lies next to <placeName ref="pldb.xml#pl0660">
+                        <hi rend="underline">Sconsar</hi>
+                    </placeName> on the East hand and North
+                    shore, is called <placeName ref="pldb.xml#pl0847">
+                        <hi rend="underline">Mal-more</hi>
+                    </placeName> i.e. the great round mountain. About part of
+                    it's basis is still visible the <sic>remain</sic> of an old stone-dyke or fence
+                    called <placeName ref="pldb.xml#pl0848">
+                        <hi rend="underline">Pàraic-nam-fiadh</hi>
+                    </placeName> i.e. the inclosure of the deer. In
+                    one place another dyke appears to have run up the hills perpendicular to it; and
+                    in one of the angles there is still a small pit or cavity. The tradition of the
+                    inhabitants is that in the days of Ossian, when men lived by the chace, the
+                    whole island was much under wood and abounded in deer; that the design of this,
+                    as well as of similar fences still retaining the same name in other parts of
+                        <placeName ref="pldb.xml#pl0715">Sky</placeName> was to facilitate the
+                    destruction of these animals; that the pit in the corner was at first deep and
+                        <gap reason="damage" unit="word" quantity="1"/>
+                    <gap reason="damage" quantity="1" unit="character"/>overed with branches of
+                    trees, so that when they were forced towards it by dogs from all the more
+                    distant parts of the hill, they unwarily fell into it, and found it out of their
+                    power to recover themselves. — If you remember we saw in some of the moors of
+                        <placeName ref="pldb.xml#pl0717">
+                        <hi rend="underline">Ilay</hi>
+                    </placeName>
+                    vestiges of inclosures of the same kind. The opinion there with regard to them
+                    seems to be that they were intended for defending the heather from cattle in
+                    these early days in which beer is said to have been made of it's tops by the
+                    ancient Caledonians.</p>
+                <p>The round romantick hill above <placeName ref="pldb.xml#pl0661">
+                        <hi rend="underline">Talisker</hi>
+                    </placeName> is called <placeName ref="pldb.xml#pl0849">
+                        <hi rend="underline">Preeshal</hi>
+                    </placeName>;*<note type="authorial" place="foot"> *<placeName ref="pldb.xml#pl0849">
+                            <hi rend="underline">Priseal</hi>
+                        </placeName>. </note> the highest hill
+                    immediately behind it <placeName ref="pldb.xml#pl0850">
+                        <hi rend="underline">Stocca-mall</hi>
+                    </placeName>.<hi rend="superscript">†</hi>
+                    <note type="authorial" place="foot">† <placeName ref="pldb.xml#pl0850">
+                            <hi rend="underline">Stoca-meall</hi>
+                        </placeName>.</note>
+                </p>
+                <p>The steep abrupt hill above <placeName ref="pldb.xml#pl0667">
+                        <hi rend="underline">Dun-tuilm</hi>
+                    </placeName> is called <placeName ref="pldb.xml#pl0851">
+                        <hi rend="underline">Sgor-more</hi>
+                    </placeName> i.e. the great
+                    projecting rock. <placeName ref="pldb.xml#pl0667">
+                        <hi rend="underline">Dun-tuilm</hi>
+                    </placeName> derives it's name from <hi rend="underline">Dùn</hi> a fort or castle, and <hi rend="underline">tolm</hi> a round
+                    grassy eminence. The small island hard by it, near which the vessel anchored, is
+                    called <placeName ref="pldb.xml#pl0852">
+                        <hi rend="underline">elan-tuilm</hi>
+                    </placeName>.</p>
+                <p>
+                    <placeName ref="pldb.xml#pl0715">The isle of Sky</placeName> probably derives
+                    it's name from the norse word Ski,<hi rend="superscript">‡</hi>
+                    <note type="authorial" place="foot">‡ <bibl type="authorial">
+                            <title ref="bidb.xml#bi0128">D<hi rend="superscript">r.</hi> M<hi rend="superscript">c</hi>Pherson's
+                        Dissert.</title>
+                        </bibl>
+                    </note>which signifies mist. That the names of almost
+                    all the other Western isles can only be <unclear reason="damage">derived</unclear> from that language, renders this etymology preferable to
+                    any other. It must be owned indeed that this is not a little surprizing, when it
+                    is certain that the Islanders have at present hardly the smallest mixture of
+                    that Northern tongue in the pure dialect of the Galic language which the
+                    greatest part of them speak. It is not unlikely however that the Norwegians
+                    might have translated the old expressive Galic names rather than have given them
+                    ones altogether different. Some of the natives of <placeName ref="pldb.xml#pl0715">
+                        <hi rend="underline">Sky</hi>
+                    </placeName> observe that
+                    their island might at first with great propriety have been denominated <hi rend="underline">eilean-a-cheo</hi> i.e. the isle of mist, for that there is
+                    at least one of their hills which was hardly ever observed to have wanted a
+                    cloud. As their mountains are considerably higher than those of <placeName ref="pldb.xml#pl0854 pldb.xml#pl0853">S. and N. <hi rend="underline">Uist</hi>
+                    </placeName>, the clouds which come fraught with rain from the
+                    bosom of the Atlantick <unclear reason="damage">break</unclear> not till they
+                    reach their craggy and barren tops; so that there is often vapour and rain in
+                        <placeName ref="pldb.xml#pl0715">Sky</placeName> even when it is fair in
+                    those more Western islands. There are however no rivers in it of any
+                    consequence. Though it is an island of considerable extent, being
+                        <sic>fourty</sic> computed miles long, yet it is penetrated in so many parts
+                    with arms of the sea that water can no where run any way till it is discharged
+                    into it. This is so remarkably the case that many derive it's name from the
+                    Galic word <hi rend="underline">Sgia<unclear reason="unclear">th</unclear>anach</hi> i.e. winged.</p>
+                <p>The only arms of the sea which you had occasion to cross, when in this island,
+                    were <placeName ref="pldb.xml#pl0663">
+                        <hi rend="underline">Loch-Bracadale</hi>
+                    </placeName> betwixt <placeName ref="pldb.xml#pl0661">
+                        <hi rend="underline">Talisker</hi>
+                    </placeName> and <placeName ref="pldb.xml#pl0665">
+                        <hi rend="underline">Dun-vegan</hi>
+                    </placeName> being
+                    in that place four mile broad; and <placeName ref="pldb.xml#pl0855">
+                        <hi rend="underline">Loch-grisernis</hi>
+                    </placeName> betwixt <placeName ref="pldb.xml#pl0665">
+                        <hi rend="underline">Dun-vegan</hi>
+                    </placeName> and
+                        <placeName ref="pldb.xml#pl0666">
+                        <hi rend="underline">Kingsburgh</hi>
+                    </placeName>, being part of <placeName ref="pldb.xml#pl0856">
+                        <hi rend="underline">Loch-snisort</hi>
+                    </placeName>.</p>
+                <p>The small lakes, which abound in some of the moors of <placeName ref="pldb.xml#pl0841">
+                        <hi rend="underline">Quillin</hi>
+                    </placeName>. merit
+                    in a particular manner the attention of the Botanist. Three of them which lie
+                    about a mile West of <placeName ref="pldb.xml#pl0857">
+                        <hi rend="underline">Loch-Sligachan</hi>
+                    </placeName>, and particularly that called
+                        <placeName ref="pldb.xml#pl0858">
+                        <hi rend="underline">Loch-na-caiplich</hi>
+                    </placeName>, close to the side of which the road
+                    passes betwixt <placeName ref="pldb.xml#pl0859">
+                        <hi rend="underline">Sligachan</hi>
+                    </placeName> and <placeName ref="pldb.xml#pl0860">
+                        <hi rend="underline">Drynoch</hi>
+                    </placeName> abound so much with the <hi rend="underline">Eriocaulon Decang:</hi> that the beautiful white fibres of
+                    it's roots are thrown out upon its sides, in some places to the thickness of ten
+                    or twelve inches, like wreck upon the sea-shore. — Almost directly S. from those
+                    lakes rise the high mountain of <placeName ref="pldb.xml#pl0855">
+                        <hi rend="underline">Loch-grisernis</hi>
+                    </placeName>
+                </p>
+                <p>A small loch in the hill above <placeName ref="pldb.xml#pl0661">Talisker</placeName>, called <placeName ref="pldb.xml#pl0861">
+                        <hi rend="underline">Loch-Laydail</hi>
+                    </placeName>, has it's bottom so
+                    closely covered with the <hi rend="underline">Plantago uniflora</hi> that from
+                    its bank it appears entirely green.</p>
+                <p> A small lake near <placeName ref="pldb.xml#pl0667">
+                        <hi rend="underline">Duntuilm</hi>
+                    </placeName>, by the side of which the <hi rend="underline">Veronica scutilata</hi> was observed to grow, is called
+                        <placeName ref="pldb.xml#pl0862">
+                        <hi rend="underline">Loch-cliata</hi>
+                    </placeName>. </p>
+                <p>In the foregoing remarks I have written the names of mountains &amp;c. as
+                    agreeably as I could to their common English pronunciation, but wherever there
+                    was any considerable difference have likewise written them at the foot of the
+                    page according to their true Galic orthography. — Other particulars with regard
+                    to <placeName ref="pldb.xml#pl0715">Sky</placeName> I must refer to another
+                    occasion. If in this however or any other of the W. isles I omitted to take down
+                    any names that you have marked yourself, which I believe was often the case,
+                    upon your sending me a list of them, with the day of your journal added on which
+                    you have occasion to use them, I shall be sure to send you them back again
+                    properly <unclear reason="damage">spelt</unclear>, together with their
+                    etymology, when it can be clearly ascertained.</p>
+                <p>
+                    <persName ref="pe0195">A Clergyman of my acquaintance</persName> lives
+                    in <placeName ref="pldb.xml#pl0729">the island of Mull</placeName>
+                    <unclear reason="damage">near</unclear>
+                    <placeName ref="pldb.xml#pl0652">the so much famed Staffa</placeName>. I intend
+                    to write him, begging of him to visit it if possible, some time this ensuring
+                    summer and send me a description, together with any other particulars he knows
+                    with regard to it.</p>
+                <closer>
+                    <salute>I am <lb/>Dear Sir <lb/>with much regard <lb/>Your most obliged <lb/>and
+                        most humble Servant</salute>
+                    <signed>
+                        <persName ref="pe0023">John Stuart</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>P.S. In your letter you make no mention of one which according to your desire
+                        I directed for you at London, but I hope it has come to your hands.</p>
+                    <p>
+                        <persName ref="pe0023">JS—</persName>
+                    </p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>Thomas Pennant Esq.</addrLine>
+                        <addrLine>Downing</addrLine>
+                        <addrLine>Flintshire</addrLine>
+                        <addrLine>S. Britain</addrLine>
+                    </address>
+                </p>
+                <p>83</p>
+                <p>
+                    <handShift/>
+                    <persName ref="pe0023">M<hi rend="superscript">r</hi>
+                        Stuart</persName>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName>.</p>
+                <p>on <placeName ref="pldb.xml#pl0715">Skie</placeName>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0121">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, requesting extracts on islands, enquiring
+                    after missing boxes and making arrangements for reprinting of Sibbald</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>34-35</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1772-12-22"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName> Dec<hi rend="superscript">r</hi> 22<hi rend="superscript">d.</hi> 1772.</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+
+                <p>Your two very kind favors are before me: I never shall be unmindful of your
+                    steady friendship, for you are the same whether I am north or south of the
+                        <placeName ref="pldb.xml#pl0727">Tweed</placeName>; <sic>a reproach your
+                        countrymen are too liable to that of verifying the Proverb out of sight out
+                        of mind.</sic>
+                </p>
+                <p>I am much obliged to you for the trouble you had about the boxes: of the two
+                    entered the day you mention I had but one; the little one with lead over being
+                    missing. It is true another of snuff was sent sometime after by <persName ref="pe0157">M<hi rend="superscript">r</hi> Macgovan</persName>,
+                    but that arrived safely. in a word I am resolved to recover my box or sue
+                        <persName ref="pe0027">the carrier</persName> I mean him of
+                        <placeName ref="pldb.xml#pl0076">Edinburgh</placeName> who by admitting the
+                    Entry in his books is liable to the charge.</p>
+                <p>I am well assured that the publication of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0050">the whales</title>
+                    </bibl> will answer. if you
+                    undertake it on your own account solely, I shall beg y<hi rend="superscript">r</hi> acceptance of <rs type="art" ref="ar0047">the 4 plates</rs> I would offer so till you resolve me, I
+                    shall defer sending <rs type="art" ref="ar0103">the sketches</rs>. I would propose putting the Whole copy into
+                    the hands of <persName ref="pe0026">my own Bookseller</persName> to be sold for
+                    you. I presume the printing &amp; paper will not cost you 12<hi rend="superscript">L</hi> . Pray send me proofs of each of the old
+                    prints.</p>
+                <p>I am much obliged to you for the list of Sir R. Sibbalds works: Pray can you find
+                    anything new in <bibl type="authorial">
+                        <title ref="bidb.xml#bi0053">his
+                            Description of the islands</title>
+                    </bibl>; or anything relating to the
+                    Religious houses in <placeName ref="pldb.xml#pl0647">Oransay</placeName>,
+                        <placeName ref="pldb.xml#pl0651">Iona</placeName> or any of the isles? In a
+                    former list of y<hi rend="superscript">rs</hi> , you mention <bibl type="authorial">
+                        <title ref="bidb.xml#bi0054">Spotswoods appendix to Hopes
+                            minor Practics</title>
+                    </bibl>. &amp; <bibl type="authorial">
+                        <title ref="bidb.xml#bi0056">Keiths Hist. of Ch. &amp; state</title>
+                    </bibl>: if
+                    anything in these not in <bibl type="authorial">
+                        <title ref="bidb.xml#bi0182">Maitand</title>
+                    </bibl>; I shall be very happy to have extracts: I wish
+                    much to know if there were any in <placeName ref="pldb.xml#pl0729">Mull</placeName>, or in <placeName ref="pldb.xml#pl0715">Skie</placeName>
+                    besides those of <placeName ref="pldb.xml#pl0728">St Columb’s which is the N. of
+                        Skie.</placeName>
+                </p>
+                <closer>
+                    <salute>Pray write soon which will oblige D<hi rend="superscript">r</hi> Sir
+                            Y<hi rend="superscript">r</hi> most obed<hi rend="superscript">t</hi>
+                        &amp;c</salute>
+                    <signed>
+                        <persName ref="pe0232">Tho.
+                    Pennant</persName>
+                    </signed>
+                </closer>
+
+                <postscript>
+                    <p> My best compliments attend <persName ref="pe0019">M<hi rend="superscript">r</hi> Menzies</persName>: Be so good as to ask
+                        him to what convent in the archipelago did he compare <placeName ref="pldb.xml#pl0647">the cloisters in Oransay</placeName>.</p>
+
+                    <p> Can you buy for me <bibl type="authorial">
+                            <title ref="bidb.xml#bi0057">Jonstoni Poemata in which are the Encomia urbium</title>
+                        </bibl>.
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

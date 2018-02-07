@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1031">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 33</locus>
+                        </ab>
+                    </msContents>
+                    <physDesc>
+                        <additions>
+                            <p>
+                                <del>got</del> <note type="editorial">on top of letter, underneath date; possibly in Richard Bull's hand, in pencil</note>
+                                <del>
+                                    <rs type="art" ref="ardb.xml#ar0069">drawing of the great carp from Hanmere.</rs>
+                                </del> <note type="editorial">Pennant's extra-illustrated Tour in Wales, SEVEN, p. 218, includes a watercolour drawing of an unnamed fish, on a page entitled 'Hanmer'. The text at this point appears to be rather confused. See A tour in Wales. MDCCLXX (1778), II, [=A Journey to Snowdon], pp. 188–9, which requires the substitution of pp. 217–18 in vol. I with 'a leaf at the close of this'.</note>
+                                <del>of 16: weight, with the account.</del>
+                            </p>                            
+                            </additions>
+                        </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1783-12-09"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+                <language ident="fr">French</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> <choice>
+                            <abbr>Dec<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>December</expan>
+                        </choice> 9<hi rend="superscript">th</hi> 1783.</dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I am inexpressibly obliged to you for your last favor &amp; for the pains you are at to gratify my amusement. I take on me your debt to 
+                    <persName ref="pe0014">Moses</persName>, so please to send me the other half of the note you shall be credited by him for the ballance.
+                    Be so good to keep by you what you have collected, till you get the heads from the <rs type="art" ref="ardb.xml#ar0059">
+                        <choice>
+                            <abbr>oct<hi rend="superscript">vo</hi>
+                            </abbr>
+                            <expan>octavo</expan>
+                        </choice> <persName ref="pe0481">Rapin</persName>
+                    </rs>:
+                    I shall then take the liberty of desiring my engraver to add a small matter to the par<del>
+                        <gap unit="chars" quantity="2"/>
+                    </del>
+                    <supplied>cel</supplied> &amp; then request that it may be sent by the coach. Inclosed is a list of desiderata from 
+                    <persName ref="pe0105">M<hi rend="superscript">r</hi> Grose</persName>. I beg my thanks &amp; best
+                    <choice>
+                        <abbr>Complim<hi rend="superscript">ts</hi>
+                        </abbr>
+                        <expan>Compliments</expan>
+                    </choice> to him. I wish he could be quickened so that his present may join your prints. I insist on your informing me of the charges you are at on my account.</p>
+                <p>The cancels &amp; additions I sent, suit the last edition of my <bibl type="authorial">
+                        <title ref="bidb.xml#bi0009">
+                            <choice>
+                                <abbr>voy.</abbr>
+                                <expan>voyage</expan>
+                            </choice> to the Hebrides</title>
+                    </bibl>.
+                    <note type="editorial">The 'last edition' of the 'voy. to the Hebrides' for Pennant writing in 1783, may have been either the 2nd edn. of Part I, A tour in Scotland, and voyage to the Hebrides; MDCCLXXII. Part I. (London: printed for Benj. White, MDCCLXXVI. [1776].), or the first edition of Part II, A tour in Scotland. MDCCLXXII. Part II. (London: printed for Benj. White, 1776).</note>
+                    You should change <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> copy: for perhaps a few more similar may appear but for the elect only. 
+                    I have been before at some expenses in these donative additions: <persName ref="pe0379">M<hi rend="superscript">r</hi> Chiswel</persName>
+                    is at these but I ask none but rich friends &amp; such who will not think <hi rend="underline">me</hi> obliged to them.</p>
+                <p>Inclosed is <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> pig of lead. <note type="editorial">See A tour in Wales MDCCLXX (London: Henry Hughes, 1778), I, pp. 55–7, for a discussion of 'Roman Pigs of Lead'.</note>
+                    the inscription is quite unintelligible, owing to the original false copying.</p>
+                <p>I approve much of <persName ref="pe0484">Fox</persName>'s indian bill. not that I love the man: but rejoice at the hopes of seeing due punishment inflicted on the eastern oppressors; 
+                    &amp; the poor indians from henceforth protected. – I am this moment inondé <note type="editorial">inundated</note>
+                    with company which stops my pen:</p>
+                <closer>
+                    <salute>but let me with great truth conclude with saying how much I am
+                        <lb/>Dear Sir
+                        <lb/>
+                        <choice>
+                            <abbr>Y<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>Your</expan>
+                        </choice> obliged &amp;
+                        <lb/>
+                        <choice>
+                            <abbr>affect</abbr>
+                            <expan>affectionate</expan>
+                        </choice> humble <choice>
+                            <abbr>Serv<hi rend="superscript">t</hi>
+                            </abbr>
+                            <expan>Servant</expan>
+                        </choice>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>Tho.</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant.</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <persName ref="pe0015">our Representative</persName> is absent. I hope <persName ref="pe0384">Sir <choice>
+                                <abbr>H. Cl.</abbr>
+                                <expan>Henry Clinton</expan>
+                            </choice>
+                        </persName>
+                        will excuse my impertinence in Enclosing to him. I do it as to your friend</p>
+                    <p>Just now <persName ref="pe0065">my son</persName> writes me word that he shall pass thro <placeName ref="pldb.xml#pl0699">London</placeName>
+                        in his way to <placeName ref="pldb.xml#pl0731">Wales</placeName>. He shall wait on you about the 18<hi rend="superscript">th</hi> &amp; call for the pacquet</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

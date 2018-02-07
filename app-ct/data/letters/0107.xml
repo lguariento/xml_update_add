@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0107">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton: planning for 1772 Tour of Scotland</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>10-11</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1771-12-03"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pldb.xml#pl0706">Comptroller's Office, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> 
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir </salute>
+                </opener>
+
+                <p>In return for all your frequent civilities please to accept this trifling <choice>
+                        <abbr>acknowledgemt</abbr>
+                        <expan>acknowledgement</expan>
+                    </choice> a copy of my <bibl type="authorial">
+                        <title ref="bidb.xml#bi0001">Tour
+                            in Scotland</title>
+                    </bibl> which you will receive from <persName ref="pe0022">Doctor Ramsay</persName> when it reaches him.</p>
+                <p>I have a strong inclination to make a second excursion into y<hi rend="superscript">r</hi> country; but in particular the western parts &amp;
+                    some of the islands. you best can inform me whether there are not cruisers
+                    belonging to the customs that lie in some of the harbors on that coast: let me
+                    beg the favor of you to inform me of their usual stations, whether leave might
+                    not be obtained for me to have the use of one for a few days provided I do not
+                    go beyond their limits: &amp; I must also beg to be informed who are the proper
+                    persons to make Interest with.</p>
+                <p>I hope you have of late been lucky in y<hi rend="superscript">r</hi>
+                    acquisitions &amp; shall be very glad to hear what they are.</p>
+                <closer>
+                    <salute>I am Dear Sir <lb/>your obliged &amp; <lb/>most obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <lb/>
+                    <signed>
+                        <persName ref="pe0232">Thomas
+                    Pennant</persName>
+                    </signed>
+                </closer>
+
+                <dateline>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName> Dec<hi rend="superscript">r</hi> 3<hi rend="superscript">d</hi> 1771.</dateline>
+
+                <postscript>
+                    <p>more Errata in the <bibl type="authorial">
+                            <title ref="bidb.xml#bi0001">Tour
+                                in Scotland</title>
+                        </bibl>
+                        <list>
+                            <item>
+                                <bibl type="authorial">
+                                    <biblScope unit="page">Dedic.
+                                        V.</biblScope>
+                                </bibl> irresistable..... irresistible.</item>
+                            <item>
+                                <bibl type="authorial">
+                                    <biblScope unit="page">52.</biblScope>
+                                </bibl> James II .... James VI.</item>
+                            <item>
+                                <bibl type="authorial">
+                                    <biblScope unit="page">132.</biblScope>
+                                </bibl> barren for ..... burnt for.</item>
+                        </list>
+                    </p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pldb.xml#pl0703">NORTHOP</placeName>
+                    </stamp>
+                </p>
+                <p>
+                    <handShift/>
+                    <unclear reason="illegible">M — 6</unclear>
+                </p>
+                <p>
+                    <handShift/>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>M<hi rend="superscript">r</hi> George Paton</addrLine>
+                        <addrLine>at the Comptroller’s office</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

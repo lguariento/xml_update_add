@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1011">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 13</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1781-06-08"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> June 8<hi rend="superscript">th</hi> 1781</dateline>
+                    <salute>Dear
+                    Sir</salute>
+                </opener>
+                <p>I have just received your favor; let me beg you would write to <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> servant to call at <persName ref="pe0334">M<hi rend="superscript">rs Pennant</hi>
+                    </persName>'s in <placeName ref="pldb.xml#pl0798">upper Grosvenour street</placeName> for <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> parcel where it will be left next week. There is now an account open
+                    between <del>yo</del> he has done what he is now about for you. What does the
+                        <persName ref="pe0335">the Bookbinder</persName>
+                   <note type="editorial">Not identified.</note> charge apiece for letting in our
+                        <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012">Snowdons</title>
+                    </bibl>.
+                       <note type="editorial">A Journey to Snowdon (London: Henry Hughes: 1781):
+                        Bull's copy; Pennant's copy</note>
+                </p>
+                <p>I &amp; <persName ref="pe0014">Moses</persName> beg <persName ref="pe0331 pe0336">Miss Bull's</persName> to favor us
+                    with their receit for pasting prints on paper. we bungle dreadfully. my best
+                    Compliments attend them</p>
+                <closer>
+                    <salute>Adieu <lb/>
+                        <choice>
+                        <abbr>Y<hi rend="superscript">rs</hi>
+                            </abbr>
+                        <expan>Yours</expan>
+                    </choice> most truely</salute> <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>T</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

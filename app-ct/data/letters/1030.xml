@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1030">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Richard Bull to Thomas Pennant</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR 2017 / TP 189</idno>
+                    </msIdentifier>                    
+                    <msContents>
+                        <ab>
+                            <locus>1</locus>
+                        </ab>
+                    </msContents>
+                    <physDesc>
+                        <additions>
+                            <p>M<hi rend="superscript">r</hi> <persName ref="pe0313">Bull</persName> s correspondence is almost the only one I have not destroyed – He was an observant man of excellent taste
+                                <note type="editorial">Marginalia at the top of the letter in pencil, in David Pennant ’s hand</note>
+                            </p>
+                            </additions>
+                        </physDesc>                  
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0313">Richard Bull</persName>
+                    <date when="1783-12-02"/>
+                    <placeName ref="pldb.xml#pl0758">Stratton Street Piccadilly</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+                <language ident="fr">French</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>                
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0758">Stratton Street.</placeName> December 2. 1783. -</dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>The first opportunity I could find, since my return from a better, and more rationable place than this vast, unsociable 
+                    <placeName ref="pldb.xml#pl0699">London</placeName> I am employing in giving the best answers I can, to your last obliging letters; and first let me discharge my debt to 
+                    <persName ref="pe0014">M<hi rend="superscript">r</hi>: Griffith</persName>, which I can best do, by sending him herein a half of a ten pound note, and when I know from him, or from you, that it has arrived safe, I will remit the other moiety. The little ballance, he will be pleased to place to account, and send me a remit upon the Bill enclosed, for I am above regarding Stamp duties.</p>
+                <p>I have been with <persName ref="pe0026">White</persName>, who tells me you was making up an Order for him, but that he did not at all know when he should have any parcell to send You, in the meantime I have executed most of your little commissions; and have got the undermention’d prints ready to send you in any manner you please to direct.
+                <choice>
+                        <abbr>vid<hi rend="superscript">t</hi>
+                        </abbr>
+                        <expan>videlicet</expan>
+                    </choice>.
+                    <list>
+                        <item>
+                            <persName ref="pe0479">Harris</persName>'s <rs type="art" ref="ardb.xml#ar0055">
+                                <placeName ref="pldb.xml#pl0002">Chester</placeName> Cathedral</rs>.</item>
+                        <item>
+                            <persName ref="pe0338">Bartolozzi</persName>'s <rs type="art" ref="ardb.xml#ar0054">Prison scene, from <persName ref="pe0478">Haileys</persName> poem.</rs>
+                        </item>
+                        <item>
+                            <rs type="art" ref="ardb.xml#ar0058">
+                                <persName ref="pe0477">Robert Dudley Earl of <placeName ref="pldb.xml#pl1019">Leicester</placeName>
+                                </persName>
+                            </rs>, with autograph.</item>
+                        <item>
+                            <rs type="art" ref="ardb.xml#ar0056">3 small prints of the Bridgewater navigation</rs>.</item>
+                        <item>
+                            <rs type="art" ref="ardb.xml#ar0053">43 small prints of welsh Castles from <persName ref="pe0373 pe0374">Buck</persName>'s views</rs>
+                        </item>
+                        <item>
+                            <rs type="art" ref="ardb.xml#ar0059">15 Tombs of English Kings, copied from those in <persName ref="pe0481">Rapin</persName>
+                            </rs>, <hi rend="underline">in <choice>
+                                    <abbr>8v<hi rend="superscript">o.</hi>
+                                    </abbr>
+                                    <expan>octavo</expan>
+                                </choice>
+                            </hi>
+                        </item>
+                        <item>
+                            <choice>
+                                <abbr>N.B.</abbr>
+                                <expan>Nota Bene</expan>
+                            </choice> I hope to get the <hi rend="underline">
+                                <choice>
+                                    <abbr>8<hi rend="superscript">vo</hi>.</abbr>
+                                    <expan>octavo</expan>
+                                </choice>
+                            </hi> <rs type="art" ref="ardb.xml#ar0060 ardb.xml#ar0061 ardb.xml#ar0062 ardb.xml#ar0063">heads of the kings</rs> <note type="editorial">Heads of Richard II and Henry IV are pasted into Pennant's extra-illustrated Tour in Wales ONE, p. 49, are rather too large to be classified as octavo. Larger images of Edward I and Edward II appear in ibid, FOUR.</note> likewise, before I send my little packet. –––––</item>
+                    </list>
+                    I have some Duplicates of persons, &amp; places, but till I know in what line they are wanted, ’tis in vain for me to send ’em. the greater part are Foreign heads, &amp; views. Pray take the trouble to convince 
+                    <persName ref="pe0014">Moses</persName>, how much I feel myself oblig’d to him for the
+                    <rs type="art" ref="ardb.xml#ar0057">Portrait of himself</rs>, which I shall give the first <hi rend="underline">form</hi> in
+                    <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012">my Book</title>
+                    </bibl> to; when I took it from the card upon which it was pasted, I found another unfinish’d portrait of the same ingenious artist, but very unlike the other, so I take it for granted he thought it of no value.</p>
+                <p>
+                    <persName ref="pe0332">Storer</persName>, who goes again to <placeName ref="pldb.xml#pl1023">Paris</placeName>, to morrow morning, has promiss’d [sic] to search for
+                    <add place="above">the french translation of</add> <persName ref="pe0482">
+                        <sic>olaffens</sic>
+                    </persName> <bibl type="authorial">
+                        <title ref="bidb.xml#bi0333">Voyage to Iceland</title>
+                    </bibl>,
+                    and he is not apt to be remiss, or forgetful. I have no immediate occasions for the prints belonging to 
+                    <persName ref="pe0058">Cordiners</persName> <bibl type="authorial">
+                        <title ref="bidb.xml#bi0250">letters</title>
+                    </bibl>,
+                    but if you have got a spare set, they are always useful to such a miscellaneous jumble as mine. – <persName ref="pe0431">Thane</persName>
+                    has no list of the Prints, which he has either engraved, or been the editor of, but says he will endeavor to form one, and send it to my house; if he keeps his word you shall have it directly.
+                    – When you see <persName ref="pe0391">M<hi rend="superscript">r</hi>.. Fitzmaurice</persName>
+                    next, pray give my service to him; I have a high respect for him, and a great opinion of <persName ref="pe0483">his Brothers</persName>
+                    <note type="editorial">Thomas Fitzmaurice's brother was William Petty [formerly Fitzmaurice], second earl of Shellburne and first marquess of Lansdowne (1737–1805), prime minister from 4 July to 2 April 1783. ODNB; History of Parliament online.</note>
+                    abilities, but not of his <hi rend="underline">political</hi> heart..</p>
+                <p>I lament with you the loss of such a neighbor and friend as the late <persName ref="pe0480">M<hi rend="superscript">r</hi> Mytton</persName>;
+                    you grow towards that time of life, when new friends are little worth looking after, and tis from the remembrance of Joys we have lost, that the arrows of affliction are pointed. –––––</p>
+                <p>I wait with patience, (I lye, tis with impatience not to be told) for the remainder of your works, enrich’d by your worthy and ingenious 
+                    <persName ref="pe0014">domestic</persName>, who has always my thanks, and good wishes. –––––</p>
+                <p>You ask me for news, but where is a deaf old man, <hi rend="underline">out of Parliament</hi>,
+                    likely to hear any. the <hi rend="underline">Dashing</hi> <persName ref="pe0484">Charles Fox</persName>'s India Bill,
+                    <note type="editorial">The Fox-North coalition's East India Bill proposed nationalizing the beleaguered East India Company, and was passed in the Commons on 27 November 1783 but defeated in the Lords (through the intervention of the king) on 15 December. ODNB s.v. Charles James Fox</note>
+                    is the only thing talk’d of, and which will certainly pass the commons, but its fate in the upper House is doubtful. the 
+                    <persName ref="pe0485">King</persName> sets himself against it, and will not make any new Lords, for the occasion. I don’t think any 
+                    <add place="above">fomer</add> <del>past</del> Bill had ever so many pours and contres, or so many violent Partizan’s on each side. 
+                    <persName ref="pe0411">Lord Macartney</persName> <note type="editorial">George Macartney, Earl Macartney (1737–1806), was Governor of Madras from February 1781, but was not accompanied there by his wife (who suffered from deafness). There is no mention his suffering from ill-health at this time. ODNB.</note>
+                    is dying in <placeName ref="pldb.xml#pl1024">India</placeName>, and has sent home a few lines to <persName ref="pe0486">his Wife</persName>
+                    <note type="editorial">George Macartney married Lady Jane Stuart (1742–1828), daughter of John Stuart, third earl of Bute, and Mary Wortley Montagu, Baroness Mount Stuart of Wortley, in 1768. ODNB s.v. George Macartney, Earl Macartney.</note>
+                    preparing her for the event. <persName ref="pe0487">Sir Eyre Coote</persName> <note type="editorial">Sir Eyre Coote (1726–1783), army officer who served with the British forces in India between 1755 and 1762, subsequently taking up parliamentary seats for Leicester, 1768–74, and Poole, 1774– 80. He later returned to military service, and died on 27 April 1783 at Madras. ODNB.</note>
+                    left <persName ref="pe0488">Sir William Draper</persName> <note type="editorial">Sir William Draper (1721–1787), army officer, involved in the War of the Austrian Succession from 1744 to 1748, in the East Indies in 1758, in a strike against the Spanish base at Manila during the Seven Years' War, and as lieutenant-governor of Minorca, shortly before its invasion by French and Spanish forces in August 1781. Controversy between him and his senior on the island lead to the end of his career following a general court martial between November 1782 and January 1783. He was in debt by £6000 at his death. ODNB.</note>
+                    a friendly legacy of a thousand pounds per annum, but all the Generals, commissarys, and their agents, to the end of the chapter are kept in hot water by the Commission of Account’s, 
+                    wh<del>o</del>ich seems to spare nobody, and have sent their Mirmidons to possess themselves of all <persName ref="pe0489">General Gages</persName>
+                    <note type="editorial">Thomas Gage (1719/20–1787), army officer who was appointed military governor of Massachusetts in 1774. After his failure to control the American militias at the battles of Lexington and Concord in April 1775, he left for England, where he failed to command a generous reward from the government for his service. ODNB.</note>
+                    effects, and they have likewise begun with several <add place="above">others</add> of the American Gentry. – if 
+                    <persName ref="pe0484">Charles Fox</persName>can carry his Bill, (which he is resolved to risk upon its own merits), for an equal land tax all over the Kingdom, he will be Minister pour jamais. <note type="editorial">forever</note>
+                    – I saw <persName ref="pe0105">Captain <sic>Gros</sic>
+                    </persName> this morning, who desir’d me to inform you, that if You would send him a list of what views of Castles
+                    &amp;<hi rend="superscript">c</hi>, you had any occasion for, out of his publication, he could readily accommodate you, and without putting you to any expence. I have receiv’d from 
+                    <persName ref="pe0111">M<hi rend="superscript">r</hi> Hughes</persName> the additional letter Press to your 
+                    <bibl type="authorial">
+                        <title ref="bidb.xml#bi0005">scotch tour</title>
+                    </bibl>, for which I am much your debtor. I am apt to think they are paged wrong, at least for my Edition of the 
+                    <bibl type="editorial">
+                        <title ref="bidb.xml#bi0008">
+                            <hi rend="underline">Hebrides</hi> journey</title>
+                    </bibl>, for they begin at Page 71. but in my Book they should seem to come in at Page 61.</p>
+                <closer>
+                    <salute>I am Dear Sir
+                        <lb/>Your much oblig’d, and very
+                        <lb/>Faithful humble Servant</salute>
+                    <signed>
+                        <persName ref="pe0313">
+                            <choice>
+                                <abbr>Rich<hi rend="superscript">d</hi>
+                                </abbr>
+                                <expan>Richard</expan>
+                            </choice>: Bull</persName>
+                    </signed>                    
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

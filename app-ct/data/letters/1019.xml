@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1019">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 21</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1782-06-09"/>                    
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> June 9<hi rend="superscript">th</hi>. 1782<note type="editorial">The year, 1782, may have been added by RB at a later date.</note>
+                    </dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>The loss of the list of drawings of the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012">first vol. of the Welsh Tour</title>
+                    </bibl> 
+                    makes it necessary for me to have the copy you made otherwise I <persName ref="pe0014">Moses</persName>
+                    may be guilty of repetition. you ought not to think of binding till the whole work is complete: but for 
+                    <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> comfort I have sent the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0014">last part</title>
+                    </bibl> to the press this week, &amp;
+                    hope to see it printed by Christmas. I think I may promise you <bibl type="authorial">
+                        <title ref="bidb.xml#bi0013">your Snowdon</title>
+                    </bibl> 
+                    by the first week in July &amp; packed to <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> wish.</p>
+                <p>I thank you for the print it is the best I have seen, for the trash sent to me has been horrible.<note type="editorial">In view of the lack of answering correspondence from Bull at this stage, it has not been possible to identify the print in question.</note>
+                </p>
+                <p>On <persName ref="pe0351">Rodney</persName>'s <sic>recal</sic> is a millstone round the neck of the new ministry.
+                   <note type="editorial">Following the resignation of North on 20 March 1782 a new coalition ministry was established, led by Charles Watson-Wentworth, second marquess of Rockingham (1730–1782), with Charles James Fox and William Petty, second earl of Shelburne and first marquess of Landsdowne (1737–1805) as secretaries of state.</note>
+                    surely post are stolen or strayed for we country folks do hear a word of First L. of treasury,
+                   <note type="editorial">Rockingham held this post from 27 March until his death on 1 July 1782.</note>
+                    Chancellor of exchequer<note type="editorial">Lord John Cavendish (1732–1796) held this post under Rockingham's second ministry.</note>
+                    or <choice>
+                        <abbr>Secr.</abbr>
+                        <expan>Secretary</expan>
+                    </choice> at War.<note type="editorial">Thomas Townshend, first Viscount Sydney (1733–1800).</note>
+                    nor indeed of 1<hi rend="superscript">st</hi> <choice>
+                        <abbr>L<hi rend="superscript">d</hi>
+                        </abbr>
+                        <expan>Lord</expan>
+                    </choice>
+                    of admiralty.<note type="editorial">Augustus Keppel, Viscount Keppel (1725–1786) was first lord of the Admiralty.</note>
+                    are you infested with the Keppelomania else I must be silent.<note type="editorial">Keppel was involved in a dispute with Sir Hugh Palliser, first baronet (1723–1796), his third in command at the battle of Ushant, 27 July 1778, over claims regarding Palliser's refusal or inability to respond to his signals on the afternoon of the battle. Palliser presented a demand to the Board of Admiralty for Keppel's court martial, and a five-week trial began on 9 January 1779. It was decided that the charges were malicious and unfounded, and Keppel was exonerated to the delight of riotous crowds in London and elsewhere. ODNB s.v. Sir Hugh Palliser, Augustus Keppel.</note>
+                </p>
+                <p>I beg my <choice>
+                        <abbr>complim<hi rend="superscript">ts</hi>
+                        </abbr>
+                        <expan>compliments</expan>
+                    </choice> to
+                    <persName ref="pe0332">M<hi rend="superscript">r</hi> Storer</persName> I convey this to you through 
+                    merely to save <hi rend="underline">you</hi> the trouble of conveying my trifling remembrance to him.
+                   <note type="editorial">This comment may suggest that this letter, unaddressed and with no postmark, was sent as an enclosure with a letter to Anthony Morris Storer ('through [him]').</note>
+                </p>
+                <p>The epidemic of this country has been a stubborn intermittent: but it now declines fast. The weather is much altered. it is warmer 
+                    &amp; drier: yet I dread a scarcity for little Barley has been sown. I wish our legislators would attend to the 
+                    prevention of famine: but indeed the poor are not likely to be such great sufferers for since 
+                    <persName ref="pe0352">
+                        <choice>
+                            <abbr>L<hi rend="superscript">d</hi>
+                            </abbr>
+                            <expan>Lord</expan>
+                        </choice> Shelbourn</persName>
+                    has put arms in their hands<note type="editorial">A circular letter by Lord Shelburne on arming the people led James Graham, marquess of Graham (1755–1836), to move for a Scottish militia as 'a shield to the constitution against the turbulent grasp of democracy and the encroachments of the Crown'. The bill had reached its third reading by 10 June 1782, when it was withdrawn. History of Parliament online s.v. James Graham, Mq. of Graham (1775–1836).</note>
+                    they may serve themselves &amp; rectify their own grievances without the round-about intervention of laws.</p>
+                <closer>My best Compliments attend <persName ref="pe0331 pe0336 pe0346">the Ladies</persName> of <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> house I am
+                    <lb/>Dear Sir
+                    <lb/>very faithfully <choice>
+                        <abbr>y<hi rend="superscript">rs</hi>
+                        </abbr>
+                        <expan>yours</expan>
+                    </choice>
+                    <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>Tho.</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant.</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <persName ref="pe0353">our apothecary</persName> has just called here &amp;from his account I fear that 
+                        <hi rend="underline">the illness</hi> is commenced. He mentions coughs &amp; hoarseness as symptoms.</p>
+                    <p>Impressions of seats of any Gentry living on the roads of my <bibl type="authorial">
+                            <title ref="bidb.xml#bi0032">journey to London</title>
+                        </bibl>
+                        <choice>
+                            <abbr>w<hi rend="superscript">d</hi>
+                            </abbr>
+                            <expan>would</expan>
+                        </choice> be usefull to us.</p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <address>
+                    <addrLine>To | <persName ref="pe0313">Richard Bull</persName> <choice>
+                                <abbr>esq<hi rend="superscript">r</hi>.</abbr>
+                                <expan>esquire</expan>
+                            </choice>
+                        </addrLine>
+                        <addrLine/>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

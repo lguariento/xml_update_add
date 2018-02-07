@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>This four-year AHRC-funded research project,
+    launched in September 2014 and jointly run by the University of Wales Centre for Advanced Welsh and Celtic Studies
+    (CAWCS) and the University of Glasgow, will explore Romantic-period accounts of journeys into Wales and Scotland.
+    Our focus is on the writings of the Flintshire naturalist and antiquarian Thomas Pennant (1726-1798),
+    whose published Tours of both countries did so much to awaken public interest in the ‘peripheries’ of Britain.
+    We aim to open a window onto the vivid and often entertaining accounts of scores of ‘curious travellers’
+    who headed for the edges of the British Isles in search of the primitive, the picturesque and the sublime–and
+    often found the foreign, and the unsettling, surprisingly close to home.</description>
+    <author/>
+    <website/>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>app-ct</target>
+    <prepare>pre-install.xql</prepare>
+    <finish/>
+
+
+
+
+<deployed>2018-01-15T16:48:15.074Z</deployed>
+</meta>

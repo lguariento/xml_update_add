@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1010">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 12</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1781-06-01"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>By some misfortune, my <del>
+                        <gap unit="chars" quantity="1" reason="illegible"/>
+                    </del> Baggage does not reach me till <sic>too morrow</sic>. the sheets of
+                    the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0013">welsh tour</title>
+                    </bibl>
+                    are in it. but you may depend on having them done to <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> mind &amp; sent by <persName ref="pe0065">my Son</persName>
+                    the week following the next. They shall be left for you at <persName ref="pe0328">Faulders</persName>. The <hi rend="underline">let
+                        in</hi> copies shall be properly attended to. I can give you a <del>great
+                        copy</del>
+                    <add place="above">
+                        <persName ref="pe0321">Sir J. Wynne</persName>
+                    </add>
+                    but there are none on great paper So you must let it in.</p>
+                <p>There are to be sold at <persName ref="pe0026">White</persName>'s three
+                    very fine drawings of <persName ref="pe0014">Moses Griffiths</persName>
+                    &amp; one of <persName ref="pe0330">P. Sandby</persName>'s. they are
+                            <del>
+                        <gap unit="chars" quantity="3" reason="illegible"/>
+                    </del> the
+                    property <del>of</del> to poor <persName ref="pe0014">moses</persName>,
+                    so if you hear <sic>any body</sic> wish to have some of his works, I beg to
+                    recommend. &amp; also puff off his <rs type="art" ref="ardb.xml#ar0027">X
+                        plates</rs> of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0013">
+                            <choice>
+                                <abbr>suppl.</abbr>
+                                <expan>supplement</expan>
+                            </choice> to Snowdon</title>
+                    </bibl>.<note type="editorial">For the ten
+                        supplemental plates to A Journey to Snowdon, see NLW 12710C, where they are
+                        bound at the end of the volume; and NLW 12711C, which also includes nine out
+                        of the ten bound at the end. LINK TO WORKS LIST: A Journey to Snowdon
+                        (London: Henry Hughes: 1781)</note>
+                </p>
+                <p>My best <choice>
+                        <abbr>Complim<hi rend="superscript">ts</hi>
+                        </abbr>
+                        <expan>Compliments</expan>
+                    </choice> attend <persName ref="pe0331">Miss Bull</persName>
+                   <note type="editorial">Uncharacteristically, Pennant names Miss Bull, i.e.
+                        Elizabeth Bull, alone here.</note>: no<del>t</del>r let <persName ref="pe0332">M<hi rend="superscript">r</hi> Storer</persName> be
+                    forgotten.</p>
+                <closer>
+                    <salute>adieu <lb/>
+                        <choice>
+                        <abbr>Y<hi rend="superscript">rs</hi>
+                            </abbr>
+                        <expan>Yours</expan>
+                    </choice> most truely</salute> <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>Th.</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant</persName>
+                    </signed>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> June 1<hi rend="superscript">st</hi>. 1781.</dateline>
+                </closer>
+                <postscript>
+                    <p>Excuse the inclosed.<note type="editorial">No enclosure has been
+                            preserved.</note> If you want a <rs type="art" ref="ardb.xml#ar0028">
+                            <persName ref="pe0333">
+                                <choice>
+                                    <abbr>rev<hi rend="superscript">d</hi>
+                                    </abbr>
+                                    <expan>reverend</expan>
+                                </choice> M<hi rend="superscript">r</hi> Lloyd</persName>
+                        </rs>
+                       <note type="editorial">A line engraving by Peter Mazell of a watercolour by
+                            Moses Griffith of John Lloyd, Caerwys, was published by Mazell in 1780
+                            and is included in Pennant's extra-illustrated Tour in Wales TWO, NLW,
+                            as well as in Pennant and Bull's copies of Literary life (NLW 12706E,
+                            NLW 5502E).</note> you must buy him of <persName ref="pe0143">M<hi rend="superscript">r</hi> Mazel</persName>
+                        <placeName ref="pldb.xml#pl0797">No 62 Portland street</placeName>
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

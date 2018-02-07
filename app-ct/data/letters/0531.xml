@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0531">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>George Paton to Thomas Pennant</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP326</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>1</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0228">George Paton</persName>
+                    <date when="1772-12-07"/>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <opener>
+                    <salute>D<hi rend="superscript">r</hi>Sir</salute>
+                </opener>
+                <p>I presented your Compliments to <persName ref="pe0019">M<hi rend="superscript">r.</hi> Comiss<hi rend="superscript">r.</hi>
+                        Menzies</persName> who returned to Town t'other day he begs you would excuse
+                    him for a few weeks as he is desirous to look over the Articles ere he transmit
+                    them to you. ––––– Just now have quitted <persName ref="pe0022">D<hi rend="superscript">r.</hi> Ramsay</persName> he writes you next Post or
+                    so being much hurried at present. — Your Reduction of the Size of <rs type="art" ref="ardb.xml#ar0048">the Whale</rs> shall be welcome &amp; intend soon
+                    after to set about getting them engraved, wish I may find the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0051">Volume of the Philosophical
+                            Transactions</title>
+                    </bibl>
+                    <del rend="overstrike">here</del> as they are not so regularly sent down to our
+                    publick Libraries here as could be wisht A year or two being purchased
+                    together.</p>
+                <p>
+                    <persName ref="pe0104">M<hi rend="superscript">r.</hi> Gough</persName>
+                    is not presently in <placeName ref="pldb.xml#pl0699">London</placeName> returns
+                    there about Christmas, he writes me frequently in my next to him I shall take
+                    notice of your Remark.</p>
+                <p>I return you thanks for your Account of the Saxon Weapon, which I judged from
+                    it's make to be such. The Note will be in <bibl type="authorial">
+                        <title ref="bidb.xml#bi0064">this Week's Magazine</title>
+                    </bibl> &amp; shall
+                    take care to pay it as directed with the Chaise Hyre.</p>
+                <p>No Advice as yet of the Sugar Cane Rat when it reaches me to whose Care at
+                        <placeName ref="pldb.xml#pl0699">London</placeName> or any where else shall
+                    it be addrest that it may <sic>reache</sic> you.</p>
+                <p>I called this afternoon at the <persName ref="pe0027">New Castle
+                        Waggoner</persName>'s Quarters, lookt at their Books observed <q>
+                        <hi rend="underline">on 25 Septem<hi rend="superscript">r</hi> 1772 two
+                            Boxes marked <persName ref="pe0232">M<hi rend="superscript">r.</hi> Pennant</persName> weighing Seven Stone three
+                            Pounds</hi>
+                    </q> went off from this by <persName ref="pe0027">Howey's</persName> Waggon for <placeName ref="pldb.xml#pl0057">Newcastle</placeName>, the Waggoner told me these were delivered into the
+                        <hi rend="underline">
+                        <placeName ref="pldb.xml#pl0057">Manchester Warehouse
+                            Newcastle</placeName>
+                        <persName ref="pe0304">W<hi rend="superscript">m.</hi> Anderson
+                            Packhorse &amp; Fleece</persName> sign</hi>, so <persName ref="pe0027">Howey</persName> told me that <persName ref="pe0304">Anderson</persName> was answerable for them, &amp; in
+                    order to trace out the Recovery of <persName ref="pe0390">M<hi rend="superscript">r.</hi> Falconer</persName>'s Box, (as I presume one
+                    of the above two Boxes must be the one wanted? I have this night written to
+                        <persName ref="pe0304">Will<hi rend="superscript">m.</hi>
+                        Anderson</persName> what you mention in your Letter of 29 past to me:
+                    desiring that he will push the Search from his House <del rend="overstrike">if</del> to <placeName ref="pldb.xml#pl0489">Manchester</placeName> if
+                    these Boxes were sent off by him : Please let me know if this Box casts up, but
+                    if not, advise me what steps are to be taken to find it out.</p>
+                <p>
+                    <sic>I waited of</sic>
+                    <persName ref="pe0021">M<hi rend="superscript">r.</hi> Sharp</persName>
+                    who returns his Compliments (as does <persName ref="pe0016">M<hi rend="superscript">r.</hi> Campbell</persName>) is very happy that <rs type="art">the drawing reached you</rs> &amp; pleases so well.</p>
+                <p>I have inquired at <placeName ref="pldb.xml#pl1022">the Advocates
+                        Library</placeName> for <bibl type="authorial">
+                        <biblScope unit="volume">2<hi rend="superscript">d.</hi> Volume</biblScope> of <title ref="bidb.xml#bi0499">the Scotia Illustrata</title>
+                    </bibl> but there is
+                    no such Article in their Collection probably it has been there but is now gone,
+                    some person having borrowed &amp; lost it. have hereto annexed a List of
+                        <persName ref="pe0266">Sir Robert Sibbald</persName>'s Works
+                    printed &amp; M.SS. the annexed List is what they should have but what are crost
+                    (x) they have lost. I learn from <persName ref="pe0022">D<hi rend="superscript">r.</hi> Ramsay</persName> that none of his M.SS. are
+                    in the Medical Collection belonging to the Physicians here, I will make some
+                    further Inquiry about them &amp; <del rend="overstrike">will</del> inform if
+                    succesfull.</p>
+                <p>Can learn no more about <persName ref="pe0490">the French Painter <hi rend="underline">
+                            <unclear>Mauvise</unclear>
+                        </hi>
+                    </persName> it seems
+                        <bibl type="authorial">
+                        <title ref="bidb.xml#bi0558">the Hon<hi rend="superscript">ble.</hi> M<hi rend="superscript">r.</hi>
+                            Walpole</title>
+                    </bibl> assigned <rs type="art" ref="ardb.xml#ar0001">the
+                        Labours of Hercules</rs> to this Artist.</p>
+                <p>It will make me happy to be of any <del rend="overstrike">
+                        <unclear reason="illegible">Service</unclear>
+                    </del> Service to you here</p>
+                <closer>
+                    <salute>&amp; am <lb/>D<hi rend="superscript">r</hi>Sir <lb/>Your obliged
+                        &amp; most obedient <lb/>Serv<hi rend="superscript">t.</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0228">GPaton</persName>
+                    </signed>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0076">Edinb<hi rend="superscript">r.</hi>
+                        </placeName>
+                        <lb/>7 Decem<hi rend="superscript">r.</hi> 1772.</dateline>
+                </closer>
+            </div>
+            <div type="enclosed">
+                <p>
+                    <list>
+                        <item>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0499">Sibbaldi Scotia
+                                    Illustrata cum fig fol. Ed<hi rend="superscript">r.</hi>
+                                    1684</title>
+                            </bibl>.</item>
+                        <item>x <bibl type="authorial">
+                                <title ref="bidb.xml#bi0498">––––– Supplement
+                                    to the same M.SS. 4<hi rend="superscript">to.</hi>
+                                </title>
+                            </bibl>
+                        </item>
+                        <item>* x <bibl type="authorial">
+                                <title ref="bidb.xml#bi0540">–––––
+                                    Introductio ad Historiam rerum a Romanis gestarum &amp;<hi rend="superscript">c</hi> Ed. 1706
+                            fol.</title>
+                            </bibl>
+                        </item>
+                        <note type="authorial" place="foot">* This &amp; many more Tracts are
+                            contained in the Volume I gave you while here, I've another Collection
+                            by <persName ref="pe0266">Sir Robert</persName> on the <bibl type="authorial">
+                                <title ref="bidb.xml#bi0541">
+                                    <hi rend="underline">Antient Independency of Scotland in 3 parts 4<hi rend="superscript">to</hi>
+                                    </hi>
+                                </title>
+                            </bibl> these
+                            were published in 3 pamphlets <sic>at differents</sic> &amp; now
+                            extremely rare</note>
+                        <item>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0542">––––– Caledonia.
+                                    sive Scotia antiq. &amp; recentior M.SS.
+                            fol.</title>
+                            </bibl>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0543">––––– Atlas
+                                    Scoticus M.SS. fol.</title>
+                            </bibl>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0544">––––– Additions to
+                                    Cambden's Britan, published 1692 MSS. fol.</title>
+                            </bibl>
+                        </item>
+                        <item>x <bibl type="authorial">
+                                <title ref="bidb.xml#bi0545">––––– Collection
+                                    of papers &amp; Informat. in order to the Discription of
+                                    Scotland M.SS. 4<hi rend="superscript">to</hi>
+                                </title>
+                            </bibl>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0546">––––– Discription
+                                    of the Islands belonging to the Crown of Scotland M.S.
+                                    fol</title>
+                            </bibl>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0547">––––– Vindication
+                                    of the Scottish History &amp; Historians M.SS.
+                                fol</title>
+                            </bibl>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0548">––––– Comment. in
+                                    Vitam Geo. Buchanani 8<hi rend="superscript">o.</hi> Ed<hi rend="superscript">r.</hi>
+                                </title>
+                            </bibl>
+                        </item>
+                        <item>x <bibl type="authorial">
+                                <title ref="bidb.xml#bi0549">––––– Elogia
+                                    Scotorum, qui scriptis aut gestis claruerunt ab Anno 1500 M.SS.
+                                        8<hi rend="superscript">o.</hi>
+                                </title>
+                            </bibl>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0556">de Historicis
+                                    Scot. &amp; politicis qui vel Scotic. vel aliarum gentium
+                                    Historia enarrant M.SS. fol.</title>
+                            </bibl>
+                        </item>
+                        <item>
+                            <bibl type="authorial">x <title ref="bidb.xml#bi0552">Inscriptiones
+                                    funebres clarorum virorum qui hoc Ævo XVII decssere M.SS. 4<hi rend="superscript">to.</hi>
+                                </title>
+                            </bibl>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0555">––––– Answer to
+                                    (Rymer's)second Letter to B. Carlisle occasioned by some
+                                    Passages in the Scot. Historical Liberary &amp;<hi rend="superscript">c.</hi> Edin<hi rend="superscript">r.</hi> 1704. 8<hi rend="superscript">o.</hi>
+                                </title>
+                            </bibl>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0557">––––– de Gestis
+                                    Gulielmi Vallæ herois Scoti Collectanea Varia Ed<hi rend="superscript">r.</hi> 1705. 8<hi rend="superscript">o.</hi>
+                                </title>
+                            </bibl>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0551">––––– Memoria
+                                    Balfouriana &amp;c Edin<hi rend="superscript">b.</hi> 1699 8<hi rend="superscript">o.</hi>
+                                </title>
+                            </bibl>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0553">––––– Account of
+                                    Sir James Balfour's Manuscripts M.SS. fol.</title>
+                            </bibl>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0554">––––– Auctarium
+                                    Musæi Balfouriani &amp;c Edin<hi rend="superscript">b.</hi>
+                                    1697. 8<hi rend="superscript">o.</hi>
+                                </title>
+                            </bibl>
+                        </item>
+                        <item>x <bibl type="authorial">
+                                <title ref="bidb.xml#bi0550">––––– Memoirs
+                                    for compiling the Hist. of the R. College of Physicians at
+                                        Edinb<hi rend="superscript">r.</hi> M.SS. 4<hi rend="superscript">to.</hi>
+                                </title>
+                            </bibl>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0050">–––––
+                                    Phailonologia nova, sive observationes de rarioribus quibusd.
+                                    Balænis in Scotiæ Littus nuper ejectis Ed<hi rend="superscript">r.</hi> 1692. 4<hi rend="superscript">to.</hi>
+                                </title>
+                            </bibl>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0127">––––– (&amp; Jo.
+                                    Slezerus) Theatrum Scotiæ fol. M.SS.</title>
+                            </bibl>
+                        </item>
+                    </list>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

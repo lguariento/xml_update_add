@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0431">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>John Stuart to Thomas Pennant, enclosing a transcription of a poem about Ben
+                    Lomond</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP369</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>10a-10c</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0023">John Stuart</persName>
+                    <date when="1774-03-04"/>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+
+                <language ident="en">English</language>
+
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName> March 4.<hi rend="superscript">th</hi> 1774</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>Upon my arrival at home I am favoured with your very obliging letter of the 11<hi rend="superscript">th.</hi> of last month—</p>
+                <p>The remarks I sent you upon <placeName ref="pldb.xml#pl0715">
+                        <hi rend="underline">Sky</hi>
+                    </placeName>, and likewise those upon <placeName ref="pldb.xml#pl0986">
+                        <hi rend="underline">Coygach</hi>
+                    </placeName>,
+                        <placeName ref="pldb.xml#pl0668">
+                        <hi rend="underline">Loch-Broom</hi>
+                    </placeName>&amp;c. would I dare say come to your hands
+                    before you left <placeName ref="pldb.xml#pl0001">
+                        <hi rend="underline">Downing</hi>
+                    </placeName> on the 1<hi rend="superscript">st.</hi>
+                        curr<hi rend="superscript">t.</hi>-</p>
+                <p>But a letter which I sent you with some remarks on <placeName ref="pldb.xml#pl0721">
+                        <hi rend="underline">Glenelg</hi>
+                    </placeName>, and
+                    containing according to your desire a particular account of the round ruinous
+                    towers found in the inland Highlands, and another of which I wrote you last week
+                    by <placeName ref="pldb.xml#pl0229">
+                        <hi rend="underline">Glasgow</hi>
+                    </placeName>, containing an Account of the islands of
+                        <placeName ref="pldb.xml#pl0729">
+                        <hi rend="underline">Mull</hi>
+                    </placeName>,
+                        <placeName ref="pldb.xml#pl0688">
+                        <hi rend="underline">Lismore</hi>
+                    </placeName>, <placeName ref="pldb.xml#pl0691">
+                        <hi rend="underline">Eisdale</hi>
+                    </placeName>, the measurement of the large
+                    horns seen at <placeName ref="pldb.xml#pl0987">
+                        <hi rend="underline">Lochnell</hi>
+                    </placeName>, and concluding the remarks on <bibl>
+                        <title ref="bidb.xml#bi0008">your voyage</title>
+                    </bibl> at <placeName ref="pldb.xml#pl0266">
+                        <hi rend="underline">Ardmaddy</hi>
+                    </placeName>, as
+                    they were both directed under Cover, as fomerly, To <persName ref="pe0015">Sir Roger Mostyn</persName> at <placeName ref="pldb.xml#pl0695">Mostyn, Flintshire</placeName>, could not overtake you
+                    in the country. I would hope however they may find their way to you in town in
+                    proper enough time.<note type="editorial">The whereabouts of the two letters
+                        Stuart mentions here are currently unknown.</note>
+                </p>
+                <p>You'll observe that the rural œconomy, the customs and manners, and particularly
+                    the musical turn, which prevail perhaps more remarkably in <placeName ref="pldb.xml#pl0715">
+                        <hi rend="underline">Sky</hi>
+                    </placeName>, are not
+                    however altogether perculiar to that island. In these respects a similarity may
+                    be often traced through all the <placeName ref="pldb.xml#pl0708">W.
+                        isles</placeName>, and along the whole W. coast.</p>
+                <p>I am happy to find that my old Acquaintance <persName ref="pe0069">The
+                            Rev<hi rend="superscript">d.</hi> M<hi rend="superscript">r.</hi> Donald
+                            M<hi rend="superscript">c</hi>Queen of <hi rend="underline">Sky</hi>
+                    </persName> is your Correspondent. In many respects you could not
+                    have a properer channel of information. The account of the intended emigration
+                    from that island I had from a Tacksman of that place, whom I saw upon his way to
+                        <placeName ref="pldb.xml#pl0076">Edin<hi rend="superscript">r.</hi>
+                    </placeName> As <persName ref="pe0069">M<hi rend="superscript">r.</hi> M<hi rend="superscript">c</hi>
+                        Queen</persName> however makes no mention of it, I would not desire to give
+                    absolute credit to it till it is further confirmed.</p>
+                <p>My obligations to you for the desire which you are pleased to express of
+                    furthering my promotion in life, are such as I cannot sufficiently acknowledge.
+                    It is surely very kind in you to offer me, unsollicited, your services in that
+                    respect, — services which I had no just title to expect, unless perhaps the
+                    conferring of former favours could be thought sufficient to found a claim for
+                    new ones — The settlement which I have now got in the church is not attended
+                    with every disadvantage. The situation is far from being disagreeable, — at the
+                    head of <placeName ref="pldb.xml#pl0221">
+                        <hi rend="underline">Loch-long</hi>
+                    </placeName> a branch of the <placeName ref="pldb.xml#pl0833">
+                        <hi rend="underline">Clyde</hi>
+                    </placeName>, about a mile from the side
+                    of <placeName ref="pldb.xml#pl0223">
+                        <hi rend="underline">Loch-lomond</hi>
+                    </placeName> and within a day's ride of <placeName ref="pldb.xml#pl0229">
+                        <hi rend="underline">Glasgow</hi>
+                    </placeName>. The
+                    Charge is likewise an easy one; as there are not above 200 catechisable persons
+                    computed to be in the whole parish. The only objection I have to it is the
+                    exceeding smallness of the Stipend which is only about 32 £ Sterl.; and as the
+                        <hi rend="underline">tiends</hi> are exhausted, the Court of Session have it
+                    not in their power to give any augmentation. <persName ref="pe0458">The
+                        Laird of Mac-Farlane</persName>, who is the only considerable Heretor,
+                    sensible of the smallness of the legal allowance, gave for some years past 20 £
+                    Ster. P<hi rend="superscript">r.</hi> year by way of a gratuitous addition to
+                    the Stipend; but I am told that he now proposes to withdraw at least the half of
+                    it.</p>
+                <p>The following is a Copy of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0536">an
+                            inscription which I found upon a pane of glass in one of the
+                            windows</title>
+                    </bibl> of <placeName ref="pldb.xml#pl0222">the inn at
+                            <hi rend="underline">Tarbat</hi>
+                    </placeName>, from which there is a good
+                    view of <placeName ref="pldb.xml#pl0609">
+                        <hi rend="underline">Ben-Lomond</hi>
+                    </placeName>. As <persName ref="pe0139">M<hi rend="superscript">r.</hi> Lightfoot</persName> was upon the top of that
+                    mountain, I have likewise sent him a Copy of it in the Letter which I have used
+                    the freedom to send you inclosed —</p>
+                <p>
+                    <quote>
+                        <l>Stranger if e'er this pane of glass perchance</l>
+                        <l>Thy roving eye should cast a casual glance,</l>
+                        <l>If taste for grandeur and the dread sublime</l>
+                        <l>Prompt thee <placeName ref="pldb.xml#pl0609">Ben-Lomond's</placeName>
+                            awful height to climb,</l>
+                        <l>Here gaze attentive, — nor with scorn refuse</l>
+                        <l>The friendly rhymings of a Tavern muse —</l>
+                        <l>For thee that muse this rude inscription plann'd,</l>
+                        <l>Prompted for thee her humbe Poet's hand.</l>
+                        <l>Heed thou the Poet, — he thy steps shall lead</l>
+                        <l>Safe o'er yon tow'ring hill's aspiring head,</l>
+                        <l>Attentive then to this informing lay,</l>
+                        <l>And how he dictates as he points the way.</l>
+                        <l>— Trust not at first a quick advent'rous pace,</l>
+                        <l>Six miles it's top points gradual to it's base;</l>
+                        <l>Up the high rise with panting haste I pass'd,</l>
+                        <l>And gain'd the long laborious steep at last.</l>
+                        <l>More prudent you, when once you pass the Deep,</l>
+                        <l>With measur'd pace, and slow ascend the lengthen'd steep —</l>
+                        <l>Oft stay thy steps, oft taste the cordial drop,</l>
+                        <l>And rest, oh rest! long long upon the top —</l>
+                        <l>There hail the breezes, nor with toilsome haste</l>
+                        <l>Down the rough slope thy precious vigour waste</l>
+                        <l>So shall thy wondring sight at once survey</l>
+                        <l>Vales, Lakes, Woods, Mountains, Islands, Rocks &amp; Sea</l>
+                        <l>Huge hills that heap'd in crowded order stand</l>
+                        <l>Stretcht o'er the Norther and the Western land,</l>
+                        <l>Vast lumpy groups — while Ben, who often shrouds</l>
+                        <l>His loftier summit in a veil of clouds,</l>
+                        <l>High o'er the rest displays superior state,</l>
+                        <l>In proud preeminence sublimely great —</l>
+                        <l>— One side all awful to the gazing eye</l>
+                        <l>Presents a Steep three hundred fathom high,</l>
+                        <l>The scene tremendous shocks the startled sense</l>
+                        <l>With all the pomp of dread magnificence —</l>
+                        <l>All these and more shalt thou transported see;</l>
+                        <l>And own a faithful monitor in me —</l>
+                        <lb/>
+                        <persName ref="pe0459">Tho<hi rend="superscript">s.</hi>
+                            Russel</persName> Oc<hi rend="superscript">r.</hi> 3<hi rend="superscript">d.</hi> 1771. </quote>
+                </p>
+                <p>I saw <bibl type="authorial">
+                        <title ref="bidb.xml#bi0537">an advertisement last
+                            week in the Glasgow Newspapers</title>
+                    </bibl>, which I must own I could
+                    not read without feeling some concern. Our old Friend <hi rend="underline">The
+                        Lady Frederick</hi>, said to be a vessel of 80 tun, and her Sister <hi rend="underline">The Jessy</hi>, are it seems in these days to be both
+                    exposed to publick sale.<note type="editorial">
+                        <hi rend="italic">The Lady
+                            Frederick Campbell</hi> was the vessel used by Pennant and his retinue
+                        during their 1772 voyage to the Hebrides.</note> The Company of <persName ref="pe0460">the Mess<hi rend="superscript">s.</hi>
+                        Campbells</persName> the Owners, is now to be dissolved. —</p>
+                <closer>
+                    <salute>I remain <lb/>Dear Sir <lb/>with great esteem <lb/>Your most obliged
+                        and <lb/>most humble Servant</salute>
+                    <signed>
+                        <persName ref="pe0023">John
+                        <sic>Servant</sic>
+                        </persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>P.S. I return you a thousand thanks for the most acceptable Present you are
+                        so good as to make of <bibl type="authorial">
+                            <title ref="bidb.xml#bi0004 bidb.xml#bi0008">both your
+                        Tours</title>
+                        </bibl>. I am sorry to think of putting you to so much trouble.
+                        You may direct them to the care of <persName ref="pe0022">D<hi rend="superscript">r.</hi> Ramsay</persName>, who I am informed,
+                        altogether forgetful of his Glasgow flame, is upon the point of being
+                        married to <persName ref="pe0461">Miss Dundass</persName>, another
+                        agreeable Young Lady ––––– </p>
+                    <signed>
+                        <persName ref="pe0023">JS—</persName>
+                    </signed>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>To — <lb/>Thomas Pennant Esq<hi rend="superscript">r.</hi>
+                        </addrLine>
+                        <addrLine/>
+                    </address>
+                    <handShift/>March 4<hi rend="superscript">th</hi> 1774. <lb/>of his getting a
+                    living</p>
+            </div>
+        </body>
+    </text>
+</TEI>

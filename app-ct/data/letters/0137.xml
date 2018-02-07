@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0137">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, on publication plans and asking for
+                    information on a painting</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>58</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-06-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <body>
+            <div>
+                <dateline>June 18<hi rend="superscript">th</hi> 1773.</dateline>
+
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+
+                <p>I give you many thanks for y<hi rend="superscript">r</hi> kind Letter &amp; shall
+                    be glad of the answers to the queries at your convenience. Let me beg as an
+                    addition to y<hi rend="superscript">r</hi> trouble that you w<hi rend="superscript">d</hi> step to <placeName ref="pl0724">Lord Dunmores
+                        Lodging</placeName> &amp; examine whether the figure in <rs type="art" ref="ar0117">the picture</rs> of <persName ref="pe0600">Ch.1</persName>
+                    &amp; his <persName ref="pe0601">Queen</persName> which I call a boy is not a
+                    dwarf for I have occasion to think it, little <persName ref="pe0602">Jeffrey
+                        Hudson</persName> the noted dwarf of that monarch.</p>
+                <p>as soon as I have time I will inform you of the missing numbers of <bibl type="authorial">
+                        <title ref="bi0064">the magazines</title>
+                    </bibl>. <del rend="overstrike">
+                        <gap reason="illegible" unit="word" atLeast="6" atMost="8"/>
+                    </del>
+                    <persName ref="pe0260">M<hi rend="superscript">r</hi> Ruddiman</persName> may
+                    inclose them as usual to me &amp; I will pay for them as before, for I shall on
+                    recollection be long before I get them by way of <placeName ref="pl0699">London</placeName>.</p>
+                <p>I rejoice at the Liberality of y<hi rend="superscript">r</hi> Post office that
+                    suffers science to go untaxed. Pray forward the inclosed to <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName>. I have sent him
+                    now almost all the work, but at present have not a frank to him ––––– on looking
+                    I find I have sent it I mean <bibl type="authorial">
+                        <title ref="bi0050">
+                            <sic>Sibalds</sic> Whales</title>
+                    </bibl>: but instead send him <rs type="art" ref="ar0120">some prints</rs>.</p>
+                <p>Pray present my compliments to <persName ref="pe0017">M<hi rend="superscript">r</hi>
+                        Clark</persName> &amp; let him know I can fix no Time for my publication as
+                    there are so many plates to be engraven. But those retard all works as the
+                    artists are tedious. as soon as <bibl type="authorial">
+                        <title ref="bi0050">Sibbalds work</title>
+                    </bibl> is completed (for that waits for <rs type="art" ref="ar0047">the plates</rs>). I shall beg y<hi rend="superscript">r</hi> acceptance of it.</p>
+                <closer>
+                    <salute>I am D<hi rend="superscript">r</hi> Sir <lb/>very faithfully Y<hi rend="superscript">rs</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232"/>
+                    </signed>Tho. Pennant</closer>
+
+                <postscript>
+                    <p>I leave the directions to you.</p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>To M<hi rend="superscript">r</hi>
+                        </addrLine>
+                        <addrLine>Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0703">NORTHOP</placeName>
+                    </stamp>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0703">NORTHOP</placeName>
+                    </stamp>
+                </p>
+                <p>
+                    <persName ref="pe0286">GfreeHunt</persName>
+                </p>
+                <p>
+                    <handShift/>Daniel <unclear reason="illegible">Mattinger</unclear> P. to
+                    Chap.1.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0422">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>John Stuart to Thomas Pennant: corrections of place names in the <hi rend="italic">Tour 1769</hi> and the natural history of Rannoch</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP369</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>2a-2d</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0023">John Stuart</persName>
+                    <placeName ref="pl0277">Killin</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                    <date when="1773-01-12"/>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gd">Gaelic</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I was favoured ten days ago with your obliging letter of Nov<hi rend="superscript">r.</hi> 27<hi rend="superscript">th.</hi>, and in order
+                    to comply the more fully with the desire your express in it relative the new
+                    edition you propose to publish of your ingenious <bibl type="authorial">
+                        <title ref="bidb.xml#bi0001">Scotch Tour</title>
+                    </bibl>, have given it a new
+                    perusal, marking down at the same time such Galic names as require to be more
+                    properly spelt, together with any other remarks that occured.</p>
+                <p>
+                    <bibl type="authorial">
+                        <title ref="bidb.xml#bi0001">Tour in Scotland</title>,
+                            <pubPlace>printed in <placeName ref="pldb.xml#pl0002">Chester</placeName>
+                        </pubPlace>, <date>1771</date>
+                    </bibl>.<note type="editorial"> The quotes and page references below correspond to the
+                        1771 edition of <hi rend="italic">A Tour in Scotland 1769</hi>, although
+                        Stuart's spelling occasionally differs from the source.</note>
+                    <list>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">page 27<hi rend="superscript">th.</hi>
+                                </biblScope>
+                            </bibl>
+                            <q>Rack in the N. dialect signifying the driving of the clouds</q> — <hi rend="underline">Reac</hi> in the Galic language has the same
+                            meaning.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">page
+                                35.</biblScope>
+                            </bibl> Note at the foot: <q>
+                                <placeName ref="pldb.xml#pl0367">Inch-Colm</placeName>
+                            </q> — spelt more
+                            properly <placeName ref="pldb.xml#pl0367">Insh-Colm</placeName>; <hi rend="underline">Inis</hi>, or as it is <unclear reason="illegible">pronounced <hi rend="underline">Inish</hi> signifying</unclear> an
+                            island in the Galic language.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.42.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0816">Dun-glas</placeName>
+                            </q> i.e. the
+                            grey eminence or tower, <hi rend="underline">Dùn</hi> signifying in
+                            Galic a small hill, fort or tower, and <hi rend="underline">glas</hi>
+                            grey.</item>
+                        <item>
+                            <q>
+                                <placeName ref="pldb.xml#pl0070">Dunbar</placeName>
+                            </q> — <hi rend="underline">Bàr</hi> is the top, summit, or point of any place
+                            or thing.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.46.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0076">Edinburgh</placeName>
+                            </q> — The old name of this city, by which
+                            it is still known in every part of the Highlands is <placeName ref="pldb.xml#pl0076">
+                                <hi rend="underline">Dun-Edin</hi>
+                            </placeName>.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.56.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0811">Colton</placeName>
+                            </q> — properly
+                            Calton: an error of the press.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.57.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0078">Craigmellar castle</placeName> is
+                                seated on a rocky eminence</q> — as its name implies, <hi rend="underline">Craig</hi> both in Galic and Scotch signifying a
+                            rock.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.60.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0080">Dalkeith</placeName>
+                            </q> — <hi rend="underline">Dail</hi> in Galic signifies a field. I am ignorant
+                            of the meaning of Keith.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.62.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0370">Inch-Garvey</placeName>
+                            </q> — rather
+                                <placeName ref="pldb.xml#pl0370">Insh-Garvey</placeName>, i.e. the
+                            rough island, from <hi rend="underline">inish</hi> and island and <hi rend="underline">garv</hi> rough.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.63.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0085">Kinross</placeName>
+                            </q> — so
+                            denominated from the Galic word <hi rend="underline">ken</hi>; or <hi rend="underline">keann</hi> the head or upper part of any thing, and
+                                <hi rend="underline">ros</hi> a promontory, or any tract of land
+                            lying betwixt two arms of the sea or two rivers that join one another.
+                            Accordingly all the country lying from <placeName ref="pldb.xml#pl0812">the Ochil hills</placeName> and <placeName ref="pldb.xml#pl0096">the Tay</placeName> to <placeName ref="pldb.xml#pl0083">the firth
+                                of Forth</placeName> was of old called <hi rend="underline">Ros</hi>, and in Latin, <hi rend="underline">Rossia</hi>. <placeName ref="pldb.xml#pl0085">Kinross</placeName> then still points out it's
+                            boundary to us in one part, as <placeName ref="pldb.xml#pl0374">Culross</placeName> does in another; for <hi rend="underline">cùl</hi> signifies the back or hind part of anything.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.64.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0086">Lough-Leven</placeName>
+                            </q> — Lough,
+                            the first part of the name of this and other lakes, is in Scotland
+                            commonly spelt Loch, which is likewise agreeable to the Galic
+                            orthography and pronunciation.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.65.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0089">Glen-devon</placeName>
+                            </q> — <hi rend="underline">Glen</hi> or <hi rend="underline">gleann</hi>
+                            signifies in the Galic language a valley in which a river runs.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.67.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0091">Straith earn</placeName>
+                            </q> — more
+                            properly <placeName ref="pldb.xml#pl0091">Strath-earn</placeName>. <hi rend="underline">Strath</hi> or <hi rend="underline">srath</hi>
+                            likewise signifies a valley and differs from the word <hi rend="underline">glen</hi>
+                            <gap reason="illegible" atMost="2" unit="word"/> implies a more open,
+                            flat and extensive one.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.71.</biblScope>
+                            </bibl>
+                            <q>Baily Roy</q> — so called from the red colour of his hair, for <hi rend="underline">roy</hi> in Scotch signifies red, as <hi rend="underline">rua'</hi> does in Galic.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.72.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0096">Tay</placeName>
+                            </q> — called by the
+                            Highlanders <unclear>
+                                <hi rend="underline">
+                                    <placeName ref="pldb.xml#pl0096">Taï</placeName>
+                                </hi>
+                            </unclear>.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.75.</biblScope>
+                            </bibl>
+                            <q>Inver</q> — This word in the Galic language signifies the place where
+                            a smaller river enters into a larger one or into a lake or the sea; as
+                                <hi rend="underline">Abber</hi> seems to have done in the Pictish
+                            language.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.76.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0099">Dunkeld</placeName>
+                            </q> — called by
+                            the Highlanders <placeName ref="pldb.xml#pl0099">
+                                <hi rend="underline">Dùn-chaillean</hi>
+                            </placeName>.</item>
+                        <item>
+                            <q>
+                                <placeName ref="pldb.xml#pl0813">Breadalbane</placeName>
+                            </q> i.e.
+                            the higher part of Scotland, from <hi rend="underline">brài</hi> the
+                            higher part of any thing, and <hi rend="underline">albin</hi>
+                            Scotland.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.77.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0101">Taymouth</placeName>
+                            </q> — In the
+                            Galic language it is still called <placeName ref="pldb.xml#pl0101">
+                                <hi rend="underline">Balloch</hi>
+                            </placeName> or <placeName ref="pldb.xml#pl0101">
+                                <hi rend="underline">Bealach</hi>
+                            </placeName>
+                            i.e. the mouth of the loch.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.78.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0814">Lough-Raynac</placeName>
+                            </q> —
+                            rather <placeName ref="pldb.xml#pl0814">Loch-Rannoch</placeName>.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.79.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0104">Lough-Tay</placeName>
+                            </q> — I know
+                            no other fish in <placeName ref="pldb.xml#pl0104">Loch-Tay</placeName>
+                            besides those you mention, but Char, Lampreys and Parr.</item>
+                        <item>
+                            <q>
+                                <placeName ref="pldb.xml#pl0815">Ben-more</placeName>
+                            </q> i.e. the
+                            great mountain, from <hi rend="underline">beinn</hi> a mountain and <hi rend="underline">mòr</hi> great.</item>
+                        <item>
+                            <q>Ptarmigan</q> — would it not be better to spell it Tarmachan or
+                            Tarmonach, agreeably to the common pronunciation in different parts both
+                            in the Highlands and low country of Scotland: <hi rend="underline">An</hi>
+                            <hi rend="underline">tard</hi>-<hi rend="underline">mhonach</hi>, i.e.
+                            the inhabitant of lofty mountains, seems to be the original of the
+                            word.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.80.</biblScope>
+                            </bibl>
+                            <q>Royston-crows</q> — They are called in
+                            the Galic language not <unclear reason="illegible">
+                                <hi rend="underline">Feanagh</hi>
+                            </unclear> but <hi rend="underline">Feannaga</hi>,
+                            from <hi rend="underline">feann</hi> grey or whitish. They nestle
+                            commonly in furze or birch trees, but not in the hills</item>
+                        <item>
+                            <q>Sea-eagles</q> — As far as I can learn, The Sea-eagle or <hi rend="underline">Falco ossifragus</hi>
+                            <bibl type="authorial">
+                                <title ref="bidb.xml#bi0418">Lin.</title>
+                            </bibl>
+                            does not breed in <placeName ref="pldb.xml#pl0813">Breadalbane</placeName>, but the Osprey does. A pair of this last
+                            species nest every year in the ruined tower you saw in <placeName ref="pldb.xml#pl0817">the small isle of
+                            Loch-dochart</placeName>.</item>
+                        <item>
+                            <q>Tibberd</q> A remarkable spring or fountain of water, especially if
+                            a superstitious regard has been long been paid to it on account of it's
+                            supposed virtues or healing qualities, is called by the Highlanders <hi rend="underline">Tibberd</hi> or <hi rend="underline">Tiobart</hi>,
+                            but I never heard any of the Druidical circles of stone called by that
+                            name. In the W. isles they call them <hi rend="underline">ti'e-nan-Drui'neach</hi> or the Druids houses.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.81.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0269">Lochon</placeName>
+                            </q> — It should
+                            be <placeName ref="pldb.xml#pl0269">Lochow</placeName>.<note type="editorial">The reference in Pennant's <hi rend="italic">Tour</hi> is to the figure of Duncan Campbell of Loch Awe in
+                                    <rs type="art" ref="ardb.xml#ar0039"> George Jamesone's painting
+                                        <hi rend="italic">The Campbell of Glenorchy Family
+                                    Tree</hi>
+                                </rs>.</note>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.82.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0103">Kinmore</placeName>
+                            </q> — rather
+                                <placeName ref="pldb.xml#pl0103">Kenmore</placeName>; from <hi rend="underline">Keann</hi> the head or end of any thing, and <hi rend="underline">mòr</hi> great.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.83.</biblScope>
+                            </bibl>
+                            <q>Sacrament</q> — I believe there is now hardly occasion for your
+                            censure as to the conduct of the Highlanders at the Sacrament,
+                            especially in this country, where that ordinance is gone about with as
+                            great decency and order as circumstances will permit. In <placeName ref="pldb.xml#pl0818">Arguileshire</placeName> indeed, some years
+                            ago, there were instances of such abuses as you mention, and to prevent
+                            them for the future the church thought it proper to enact that, instead
+                            of four days set apart for publick worship on that occasion, as in some
+                            other parts of Scotland, they should in that county be confined to two
+                            only, but that the Sacrament should be regularly <sic>administred</sic>
+                            in every parish once in the twelvemonth.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.85.</biblScope>
+                            </bibl>
+                            <q>Na-Fian</q> — The Highlanders in many parts reckon themselves
+                                <unclear reason="illegible">the descendents of Fingal</unclear> and
+                            his co-temporaries, but never call themselves <hi rend="underline">
+                                <unclear reason="illegible">Na'</unclear> Fianna</hi>, a name
+                            by which they denominate only the heroes of those primitive
+                            times.</item>
+                        <item>
+                            <q>Antient brotche</q> — The brotche is at present, as far as I know,
+                            only used by the women, but of old, I believe, was like-wise used by
+                            some of the men in the way you describe.</item>
+                        <item>
+                            <q>
+                                <placeName ref="pldb.xml#pl0212">Teindrum</placeName>
+                            </q> rather
+                                <placeName ref="pldb.xml#pl0212">Taindrom</placeName> i.e. the house
+                            of the height; from <hi rend="underline">Ti</hi>' a house and <hi rend="underline">droma</hi> the genitive case of <hi rend="underline">druim</hi> the back or upper surface of any
+                            thing.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.86.</biblScope>
+                            </bibl>
+                            <q>Rocks</q> — The rock or distaff is now very little use in spinning by
+                            the women of this country. Spinning-wheels have become almost
+                            universal.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.87.</biblScope>
+                            </bibl>
+                            <q>fairs held at <placeName ref="pldb.xml#pl0107">Taymouth</placeName>
+                            </q> These fairs are held in <placeName ref="pldb.xml#pl0103">the village of Kenmore</placeName>, and not at
+                                <placeName ref="pldb.xml#pl0107">Taymouth</placeName>.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.88.</biblScope>
+                            </bibl>
+                            <q>the most southern resort of roes</q> Roes still abound in some parts
+                            of <placeName ref="pldb.xml#pl0105">Glenlyon</placeName>, are seen in
+                            some of the woods of <placeName ref="pldb.xml#pl0813">Breadalbane</placeName>, and even so far South as the sides of
+                                <placeName ref="pldb.xml#pl0223">Loch-Lomond</placeName>.</item>
+                        <item>
+                            <q>no other fish</q> Besides the common trout and bull-trout, called
+                            by the inhabitants <hi rend="underline">keann-garv</hi> i.e. great head,
+                            I have seen a small species of Char in <placeName ref="pldb.xml#pl0814">Loch-Rannoch</placeName>, and have been informed that there were
+                            plenty of eels in it, but no fish or pearls.</item>
+                        <item>
+                            <q>Turuvachal</q> should be spelt <hi rend="underline">Tur-bhuachal</hi>.</item>
+                        <item>
+                            <q>most abandoned Sot</q> The word Sot, I believe, conveys a different
+                            meaning with you in England from what it does to a Scotchman. He
+                            understands by it not merely a person who is become in a beastly manner
+                            a slave to his cups, but likewise one that is naturally dull, stupid and
+                            thick-skulled, without any life or vivacity. In this sense your censure
+                            upon <persName ref="pe0194">the Poet Struan</persName> will
+                            hardly be reckoned just; for he by no means wanted a considerable share
+                            of natural parts, though he did not often make the proper use of
+                            them.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.90.</biblScope>
+                            </bibl>
+                            <q>
+                                <hi rend="underline">Lagh sheachanna
+                                    na bleanagh</hi>
+                            </q> should be written <hi rend="underline">Là
+                                sheachanna' na blia'na</hi>, or the day to be shunned for beginning
+                            any work or enterprize <unclear reason="illegible">upon
+                                through</unclear> the whole year.</item>
+                        <item>
+                            <q>hold their Bel-tein</q> — The feast or entertainment which is held
+                            at this time by the herdsmen is called <hi rend="underline">Binnechan</hi> from <hi rend="underline">beinn</hi> a mountain, as
+                            of old it was probably celebrated on the tops of hills or mountains. The
+                            word <hi rend="underline">Bel-tein</hi> or <hi rend="underline">Beal-tein</hi>, which according to the oldest and most received
+                            etymology of it signifies the fire of the God Bel or Baal, is now used
+                            only to denote the time in which this sacrifice or feast was solemnized.
+                            Thus the first of May.O.S., is universally called là <hi rend="underline">Beal-tein</hi>, or Belton-day by the
+                            Highlanders.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.92.</biblScope>
+                            </bibl>
+                            <q>Latewake</q> — Musick and dancing, as far as I can learn, are now
+                            almost abolished at Latewakes in every part of the Highlands. In this
+                            very country however I know them still alive, who in their youth
+                            assisted at the ceremony such as you describe it.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.95.</biblScope>
+                            </bibl>
+                            <q>clach-bhouaigh</q> should be written <hi rend="underline">clach-bhuai'</hi>, or the stone of great power and efficacy.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.97.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0110">Blair</placeName>
+                            </q> — <placeName ref="pldb.xml#pl0110">
+                                <hi rend="underline">Blàr</hi>
+                            </placeName> is
+                            the Galic name, and signifies originally any level spot of ground,
+                            without trees or other cause of roughness. But as such was often chosen
+                            as the most proper place for an engagement, <hi rend="underline">blàr</hi> is now likewise used to denote the battle itself.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.102.</biblScope>
+                            </bibl> Note at the foot.<q>
+                                <hi rend="underline">Arrie</hi> ie. a house, made of turf</q> The <hi rend="underline">bothay</hi> is indeed a house commonly made of
+                            turf, but that is by no means the meaning of the Galic word <hi rend="underline">Arrie</hi> or the Scotch word <hi rend="underline">Shealing</hi>, each of which denotes that whole tract of high
+                            ground which all the families of one or more hamlets retire to with
+                            their flocks for common pasture in summer.</item>
+                        <item>
+                            <q>
+                                <placeName ref="pldb.xml#pl0116">Brae-mar</placeName>
+                            </q> — The
+                            Galic name is <placeName ref="pldb.xml#pl0116">
+                                <hi rend="underline">Brai'-mhàr</hi>
+                            </placeName>. <hi rend="underline">Brài'</hi>
+                            signifies the higher part of any place or country.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.107.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0819">Garval-bourn</placeName>
+                            </q> — <hi rend="underline">Garv</hi> signifies rough or rocky.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.109.</biblScope>
+                            </bibl>
+                            <q>devish</q> — In <placeName ref="pldb.xml#pl0813">Breadalbane</placeName> they call sods <hi rend="underline">devit</hi>, but I know not the word <hi rend="underline">devish</hi>, though perhaps it may be used for the same purpose in
+                            the North.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.111.</biblScope>
+                            </bibl>
+                            <unclear reason="illegible">
+                                <q>
+                                    <placeName ref="pldb.xml#pl0122">Tulloch</placeName>
+                                </q> i.e.</unclear> a round small
+                            eminence.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.122.</biblScope>
+                            </bibl>
+                            <q>Sowens</q> This is a common enough food <sic>in a great part the
+                                Highlands</sic>, and reckoned by many very agreeable. But the husks
+                            of oats of themselves, without a considerable mixture of oat meal, are
+                            never sufficient ingredients in it's preparation.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.128.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0145">Elgin</placeName>
+                            </q> — This name is
+                            probably derived from the Galic word <hi rend="superscript">àillegan</hi> which denotes any thing fair or beautiful. This seems
+                            to be likewise the original of <placeName ref="pldb.xml#pl0316">Alectum</placeName> the old name of <placeName ref="pldb.xml#pl0316">
+                                <hi rend="underline">Dundee</hi>
+                            </placeName>,
+                            which to this day is called <placeName ref="pldb.xml#pl0316">
+                                <hi rend="underline">Aillig</hi>
+                            </placeName> by the Highlanders in
+                                <placeName ref="pldb.xml#pl0821">Athol</placeName>.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.136.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0154">
+                                    <hi rend="underline">Ardersier</hi>
+                                </placeName>
+                            </q> should be written <placeName ref="pldb.xml#pl0154">
+                                <hi rend="underline">Aird-nan-saor</hi>
+                            </placeName> i.e. the height or point of the
+                            wrights. The reason of this projecting piece of land's getting such a
+                            name is, I believe, at present unknown.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.137.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0156">Inverness</placeName>
+                            </q> so called
+                            from <placeName ref="pldb.xml#pl0820">the river <hi rend="underline">Ness</hi>
+                            </placeName> and <hi rend="underline">Inver</hi> or
+                                <hi rend="underline">Inner</hi> denoting always the place where a
+                            small river enters into a lake or the sea.</item>
+                        <item>
+                            <q>
+                                <placeName ref="pldb.xml#pl0154">
+                                    <hi rend="underline">Ardersier</hi>
+                                </placeName>
+                            </q> properly <placeName ref="pldb.xml#pl0154">
+                                <hi rend="underline">Aird-nan-saor</hi>
+                            </placeName>.</item>
+                        <item>
+                            <q>
+                                <placeName ref="pldb.xml#pl0822">Tomman heurich</placeName>
+                            </q> —
+                                <hi rend="underline">Tomman</hi> signifies a round green
+                            eminence.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.140.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0158">Leornamonach</placeName>
+                            </q> should
+                            be written rather <placeName ref="pldb.xml#pl0158">
+                                <hi rend="underline">Lèir-nam-monach</hi>
+                            </placeName>, <hi rend="underline">Lèir</hi> or <hi rend="underline">Lethir</hi> signifying land that
+                            lies upon one side of a river or a branch of the sea, and <hi rend="underline">monach</hi> a monk.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.141.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0160">Dingwall</placeName>
+                            </q> called by
+                            the Highlanders <placeName ref="pldb.xml#pl0160">
+                                <hi rend="underline">Inner-feorain</hi>
+                            </placeName>. <placeName ref="pldb.xml#pl0824">
+                                <hi rend="underline">Feòran</hi>
+                            </placeName>
+                            is the name of the river that enters there into the sea.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.143.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0162">Ballinagouan</placeName>
+                            </q> i.e.
+                            the village of the smiths; <hi rend="underline">baile</hi> signifying a
+                            town, village or hamlet, and <hi rend="underline">govan</hi> a
+                            smith.</item>
+                        <item>
+                            <q>
+                                <placeName ref="pldb.xml#pl0163">New Tarbat</placeName>
+                            </q> — <hi rend="underline">Tarbat</hi> is the Galic name for an
+                                <sic>istmhus</sic>. Whether there is any such narrow neck of land at
+                                <placeName ref="pldb.xml#pl0163">New Tarbat</placeName> I cannot
+                            say. </item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.144.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0823">Sutherland</placeName>
+                            </q> called by
+                            the Highlanders <placeName ref="pldb.xml#pl0823">
+                                <hi rend="underline">Cattu</hi>
+                            </placeName>.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.145.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0166">Porth-beg</placeName>
+                            </q> should be
+                            written <placeName ref="pldb.xml#pl0166">
+                                <hi rend="underline">Port-beg</hi>
+                            </placeName> i.e. the little harbour or landing
+                            place.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.146.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0169">
+                                    <hi rend="underline">Cairn
+                                    lean</hi>
+                                </placeName> or the grey tower</q> — The Galic word <hi rend="underline">lean</hi> or <hi rend="underline">leathen</hi>
+                            signifies broad, but <hi rend="underline">lia'</hi> grey.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.149.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0825">Cathness</placeName>
+                            </q> called by
+                            the Highlanders <placeName ref="pldb.xml#pl0825">
+                                <hi rend="underline">Gall-u</hi> or <hi rend="underline">Gall-dhu'ich</hi>
+                            </placeName> i.e. the county of Strangers.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.151.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0683">Morven</placeName>
+                            </q> i.e. the
+                                <unclear reason="illegible">great mountain,</unclear> from <hi rend="underline">mòr</hi> great and <hi rend="underline">beinn</hi>
+                            a mountain.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.161.</biblScope>
+                            </bibl>
+                            <q>
+                                <hi rend="underline">Tariar-kinich</hi>
+                            </q> should be written <hi rend="underline">Tarr-dheargnaich</hi>, a word derived from <hi rend="underline">tarr</hi> the belly or lower part and <hi rend="underline">dearg</hi> red. </item>
+                        <item>
+                            <q>
+                                <placeName ref="pldb.xml#pl0826">Carn Goran</placeName>
+                            </q> should
+                            be written <placeName ref="pldb.xml#pl0826">
+                                <hi rend="underline">Carn-gorm</hi>
+                            </placeName> i.e the blue cairn or heap of
+                            stones. Upon this mountain, barren in other respects, are found
+                            beautiful enough pebbles, which I suppose you have seen.</item>
+                        <item>
+                            <q>
+                                <placeName ref="pldb.xml#pl0192">
+                                    <hi rend="underline">Stasach na
+                                        gail</hi>
+                                </placeName>
+                            </q> ought to be spelt <placeName ref="pldb.xml#pl0192">
+                                <hi rend="underline">Starshnach-nan-gai'el</hi>
+                            </placeName>. </item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.162.</biblScope>
+                            </bibl>
+                            <q>
+                                <hi rend="underline">brechan</hi>
+                            </q> should rather be written <hi rend="underline">brechean</hi> or <hi rend="underline">breacan</hi>,
+                            from <hi rend="underline">breac</hi> spotted or
+                                <sic>party-coloured.</sic>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.163.</biblScope>
+                            </bibl>
+                            <q>
+                                <hi rend="underline">brechan-feal</hi>
+                            </q> rather <hi rend="underline">brechan-feill</hi> i.e. the folded plaid.</item>
+                        <item>
+                            <q>cuoranen is a sort of laced shoe</q> It should be spelt <hi rend="underline">cuaran</hi>.</item>
+                        <item>
+                            <q>
+                                <hi rend="underline">truish</hi>
+                            </q> should be written <hi rend="underline">truis</hi> and <hi rend="underline">fille-beg</hi>
+                            <hi rend="underline">feile-beg.</hi>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.165.</biblScope>
+                            </bibl>
+                            <q>Crosh-tairie, or the cross of shame</q> rather <hi rend="underline">crosh-tàrie</hi>, or as others pronounce it, <hi rend="underline">crosh-tàrich</hi> i.e. the cross for gathering or assembling the
+                            clan together. <lb/>
+                            <q>
+                                <hi rend="underline">tanac</hi> or plaid</q>
+                            should be written <hi rend="underline">tonnag</hi> or little plaid.
+                                    <lb/>
+                            <q>
+                                <hi rend="underline">called ossan</hi>
+                            </q> — The word
+                                <hi rend="underline">preassach</hi>, i.e. plaited, should be added,
+                            for <hi rend="underline">ossan</hi> by itself is the name given to the
+                            short stocking commonly worn by the men or women.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.169.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0827">Straith-glas</placeName>
+                            </q> — i.e.
+                            the grey straith or valley.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.171.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0828">See-whinnin, or Cummin's
+                                    seat</placeName>
+                            </q> should be spelt <placeName ref="pldb.xml#pl0828">
+                                <hi rend="underline">See-Chuimin</hi>
+                            </placeName>.</item>
+                        <item> Note at the foot. <placeName ref="pldb.xml#pl0829">Kil-whinnin</placeName> should be written <placeName ref="pldb.xml#pl0829">
+                                <hi rend="underline">Kill-Chuimin</hi>
+                            </placeName>, or Cummin's burial-place.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.176.</biblScope>
+                            </bibl>
+                            <q>spreith</q> The open theft of cattle is called by the Highlanders <hi rend="underline">creach</hi>. <hi rend="underline">Spreith</hi> is
+                            only the general galic name for cattle.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.178.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0830">Loch-yell</placeName>
+                            </q> rather
+                                <placeName ref="pldb.xml#pl0830">Loch-iel</placeName>.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.181.</biblScope>
+                            </bibl> last line. <q>
+                                <placeName ref="pldb.xml#pl0683">Morvan</placeName>
+                            </q> should be spelt
+                                <placeName ref="pldb.xml#pl0683">
+                                <hi rend="underline">Morven</hi>
+                            </placeName>.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.183.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0211">Lough-Tulla</placeName>
+                            </q> — rather
+                                <placeName ref="pldb.xml#pl0211">Loch-Talla</placeName>.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.188.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0831">
+                                    <hi rend="underline">Crouachan</hi>
+                                </placeName>
+                            </q> should be spelt <placeName ref="pldb.xml#pl0831">
+                                <hi rend="underline">Cruachan</hi>
+                            </placeName>
+                        </item>
+                        <item>
+                            <q>
+                                <placeName ref="pldb.xml#pl0832">Croisch an t
+                                sleachd</placeName>
+                            </q> should be written <placeName ref="pldb.xml#pl0832">
+                                <hi rend="underline">Crois-an-t-sleuch</hi>
+                            </placeName>.</item>
+                        <item>Note at the foot: <q>Druidical stones &amp;.</q> Druidical circles or
+                            places of worship were of old called <hi rend="underline">Clachan</hi>
+                            i.e. stones: Hence to go to the <hi rend="underline">clachan</hi> is at
+                            this day a common Galic phrase for going to Church. But I have not been
+                            able to learn that in more modern times it was ever the practice to
+                            build churches on the ruins of these antient Druidical temples.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.189.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0217">Inverary</placeName>
+                            </q> — In Galic
+                                <placeName ref="pldb.xml#pl0217">Inner-aora</placeName>, so called
+                            from <placeName ref="pldb.xml#pl0219">the river <hi rend="underline">aora</hi>
+                            </placeName> which enters into the sea hard by
+                            it.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.192.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0219">Aray</placeName>
+                            </q> It's Galic name
+                            is <placeName ref="pldb.xml#pl0219">
+                                <hi rend="underline">Aora</hi>
+                            </placeName>.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.194.</biblScope>
+                            </bibl>
+                            <q>Colquhuns</q> should be spelt
+                            Colquhouns.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.195.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0609">Ben-Lomond</placeName>
+                            </q> i.e. the naked mountain, from <hi rend="underline">beinn</hi> a mountain, and <hi rend="underline">lom</hi> bare or naked.</item>
+                        <item>
+                            <q>
+                                <placeName ref="pldb.xml#pl0298">Comerie</placeName>
+                            </q> is
+                            commonly spelt <placeName ref="pldb.xml#pl0298">Comrie</placeName>.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.198.</biblScope>
+                            </bibl>
+                            <q>But the Erse language</q> — <hi rend="underline">Erse</hi> is a
+                            Scotch word signifying the language spoken by the native Highlanders,
+                            but is only a contraction of the word <hi rend="underline">Irish</hi>.
+                            The only name which they themselves give to their language is <hi rend="underline">Galic</hi>. The Irish language they call <hi rend="underline">Galic Erinach</hi>
+                        </item>
+                        <item>
+                            <q>
+                                <placeName ref="pldb.xml#pl0226">Dunbarton</placeName>
+                            </q> called at
+                            present by the Highlanders <placeName ref="pldb.xml#pl0226">
+                                <hi rend="underline">Dùn</hi>-<hi rend="underline">breaton</hi>
+                            </placeName> or the fort of the British, but of old
+                                <placeName ref="pldb.xml#pl0226">
+                                <hi rend="underline">Baile-chluaith</hi>
+                            </placeName>, from <hi rend="underline">baile</hi> a town and <hi rend="underline">Cluaith</hi>
+                            <placeName ref="pldb.xml#pl0833">the firth of Clyde</placeName>. </item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.200.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0235">Stirling</placeName>
+                            </q> — It's
+                            Galic name is <placeName ref="pldb.xml#pl0235">
+                                <hi rend="underline">Sruila</hi>
+                            </placeName>.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.212.</biblScope>
+                            </bibl>
+                            <q>
+                                <placeName ref="pldb.xml#pl0834">river Carron</placeName>
+                            </q>
+                            originally <placeName ref="pldb.xml#pl0834">
+                                <hi rend="underline">Car-avon</hi>
+                            </placeName> i.e. the winding river.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.262.</biblScope>
+                            </bibl> Galic epitaph 2<hi rend="superscript">d.</hi> line. <q>thuair</q> should be spelt fhuair </item>
+                        <item>10<hi rend="underline">th.</hi> line <q>
+                                <hi rend="underline">Dus gidh
+                                    mi</hi>
+                            </q> should be written <hi rend="underline">Duisgidh
+                                mi</hi>
+                        </item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.263.</biblScope>
+                            </bibl> Sap'<hi rend="superscript">s.</hi> ode in
+                            Galic. 2<hi rend="superscript">d</hi> line. <q>Sqa</q> is an error of
+                            the press for <hi rend="underline">sqà'</hi>:</item>
+                        <item>3<hi rend="superscript">d.</hi>line. <q>faad</q> for <hi rend="underline">fad</hi>:</item>
+                        <item>4<hi rend="superscript">th.</hi>l. <q>
+                                <hi rend="underline">'s do
+                                        <unclear reason="illegible">fhreagrath</unclear>
+                                cùin</hi>
+                            </q> for <hi rend="underline">
+                                <unclear reason="illegible">s
+                                    t</unclear> fhea-ghàir ciuin</hi>:</item>
+                        <item>5<hi rend="superscript">th.</hi>line <q>chloss</q> for <hi rend="underline">chlos</hi>:</item>
+                        <item>7<hi rend="superscript">th.</hi>l. <q>
+                                <hi rend="underline">le t
+                                    Aadh</hi>
+                            </q> for <hi rend="underline">le t' àill</hi>:</item>
+                        <item>10<hi rend="superscript">th.</hi>l. <q>
+                                <hi rend="underline">Teasghradh</hi>
+                            </q> for <hi rend="underline">Teas-ghràdh</hi>,
+                            and <q>
+                                <hi rend="underline">Baal</hi>
+                            </q> for <hi rend="underline">ball</hi>:</item>
+                        <item>11<hi rend="superscript">th.</hi>l. <q>
+                                <hi rend="underline">chaoch</hi>
+                            </q> for <hi rend="underline">chaog</hi>:</item>
+                        <item>12<hi rend="superscript">th.</hi>l. <q>
+                                <hi rend="underline">'Stac
+                                    aoidh</hi>
+                            </q> for <hi rend="underline">Stacaich</hi>:</item>
+                        <item>14<hi rend="superscript">th.</hi>l. <q>
+                                <hi rend="underline">chuin</hi>
+                            </q> for <hi rend="underline">chiuin</hi>.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.264.</biblScope>
+                            </bibl> Gal. epit. last word: <q>
+                                <hi rend="underline">oiru</hi>
+                            </q> for <hi rend="underline">oirn</hi>.</item>
+                        <item>
+                            <bibl type="authorial">
+                                <biblScope unit="page">p.279.</biblScope>
+                            </bibl>
+                            <q>Capercally</q> — This bird is called by some of the Highlanders <hi rend="underline">Caper-coille</hi>, and by others <hi rend="underline">Capull-coille</hi>.</item>
+                    </list>
+                </p>
+                <p>
+                    <placeName ref="pldb.xml#pl0751">Rannoch</placeName> is eighteen computed miles
+                    long. There are about thirty eight farms in it, but three or four or more
+                    tenants are commonly joined about each of them. The number of souls is said to
+                    be about 2400. The whole country is divided into a hundred <hi rend="underline">merk-lands</hi>, as they call them, the old rent of each of these divisions
+                    having once been probably but a <hi rend="underline">merk</hi> Scotch, or
+                    thirteen pence and one third of a penny Sterling. The whole rent at present is
+                    about 1040 £ Sterling.</p>
+                <p>Corn, bear and potatoes are the only crops — The quantity raised of them is often
+                    sufficient for supplying the inhabitants but for one half of the year. Three
+                    cows at an average and one horse are every year sent to market from each <hi rend="underline">merk-land</hi>.</p>
+                <p>The principal quadrupeds, known here in a wild state, <unclear reason="illegible">are</unclear>
+                </p>
+                <p>Deer, Roe, Common Hare, White Hare, Badger, Martin, Otter, Weesel, Wild Cat,
+                    Pole-cat, Mole, Common Mouse, and Water Shrew-mouse.</p>
+                <p>Birds:</p>
+                <p>The Sea-eagle, Ring-tail Eagle, Osprey, Common Buzzard, Kite, Hen-Harrier,
+                    Kestril, Sparrow Hawk, White Owl, Brown Owl, Raven, Hooded Crow, Rook, Magpie,
+                    Jay, Green Woodpecker, Greater spotted woodpecker, Cuckoo, <unclear reason="illegible">Creeper,</unclear> Black Cock, Grous, Tarmachan,
+                    Partridge, <unclear reason="illegible">Fieldfare,</unclear> Throstle, Red wing,
+                    Black-bird, Ring-Ouzel, Water-Ouzel, Tit-Lark, House-swallow, Goatsucker,
+                        <unclear reason="illegible">Red</unclear>-breast, Hedge Sparrow, Willow
+                    wren, wren, wheat-ear, white water wagtail, Chaffinch, yellow-hammer, Reed
+                    Sparrow, Great Titmouse, Blue Titmouse, Heron, woodcock, Snipe, Green Plover,
+                    Land Rail, Little Grebe, Grey Speckled Diver, Golden-Eye, Mallard.</p>
+                <p>No Rats have been hitherto seen in <placeName ref="pldb.xml#pl0751">
+                        <hi rend="underline">Rannoch</hi>
+                    </placeName>
+                </p>
+                <p>The Martin ventures abroad in search of it's prey only in the night-time. It is
+                    found out therefore but in time of Snow, by means of it's track; and even then
+                    it is observed to attend so well to self-preservation as not to stir out of it's
+                    concealment for the first two nights. The Martin that haunts old hollow
+                    birch-trees is thought to have a richer and more beautiful fur than the one that
+                    is found in old pines.</p>
+                <p>The only woods in <placeName ref="pldb.xml#pl0751">Rannoch</placeName> are of
+                    pine and birch. The pine wood <del>
+                        <gap quantity="1" unit="word" reason="illegible"/>
+                    </del> is about two miles long and one broad. There are at present no trees in
+                    it of any size. The planks they yield are commonly from eight to thirteen inches
+                    in breadth, and the largest do not exceed two feet. The timber however is
+                    reckoned but little inferior to that imported from <placeName ref="pldb.xml#pl0835">Norway</placeName>. In the greatest part of trees of
+                    ten inches in diameter, growing in dry rocky soil, there are between six and
+                    eight inches of red timber; but in a moist boggy situation a tree of ten or
+                    twelve inches in <gap reason="illegible" quantity="1" unit="word"/> will have no
+                    more.</p>
+                <p>There is a good saw-mill, which is let in lease by the Gov<hi rend="superscript">t.</hi>. The Tacksman is obliged to manufacture 150 tun of timber every
+                    year, which he rents at eighteen shillings and sixpence p<hi rend="superscript">r.</hi> tun. Planks nine feet long and an inch and a quarter thick <unclear reason="illegible">and sold</unclear> by him again in retail at one penny
+                    each superficial inch.</p>
+                <p>Plants in the pastures and lower grounds:</p>
+                <p>
+                    <list>
+                        <item>Athamanta meum</item>
+                        <item>Carduus Helenioides</item>
+                        <item>Gentiana campestris</item>
+                        <item>Tormentilla erecta</item>
+                        <item>Lotus corniculata</item>
+                        <item>Campanula rotundifola</item>
+                        <item>Euphrasia officinalis</item>
+                        <item>Achillea millefolium</item>
+                    <item>––––– ptarmica</item>
+                        <item>Ajuga raptans</item>
+                        <item>orchis maculata</item>
+                        <item>Scabiosa succisa</item>
+                        <item>Centaurea Jacea</item>
+                    <item>––––– Cyanus</item>
+                        <item>viola tricolor</item>
+                        <item>Artemisia vulgaris</item>
+                        <item>Lamium album</item>
+                    <item>––––– rubrum</item>
+                        <item>Sinapi arvinse</item>
+                        <item>Chrysanthemum leucanthemum</item>
+                        <item>Chenopodium bonus Henricus</item>
+                        <item>Urtica dioica</item>
+                        <item>Arelium Capa</item>
+                        <item>Thlaspi bursa pastoris</item>
+                        <item>Thalictrum minus</item>
+                        <item>Leontodon taraxacum</item>
+                        <item>Briza media</item>
+                        <item>Geranium pralense</item>
+                        <item>Bellis perennis</item>
+                        <item>Plantago major</item>
+                        <item>Trefolium repens</item>
+                    <item>––––– pratense</item>
+                        <item>Alchemilla vulgaris</item>
+                        <item>Gallium verum</item>
+                    <item>––––– boreale</item>
+                        <item>Polygala vulgaris</item>
+                        <item>Thymus serpillum</item>
+                        <item>Orobus tuberosus</item>
+                        <item>Fragaria vesea</item>
+                        <item>Rosa canina</item>
+                        <item>Prunus spinosa</item>
+                        <item>Ranunculus flammula</item>
+                        <item>
+                            <del>
+                                <gap quantity="2" unit="word" reason="illegible"/>
+                            </del>
+                        </item>
+                        <item>Parnassia palustris</item>
+                        <item>Narthecium ossifragum</item>
+                        <item>Alyrica gale</item>
+                        <item>Pingūicola vulgaris</item>
+                        <item>Comarum palustre</item>
+                        <item>Geum rivale</item>
+                        <item>Drosera rotundifolia</item>
+                        <item>
+                            <unclear reason="illegible">Potamogeton natans</unclear>
+                        </item>
+                    </list>
+                </p>
+                <p>In the <gap quantity="2" unit="word" reason="illegible"/>eatest part of the
+                    pine-wood there is such a plentiful crop of <hi rend="underline">heath</hi> and
+                        <hi rend="underline">bilberries</hi> as to suppress all other
+                    vegetation.</p>
+                <p>Plants in <placeName ref="pldb.xml#pl0836">the birch-woods of <hi rend="underline">Tros-chraig</hi>, <hi rend="underline">Craig-loisgl'</hi> and <hi rend="underline">Coille-mhōr</hi>
+                    </placeName>:</p>
+                <p>
+                    <list>
+                        <item>
+                            <p>Vaccinium vitis ide</p>
+                            <p>Arbutus uva ursi — } In great abundance</p>
+                        </item>
+                        <item>
+                            <p>Pyrola rotundifolia</p>
+                            <p>––––– minor</p>
+                            <p>––––– secunda} The <hi rend="underline">rotundifol</hi>. creeping above
+                                the wood almost to the top of the hill</p>
+                        </item>
+                        <item>Gnaphalium dioicus</item>
+                        <item> sylvalicum</item>
+                        <item>Linum catharticum</item>
+                        <item>Ophrys ovala</item>
+                        <item>Stellaria Holastea</item>
+                        <item>Stachys palustris</item>
+                        <item>Mercurialis perenius</item>
+                        <item>Adianthum capillus veneris</item>
+                        <item>Lysimachia nemorum</item>
+                        <item>Primula veris</item>
+                        <item>Scrophularia vernalis</item>
+                        <item>Digitalis purpurea</item>
+                        <item>Geranium Robertianum</item>
+                        <item>Rubus saxatilis</item>
+                        <item>Chyacintus non scriptus</item>
+                        <item>Angelica sylvestris</item>
+                        <item>Valeriana officinalis</item>
+                        <item>Oxabis acetosella</item>
+                        <item>Bunium bulbocastanm</item>
+                        <item>Veronica officinalis </item>
+                    </list>
+                </p>
+                <p>Plants in the higher hills:</p>
+                <p>
+                    <list>
+                        <item>Alchemilla Alpina</item>
+                        <item>Salix Herbacea</item>
+                        <item>Vaccinium uliginosum</item>
+                        <item>Erica vulgaris</item>
+                    <item>––––– cinerea</item>
+                        <item>Empetrum nigrum</item>
+                        <item>Cornus herbacea</item>
+                        <item>Festuca ovina</item>
+                    <item>––––– rubra</item>
+                        <item>Anthericum calyeulatum</item>
+                        <item>Polygonum viviparum</item>
+                        <item>Thalictrum Alpinum</item>
+                        <item>Epilobium Alpinum</item>
+                        <item>Cochlearia Groenlandica</item>
+                        <item>Cucubalus acaulis</item>
+                        <item>Saxifraga stellaris</item>
+                    <item>––––– oppositifolia</item>
+                    <item>––––– aizoides</item>
+                        <item>Lycopodium selago</item>
+                    <item>––––– selaginoides</item>
+                        <item>Rubus chamæmorus</item>
+                        <item>Juniperus communis</item>
+                        <item>Lichen furfuraceus</item>
+                    <item>––––– geographicus</item>
+                    </list>
+                </p>
+                <p>The foregoing list will serve to convey a tolerable idea of the principal
+                    vegetable productions of <placeName ref="pldb.xml#pl0751">Rannoch</placeName>
+                    Besides these however I observed several other common plants, the names of which
+                    are not inserted, and some which I have not hitherto ascertained. They were not
+                    in a proper state for investigation when I met with them, and I have not in this
+                    part access to the books necessary for assisting me in the enquiry. Some time
+                    after this therefore, when I may probably have greater leizure and better
+                    opportunities of information, it may be in my power to send you a completer
+                    list.</p>
+                <p>I remember to have heard you express some intention of publishing, in the next
+                    edition of your Tour,<note type="editorial">The next edition of Pennant's <hi rend="italic">Tour in Scotland 1769</hi> to appear would be <bibl type="editorial">
+                            <title ref="bidb.xml#bi0004">the Warrington edition of
+                                1774</title>
+                        </bibl>.</note>
+                    <hi rend="underline">prints</hi> of some of the more uncommon Scotch plants. Of
+                    such as are natives of <placeName ref="pldb.xml#pl0751">Rannoch</placeName> the
+                        <hi rend="underline">Cornus herbacea</hi>, <hi rend="underline">Pyrola
+                        rotundifolia</hi> or common winter-green, <hi rend="underline">Pyrola
+                        minor</hi> or lesser winter-green, and <hi rend="underline">P. secunda</hi>
+                    or dented leaved winter-green, will serve very well for this purpose.</p>
+                <p>They are all of them rare and beautiful plants, and good figures of each of them
+                    may be taken from the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0111">Flor.
+                            Dan.</title>
+                    </bibl> — The berry of <hi rend="underline">Cornus</hi> — is
+                    red and tempting, but eating freely of it will, in the opinion of the
+                    Highlanders, create an insatiable appetite. Hence the name they give it of <hi rend="underline">Lus-a'-chraois</hi> i.e. the plant of gluttony.</p>
+                <p>I am convinced that many of your readers would likewise reckon it a very
+                    considerable addition and improvement, were you to prefix to this new edition a
+                    small accurate Map of Scotland and part of England, in which your Tour might be
+                    pointed out by small parallel or dotted lines.<note type="editorial">On the
+                        advice of Stuart and others, Pennant did prepare such a <bibl type="editorial">
+                            <title ref="bidb.xml#bi0209">map</title>
+                        </bibl> for his
+                            <bibl type="editorial">
+                            <title ref="bidb.xml#bi0010">
+                                <hi rend="italic">Tour in Scotland 1772 Part II</hi>
+                            </title>
+                        </bibl>, however it
+                        was not completed until 1777, the year after the tour itself was published.
+                        Pennant's cartographical interests are also evident in his correspondence
+                        with <persName ref="pe0228">George Paton</persName>.</note>
+                </p>
+                <p>If these or any other remarks I can send you are of the smallest service, I may
+                    assure you it will give me pleasure. There is no occasion therefore for you
+                    putting yourself to the trouble of any further reward. The being favored with
+                    your acquaintance and good wishes is to me a sufficient one.</p>
+                <p>I could hardly forbear, blushing upon receiving your thanks for the <hi rend="underline">white Hare</hi>. Soon after I wrote you last upon looking
+                    to the box in which I had it laid up, I <unclear reason="illegible">found</unclear> that mice had some how got access to it and laid <unclear reason="illegible">bare</unclear> the teeth and part of the feet. I delayed
+                    therefore for some time the sending it to <placeName ref="pldb.xml#pl0076">Edin<hi rend="superscript">r.</hi>
+                    </placeName>, in hopes of getting a
+                    new and better specimen. At last I was determined, by an opportunity that
+                    offered this week, to send it off such as it was. This day however I was lucky
+                    enough to see two <hi rend="underline">white hares</hi> that were shot yesterday
+                    by a fox-hunter in this country for <persName ref="pe0311">M<hi rend="superscript">rs.</hi> Campbell of Achalader</persName>. She has
+                    promised to keep one of the skins for me and if that does not do, the same man
+                    gives me hopes of his procuring <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> for me a fresh specimen.</p>
+                <p>I think it does not hitherto appear that <persName ref="pe0008">M<hi rend="superscript">r.</hi> Banks</persName> has made any new or
+                    considerable discoveries in his late voyage. As for <placeName ref="pldb.xml#pl0652">the island of Staffa</placeName>, by passing near it
+                    on a fine day I doubt not but you had as good an opportunity of observing the
+                    general appearance of it's curious columnar rocks as he could have had by
+                    landing there.</p>
+                <p>
+                    <persName ref="pe0312">Achalader</persName> is in health, offers his
+                    respectful compliments unto you, and desires me to tell you that he has sent to
+                        <persName ref="pe0022">D<hi rend="superscript">r.</hi>
+                        Ramsay</persName> the book he promised to transmit to you. <persName ref="pe0036">Lord Breadalbane</persName> is at present in
+                        <placeName ref="pldb.xml#pl0076">Edin<hi rend="superscript">r.</hi>
+                    </placeName>, does not go to <placeName ref="pldb.xml#pl0699">London</placeName> till spring, and not certainly then I have still more to
+                    trouble you with, but at present I have already exceeded all the reasonable
+                    bounds of an epistle</p>
+
+
+                <closer>
+                    <salute>I am, <lb/>Dear Sir, with great esteem, Your most obliged &amp; most
+                            <unclear reason="illegible">obed<hi rend="superscript">t.</hi> Serv<hi rend="superscript">t.</hi>
+                        </unclear>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0023">John Stuart</persName>
+                    </signed>
+                </closer>
+            </div>
+            <div>
+
+                <p>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>Thomas Pennant Esq.</addrLine>
+                        <addrLine>at Downing</addrLine>
+                        <addrLine>Flintshire</addrLine>
+                        <addrLine>South Britain</addrLine>
+                    </address>
+                </p>
+                <p>67</p>
+                <p>
+                    <handShift/>received &amp; answ<hi rend="superscript">d</hi> jan. 12<hi rend="superscript">th.</hi> 1773</p>
+                <p>of <placeName ref="pldb.xml#pl0751">Rannoch</placeName> &amp;c by <persName ref="pe0023">M<hi rend="superscript">r</hi> Stuart</persName>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

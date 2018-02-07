@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0160.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton: undated note asking for an excerpt from the
+                        <hi rend="italic">Tour in Scotland 1772</hi> to be placed in a
+                    magazine</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>86</locus>
+                        </p>
+                    </msContents>
+                    <additional>
+                        <p>This undated note is written on a single slip of paper and follows the
+                            letter from Pennant to Paton on 17<hi rend="superscript">th</hi> May
+                            1774 in the archivist's binding.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>You know I am not a friend to puffing. but I wish you would get inserted in <bibl type="authorial">
+                        <title ref="bi0064">the magazine</title>
+                    </bibl> (with a
+                    proper introduction on my attention to the distresses of the poor of <placeName ref="pl0705">Scotland</placeName>) that part of <bibl type="authorial">
+                        <title ref="bi0008">my voyage</title> beginning <biblScope unit="page">p.362</biblScope>
+                        <sic>(</sic>I retired &amp;c, to the end of <biblScope unit="page">369</biblScope>.</bibl>
+                </p>
+                <p>I trust you will not say it is done at my request but let it be between the
+                    Printer &amp; you. <note type="editorial">The passage Pennant refers to is the
+                        conclusion of the <bibl type="editorial">
+                            <title ref="bi0008">
+                                <hi rend="italic">Tour in Scotland and Hebrides
+                            1772</hi>
+                            </title>
+                        </bibl>, where he describes a dream in which the ghost
+                        of an Ossianic warrior appears before him to criticise the practices of
+                        modern Highland landlords. Pennant's request seems to have been fulfilled in
+                        the issue of <persName ref="pe0260">Ruddiman's </persName>
+                        <bibl type="editorial">
+                            <title ref="bi0064">
+                                <hi rend="italic">Weekly
+                                    magazine</hi>
+                            </title>
+                        </bibl> for 2 June 1774, where the excerpt
+                        is printed as an unsigned review with the following introduction: <quote>It
+                            is with pleasure we observe the long looked for publication of Mr
+                            Pennant's last Tour in Scotland, and his Voyage to the Hebrides; and
+                            with gratitude we must acknowledge, that, by a minute investigation of
+                            its antiquities, particularly in the remote Islands,illustrated by many
+                            elegant engravings, he has thrown more light on the antient and natural
+                            history of this country than any preceding writer has hitherto done. —
+                            As the book must as yet be but in few hands, we have selected from this
+                            valuable work the following Soliloquy, or Dream, at the conclusion of
+                            the volume, which merits the attention of every patriotic
+                            Scotsman.</quote>
+                        <bibl type="editorial">'The Review' in <title ref="bi0064">
+                                <hi rend="italic">The Weekly Magazine, Or, Edinburgh Amusement</hi>
+                            </title>, 24,
+                                <date>(Jun 02, 1774)</date>, <biblScope unit="page">pp.307-309
+                                (p.307)</biblScope>.</bibl>
+                    </note>
+                </p>
+
+            </div>
+        </body>
+    </text>
+</TEI>

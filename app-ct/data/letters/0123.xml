@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0123">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, on plans for Low's MS; requesting written
+                    materials and prints</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>37-38</locus>
+                        </p>
+                    </msContents>
+                    <additional>
+                        <p>Pennant's unusual rendering of the year makes the date of this letter
+                            difficult to determine, though an unknown hand on the back of the sheet
+                            places it in 1774. The existence of a letter from Pennant to Paton dated the
+                                10<hi rend="superscript">th</hi> of January 1773 (which makes reference
+                            to subjects discussed in adjacent correspondence), suggests that the
+                            current letter has been bound out of order, and was in fact written in
+                            1774.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1774-01-09"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>Accept first the best wishes for the season &amp; next my best thanks for y<hi rend="superscript">r</hi> letters Dec<hi rend="superscript">r</hi> 20<hi rend="superscript">th</hi> 30<hi rend="superscript">th</hi> &amp; Jan.1. It
+                    will be great pleasure to hear of more of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0059">M<hi rend="superscript">r</hi> Aulde’s antient
+                            tracts</title>
+                    </bibl>. be so good as to send me the rest of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0109">the Gabions</title>
+                    </bibl>; which I will keep till
+                    they come in use but that will be long, at present let us stick to our islands.
+                        Y<hi rend="superscript">r</hi> plan for <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName> is excellent he will have great
+                    advantages with y<hi rend="superscript">r</hi> friend <persName ref="pe0306">M<hi rend="superscript">r</hi>
+                    Aberdeen</persName>.</p>
+                <p>Thanks for y<hi rend="superscript">r</hi> list of Prints. <placeName ref="pldb.xml#pl0689">
+                        <unclear reason="illegible">Ellenstalker</unclear>
+                    </placeName> &amp; <placeName ref="pldb.xml#pl0730">Daersie Castles</placeName> will be acceptable.</p>
+                <p>Pray stop <bibl type="authorial">
+                        <title ref="bidb.xml#bi0076">the magazines</title>
+                    </bibl>. favor
+                    me with account which I will discharge. I have not leisure to look into the
+                    numbers missing: but will next summer.</p>
+                <note type="editorial">Pennant's letter to Paton on 14<hi rend="superscript">th</hi>
+                    February 1773 makes reference to an 'Edinburgh magazine', probably the
+                    Ruddimans' <bibl type="editorial">
+                        <title ref="bi0064">
+                            <hi rend="italic">Weekly
+                                Magazine, or, Edinburgh Amusement</hi>
+                        </title>
+                    </bibl>.</note>
+                <p>I heard from <persName ref="pe0156">M<hi rend="superscript">r</hi>
+                        Low</persName> this day. his plan for visiting the isles is most judicious:
+                    I write to him about it this post.</p>
+                <p>Y<hi rend="superscript">r</hi> account of <persName ref="pe0305">miss
+                        Logie</persName> is very curious: it coincides much with a proof of long
+                    abstinence now in <placeName ref="pldb.xml#pl0731">Wales</placeName>.</p>
+                <closer>
+                    <salute>I am Dear Sir Y<hi rend="superscript">r</hi> Obed<hi rend="superscript">t</hi> H S.</salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant</persName>
+                    </signed>.</closer>
+
+                <dateline>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName> Jan. 9<hi rend="superscript">th</hi> 177¾ </dateline>
+            </div>
+            <div>
+                <p>29</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0138">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton: instructions for sending letters and
+                    materials</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>59</locus>
+                        </p>
+                    </msContents>
+                    <additional>
+                        <p>The address and franker's signature are incomplete.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-07-27"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>as I have no frank to <persName ref="pe0157">
+                        <sic>M<hi rend="superscript">r</hi>
+                            Macgubbin</sic>
+                    </persName> I beg leave to inclose this to you &amp; beg
+                    you would fill up the direction properly &amp; put it in the post. I am now
+                    going out for five weeks &amp; shall be happy to hear from you on my return.</p>
+                <closer>
+                    <salute>I am D<hi rend="superscript">r</hi>
+                        <lb/>Sir <lb/>truely y<hi rend="superscript">rs</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232"/>
+                    </signed>T Pennant</closer>
+                <dateline>
+                    <placeName ref="pl0001">Downing</placeName> July 27<hi rend="superscript">th.</hi> 1773.</dateline>
+
+                <postscript>
+                    <p>Y<hi rend="superscript">r</hi> favor is just come. pray never send anything
+                        by <placeName ref="pl0057">Newcastle</placeName> but to <persName ref="pe0026">M<hi rend="superscript">r</hi> White Bookseller</persName>
+                        <placeName ref="pl1012">Fleetstreet London</placeName>. <bibl type="authorial">
+                            <title ref="bi0050">Sibbald</title>
+                        </bibl> is
+                        published: y<hi rend="superscript">r</hi> Booksellers will get it readier
+                        than I can send it: but get one that way &amp; consider it as my gift. &amp;
+                        Charge it to me. </p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>M</addrLine>
+                    </address>
+                </p>
+                <p>
+                    <hi rend="superscript">Free</hi>RNBoo<gap reason="illegible" unit="chars" atLeast="3"/>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

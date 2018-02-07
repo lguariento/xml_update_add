@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0430">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>John Stuart to Thomas Pennant, on the economy of Skye</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP369</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>9a-9l</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0023">John Stuart</persName>
+                    <date when="1774-02-01"/>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gd">Gaelic</language>
+                </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    <hi rend="underline">M<hi rend="superscript">r.</hi> Stuart. Feb. 1.
+                    1774</hi>
+                </p>
+                <p>
+                    <placeName ref="pldb.xml#pl0715">
+                        <hi rend="underline">Skie</hi>
+                    </placeName>
+                </p>
+                <p>
+                    <list>
+                        <item>—<hi rend="underline">owners 1.</hi>
+                        </item>
+                        <item>—<hi rend="underline">Tacksmen <unclear reason="illegible">1.</unclear>
+                            </hi>
+                        </item>
+                        <item>—<hi rend="underline">Farm <unclear reason="illegible">Dikes</unclear>
+                                3.</hi>
+                        </item>
+                        <item>—<hi rend="underline">Manure, Plough 5.</hi>
+                        </item>
+                        <item>—<hi rend="underline">
+                                <unclear reason="illegible">Grain Harvest
+                                    6.7.</unclear>
+                            </hi>
+                        </item>
+                        <item>—<hi rend="underline">
+                                <unclear reason="illegible">Drying Graddan
+                                    8.11.</unclear>
+                            </hi>
+                        </item>
+                        <item>—<hi rend="underline">Flax 13.</hi>
+                        </item>
+                        <item>—<hi rend="underline">
+                                <unclear>Cattle 14.23.</unclear>
+                            </hi>
+                        </item>
+                        <item>—<hi rend="underline">
+                                <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> 25.</hi>
+                        </item>
+                        <item>—<hi rend="underline">
+                                <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> 27.28</hi>
+                        </item>
+                        <item>—<hi rend="underline">
+                                <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> 29.</hi>
+                        </item>
+                        <item>—<hi rend="underline">
+                                <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> 32.</hi>
+                        </item>
+                        <item>—<hi rend="underline">
+                                <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> 34.</hi>
+                        </item>
+                        <item>—<hi rend="underline">
+                                <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> 37.</hi>
+                        </item>
+                        <item>—<hi rend="underline">
+                                <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> 39.</hi>
+                        </item>
+                        <item>—<hi rend="underline">
+                                <gap reason="illegible" unit="word" atLeast="1" atMost="2"/>
+                                <unclear reason="illegible">40.</unclear>
+                            </hi>
+                        </item>
+                        <gap reason="illegible" unit="lines" atLeast="1" atMost="3"/>
+                    </list>
+                    <note type="editorial">This appears to be a contents page to Stuart's manuscript on Skye, written in
+                        Pennant's hand.</note>
+                </p>
+            </div>
+            <div type="enclosed">
+                <p>
+                    <handShift/>The present annual Rent of <placeName ref="pldb.xml#pl0715">Sky</placeName>
+                    <hi rend="superscript">x</hi>
+                   <note type="authorial" place="foot">x It's Galic name <placeName ref="pldb.xml#pl0715">
+                            <hi rend="underline">Eilean
+                            Sgitheanach</hi>
+                        </placeName>
+                    </note> 7000£ — belonging all to <persName ref="pe0446">MacLeod</persName> and <persName ref="pe0447">Sir Alexander Mac Donald</persName>, excepting a small property of
+                        <persName ref="pe0358">Mac-Inn<unclear reason="illegible">on</unclear>
+                    </persName>
+                    <unclear reason="illegible">valued</unclear> at 200 £, and of <persName ref="pe0448">MacLeod of Raarsay</persName>'s rented at 100 £ <hi rend="underline">p<hi rend="superscript">r.</hi> ann</hi> ––––– </p>
+                <p>The lands in this island partly possessed by small tenants, and partly in the
+                    hands of Gentlemen. Tacksmen; <unclear/> have large extensive farms — In
+                        <persName ref="pe0447">MacDonald</persName>'s country, which lies
+                    all on the North coast and is divided into three great districts called
+                        <placeName ref="pldb.xml#pl0950">
+                        <hi rend="underline">
+                            <unclear reason="illegible">Trotternish</unclear>
+                        </hi>
+                    </placeName>,
+                        <placeName ref="pldb.xml#pl0951">
+                        <hi rend="underline">Strath</hi>
+                    </placeName> and <placeName ref="pldb.xml#pl0655">
+                        <hi rend="underline">Slate</hi>
+                    </placeName>, there will be about 40 such
+                    Tacksmen, besides small tenants ––––– </p>
+                <p>It is only in later times that any written tacks or leases have been given —
+                    Formerly there was but a <unclear reason="illegible">verbal</unclear> promise
+                    made before witnesses, attended with the ceremony of delivering at the same time
+                    a little straw into the Tacksman's hands — There were hardly any instances
+                    however of their being obliged to <unclear reason="illegible">asset</unclear> or
+                    remove from the possessions. — Many of them considered themselves as the
+                    descendents and friends of the great family on whom they depended, and held
+                    their farms at an easy rent from father to son by a kind of <unclear>?</unclear>
+                    or imaginary right called by the Highlanders <hi rend="underline">duchas</hi>,<hi rend="superscript">x</hi>
+                   <note type="authorial" place="foot">From <hi rend="underline">dùthaich</hi> a
+                            <gap reason="illegible" unit="chars" quantity="3"/> country</note> which
+                    as long as any traces of the spirit of Chieftainship remained, was held sacred
+                    and inviolable — Several of them likewise held their possessions by wadset, a
+                    form of tenure by which the tenant lodges so much money in the <unclear reason="illegible">hands</unclear> of the Proprietor, the interest of which,
+                    so long as the Capital remains unpaid, is considered as an equivalent in part or
+                    whole, to the rent of his farm —</p>
+                <p>The farms commonly <unclear reason="illegible">Rounded</unclear> with dikes made
+                    of earth or soda, the repairing of which takes up a great part of their labour,
+                    during summer <unclear reason="illegible">days</unclear> —</p>
+                <p>But there are hardly any head-dikes to be seen, in order to separate their
+                    hill-grass from the low-grounds, though they stand much in need of them — </p>
+                <p>Sea tangle the most common manure for <hi rend="underline">bear</hi> — Little
+                    kelp made upon the coast of this island — From what is manufactured of it
+                    commonly 2 £ Sterl. of clear profit p<hi rend="superscript">r.</hi> tun —
+                    Reckoned more beneficial however to use it as a manure.</p>
+                <p>Small tenants, though their horses are idle, chuse rather to delve their ground
+                    with the <hi rend="underline">crooked spade</hi>
+                    <hi rend="superscript">x</hi>
+                   <note type="authorial" place="foot">This kind of spade, which is almost the only
+                        one used in Sk<del rend="overstrike">
+                            <gap reason="illegible" unit="chars" atLeast="1" atMost="2"/>
+                        </del>ie called in Galic <hi rend="underline">cas-chrom</hi> i.e. the spade
+                        with the crooked shank or handle ––––– </note> to till it with the plough —
+                    Crop produced in this way observed to be better, — but the arable ground from
+                    this circumstance wearing often an irregular and disagreeable aspect; as they
+                    are not at pains to delve or sow at all the worst and most barren spots,
+                    especially at the end of the different plots ––––– Computed that eight men will
+                    delve as much ground in a day with the <hi rend="underline">crooked spade</hi>
+                    as a plough is able to till ––––– </p>
+                <p>Harrows commonly tyed to the horses tails — In wet ground, or where horses cannot
+                    harrow properly <unclear reason="illegible">men and</unclear> women are employed
+                    in breaking the ground with a block of wood having fine teeth and a long handle;
+                    which they call a <hi rend="underline">raachgan</hi> ––––– </p>
+                <p>Small black oats and potatoes the principal crops — The little <hi rend="underline">bear</hi> that is <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> sown very thin — The common return of <hi rend="underline">oats</hi> three or four-fold, of <hi rend="underline">bear</hi> from eight to sixteen ––––– </p>
+                <p>The <hi rend="underline">bear</hi> when ripe always pulled by the root and the
+                    straw preserved for thatching the houses, after cutting off the grain-end with a
+                    hook</p>
+                <p>— The corns shorn as high as possible as the only <add place="above">object</add>
+                    is to <del rend="overstrike">collect the</del> collect the grain — The stubble
+                    if there is not enough of <hi rend="underline">bear-straw</hi> for thatching
+                    pulled likewise for his purpose by the root ––––– </p>
+                <p>Corn as soon as it is cut down made unto small round heaps<hi rend="superscript">x</hi>
+                   <note type="authorial" place="foot">x These round heaps are called by the
+                        natives <hi rend="underline">mulains</hi>—</note> of any indetermined number
+                    of sheaves, <unclear reason="illegible">which are</unclear> thatched directly
+                    with stubble pulled for that purpose, as they cannot depend a moment upon the
+                    weather — Afterwards, if there is a fair hour these heaps are taken down now and
+                    then in order to give them air, and new ones made up, which are thatched in the
+                    same way.</p>
+                <p>— By reason of the high and penetrating winds so common here, the corn soon dries
+                    in this way and is then carried into the barnyards, where it is laid up in
+                    stacks ––––– </p>
+                <p>If they can, they shear their corns only when dry. If they are obliged however,
+                    to <unclear reason="illegible">cut them</unclear> down wet, they <gap reason="illegible" unit="words" quantity="1"/> the single sheaves<hi rend="superscript">x</hi>
+                   <note type="authorial">Single sheaves sat up in this way, called <hi rend="underline">gabhair</hi> i.e. goats, from some resemblance they are
+                        thought to bear to these animals ––––– </note> for some time standing on
+                        <gap reason="illegible" unit="word" quantity="1"/> till they are tolerably
+                    dry, and then make round heaps of them.</p>
+                <p>When they want to convert the corn into meal, if it is not so dry as to burn
+                    readily, it is laid for a little upon a kiln with a slow fire — When taken off,
+                    it is laid together in a heap <gap reason="illegible" unit="words" atLeast="1" atMost="2"/> open fields, if it is a fair day <gap/> on the floor of the
+                    kiln in bad weather. — Two women then take each of them constantly a handful
+                    from this heap, <add place="above">and when the have</add> set fire to it, lay
+                    it aside into a separate heap with <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> stick.<hi rend="superscript">x</hi>
+                   <note type="authorial" place="foot">x This stick they call <hi rend="underline">maig-araiguin</hi> from the nature of it's office ––––– </note> The
+                    grain is then ––––– ––––– ––––– set into larger straw baskets, where two women
+                    take hold of one another's arms, and <unclear reason="illegible">trample</unclear> upon it for some time with their naked feet till the
+                    husks are in a great measure separated from it, singing merrily together Galic
+                    Chorus songs all the while. Afterwards, when it is sufficiently winnowed, the
+                    same two women carry it away to the house, and grind it together upon the <hi rend="underline">quern</hi>
+                    <hi rend="superscript">x</hi>
+                   <note type="authorial" place="foot">x The <hi rend="underline">quern</hi> is in
+                        Galic called <hi rend="underline">bra'</hi>—</note> or hand miln, singing
+                    then likewise Galic songs </p>
+                <p> —The meal; which is of a dark grey colour, is baked into thick round cakes,
+                    which are set starting by <unclear reason="illegible">the</unclear> side of a
+                    stone near live coals in order to harden — As by thus burning the corn the seed
+                    itself is in reality not nearly so much deprived of it's natural juices as in
+                    the common method of kiln-drying elsewhere, the bread it is said, is found by
+                    experience to be much lighter and more easily digested than the white oat-bread
+                    used in other parts. It does not keep fresh for any time. It is baked therefore
+                    every day and sometimes twice a day. It is called <hi rend="underline">graddan</hi>
+                    <hi rend="superscript">x</hi>
+                    <note type="authorial">x From <hi rend="underline">grad</hi> quick or expeditious.</note> bread from the
+                    quickness and expedition with which it is prepared. There have been many
+                    instances of <gap reason="illegible" unit="words" quantity="1"/> hungry stranger
+                    coming into a house without the least meal in it at the time or any grain in the
+                    barn, and yet in a few hours <unclear reason="illegible">he has</unclear> had a
+                    plentiful repast <unclear reason="illegible">from</unclear> the corn which when
+                    he came was seen growing in the fields.</p>
+                <p>As the practice of burning the Corn in <placeName ref="pldb.xml#pl0715">
+                        <hi rend="underline">Sky</hi>
+                    </placeName> and some of the other W. isles is
+                    so destructive to the <unclear reason="illegible">provender</unclear> which
+                    might otherwise be p<gap reason="illegible" unit="chars" atLeast="4" atMost="6"/>ed for the sake of the cattle, it is now much discouraged by all the
+                    Proprietors, and in the course of a few years. It is a practice however, without
+                    doubt, of very remote antiquity:— One would be almost tempted to think that the
+                    ancient Romans, or at least their famed progenitors, had precisely the same rule
+                        <gap reason="illegible" unit="word" atLeast="3" atMost="4"/>: </p>
+                <p>(See Virgil's description in the first <gap reason="illegible" unit="chars" quantity="3"/> of the process used for converting the corn of <gap reason="illegible" unit="word" atLeast="4" atMost="5"/> into meal. <gap reason="illegible" unit="lines" quantity="1"/>&amp;c.)<note type="editorial">Possibly a reference to <bibl type="editorial">
+                            <title ref="bidb.xml#bi0532">'Moretum'</title>
+                        </bibl>, a Latin poem attributed to Virgil which
+                        depicts the use of a quern.</note>
+                </p>
+                <p>Hardly any lintseed sown especially by the poorer tenants, excepting a dwarf
+                    degenerate species, which does not grow above <unclear reason="illegible">six</unclear> inches high and the seed of which had been preserved by the
+                    islanders time out of mind. When pulled it is <gap reason="illegible" unit="word" quantity="1"/> steept in water as in other parts. It is tyed
+                    together in <gap reason="illegible" unit="words" atLeast="1" atMost="2"/>
+                    parcels, which are <unclear reason="illegible">hung up in</unclear> the house
+                    near the fire. When these parcels are sufficiently dry they are well beaten with
+                    a wooden <gap reason="illegible" unit="word" quantity="1"/>; and instead of
+                    being <unclear reason="illegible">switched</unclear> are then forced frequently
+                    through a wooden instrument shaped somewhat like a Barber's toupee-tongs which
+                    they <gap reason="illegible" unit="words" atLeast="4" atMost="6"/>-tongs —</p>
+                <p>The best and richest soil in <placeName ref="pldb.xml#pl0715">
+                        <hi rend="underline">Sky</hi>
+                    </placeName> is at <placeName ref="pldb.xml#pl0953">
+                        <hi rend="underline">Mugestot</hi>
+                    </placeName>.
+                    Without any manure it is <gap reason="illegible" quantity="1" unit="words"/> to
+                    yield crops so rank that <gap reason="illegible" unit="words" atLeast="1" atMost="2"/> greatest <add place="above">danger</add> lies in their being
+                    lost <gap reason="illegible" quantity="1" unit="words"/> harvest by lodging
+                    —</p>
+                <p>Little meadow-ground in this island — Hardly any hay preserved, except at
+                        <placeName ref="pldb.xml#pl0661">
+                        <hi rend="underline">Talisker</hi>
+                    </placeName> and <placeName ref="pldb.xml#pl0953">
+                        <hi rend="underline">Mugestot</hi>
+                    </placeName> ––––– </p>
+                <p>The principal dependence of the people of <placeName ref="pldb.xml#pl0715">Sky</placeName> is upon their black cattle, and they are allowed to <gap reason="illegible" unit="word" atLeast="2" atMost="4"/> in <placeName ref="pldb.xml#pl0711">the Highlands</placeName>. This indeed is the staple
+                        <unclear reason="illegible">commodity</unclear> for in such nature seems
+                        <unclear reason="illegible">principally to have intended</unclear> their
+                        <gap reason="illegible" unit="word" atLeast="3" atMost="4"/> many parts <gap reason="illegible" unit="word" atLeast="1" atMost="2"/>
+                    <unclear reason="damage">Esteemed</unclear> to be good, and from abundance of
+                    natural manures and other circumstances there are all the advantages that could
+                    be wished for in order to improve <gap reason="illegible" unit="word" atLeast="1" atMost="3"/> highest pitch of perfection, yet the climate is
+                    such, particularly <unclear reason="illegible">at the</unclear> harvest, as must
+                    ever render the returns of the farmer uncertain —</p>
+                <p>The rearing of good black Cattle is the principal object, which all the
+                    inhabitants of Sky propose to themselves, <unclear reason="illegible">when
+                        in</unclear> company together <unclear reason="illegible"> it is</unclear>
+                    often the great topick of <gap reason="illegible" unit="words" atLeast="2" atMost="4"/>. They are very studious to furnish themselves, with a good kind
+                    of <gap reason="illegible" unit="word" quantity="1"/> and to improve the breed
+                    by getting the best and most <gap reason="illegible" unit="word" quantity="1"/>
+                    bulls. — Particular <unclear reason="illegible">care taken</unclear> in rearing
+                    the calves and <unclear reason="illegible">more</unclear> or less hardy, and
+                    proportioning the <unclear reason="illegible">sizes</unclear> of the cattle to
+                    the nature of the farm — After the first five or six days <gap reason="illegible" unit="words" atLeast="1" atMost="3"/> commonly allowed to
+                        <unclear reason="illegible">suck only</unclear> twice a day; but such as are
+                        <gap reason="illegible" unit="word" atLeast="3" atMost="4"/> observed to
+                    thrive much <unclear reason="illegible">better</unclear> by being allowed
+                    constantly to follow <gap reason="illegible" unit="word" quantity="1"/> mother
+                    than though they had the <gap reason="illegible" unit="word" quantity="1"/>
+                    quantity of milk given <gap reason="illegible" unit="word" atLeast="3" atMost="4"/> periods — <unclear reason="illegible">Allowed to suck
+                        more</unclear> plentifully <gap reason="illegible" unit="word" quantity="2"/> than in the morning <gap reason="illegible" unit="word" quantity="1"/> too
+                    great <gap reason="illegible" unit="word" quantity="2"/> than is apt to make
+                        <unclear reason="illegible">them</unclear> sleepy and indolent all the day
+                        <gap reason="illegible" unit="word" quantity="1"/> sucking some water given
+                        <gap reason="illegible" unit="word" atLeast="1" atMost="3"/> them to drink
+                    as the milk itself is thought to create a drought — </p>
+                <p>During the heat of summer particular <unclear>pains taken</unclear> to keep <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> constant motion in
+                    order to <gap reason="illegible" unit="lines" quantity="2"/> their indulging
+                        <gap reason="illegible" unit="word" quantity="1"/> indolent or lazy
+                    dispositions — Only one calf <gap reason="illegible" unit="word" quantity="1"/>
+                    by <gap reason="illegible" unit="word" atLeast="1" atMost="3"/> of such cows as
+                    are <gap reason="illegible" unit="word" atLeast="2" atMost="3"/>nded for
+                    yielding milk — Allowed in this case to suck but one of <gap reason="illegible" unit="word" quantity="1"/> in the morning, and the other in the evening, as
+                    sucking is much severer upon the <gap reason="illegible" unit="word" quantity="1"/> than milking — Rearing <gap reason="illegible" unit="word" atLeast="2" atMost="3"/> the great object — In <placeName ref="pldb.xml#pl0715">
+                        <hi rend="underline">Sky</hi>
+                    </placeName> therefore
+                    and all the other Cattle <unclear reason="illegible">country in the</unclear>
+                    Highlands, seldom are butter or cheese made but what <unclear reason="illegible">is barely</unclear> sufficient for serving the several <unclear reason="illegible">families</unclear> — The cattle of this island <gap reason="illegible" unit="word" quantity="1"/> as they are in the habit of
+                    yielding <unclear reason="illegible">a</unclear> great quantity of milk during
+                        <unclear reason="illegible">summer and none at all in winter</unclear>
+                    <gap reason="illegible" unit="word" quantity="1"/>
+                    <unclear reason="illegible">observed to better for</unclear>
+                    <gap reason="illegible" unit="word" quantity="1"/> and serving the purposes of
+                    the butcher, than for making any other returns –––––</p>
+                <p>Particular care taken <gap reason="illegible" unit="word" quantity="1"/> during
+                    winter, — brought <gap reason="illegible" unit="word" atLeast="1" atMost="3"/>
+                    to the best pasture along <unclear reason="illegible">with</unclear> the
+                    milk-cows, or to a certain warm spot by themselves — Attention likewise paid to
+                    cows <gap reason="illegible" unit="word" atLeast="2" atMost="3"/>
+                </p>
+                <p>Only one spot of ground inclosed with a high dike in <gap reason="illegible" unit="word" atLeast="2" atMost="3"/> out as a fold for <gap reason="illegible" unit="word" quantity="1"/> black Cattle during all summer
+                    — Kept in the <gap reason="illegible" unit="word" atLeast="3" atMost="5"/>
+                    <unclear reason="illegible">higher</unclear> grounds, in order to <unclear reason="illegible">pasture</unclear> as much as possible <gap reason="illegible" unit="word" atLeast="2" atMost="3"/> part of the low
+                    ground for winter pasture — This the only provision <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> for their cattle against the <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> of this season —
+                        <gap reason="illegible" unit="chars" atLeast="5" atMost="7"/>ures commonly
+                    housed then and no provender preserved for them —</p>
+                <p>The <gap reason="illegible" unit="word" quantity="1"/> when accessible, proves
+                        <unclear>the greatest</unclear> relief to black Cattle during <unclear reason="illegible">severe</unclear> storms in winter and spring.</p>
+                <p>As <del rend="overtyped">
+                        <gap reason="illegible" unit="words" quantity="1"/>
+                    </del> the food they find there is of a laxative nature it prevents that
+                    costiveness which from the <gap reason="illegible" unit="word" quantity="1"/>
+                    quantity of their <gap reason="illegible" unit="word" quantity="1"/> at that
+                    time <gap reason="illegible" unit="word" atLeast="2" atMost="3"/> be so liable
+                    to, and <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> their
+                    appetite for digesting any other coarse food they are able to gather — Though at
+                    a distance and <gap reason="illegible" unit="word" atLeast="2" atMost="3"/> of
+                    the sea, it is pretty <gap reason="illegible" unit="word" atLeast="2" atMost="3"/> by a kind of <gap reason="illegible" unit="word" atLeast="2" atMost="4"/> the
+                    poor creatures of <gap reason="illegible" unit="word" atLeast="2" atMost="3"/>
+                    repair all regularly <unclear reason="illegible">every day</unclear> to the
+                    shore at <gap reason="illegible" unit="word" quantity="2"/> –––––</p>
+                <p>Fish-oil an established remedy for costiveness, <unclear reason="illegible">which</unclear> the cattle happen to be <unclear reason="illegible">supplied</unclear> with — This disorder, when excessive, apt to <unclear reason="illegible">end in a</unclear> dissantery called by the natives <hi rend="underline">dù<gap reason="illegible" unit="chars" quantity="1"/>g</hi>
+                    <gap reason="illegible" unit="chars" atLeast="3" atMost="4"/>r i.e.
+                    the black disease, perhaps from the greenish colour, which the fæces <unclear reason="illegible">are then</unclear> observed to have ––––– </p>
+                <p>The greatest and most glaring <unclear reason="illegible">deficiency</unclear> in
+                    the management of the <unclear reason="illegible">Rearing of black</unclear>
+                    Cattle in <placeName ref="pldb.xml#pl0715">
+                        <hi rend="underline">Sky</hi>
+                    </placeName> lies in <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> of no kind of provision against the <unclear reason="illegible">precarities</unclear> of spring and winter
+                    notwithstanding that from this very circumstance they often lose <unclear reason="illegible">a third</unclear> of their whole stock —</p>
+                <p> Though they had plenty of provender it would perhaps be improper to house their
+                    cattle or make them any other than a hardy breed, fit for travelling at a
+                    distance to markets, and for fattening readily when brought to richer pastures
+                    in the South — But surely, were they to give <gap reason="illegible" unit="words" atLeast="1" atMost="2"/> burning their corns, and properly
+                    encouraged by the Proprietors to <unclear reason="illegible">enclose
+                        their</unclear> several farms with good stone fences so as <unclear reason="illegible">to enable</unclear> them to raise turnips and <unclear reason="illegible">sow</unclear> grasses, they might <gap reason="illegible" unit="words" atLeast="2" atMost="3"/> safety a greater number of cattle than
+                    they do at present, <unclear reason="illegible">raise those</unclear> of a <add place="above">better</add> breed; and prevent any danger of <gap reason="illegible" unit="words" atLeast="1" atMost="3"/> either actually
+                    starved or brought very low in a bad winter or spring — If <unclear reason="illegible">either natural</unclear> or sowed grasses were preserved
+                    early so as to be fit for cutting down about the middle or end of <gap reason="illegible" unit="words" quantity="1"/>, the Crop would be seldom
+                        <unclear reason="illegible">lost</unclear> through the inclemency of the
+                    weather ––––– </p>
+                <p>
+                    <unclear reason="illegible">Another</unclear> capital defect in the management
+                    of the Rearers of black Cattle in <placeName ref="pldb.xml#pl0715">Sky</placeName>, is the over-stocking their several farms — Summer <unclear reason="illegible">grass</unclear> in this island for a much greater number
+                    of cattle than can be kept alive in winter and spring — Even in summer however
+                    sometimes overstock as the cattle from all the <gap reason="illegible" unit="words" quantity="1"/> islands of <gap reason="illegible" unit="words" quantity="1"/>
+                    <unclear reason="illegible">
+                        <placeName ref="pldb.xml#pl0954">
+                            <hi rend="underline">Harris</hi>
+                        </placeName>
+                        <placeName ref="pldb.xml#pl0955">
+                            <hi rend="underline">Uist</hi>
+                        </placeName>
+                    </unclear> &amp;c. are commonly brought up by the
+                        <placeName ref="pldb.xml#pl0715">Sky</placeName>
+                    <hi rend="underline">Drovers</hi>, and remain after as a super-cargo on their
+                    grounds ––––– </p>
+                <p>The horses small, but durable and hardy — The common <unclear reason="illegible">price</unclear> of each, 3 or 4 £ <gap reason="illegible" unit="chars" atLeast="1" atMost="4"/> Very few exported — Never fed or housed even in
+                    time of labour — At evening, when the work of the day is over, <unclear reason="illegible">the two</unclear> fore-feet of <unclear reason="illegible">each pair of them</unclear> commonly tyed together with a
+                    rope made of heather to prevent their getting <unclear reason="illegible">off at
+                        a distance</unclear> from Masters who reward their services with so much
+                    cruelty —</p>
+                <p>Not much employed in labour at any other time, and well fed in summer ––––– </p>
+                <p>The number of goats and <add place="above">small</add> sheep reared on each farm
+                    only sufficient for serving the purposes of the family — All of them in this
+                    island at the entire disposal of the women— </p>
+                <p> A number of servants employed by each <unclear reason="illegible">Tacksman in
+                            <placeName ref="pldb.xml#pl0715">Sky</placeName>
+                    </unclear>, — commonly a
+                    principal servant or Overseer, 3 or 4 other menservants, two herds, two dairy
+                    maids, 2 or 3 maid-servants, and 2 or 3 old women for burning and grinding
+                        <unclear reason="illegible">the corn</unclear> and baking the bread — The
+                    common wages of men-servants 30 or 40 sh. p<hi rend="superscript">r.</hi> ann
+                    with shoes; of maid-servants 6 or 8 marks with shoes and liberty to spin some
+                    clothes to the <gap reason="illegible" unit="word" quantity="1"/> — Indulged
+                    besides however sometimes in weaning a calf or two or three sheep along with the
+                    common stock— </p>
+                <p>The food of servants and the lower class of people very poor — Only two meals
+                    each day, one at eleven in the forenoon and the other at 7 or 8 in the
+                    afternoon—</p>
+                <p>One dairy-maid, and one herd reckoned necessary for taking care of <unclear reason="illegible">every two dozen</unclear>
+                    <del rend="overstrike">of every two dozen</del> of milk-cows — They have a
+                    privilege of drinking always some of the milk at the fold; and the stranger
+                    never passes by without having some of it offered to him —</p>
+                <p>When a Tacksman has a greater <unclear reason="illegible">farm</unclear> than he
+                    can well manage himself, he often sets part of it to a <hi rend="underline">bowman</hi>,<hi rend="superscript">x</hi>
+                   <note type="authorial">
+                        <hi rend="superscript">x</hi> Called in the Gal. lang.
+                            <hi rend="underline">Aireach</hi>.</note> who takes care of his stock of
+                    cattle upon it, and obliges himself to give him about 4 stone of cheese <unclear reason="illegible">&amp;</unclear> 2 stone of butter for each <unclear reason="illegible">couple</unclear> of milk-cows during every year he is
+                    pleased to employ him — If there is any arable ground, <unclear reason="illegible">he</unclear> is provided in horses and a plough for
+                    tilling it, and seed for sowing it; and his labour is rewarded by a <gap reason="illegible" unit="words" quantity="1"/> of the produce and by grass
+                    for two or three milk-cows along with the rest ––––– </p>
+                <p>Publick roads much needed in <placeName ref="pldb.xml#pl0715">Sky</placeName> —
+                    For want of them no carts or <hi rend="underline">sledges</hi> hitherto used
+                    there —</p>
+                <p>The houses of the common tenants all <unclear reason="illegible">with a</unclear>
+                    roof, thatched with straw which is kept firmly on by cross ropes to the lower
+                    extremity <sic>of which</sic> are suspended a number of stones in order to make
+                    constant pressure — The foundation, for the sake of shelter, often sunk much
+                    under ground — The walls commonly of stone very thick lined in the middle with
+                    earth in order to prevent the cold Northern blasts from penetrating through
+                    them—</p>
+                <p>An earthen porch built often at the door –––––</p>
+                <p>The people in <placeName ref="pldb.xml#pl0715">
+                        <hi rend="underline">Sky</hi>
+                    </placeName>
+                    <gap reason="illegible" unit="words" quantity="1"/> the late ferment occasioned
+                    by augmenting their rents to all appearance extremely happy — fond of society
+                    and living in peace and friendship together — of an open and chearful
+                    countenance — beyond conception kind and hospitable to strangers — fond of
+                    musick and dancing — till of late much attached to their Chief, whom they
+                    considered as the Guardian and Head of their several families —</p>
+                <p>There is no labour they go about but they join frequently in singing Galic Songs,
+                    the musick of which is well adapted to the particular species of work; and this
+                    practice is observed to have such a visible influence in raising and supporting
+                    their spirits and thereby <sic>expeding</sic> their labour, that care is
+                    commonly taken that the song shall not fail— At <unclear reason="illegible">shearing</unclear> in particular it is pleasant in a good day to hear at a
+                    distance perhaps 30 or 40 voices joining altogether in concert. When the song
+                    and work <gap reason="illegible" unit="words" quantity="1"/> on to the
+                    Overseer's mind, he <gap reason="illegible" unit="words" quantity="1"/> and then
+                    expresses his <unclear reason="illegible">approbation</unclear> by a loud
+                    inarticulate roar. When there is another company shearing within reach of his
+                    voice their Overseer seldom fails to give another roar in return, to raise an
+                    emulation and let him know that he thinks his own company behave equally well
+                    —</p>
+                <p>
+                    <unclear reason="illegible">Almost</unclear> all particularly the women, have a
+                    good musical ear and good voices, much improved no doubt by being in the habit
+                    of singing from infancy — They have likewise a good lively imagination, many of
+                    the best modern Galic songs having been composed <unclear reason="illegible">in</unclear> this island ––––– </p>
+                <p>
+                    <placeName ref="pldb.xml#pl0715">Sky</placeName> famous for Pipers ––––– None in
+                    any part of the Highlands thought to be sufficiently qualified till they pass
+                        <unclear reason="illegible">an affirmation</unclear> with the <unclear reason="illegible">
+                        <hi rend="underline">Mac Cruimer</hi>
+                    </unclear> or <gap reason="illegible" unit="words" atLeast="1" atMost="2"/>
+                    <unclear reason="illegible">Piper</unclear>
+                    <gap reason="illegible" unit="chars" atLeast="1" atMost="3"/> the families of
+                        <unclear reason="illegible">M<hi rend="superscript">c</hi>Leod</unclear> and
+                        M<hi rend="superscript">c</hi>Donald those formerly held the office
+                    hereditary. The art and the emoluments descended from father to son. — There is
+                    at present a great number of <hi rend="underline">p<gap reason="illegible" unit="chars" quantity="6"/>hts</hi> or bag-pipe airs, the most of which
+                    have been composed by their Ancestors, who are said to have greatly excelled
+                    them in that art — They own however, that if tradition can be depended upon, the
+                        bag-pipe<hi rend="superscript">x</hi>
+                   <note type="authorial" place="foot">In Galic Piob.—</note> is <gap reason="illegible" unit="words" atLeast="1" atMost="2"/> instrument of the
+                    old <gap reason="illegible" unit="words" atLeast="1" atMost="3"/> the
+                    Highlanders, and that they borrowed it <unclear reason="illegible">originally</unclear> from the Danes. Formerly the harp was probably the
+                    only musical instrument known in these parts. Till about <add place="above">sixty years ago</add>
+                    <hi rend="underline">Mac-Leod</hi> and Mac-Donald kept Harpers in their
+                    families, as well as Pipers. A room is still pointed out in <placeName ref="pldb.xml#pl0667">the old ruinous castle of <hi rend="underline">Dun-tuilm</hi>
+                    </placeName> which is called <hi rend="underline">seomar-nan-clèrsaireag</hi>
+                    i.e the room of the Harpers ––––– </p>
+                <p>This island long ago famous for second sighted people — and there are some in it
+                    who still <unclear reason="illegible">pretend</unclear> to this wonderful
+                    facility. But they are always persons of the weakest intellect, and of a
+                    vapourish imagination. Their imposition without doubt is not always designed.
+                    They are sometimes first deluded themselves into a belief of the reality of
+                    their pretended visions; and they too easily delude their superstitious
+                    brethren. But with the more sensible part their vain predictions are <gap reason="illegible" unit="chars" atLeast="1" atMost="5"/> justly contemned— </p>
+                <p>No wood in <placeName ref="pldb.xml#pl0715">
+                        <hi rend="underline">Sky</hi>
+                    </placeName>, except a little at <unclear reason="damage">Kyl-arrain</unclear> and in <placeName ref="pldb.xml#pl0655">Slate</placeName> — Timber imported every year from the main land with
+                    considerable trouble and expence — In places that are tolerably sheltered
+                    plantations would certainly thrive. But any tryals that have already been made
+                    in places much exposed to the Northern blast have not answered expectations
+                    ––––– </p>
+                <p>A narrow seam of Coals seen in the middle of immense <hi rend="underline">whin</hi> rocks at <placeName ref="pldb.xml#pl0956">
+                        <hi rend="underline">Portree</hi>
+                    </placeName>,<hi rend="superscript">x</hi>
+                   <note type="authorial" place="foot">
+                        <placeName ref="pldb.xml#pl0956">
+                            <hi rend="underline">Port-righ</hi>
+                        </placeName>
+                        <unclear reason="illegible">i.e.</unclear> The Kings harbour —</note> and in
+                    one or two other places in this island — but not worth the labour <gap reason="illegible" unit="words" atLeast="1" atMost="2"/> of working ––––– </p>
+                <p>More petrifactions found upon the coast than in any other of the W. isles, as <hi rend="underline">Belemnites Cornu Ammonis</hi>; immense rocks of limestone
+                    full of petrifyed shells &amp;c. —</p>
+                <p>White marble in <placeName ref="pldb.xml#pl0951">
+                        <hi rend="underline">Strath</hi>
+                    </placeName>, black in <placeName ref="pldb.xml#pl0957">
+                        <hi rend="underline">Torrin</hi>
+                    </placeName> ––––– </p>
+                <p>Beautiful rock-marl in great abundance in <placeName ref="pldb.xml#pl0951">
+                        <hi rend="underline">Strath</hi>
+                    </placeName> — evidently formed from
+                    lime-stone — The rock appearing firm and solid in <unclear reason="illegible">some</unclear> parts above, in the <unclear reason="illegbile">mixture</unclear> retaining it's light blue colour and a little of it's
+                    hardness but really formed into a marl, and below the marl quite soft and a fine
+                    white colour ––––– </p>
+                <p>Elf-shot arrows frequently found here ––––– </p>
+                <p>Many druidical Circles to be seen in different parts of <placeName ref="pldb.xml#pl0715">
+                        <hi rend="underline">Sky</hi>
+                    </placeName> — the stones
+                    of which they consist low and small — Circles commonly but 13 or 14 feet in
+                        diam<hi rend="superscript">r</hi> — Called by the natives <hi rend="underline">tighe-nan-driuneach</hi> i.e. the houses of the Druids.</p>
+                <p>Some very large <hi rend="underline">Cairns</hi>
+                    <hi rend="superscript">x</hi>
+                    <note type="authorial">heaps</note> are to be seen in different
+                    parts. In the middle of such as have been taken down for the sake of the stone
+                    in building <hi rend="underline">dikes</hi>, small earthen cairns with some
+                    ashes in them have been found ––––– </p>
+                <p>In <placeName ref="pldb.xml#pl0952">
+                        <hi rend="underline">Raarsay</hi>
+                    </placeName>
+                    and in <placeName ref="pldb.xml#pl0715">
+                        <hi rend="underline">Sky</hi>
+                    </placeName> there are some flat stones of about <add place="above">4 or</add> five feet in diameter, which were probably once the altars of
+                    one of the druidical divinities — The superstitious, attached to the customs of
+                    their ancestors, still pour at certain times a libation of milk upon them. They
+                    are called <hi rend="underline">clachan-a'-Ghruagaich</hi> i.e. the stones of
+                    the Gruagach. A particular account of the common belief of the islanders with
+                    regard to this superior Being is given by <bibl type="authorial">
+                        <title ref="bidb.xml#bi0116">
+                            <hi rend="underline">Martin</hi>
+                        </title>
+                    </bibl>. ––––– </p>
+            </div>
+            <div type="letter">
+                <dateline>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName> Feb<hi rend="superscript">y.</hi> 1. 1774 —</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I was favoured with yours of Jan<hi rend="superscript">y.</hi> 15<hi rend="superscript">th</hi> yesterday morning, inclosing <bibl type="authorial">
+                        <title ref="bidb.xml#bi0008">a specimen of your Tour</title>
+                    </bibl> with which
+                    I am much pleased — It gave me no small pain however to find that the remarks
+                    relative to <placeName ref="pldb.xml#pl0651">Iona</placeName> were <unclear reason="illegible">too late —</unclear> All I can say is that though a
+                    Highlander <gap reason="illegible" unit="words" atLeast="2" atMost="3"/> not
+                    surely lay the smallest claim to the "Second sight," otherwise my desire of
+                        <unclear reason="illegible">being of</unclear>
+                    <gap reason="illegible" unit="chars" atLeast="2" atMost="4"/>le service to you
+                    in my power <gap reason="illegible" unit="words" atLeast="2" atMost="4"/>
+                    prevented any of my letters from being <unclear reason="illegible">as</unclear>
+                    far distanced, though part of my most necessary business in other respects
+                    should be allowed to stand — I now suspect however that my first letter must
+                    have <unclear reason="illegible">loitered</unclear> some days betwixt this and
+                        <placeName ref="pldb.xml#pl0295">Crieff</placeName>, as I was obliged to
+                    send it by an uncertain hand — I send you inclosed part of the remarks on
+                        <placeName ref="pldb.xml#pl0715">
+                        <hi rend="underline">Sky</hi>
+                    </placeName>,
+                    which I would fain hope may come to your h<gap reason="illegible" unit="chars" atLeast="3" atMost="4"/> in due time — The remaining part is sent you <gap reason="illegible" unit="words" atLeast="1" atMost="3"/> Cover by the same
+                    Post — After leaving this island excepting some names of places, there will I
+                    think be but few new observations of any consequence that I can communicate unto
+                    you — <persName ref="pe0312">Achalader</persName> and <persName ref="pe0449">my father</persName> are in health and much at your
+                    service.</p>
+                <closer>
+                    <salute>I remain <lb/>Dear Sir <lb/>
+                        <gap reason="illegible" unit="words" atLeast="1" atMost="2"/> great sincerity <lb/>Your most humble Serv<hi rend="superscript">t.</hi> </salute>
+                    <signed>
+                        <persName ref="pe0023">John Stuart</persName>
+                    </signed>
+                </closer>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>Thomas Pennant Esq<hi rend="superscript">r.</hi>
+                        </addrLine>
+                        <addrLine>Downing</addrLine>
+                        <addrLine>Flintshire</addrLine>
+                        <addrLine>S. Britain—</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

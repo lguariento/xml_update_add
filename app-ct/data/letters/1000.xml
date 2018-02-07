@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1000">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull, 13 June 1773</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 1</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-06-13"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>The inclosed will do your business about the picture at <placeName ref="pldb.xml#pl0168">Dunrobin castle</placeName>.<note resp="editor">At
+                            <placeName ref="pldb.xml#pl0167">Golspie, Sutherland</placeName>, in the
+                            <placeName ref="pldb.xml#pl0711">Scottish Highlands</placeName>. Pennant
+                        visited it in 1769, and gives a description of the paintings which he saw
+                        there in <bibl type="editorial">Thomas Pennant, <title ref="bidb.xml#bi0001">
+                                <hi rend="superscript">A tour in Scotland.
+                                MDCCLXIX</hi>
+                            </title> (Chester: John Monk, MDCCLXXI [1771])</bibl>
+                        [ABBREVIATION], p. 145–6.</note>
+                </p>
+                <p>I again surveyed <rs type="art" ref="ardb.xml#ar0004">Lady Desmonds picture</rs>
+                    last year &amp; I plainly saw it was no <persName ref="pe0314">Rembrandt</persName> which I knew was impossible when I looked into his
+                        life.<note resp="editor">Bull was much exercised by a print of <persName ref="pe0315">Catherine, Countess of Desmond</persName>, a
+                        reputed centenarian living in the fifteenth and sixteenth centuries, which
+                        he found engraved from a painting in a Scottish collection in April 1773.
+                        Horace Walpole reported that on the reverse of a copy of the picture at
+                        Windsor it was described as 'The Mother of Rembrandt', but Pennant refuted
+                        this (as did James Granger) and had the picture engraved for the third
+                        edition of his <bibl type="editorial">
+                            <title ref="bidb.xml#bi0004">
+                                <hi rend="superscript">A tour in Scotland. MDCCLXIX</hi>
+                            </title>
+                            (Warrington, 1774)</bibl>, p. 74. <persName ref="pe0313">Richard Bull</persName> eventually conceded that the portrait was
+                        indeed by <persName ref="pe0314">Rembrandt</persName>, and bore no
+                        real relation to the <persName ref="pe0315">Catherine, Countess of
+                            Desmond</persName>. Peltz, 'Bull-Granger Letterbook', pp. 13t14, 115,
+                        117, 123, 124; <persName ref="pe0232">Thomas Pennant</persName> to
+                            <persName ref="pe0316">James Granger</persName>, 21 October
+                        1774, Malcolm, p. 157.</note> always ready to execute y<hi rend="superscript">r</hi> commands I am D<hi rend="superscript">r</hi>
+                    Sir</p>
+                <closer>
+                    <salute>Y<hi rend="superscript">r</hi> most obed<hi rend="superscript">t</hi>. Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant</persName>
+                    </signed>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> June 13<hi rend="superscript">th</hi> 1773.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

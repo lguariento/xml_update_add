@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0158.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, informing him of undelivered books and the
+                    arrival of George Low's draft</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>84</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1774-04-28"/>
+
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p> To my great comfort <persName ref="pe0156">M<hi rend="superscript">r</hi>
+                        Lows</persName> draft is just arrived, which I shall pay on Saturday. I
+                    leave town on Monday. I do assure you the fault about the delivery of y<hi rend="superscript">r</hi> Books rests on <persName ref="pe0309">your master
+                        of the ship</persName>.</p>
+                <p>Be so good as to return the Letter I sent undirected.</p>
+                <closer>
+                    <salute>I am in much <lb/>haste y<hi rend="superscript">rs</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant.</persName>
+                    </signed>
+                </closer>
+
+                <dateline>April 28<hi rend="superscript">th</hi> 1774.</dateline>
+
+                <postscript>
+                    <p> I think you had best order some ship master to call at <persName ref="pe0026">M<hi rend="superscript">r</hi> Whites</persName> for the
+                        box of <bibl type="authorial">
+                            <title ref="bi0004 bi0008">my Tours</title>
+                        </bibl>
+                        that you are so kind as to disperse. </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

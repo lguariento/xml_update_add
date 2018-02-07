@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1017">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 19</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1782-05-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <handShift/>3<hi rend="superscript">rd</hi>. May 1782. Q.<note type="editorial">in Richard Bull's hand</note>
+                    </dateline>
+                    <salute>Dear
+                        Sir</salute>
+                </opener>
+                <p>
+                    <persName ref="pe0014">Moses</persName> gives you many thanks for your
+                    remittance &amp; incloses the receit. I am putting in the first leaves of the
+                        <bibl type="authorial">
+                        <title ref="bidb.xml#bi0014">welsh
+                        tour</title>
+                    </bibl> the arms of my alliances or in fact my pedegree.<note type="editorial">Arms of families are painted in the margins of text
+                        relating to Tre-Mostyn (pp. 8, 9) and Tre-Bychton (p. 14) in NLW, Pennant's
+                        extra-illustrated Tour in Wales (1st edn., 1778), SEVEN.</note> I presume
+                    that will not interest you, so shall omit it.<note type="editorial">i.e. in
+                        Bull's copy.</note>
+                </p>
+                <p>I fear <persName ref="pe0348">Lord Herberts</persName> house at
+                        <placeName ref="pldb.xml#pl0805">Eyton</placeName>
+                   <note type="editorial">Edward Herbert, first Baron Herbert of Cherbury and first
+                        Baron Herbert of Castle Island (1582?–1648). He was born at Eyton-on-Severn,
+                        Shropshire, home of his maternal grandparents, Sir Richard (d.1570) and Lady
+                        Margaret Newport. ODNB. A building at Eyton, dated c.1607 and described as a
+                        banqueting house, is said to have been destroyed by fire. It is linked to
+                        the name of Sir Francis Newport. See historicengland.org.uk, list entry no.
+                        1267039 [accessed 9/12/17]. Whether this was the same as the house at
+                        Eyton-on-Severn rebuilt by 1595 by Sir Francis Newport (c.1555–1623), of
+                        High Ercall and Eyton-on-Severn, is unclear. ODNB s.v. Richard Newport,
+                        first Baron Newport (1587–1651); History of Parliament on-line s.v. Francis
+                        Newport II (c.1555–1623).</note> is burnt down: but I shall make enquiry The
+                        <rs type="art" ref="ardb.xml#ar0035">tomb in Montgomery <choice>
+                            <abbr>Ch.</abbr>
+                            <expan>Church</expan>
+                        </choice>
+                    </rs> is of <persName ref="pe0349">Richard Herbert <choice>
+                            <abbr>Esq<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>Esquire</expan>
+                        </choice>
+                    </persName> &amp; <persName ref="pe0350">his
+                        wife</persName>.<note type="editorial">A tour in Wales MDCCLXX, II, part 2,
+                        ii [ECCO describes as vol. 2; actually part of 'From Downing to Montgomery
+                        and Shrewsbury'], p. 374, describes a 'handsome monument of Richard Herbert,
+                        Esq; . . . represented in armour; and by him lies his lady, Magdalene,
+                        daughter of Sir Richard Newport of High Arcol. In front are their numerous
+                        progeny. He died in 1597. The monument was erected by his lady, who survived
+                        him several years . . .'.</note> he in <choice>
+                        <abbr>arm<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>armour</expan>
+                    </choice> beneath a marble canopy – beneath the tomb is another figure of a man
+                    in a gown with a cord round his <sic>waste</sic>. his head hooded Two mutilated
+                    figures of Knights. the head of one rests on a helmet with a coronet &amp; vast
+                    plumes. If you can give me any history of them I shall be much obliged to you
+                    for it will be of immediate use to</p>
+                <closer>
+                    <salute>Dear Sir <lb/>Your faithfully</salute> <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>T</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant.</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Be so good as to try to get explained the words in old writing in the list of
+                            <persName ref="pe0321">Sir J. Wynn</persName>'s wardrobe,<note type="editorial">WORDS IN OLD WRITING IN THE LIST OF SIR J. WYNN'S
+                            WARDROBE </note> &amp; return me the paper.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

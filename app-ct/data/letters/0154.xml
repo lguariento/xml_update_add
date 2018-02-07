@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0154.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, promising to send him copies of his new works
+                    when published</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>80</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1774-03-21"/>
+                    <placeName ref="pl0699">London</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>y<hi rend="superscript">r</hi> kind Letters of the 8<hi rend="superscript">th</hi>. &amp; 15<hi rend="superscript">th</hi>. ins<hi rend="superscript">t</hi> met me here. I am quite angry at y<hi rend="superscript">r</hi>
+                    thinking of buying any of my works when you have such a just clame to all I can
+                    do. but neither vol. can appear before the latter end of. next month.<note type="editorial">Both the third edition of Pennant's <bibl type="editorial">
+                            <title ref="bi0004">
+                                <hi rend="italic">Tour in Scotland
+                                1769</hi>
+                            </title>
+                        </bibl> and the first edition of <bibl type="editorial">
+                            <title ref="bi0008">his <hi rend="italic">Tour in
+                                    Scotland and Hebrides 1772</hi>
+                            </title>
+                        </bibl> were published in
+                        1774.</note> I hope to get <bibl type="authorial">
+                        <title ref="bi0110">Johnstons poems</title>
+                    </bibl> here; <sic>so do trouble yourself about
+                        them</sic>. Be so good to peruse &amp; then forward the inclosed to
+                        <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName>. I am
+                    in much haste.</p>
+                <closer>
+                    <salute>Dear Sir <lb/>y<hi rend="superscript">r</hi> most obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant</persName>
+                    </signed>
+                    <placeName ref="pl0699">London</placeName>
+                </closer>
+                <dateline>March. 21. 1774.</dateline>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>M<hi rend="superscript">r</hi>. Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+                <p>
+                    <hi rend="underline">
+                        <persName ref="pe0289">Walther Williams</persName>
+                    </hi>
+                </p>
+                <p>
+                    <stamp type="postmark">21/MR</stamp>
+                </p>
+                <p>
+                    <stamp type="frank">FREE</stamp>
+                </p>
+                <p>
+                    <stamp type="postmark">
+                        <unclear reason="illegible">WR</unclear>
+                    </stamp>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

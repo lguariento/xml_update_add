@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0428">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>John Stuart to Thomas Pennant: description of Iona</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP369</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>7a-7d</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0023">John Stuart</persName>
+                    <date when="1773-12-31"/>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="gd">Gaelic</language>
+
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="enclosed">
+                <p>Of <placeName ref="pldb.xml#pl0651">Iona, or I-colm-kill</placeName>
+                    <hi rend="superscript">x</hi>
+                    <note type="authorial" place="foot">x The Galic
+                        name is <hi rend="underline">I,</hi> signifying an island, or <hi rend="underline">I-Cholum-chille</hi> ie. the island of Columba of the
+                        church.</note>
+                </p>
+                <p>
+                    <hi rend="underline">Of, <placeName ref="pldb.xml#pl0651">Iona <unclear reason="illegible">or I-colm-kill</unclear>
+                        </placeName>
+                    </hi>
+                    <unclear reason="illegible">a small island</unclear> separated <unclear reason="illegible">from <placeName ref="pldb.xml#pl0729">Mull</placeName>
+                    </unclear> by <gap reason="illegible" unit="word" atLeast="1" atMost="4"/> parts <unclear reason="illegible">less</unclear>
+                    <unclear reason="illegible">than an English mile in width</unclear>.—</p>
+                <p>It is about <gap reason="illegible" unit="word" atLeast="3" atMost="5"/> broad.
+                    The <gap reason="illegible" unit="word" atLeast="5" atMost="7"/> is situated
+                    S.W. and <gap reason="illegible" unit="word" atLeast="2" atMost="4"/> covered
+                    mostly with a very <unclear reason="illegible">white</unclear> sand which
+                    consists principally of powdered shells. On the opposite side the <unclear reason="illegible">coast</unclear>
+                    <gap reason="illegible" atLeast="1" atMost="2" unit="word"/> is extremely rugged
+                    and rocky—</p>
+                <p>The principal hills or eminences in <placeName ref="pldb.xml#pl0651">
+                        <hi rend="underline">I-colm-kill</hi>
+                    </placeName> are called <placeName ref="pldb.xml#pl0971">
+                        <hi rend="underline">Dun-I</hi>
+                    </placeName>, i.e. the
+                    round hill or eminence of <placeName ref="pldb.xml#pl0968">
+                        <hi rend="underline">I-Cnoc-nan-aingeal-<unclear reason="illegible">mòr</unclear>
+                        </hi>
+                    </placeName> i.e. the great eminence of the angels,
+                        <placeName ref="pldb.xml#pl0968">
+                        <hi rend="underline">Cnoc-nan-aingeal-beag</hi>
+                    </placeName> i.e. the small eminence of the
+                    angels, <placeName ref="pldb.xml#pl0972">
+                        <hi rend="underline">Carnan-buy</hi>
+                    </placeName> i.e. the yellow eminence, and <placeName ref="pldb.xml#pl0973">
+                        <hi rend="underline">Carnan-chul-reh-Eirinn</hi>
+                    </placeName> i.e. the <unclear reason="illegible">eminence</unclear>
+                    <gap reason="illegible" unit="word" atLeast="1" atMost="3"/>
+                    <unclear reason="illegible">back</unclear> turned to <placeName ref="pldb.xml#pl0889">Ireland</placeName>
+                    <gap reason="illegible" unit="word" atLeast="1" atMost="5"/>
+                </p>
+                <p>The <unclear reason="illegible">inhabitants</unclear>
+                    <gap reason="illegible" unit="word" atLeast="3" atMost="5"/> to be more fertile
+                        <gap reason="illegible" unit="word" atLeast="3" atMost="5"/> The soil
+                    consists entirely of the <gap reason="illegible" unit="word" atLeast="2" atMost="4"/> sand which is found <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> the coast but mixed with more <gap reason="illegible" unit="word" atLeast="3" atMost="6"/> It is extremely
+                    favourable to the growth of bear, of natural Clover, <unclear reason="illegible">crows foot</unclear> and <sic>daizy</sic>. It is subject however to the
+                    general inconveniences of the sand <gap reason="illegible" unit="word" atLeast="2" atMost="3"/> very dry, or very wet season, the <unclear reason="illegible">crops</unclear> are indifferent. Oats do not thrive and
+                    are but little cultivated. The common increase of oats when sown, fourfold; of
+                        <hi rend="underline">bear</hi>, fivefold.</p>
+                <p>— The arable land is in perpetual tillage —</p>
+                <p>Run-rigs — Grass in common — The last of the bear-seed sown in summer 1772 about
+                    the 20<hi rend="superscript">th.</hi> of June ––––– Lint and Potatoes observed
+                    to thrive very well —</p>
+                <p>The <gap reason="illegible" unit="word" atLeast="3" atMost="5"/> in <placeName ref="pldb.xml#pl0974">
+                        <hi rend="underline">Tir-I</hi>
+                    </placeName>,<hi rend="superscript">x</hi>
+                    <note type="authorial">x<placeName ref="pldb.xml#pl0974">
+                            <hi rend="underline">Tir-I</hi>
+                        </placeName> i.e.
+                        the country of <hi rend="underline">I</hi>
+                    </note>
+                    <placeName ref="pldb.xml#pl0896">
+                        <hi rend="underline">Col</hi>
+                    </placeName>, <unclear reason="illegible">
+                        <hi rend="underline">North</hi>
+                    </unclear>
+                    <gap reason="illegible" unit="word" atLeast="3" atMost="5"/>
+                    <note type="editorial">The letter is illegible at this point, but from Pennant's
+                        use of Stuart's material in his <bibl type="editorial">
+                            <title ref="bidb.xml#bi0008">Tour in
+                                Scotland and Hebrides 1772</title>
+                            <biblScope unit="page"/>(p.277)</bibl> the remaining words can be identified as references to
+                        <placeName ref="pldb.xml#pl0853">North</placeName> and <placeName ref="pldb.xml#pl0854">South
+                            Uist</placeName>
+                    </note> a person who has <gap reason="illegible" unit="word" atLeast="3" atMost="5"/> tolerable idea of all the <gap reason="illegible" unit="word" atLeast="3" atMost="5"/>
+                </p>
+                <p>Part of the <unclear reason="illegible">black Cattle in the island are housed in
+                        winter</unclear>
+                    <gap reason="illegible" unit="word" atLeast="3" atMost="5"/> muirill, is what
+                        <gap reason="illegible" quantity="2"/> often most fatal to them. — The
+                    common price of a milk-cow here is from 2 £ 10 sh. to 3 £ 20 sh. Sterling. — of
+                    horses, from 3 £ to 6 £, —of sheep, 3 or 4 shillings.</p>
+                <p>Nine score of milk cows <sic>mantained</sic> in all upon <placeName ref="pldb.xml#pl0651">
+                        <hi rend="underline">I-colm-kill</hi>
+                    </placeName> and about 500 sheep —
+                    Servants commonly paid by one fourth of the Crop, together with grass for three
+                    or four Cows, and some sheep –––––</p>
+                <p>This island is <unclear reason="damage">the property</unclear> of <persName ref="pe0086">the Duke of <unclear reason="damage">Argyle</unclear>
+                    </persName>
+                    <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> present rent is
+                    about <gap reason="illegible" unit="word" atLeast="4" atMost="6"/> burdens. The
+                        <gap reason="illegible" unit="word" atLeast="5" atMost="6"/> Pounds,
+                    thirteen <gap reason="illegible" unit="word" atLeast="3" atMost="5"/>–––––</p>
+                <p>There <unclear reason="illegible">are thirty eight families at</unclear> present
+                    in <placeName ref="pldb.xml#pl0651">
+                        <hi rend="underline">I-colm-kill</hi>
+                    </placeName>
+                    <gap reason="illegible" unit="word" atLeast="1" atMost="3"/> of which at an
+                    average there <gap reason="illegible" unit="word" quantity="1"/> five souls —
+                    Eight of the heads of the <gap reason="illegible" unit="chars" atLeast="1" atMost="3"/> families are of the name of <hi rend="underline">Mac-Innys</hi>, six of them <hi rend="underline">Mac-Donalds</hi>, four <hi rend="underline">Mac-Arthurs</hi>, three <hi rend="underline">Mac-Leans</hi>, three <hi rend="underline">Mac-<unclear reason="illegible">Echarns</unclear>
+                    </hi>, three <hi rend="underline">Mac-Farlans</hi>,
+                    two <hi rend="underline">
+                        <unclear reason="illegible">Morisons</unclear>
+                    </hi>,
+                    two <hi rend="underline">Mac-Ilvuys</hi>, two <hi rend="underline">Mac-Laomins</hi>, one of the name of <hi rend="underline">Cameron</hi>, one
+                        <hi rend="underline">Mac-Millan</hi>, one <hi rend="underline">Mac-Philip</hi>, one <hi rend="underline">Mac-Kay</hi>, and one <hi rend="underline">Black</hi>.</p>
+                <p>Some of these, it is said, are lineally descended from the very persons who
+                    sailed from <placeName ref="pldb.xml#pl0889">Ireland</placeName> in the sixth <unclear reason="illegible">along with Columba.</unclear>
+                </p>
+                <p>The inhabitants <gap reason="illegible" unit="word" atLeast="2" atMost="3"/>
+                    island all of them <unclear reason="illegible">observed</unclear>
+                    <gap reason="illegible" unit="word" atLeast="2" atMost="3"/> infirmities of age
+                    — <gap reason="illegible" unit="word" atLeast="3" atMost="4"/>
+                    <unclear reason="illegible">spare</unclear> the diseases which <gap reason="illegible" unit="word" atLeast="3" atMost="5"/> them.</p>
+                <p>— They <gap reason="illegible" unit="word" atLeast="2" atMost="3"/> of the <gap reason="illegible" unit="word" atLeast="2" atMost="3"/> with those of
+                    <placeName ref="pldb.xml#pl0729">Mull</placeName>, but not <gap reason="illegible" unit="word" quantity="1"/> so acute or lively. They are <unclear reason="illegible">intirely</unclear> secluded from the rest of the world,
+                    seldom see Strangers and but rarely hear the voice of an instructor. They have
+                    not so much as a school-master among them to teach their children the first
+                    elements of learning and knowledge — In this island once famed as the seat of
+                    letters and much religion, now darkness, superstition and ignorance reign.</p>
+                <p>According to the tradition of the islanders, Columba first <gap reason="illegible" unit="word" atLeast="2" atMost="3"/>
+                    <placeName ref="pldb.xml#pl0647">Oransay</placeName>, with views <gap reason="illegible" unit="word" atLeast="3" atMost="4"/> having vowed that <gap reason="illegible" unit="word" atLeast="3" atMost="5"/> in no country <gap reason="illegible" unit="word" atLeast="3" atMost="4"/> could be seen, <gap reason="illegible" unit="word" atLeast="2" atMost="3"/> island, and set out
+                    for <unclear reason="illegible">
+                        <placeName ref="pldb.xml#pl0651">
+                            <hi rend="underline">Iona</hi>
+                        </placeName>. After landing it is</unclear> said that he went
+                    directly to the top of the principal eminence in the island, raised a heap of
+                    stones upon each, but could not perceive his native country from either of them.
+                    The heaps of stone are still shewen –––––</p>
+                <p>There are hardly any monuments of Druids now remaining in this island, excepting
+                    a Druidical circle, 15 feet in diameter, which is to be seen on the top of
+                    <placeName ref="pldb.xml#pl0968">
+                        <hi rend="underline">Cnoc-nan-aingeal</hi>
+                    </placeName> —
+                    About a quarter of a mile <unclear reason="illegible">S. from <placeName ref="pldb.xml#pl0975">the Nunnery</placeName>,</unclear> and within a few yards <gap reason="illegible" unit="word" atLeast="4" atMost="5"/> likewise a burying
+                    place <gap reason="illegible" unit="word" atLeast="3" atMost="4"/> which, if the
+                    uncertain <gap reason="illegible" unit="words" atLeast="1" atMost="3"/> of the
+                    present inhabitants <gap reason="illegible" atLeast="3" atMost="4"/> upon, the
+                    Druidical priests <unclear reason="illegible"> and their</unclear> flock were
+                    interred; before the introduction of Christianity —</p>
+                <p>The ruins of religious houses in <placeName ref="pldb.xml#pl0651">
+                        <hi rend="underline">I-colm-kill</hi>
+                    </placeName> are considerable. <placeName ref="pldb.xml#pl0976">Ouran's Chapel</placeName>, or, as it is called by the natives <placeName ref="pldb.xml#pl0976">
+                        <hi rend="underline">Reilig-Ourain</hi>
+                    </placeName>, Ouran's
+                    burying-place, is said to be the first building of Columba's in this island,
+                    though indeed it seems to be the work of a much later period. It is situated in
+                    the most centrical and beautiful part of <placeName ref="pldb.xml#pl0651">Iona</placeName> near
+                    the Easter coast. The wall is still pretty <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> like most of the other <gap reason="illegible" unit="word" atLeast="3" atMost="4"/> is situated nearly E. and W. It is
+                    about <hi rend="underline">34 feet long and 19<hi rend="superscript">1/2</hi>
+                        broad;</hi>
+                    <gap reason="illegible" unit="word" atLeast="2" atMost="4"/> in its W. end.</p>
+                <p>The <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> stone that <add place="above">covers</add> the grave in which it is said one of the Kings of
+                    France was buried is mistaken by some for marble, but is only a granite
+                    –––––</p>
+                <p>That so many crowned heads from different nations have been buried in this island
+                    was, it is said much owing to an old prophecy which is still preserved in the
+                    following lines: <quote>
+                        <hi rend="underline">Seachd bliashna roimh 'n bhrà'
+                            <lb/>Thig muir that Eirinn re aon trà', <lb/>'Sthar Ile ghuirm ghlais,
+                            <lb/>Ach snàmaidh I Cholum Chlèirich.</hi>
+                    </quote> "Seven years before
+                    the end of the world, a deluge shall drown the nations. The sea at one tide
+                    shall cover <placeName ref="pldb.xml#pl0889">
+                        <hi rend="underline">Ireland</hi>
+                    </placeName>, and
+                    the green-headed <unclear reason="illegible">
+                        <placeName ref="pldb.xml#pl0717">Ilay</placeName>
+                        but <placeName ref="pldb.xml#pl0651">St Columba's Isle</placeName>
+                    </unclear> shall swim
+                    above <unclear reason="illegible">the flood</unclear>.</p>
+                <p>At the distance of <gap reason="illegible" unit="word" atLeast="1" atMost="2"/>
+                    <unclear reason="illegible">hundred</unclear> feet N.E. of <placeName ref="pldb.xml#pl0976">Ouran's chapel</placeName> lies <placeName ref="pldb.xml#pl0977">the Monastery of the
+                            Monks</placeName>. <placeName ref="pldb.xml#pl0978">The great Church</placeName> belonging
+                    to it is situated W.N.W. and E.S.E. —</p>
+                <p>
+                    <placeName ref="pldb.xml#pl0979">S<hi rend="superscript">t.</hi> Martin's Cross</placeName>,
+                    quite entire, erected about 200 feet from it's S.W. corner — <placeName ref="pldb.xml#pl0980">
+                        <hi rend="underline">S<hi rend="superscript">t.</hi> Mary's
+                                Chapel</hi>
+                    </placeName>, of the same size with <placeName ref="pldb.xml#pl0976">
+                        <hi rend="underline">Ouran's</hi>
+                    </placeName>, situated about 400 feet from
+                    it's S.E. corner. — There are about 12 paces from <placeName ref="pldb.xml#pl0978">the
+                        Church</placeName> to the inner inclosure, and about 64 thence to the
+                    outward inclosure. <unclear reason="illegible">South</unclear> from that a
+                    Causeway extending for about 100 paces to <placeName ref="pldb.xml#pl0981">a handsome
+                        Cross</placeName>, which is 17 inches broad, 3<hi rend="superscript">1/2</hi> inches thick, and ten feet high, above a neat pedestal of three
+                    feet in height –––––</p>
+                <p>About 92 <unclear reason="illegible">paces S.</unclear> of this Cross there
+                    remain the walls of <placeName ref="pldb.xml#pl0982">
+                        <hi rend="underline">the
+                        Curia</hi>
+                    </placeName>, or as they now call it, <placeName ref="pldb.xml#pl0982">
+                        <hi rend="underline">teampull-sgir-achd</hi>
+                    </placeName> parish-church. It
+                    is situated nearly E. and W., is 41 feet long by 20<hi rend="superscript">1/2</hi> broad —</p>
+                <p>About 7 paces S. of this are the ruins of <placeName ref="pldb.xml#pl0975">the Monastery of the
+                        Nuns</placeName> –––––</p>
+                <p>The beautiful red granite employed in building all these houses was taken from
+                    <placeName ref="Eilean-nam-Ban">
+                        <hi rend="underline">Nuns-island</hi>
+                    </placeName> a small
+                    rocky island in <placeName ref="pldb.xml#pl0984">the sound of <hi rend="underline">I</hi>
+                    </placeName>. The hewen works of the doors, windows, corners of the
+                    wall or pillars in the different buildings are all of free-stone. The quarry
+                    from which this free-stone was taken is said to be still visible at no great
+                    distance upon the coast of <placeName ref="pldb.xml#pl0729">
+                        <hi rend="underline">Mull</hi>
+                    </placeName>
+                </p>
+            </div>
+            <div type="letter">
+                <dateline>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName> Dec<hi rend="superscript">r.</hi> 31.
+                        1773.</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I am sorry that I must again plead my being obliged <gap reason="illegible" unit="word" quantity="2"/> from home for a fortnight past <gap reason="illegible" unit="word" atLeast="2" atMost="3"/> for not writing you
+                    sooner –––––</p>
+                <p>I send you inclosed some remarks upon <placeName ref="pldb.xml#pl0651">I-colm-kill</placeName>
+                    I found it necessary to be <add place="above">more</add> particular in them
+                    thany you would deem requisite, as by the last visit to that island I had an
+                    opportunity of being informed of some more circumstances &amp; facts, and of
+                    examining by measurement lengths and distances which before were but imperfectly
+                    guessed at by the eye —</p>
+                <p>Except <placeName ref="pldb.xml#pl0977">the monastery of Monks</placeName> and <placeName ref="pldb.xml#pl0975">that of the nuns</placeName>, I hardly think that any of the other
+                    buildings merit a particular or minute description from you –––––</p>
+                <p>I shall endeavour to send you by next week's post the Remarks upon <placeName ref="pldb.xml#pl0653">
+                        <hi rend="underline">Cana</hi>
+                    </placeName>, and shall omitt no
+                    opportunity in my power of sending you the rest in due time –––––</p>
+                <p>I am not a little concerned that I should in any measure be the means of stopping
+                    or retarding your progress in your work — Surely no new intelligence that I can
+                    impart to you relative to your voyage can be of such consequence as that it
+                    ought to have that effect.</p>
+                <p>The same or nearly the same œconomy as to the management of farms prevails in
+                    most of the <placeName ref="pldb.xml#pl0708">W. isles</placeName> –––––</p>
+                <p>
+                    <hi rend="underline">Tiends</hi> is the Scotch word importing the same with your
+                    <hi rend="underline">Tithes</hi> in English law. In <placeName ref="pldb.xml#pl0705">Scotland</placeName> the Tiends are at present mostly, either by lease or
+                    purchase from the Lords of Erection, in the hands of the Heretors of the
+                    different parishes. There is one <persName ref="pe0457">
+                        <hi rend="underline">Forbes</hi>
+                    </persName> who writes <bibl type="authorial">
+                        <title ref="bidb.xml#bi0534">a treatise upon <hi rend="underline">Tiends</hi>
+                        </title>
+                    </bibl>; but
+                    you'll find a succinct account of the laws relative to these &amp;c. in <bibl type="authorial">
+                        <title ref="bidb.xml#bi0535">
+                            <hi rend="underline">Erskine's Institutes of
+                                the law of Scotland</hi>
+                        </title>
+                    </bibl> –––––</p>
+                <p>When I wrote you last I was misinformed with regard to the period from which the
+                    Court of Session lay it down as a rule for themselves at present <gap reason="illegible" unit="word" atLeast="1" atMost="2"/> open no Decreet of
+                    Augmentation which have <add place="above">since</add> past. I am now told
+                        th<gap reason="illegible" unit="chars" atLeast="1" atMost="6"/> time
+                    commences from the year 1704, and not from the Revolution.</p>
+                <closer>
+                    <salute>I am <lb/>Dear Sir <lb/>Your obliged humble Serv<hi rend="superscript">t.</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0023">John Stuart</persName>
+                    </signed>
+                </closer>
+
+            </div>
+        </body>
+    </text>
+</TEI>

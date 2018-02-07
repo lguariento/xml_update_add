@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0425">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>John Stuart to Thomas Pennant: further description of Arran</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP369</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>4/2a-4/2c</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0023">John Stuart</persName>
+                    <date when="1773-05-12"/>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+
+                <language ident="en">English</language>
+
+                <language ident="gd">Gaelic</language>
+
+
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p>
+                    <placeName ref="pldb.xml#pl0719">Arran</placeName>
+                    <note type="editorial">This
+                        manuscript does not bear a date, but is mentioned by Stuart in his letter to
+                        Pennant on May 12<hi rend="superscript">th</hi> 1773: 'I send you one half
+                        of the Remarks upon Arran by the same Post; but inclosed under another
+                        Cover.'</note>
+                </p>
+                <p>The island of <placeName ref="pldb.xml#pl0719">
+                        <hi rend="underline">Arran</hi>.</placeName>
+                    <hi rend="superscript">x</hi>
+                   <note type="authorial">x In Galic <placeName ref="pldb.xml#pl0719">
+                            <hi rend="underline">Arr-inn</hi>
+                        </placeName>.</note> from <placeName ref="pldb.xml#pl0872">
+                        <hi rend="underline">Skredan</hi>
+                    </placeName>
+                    <hi rend="superscript">†</hi>
+                   <note type="authorial">† <placeName ref="pldb.xml#pl0872">
+                            <hi rend="underline">Sgreadan</hi>
+                        </placeName>.</note> N. to <placeName ref="pldb.xml#pl0873">
+                        <hi rend="underline">Bennan</hi>
+                        <hi rend="superscript">‡</hi> point</placeName>
+                   <note type="authorial">‡ <placeName ref="pldb.xml#pl0873">
+                            <hi rend="underline">Beinnean</hi>
+                        </placeName>. i.e. little mountain.</note> S. is 23
+                    miles long.</p>
+                <p>
+                    <placeName ref="pldb.xml#pl0626">
+                        <hi rend="underline">Goatfield</hi>
+                    </placeName>,<hi rend="superscript">‖</hi>
+                   <note type="authorial">‖ <placeName ref="pldb.xml#pl0626">
+                            <hi rend="underline">Gaoil'-bheinn</hi>
+                        </placeName> i.e. mountain of the winds.</note>
+                    <placeName ref="pldb.xml#pl0874">
+                        <hi rend="underline">Greenan-aol</hi>
+                    </placeName>,<hi rend="superscript">xx</hi>
+                   <note type="authorial">
+                        <hi rend="superscript">xx</hi>
+                        <placeName ref="pldb.xml#pl0874">
+                            <hi rend="underline">Griannan-Athol</hi>
+                        </placeName>
+                    </note>
+                    <placeName ref="pldb.xml#pl0875">
+                        <hi rend="underline">Ben-nuish</hi>
+                    </placeName>,<hi rend="superscript">††</hi>
+                   <note type="authorial">†† <placeName ref="pldb.xml#pl0875">
+                            <hi rend="underline">Beinn-nùis</hi>
+                        </placeName>.</note>
+                    <placeName ref="pldb.xml#pl0876">
+                        <hi rend="underline">Kem-na-callich</hi>
+                    </placeName>,<hi rend="superscript">#</hi>
+                   <note type="authorial"># <placeName ref="pldb.xml#pl0876">
+                            <hi rend="underline">Ceum-na-caillich</hi>
+                        </placeName>. i.e. step of the <hi rend="underline">carline</hi>.</note> and <placeName ref="pldb.xml#pl0877">
+                        <hi rend="underline">Ben-varrain</hi>
+                    </placeName>
+                    <hi rend="superscript">‖‖</hi>
+                   <note type="authorial">
+                        <placeName ref="pldb.xml#pl0877">
+                            <hi rend="underline">Beinn-bharrain</hi>
+                        </placeName>. i.e. sharp-pointed
+                        mountain.</note> are the most considerable mountains in it. The first of
+                    them is reckoned the highest. The upper half of it consists entirely of solid
+                    rocks curiously heaped upon one another, and, like most of the high hills in the
+                    W. isles, has too little soil and too little moisture to afford nourishment to
+                    any other plants but <hi rend="underline">lichens</hi> and <hi rend="underline">mosses</hi>. <hi rend="underline">Eagles</hi> and <hi rend="underline">tarmachans</hi> are almost the only birds known to frequent it's naked and
+                    craggy summits. — </p>
+                <p> The principal lakes in this island are <placeName ref="pldb.xml#pl0890">
+                        <hi rend="underline">Loch-vachry</hi>
+                    </placeName>,<hi rend="superscript">x</hi>
+                   <note type="authorial">x<placeName ref="pldb.xml#pl0890">
+                            <hi rend="underline">Loch-mhachrai'</hi>
+                        </placeName>
+                    </note>
+                    <placeName ref="pldb.xml#pl0878">
+                        <hi rend="underline">Loch-na-hewray</hi>
+                    </placeName>,<hi rend="superscript">†</hi>
+                   <note type="authorial">†<placeName ref="pldb.xml#pl0878">
+                            <hi rend="underline">L.
+                                na-h-iura</hi>
+                        </placeName>.</note>
+                    <placeName ref="pldb.xml#pl0879">
+                        <hi rend="underline">Loch-Iersay</hi>
+                    </placeName>,<hi rend="superscript">‡</hi>
+                   <note type="authorial">‡<placeName ref="pldb.xml#pl0879">
+                            <hi rend="underline">L.
+                                Iorsa</hi>
+                        </placeName>.</note> and <placeName ref="pldb.xml#pl0880">
+                        <hi rend="underline">Loch-tanna</hi>
+                    </placeName>.<hi rend="superscript">‖</hi>
+                   <note type="authorial">‖<placeName ref="pldb.xml#pl0880">
+                            <hi rend="underline">Loch-tana</hi>
+                        </placeName> i.e. the shallow lake.</note> Of these
+                        <placeName ref="pldb.xml#pl0879">
+                        <hi rend="underline">L.
+                        Iersay</hi>
+                    </placeName> is the largest. — The chief rivers are <placeName ref="pldb.xml#pl0881">
+                        <hi rend="underline">Avon vore</hi>
+                    </placeName>,<hi rend="superscript">xx</hi>
+                   <note type="authorial">xx <placeName ref="pldb.xml#pl0881">
+                            <hi rend="underline">Abhann-mhòr</hi>
+                        </placeName> i.e. great river.</note> the river of
+                        <placeName ref="pldb.xml#pl0882">
+                        <hi rend="underline">Mony-vore</hi>
+                    </placeName>, of <placeName ref="pldb.xml#pl0883">
+                        <hi rend="underline">Asdail</hi>
+                    </placeName>, <placeName ref="pldb.xml#pl0884">
+                        <hi rend="underline">Torrylin</hi>
+                    </placeName>,
+                        <placeName ref="pldb.xml#pl0885">
+                        <hi rend="underline">Sledry</hi>
+                    </placeName>,<hi rend="superscript">††</hi>
+                   <note type="authorial">††<placeName ref="pldb.xml#pl0885">
+                            <hi rend="underline">Slaodrai,</hi>
+                        </placeName>.</note>
+                    <placeName ref="pldb.xml#pl0886">
+                        <hi rend="underline">Machry</hi>
+                    </placeName>
+                    and of <placeName ref="pldb.xml#pl0887">
+                        <hi rend="underline">Sannox</hi>
+                    </placeName>.</p>
+                <p>The principal birds known as natives of <placeName ref="pldb.xml#pl0719">Arran</placeName> are <hi rend="underline">Eagles</hi>, <hi rend="underline">Ravens</hi>, <hi rend="underline">Hooded Crows</hi>, <hi rend="underline">Pigeons</hi>, <hi rend="underline">Tarmachans</hi>, <hi rend="underline">Black Cock</hi>, <hi rend="underline">Grous</hi>, <hi rend="underline">Plovers</hi>, <hi rend="underline">Starlings</hi> and <hi rend="underline">Wheat-ears</hi>. The Quadrupeds are a few <hi rend="underline">Stags</hi>, <hi rend="underline">Rabbits</hi>, <hi rend="underline">Otters</hi>, <hi rend="underline">Shrew-mice</hi> and <hi rend="underline">Bats</hi>. There are no <hi rend="underline">Hares</hi>,
+                        <hi rend="underline">foxes</hi>, <hi rend="underline">pole-cats</hi>, <hi rend="underline">hedge-hogs</hi> or <hi rend="underline">moles</hi>.</p>
+                <p>Though the greatest part of the island is still very much in the state of nature
+                    it may be reckoned as one of the signs of some little progress in improvement,
+                    that the <hi rend="underline">partridge</hi>, a bird formerly unknown there, has
+                    lately visited it.</p>
+                <p>The chief grain cultivated is Oats, about 5000 bolls of bear sown – little pease
+                    – no less than 1000 bolls of potatoes planted.</p>
+                <p>The manures used are <hi rend="underline">horse-dung</hi>, <hi rend="underline">sea-tangle</hi>, <hi rend="underline">Fern</hi>, <hi rend="underline">coral</hi> and <hi rend="underline">shell-sand</hi>.</p>
+                <p>Oats and pease are usually sown about the end of March, lint-seed about the
+                    middle of April, potatoes from the middle of April to the tenth of May, bear
+                    from the middle of that month to the end.</p>
+                <p>The common increase of oats is that of three grains from each seed sown, of pease
+                    4 or 5; of poratoes, 12.</p>
+                <p>There are about ten or twelve hogsheads of lintseed sown annually. The common
+                    return is that of a stone and a half of undrest flax from each peck sown.</p>
+                <p>The linnen-yarn manufacture yields 300 £ annually – black cattle, 800 £ — and by
+                    herring fishing the Inhabitants make about 400 £.</p>
+                <p>The common price of a milk-cow is from 40 to 50 shillings Sterling — of a horse,
+                    from 2 £ 10 s. to 3 £ — of a sheep, 5 shillings — of butter, seven-pence p<hi rend="superscript">r.</hi> lib. — no cheese sold.</p>
+                <p>The <persName ref="pe0250">Duke of Hamilton</persName>'s lands, who is
+                    the chief Proprietor of this island, are divided according to some very old
+                    valuation into 132 <hi rend="underline">marklands</hi>. The farms or possessions
+                    of which there are 92 in all, consist commonly of one or two of these <hi rend="underline">mark-lands</hi>. They support in whole 1050 horses, 3103
+                    milk-cows, 1601 <hi rend="underline">yeld</hi> beasts, 11100 sheep, and <unclear reason="illegible">346</unclear> Goats.</p>
+                <p>The Indurance of leases is generally for 19 years. The farms are managed in a
+                    manner somewhat singular. Each of them is commonly possessed by 10 or 12 or more
+                    tenents, who by their leases are bound conjunctly and severally for the payment
+                    of their rents to the Proprietor.</p>
+                <p>The produce of the grain in this island does not nearly serve the inhabitants,
+                    for at an average about 500 bolls of oat-meal are imported annually; neither are
+                    there horses enough reared for the purposes of labour, for it is computed that
+                    there are to the value of 300 £ of them imported yearly.</p>
+                <p>There is no wood of any size in <placeName ref="pldb.xml#pl0719">Arran</placeName>, though from the thriving plantations at <placeName ref="pldb.xml#pl0629">Brodwick</placeName> it is evident that with proper
+                    care it could be easily reared. Timber is imported yearly to the amount of 150
+                    £.</p>
+                <p>Fuel is scarce — Each horse-load of <hi rend="underline">peats</hi> sells at
+                    four-pence. An ordinary Tenent's family consumes eight or ten score of these
+                    loads in a twelvemonth, besides 100 loads of dry mossy sods, or <hi rend="underline">scrawls</hi>, as they call them.</p>
+                <p>A day-labourer in this island is pound ten-pence in winter, and a shilling in
+                    summer, without dyet, or half that money with it. During the harvest-shearing
+                    men-servants are hired at 1 £, women are paid from 4 pence to six-pence p<hi rend="superscript">r.</hi> day, with their maintenance — shoe-makers,
+                    six-pence p.<hi rend="superscript">r</hi> shoe — smiths a penny p<hi rend="superscript">r.</hi> lib.</p>
+                <p>The inhabitants are generally industrious. During the month of Aug<hi rend="superscript">t.</hi> they are busied in fishing herring on the coast —
+                    from Aug<hi rend="superscript">t.</hi> to the middle of October, at harvest.
+                    From that time to the middle of Nov<hi rend="superscript">r.</hi> the men are
+                    employed in cutting <hi rend="underline">brackens</hi> or ferns for thatching
+                    their houses, and manuring their potatoes, ground-women in dressing their flax,
+                    and spinning woolen yarn. From Nov<hi rend="superscript">r.</hi> to May the men
+                    spend the day in making herring-nets for sale, and at night knit stockings — the
+                    women are busied in spinning linnen-yarm. — For some weeks in summer, they
+                    retire with their cattle to the <hi rend="underline">shealings</hi> or summer
+                    grazings.</p>
+                <p>The long life, which <bibl type="authorial">
+                        <title ref="bidb.xml#bi0116">Martin</title>
+                    </bibl>
+                    distinguishes the inhabitants of this island for, is now unknown, few of them
+                    attaining to 80 or 84 years of age.</p>
+                <p>The diseases that are most prevalent among them are <hi rend="underline">Pleurisies</hi> about the end of harvest and spring. — They are but seldom
+                    troubled with the <hi rend="underline">Jaundices</hi> or <hi rend="underline">agues</hi> — The <hi rend="underline">small-pox</hi>, <hi rend="underline">measles</hi> and <hi rend="underline">chin-cough</hi> visit them commonly
+                    once in the seven or eight years.</p>
+                <p>That according to <bibl type="authorial">
+                        <title ref="bidb.xml#bi0116">Martin's
+                        account</title>
+                    </bibl> the inhabitants of <placeName ref="pldb.xml#pl0719">
+                        <hi rend="underline">Arran</hi>
+                    </placeName> require still a treble dose
+                    of Physick is not very certain, but that they may at times lose with safety an
+                    extraordinary quantity of blood is confirmed by every year's experience.
+                        <persName ref="pe0197">D<hi rend="superscript">r.
+                        Fullerton</hi>
+                    </persName> receives a pension from the family of Hamilton for
+                    which he is obliged to take the tour of the island twice every twelve-month in
+                    order to bleed all <persName ref="pe0250">his Grace</persName>'s
+                    tenents. For this purpose, when the day is fair; all the people of each village
+                    assemble in one spot, and a pit is dug in the ground, into which the blood is
+                    let from each arm is allowed to fall into one common mass.</p>
+                <p>The natives have now all laid a side the true Highland dress. Neither <hi rend="underline">plaid</hi>, <hi rend="underline">Kilt</hi> nor <hi rend="underline">Tartan-stockings</hi> are worn by any of them. — The Galic
+                    language is universally spoken by them, though many of them understand less or
+                    more of the English tongue.</p>
+                <p>The monuments of Antiquity in this island are few and inconsiderable —</p>
+                <p>S.W. from <placeName ref="pldb.xml#pl0629">
+                        <hi rend="underline">Brodwick castle</hi>
+                    </placeName> there are two Druidical
+                    stones set on end, and a little W. from them lies a gravestone twelve feet long,
+                    having the rude figure of a man's head drawn near the West end of it. Under it
+                        <hi rend="underline">Mac-Bhrolchin</hi>, in the Heroic age, is said to have
+                    been buried</p>
+                <p>In the Churchyard of <placeName ref="pldb.xml#pl0888">
+                        <hi rend="underline">Shiskin</hi>
+                    </placeName>
+                    <hi rend="superscript">x</hi>
+                   <note type="authorial">
+                        <placeName ref="pldb.xml#pl0888">Seasgainn</placeName>.</note> S<hi rend="superscript">t.</hi>
+                    <hi rend="underline">Mal-Jes's</hi>
+                    <hi rend="superscript">†</hi>
+                   <note type="authorial">Maol-Jos' i.e. Servant of Jesus.</note> tomb is still
+                    pointed out. He is said to have been co-eval with <hi rend="underline">Columba</hi> and to have come over along with him from <placeName ref="pldb.xml#pl0889">Ireland</placeName>. He resided in <placeName ref="pldb.xml#pl0631">the island of <hi rend="underline">Lamlash</hi>
+                    </placeName>, and served <hi rend="underline">per vices</hi> in
+                        <placeName ref="pldb.xml#pl0888">
+                        <hi rend="underline">Shiskin</hi>
+                    </placeName>, where he at last died, being then 100 years
+                    old.</p>
+                <p>
+                    <placeName ref="pldb.xml#pl0631">Lamlash</placeName>
+                </p>
+                <p>This island consists of half a <hi rend="underline">mark-land</hi>, maintains two
+                    horses, eight milk-cows, three <hi rend="underline">yeld-beasts</hi>, 100 sheep
+                    and 40 Goats — sows 4 bolls of Corn and 3/4<hi rend="superscript">ths</hi> of a
+                    boll of potatoes. –––––<note type="authorial">In the foregoing remarks the
+                        names of places are spelt as agreeably as they well could to their English
+                        pronunciation; and when there is any material difference, they are written
+                        at the foot of the page according to their true Galic orthography.</note>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <placeName ref="pldb.xml#pl0719">Arran</placeName>
+                </p>
+
+            </div>
+        </body>
+    </text>
+</TEI>

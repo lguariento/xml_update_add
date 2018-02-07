@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0142">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, requesting information on Scottish islands
+                    and forwarding advice for George Low</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>64</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-10-27"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>y<hi rend="superscript">r</hi> notes are most acceptable; &amp; I here &amp;
+                    there picked out something of great use.</p>
+                <p>I never heard before a syllable of <persName ref="pe0040">E. Buchan</persName>:
+                    but do suppose I am.</p>
+                <p>
+                    <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName> must not
+                    think of leaving <placeName ref="pl0701">orkney</placeName> next spring. for to
+                    the <placeName ref="pl0700">Shetlands</placeName> he must go if I can prevale: I
+                    propose (self &amp; co) to advance a small sum equal such a little voyage. I
+                    have written to him. I have not yet had the parcel from <persName ref="pe0157">M<hi rend="superscript"/> Macgovan</persName>.</p>
+                <p>Some abstract from <bibl type="authorial">
+                        <title ref="bi0090">N<hi rend="superscript">o</hi> 143 <hi rend="underline">of the Genealogy
+                                of the chief clans of the Isles by rev Sir Donald
+                        Monro</hi>
+                        </title>
+                    </bibl>. will be of much use to me.</p>
+                <p>I suppose the next number has been <sic>rendred</sic> into Latin by <persName ref="pe0041">Buchanan</persName>. <note type="editorial">Pennant is probably
+                        referring to <bibl type="editorial">
+                            <title ref="bi0091">George Buchanans's
+                                1582 <hi rend="italic">Rerum Scoticarum
+                        Historia</hi>
+                            </title>
+                        </bibl>, which incorporated material by <persName ref="pe0604">Monro</persName>.</note>
+                </p>
+                <closer>
+                    <salute>I am Dear Sir <lb/>Y<hi rend="superscript">rs</hi> truely</salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant.</persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pl0001">Downing</placeName> oct<hi rend="superscript">r.</hi> 27<hi rend="superscript">th.</hi> 1773</dateline>
+                <postscript>
+                    <p>
+                        <gap reason="illegible" unit="word" atLeast="1"/> fear there is no account of
+                            <placeName ref="pl0719">Arran</placeName> &amp; <placeName ref="pl0714">Bute</placeName>
+                        <gap reason="illegible" unit="word" atLeast="1"/> the Library M.S.</p>
+                    <p>Pray how do Sherriff deputes proceed in their courts: for example in
+                            <placeName ref="pl0715">Skie</placeName>. do they summon juries? how far
+                        does their power extend in civil or In criminal causes in distant parts such
+                        as <placeName ref="pl0715">Skie</placeName>
+                        <placeName ref="pl0712">Lewis</placeName> &amp;c. Be so good as to consult
+                        some gentlemen of the Law.</p>
+                    <p>Is there coal in <placeName ref="pl0736">Airshire</placeName> &amp; does it
+                        pay a duty if carried to <placeName ref="pl0719">arran</placeName> or
+                            <placeName ref="pl0714">Bute</placeName>?</p>
+                    <p>
+                        <handShift/>pay 3.3 p Ton or 4.10 ½ p Chalder Winchester Measure</p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>M<hi rend="superscript">r.</hi> Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                        <addrLine>Edenburgh</addrLine>
+                    </address>
+                </p>
+                <p>
+                    <persName ref="pe0113">
+                        <unclear reason="illegible">FreeJGlynn</unclear>
+                    </persName>
+                </p>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0002">Chester</placeName>
+                    </stamp>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0002">Chester</placeName>
+                    </stamp>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

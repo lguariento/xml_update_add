@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1020">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 22</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1782-06-21"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>                    
+                    <placeName ref="pldb.xml#pl0758">Stratton Street Piccadilly</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>We shall rejoice if you accept of <persName ref="pe0177">Sir <choice>
+                            <abbr>P.</abbr>
+                            <expan>Peter</expan>
+                        </choice>Burel</persName>'s
+                    <sic>offer offer</sic> as it will give us a chance of seeing you &amp; yours at this place. 
+                    <placeName ref="pldb.xml#pl0760">Gwedir</placeName>
+                    <note type="editorial">Gwydir Castle in the Conwy valley. Peter Burrell's title from 1796 links him with Gwydir.</note>
+                    is <del>a</del> in a most pleasant country with good roads about, has a market near &amp; is I believe well enough furnished for so transient a 
+                    <del>
+                        <gap unit="chars" quantity="7" reason="illegible"/>
+                    </del> time as you propose to use it.</p>
+                <p>
+                    <persName ref="pe0014">Moses</persName> has done all the arms in <bibl type="editorial">
+                        <title ref="bidb.xml#bi0013">the Snowdon part of my wales</title>
+                    </bibl>,
+                    &amp; seven or eight <rs type="art" ref="ardb.xml#ar0037">larger views in Chester</rs>
+                    He will do the arms of <del>in</del> of the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012">first volume</title>
+                    </bibl>
+                    in the manner you direct. Pray inform me would you have the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0013">Snowdon par</title>
+                    </bibl>
+                    sent to you when it is done: but I am fearful that it will not be executed under a month to come.</p>
+                <p>The influenza has seized my family. <persName ref="pe0238">M<hi rend="superscript">rs</hi> Pennant</persName>
+                    is recovered, but several of our servants are ill. If they recover in time we leave home for a fortnight on the 29<hi rend="superscript">th</hi>.
+                    we are to visit a friend near <placeName ref="pldb.xml#pl0806">worcester:<note type="editorial">This is Treadway Russell Nash, who lived at Bevere near Worcester from 1758 and whom Pennant visited again during 1791 and 1797 according to the evidence of these letters. LINK TO BIOGRAPHIES: Treadway Russell Nash</note>
+                    </placeName>
+                    from where I shall Elope or hone at <placeName ref="pldb.xml#pl0807">Berkley Castle</placeName>
+                    <note type="editorial">Berkeley Castle in Gloucestershire was at this time owned by Frederick Augustus Berkeley, fifth Earl of Berkeley (1745–1810).</note>
+                    to complete an iter sabrinum.<note type="editorial">In Literary life, p. 28, Pennant writes of a journey by boat down the Severn from Atcham-bridge, south of Shrewsbury, as far as the home of Treadway Russell Nash in Bevere, Worcestershire, dating it to June 1783. For an earlier reference to the 'iter sabrinum', see NLW 15423C, T[readway Russell] Nash to Thomas Pennant, 13 July 1777.</note>
+                    an attempt long since begun &amp; in great part finished. The seeing the light is another affair. If you do not visit 
+                    <placeName ref="pldb.xml#pl0731">Wales</placeName>, pray write to inform me where you fix.</p>
+                <closer>
+                    <salute>With best wishes for every individual of <choice>
+                            <abbr>y<hi rend="superscript">r</hi>
+                            </abbr>
+                            <expan>your</expan>
+                        </choice> house I am
+                    <lb/>Dear Sir
+                    <lb/>Most truely <choice>
+                            <abbr>y<hi rend="superscript">rs</hi>
+                            </abbr>
+                            <expan>yours</expan>
+                        </choice>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>T</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant</persName>
+                    </signed>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> June 21 1782.<note type="editorial">The year, 1782, is on a new line. Could this possibly be an addition by Bull, and erroneous in view of the evidence of Pennant's Literary life, which describes a journey down the Severn in June 1783, in the company of Nash, his wife and daughter, together with David Pennant, again using 'elopement' as a term to describe it. That journey went no further than Beverley (Bevere), however.</note>
+                    </dateline>
+                </closer>
+                </div>
+            <div>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pldb.xml#pl0703">NORTHOP</placeName>
+                    </stamp>
+                    <stamp type="frank">FREE<note type="editorial">stamped</note> p. <persName ref="pe0015">
+                            <choice>
+                                <abbr>R</abbr>
+                                <expan>Roger</expan>
+                            </choice> Mostyn</persName>
+                        <note type="editorial">in writing.</note>
+                    </stamp>
+                    <stamp type="postmark">24 IV</stamp>
+                </p>
+                <p>
+                    <address>
+                    <addrLine>
+                            <handShift/>
+                            <choice>
+                                <abbr>Rich'<hi rend="superscript">d</hi>
+                                </abbr>
+                                <expan>Richard</expan>
+                            </choice> Bull <choice>
+                                <abbr>Esq<hi rend="superscript">r</hi>
+                                </abbr>
+                                <expan>Esquire</expan>
+                            </choice> | <placeName ref="pldb.xml#pl0758">Stratton Street | Piccadilly | London</placeName>
+                        </addrLine>
+                </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

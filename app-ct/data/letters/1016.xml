@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1016">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 18</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1782-04-14"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                    <placeName ref="pldb.xml#pl0759">Stratton street Piccadilly</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> April 14<hi rend="superscript">th</hi> 1782.</dateline>
+                    <salute>Dear
+                    Sir</salute>
+                </opener>
+                <p>Far or near: in or out I never forget those I respect. convey therefore my
+                    condolences to <persName ref="pe0332">M<hi rend="superscript">r</hi>
+                        Storer</persName>, &amp; notwithstanding I cannot give him again
+                    distinguished plates, I may contribute to his amusement in his private hours by
+                    making him partake of my labors: perhaps the heads of <add place="above">the</add> next book may find a way to his study.</p>
+                <p>I will take care of the drawings of arms for the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012">1<hi rend="superscript">st</hi> vol. Tour in
+                            Wales</title>
+                    </bibl>. to prevent <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> book from being too thick had we not best put two <add place="above">arms</add> on a leaf with the figures of the pages neatly put on by the
+                    skilful hand of <persName ref="pe0014">Moses</persName>?</p>
+                <p>There is no saying what expence will be incurred by ornamenting the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0032">journey to
+                        London</title>
+                    </bibl>. I fear not half that of the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012">Tour in Wales</title>
+                    </bibl>, for I cannot
+                    get materials sufficient. <persName ref="pe0014">Moses</persName>
+                    thinks that with <persName ref="pe0344">wife</persName> &amp; family
+                    (for there is lately a <persName ref="pe0345">little Moses</persName>
+                    produced) He should get his 7<hi rend="superscript">s</hi> a day and even by
+                    that he will not get half that a <placeName ref="pldb.xml#pl0699">London</placeName> artist does. but his work will be considerably cheaper.
+                    But you shall have no reason to quarrel with him. Please to tell your friend
+                    that the arms He will charge 16<hi rend="superscript">d</hi> each. the large
+                    drawings about 16<hi rend="superscript">s</hi>. the Book itself of which the
+                    only <del>t</del> Copies printed (twelve in all) only the price of the small
+                    paper. all 12 are his perquisite, which I wish <choice>
+                        <abbr>y <hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> friends to understand.</p>
+                <p>my Paper the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0280">London
+                            Chronicle</title>
+                    </bibl> brings such a strange farrago of Politics as
+                    almost turn my head &amp; stagger my belief. the demands of <placeName ref="pldb.xml#pl0710">America</placeName> in article 8. must be a blunder of
+                    the news writer; I hope.<note type="editorial">This may refer to the
+                        discussions carried out during informal talks in Paris in April 1782, which
+                        led to official negotiations for peace in July 1782 and to the signing of
+                        definitive articles of peace on 3 September 1783. Robert Middlekauff, The
+                        Glorious Cause: The American Revolution, 1763–1789 (revised and expanded
+                        ed.; Oxford: OUP, 2005), pp. 592–5. For the text of the 'Preliminary and
+                        Conditional Articles of Peace' see Samuel Flagg Bemis, The Diplomacy of the
+                        American Revolution (1935; reprint ed., Bloomington, Ind., 1957), pp.
+                        259–64.</note> But the strangest account is the return of <persName ref="pe0347">Lord North</persName> into ministry.<note type="editorial">Lord North resigned as prime minister on 20 March 1782. He
+                        did not return into office until February 1783, when a coalition between his
+                        party and that of Charles James Fox brought down the ministry of Lord
+                        Shelburne, but the formation of this coalition was considered likely from
+                        July 1782. ODNB s.n. Fredrick North, second earl of Guilford [known as Lord
+                        North] (1732–1792).</note> If true what a proof of his integrity &amp;
+                    abilities! I cannot but feel some anxiety till <placeName ref="pldb.xml#pl0775">old England</placeName> is secure: I <sic>hap^ly</sic> have amusements that
+                    serve to alleviate part of the trouble &amp; drive away for a time gloomy
+                    thoughts.</p>
+                <closer>
+                    <salute>I remain with truest regard <lb/>Dear Sir <lb/>
+                        <choice>
+                        <abbr>Y <hi rend="superscript">rs</hi>
+                            </abbr>
+                        <expan>Yours</expan>
+                    </choice> most faithfully</salute> <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>Tho.</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant.</persName>
+                    </signed>
+                </closer>
+            </div>
+            <div>
+                <p>
+                    <stamp type="postmark">19 AP; 1<hi rend="superscript">d</hi>
+                        <note type="editorial">in pencil</note>
+                    </stamp>
+                </p>
+                <p>
+                    <address>
+                        <addrLine>
+                            <persName ref="pe0313">Richard Bull</persName>
+                            <choice>
+                                <abbr>esq<hi rend="superscript">r</hi>
+                                </abbr>
+                                <expan>esquire</expan>
+                            </choice> | <placeName ref="pldb.xml#pl0759">Stratton street Piccadilly
+                                | London</placeName>
+                        </addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

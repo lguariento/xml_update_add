@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0433">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>John Stuart to Thomas Pennant, concluding his remarks for Pennant's <hi rend="italic">Tour</hi>
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP369</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>11/3d</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0023">John Stuart</persName>
+                    <date when="1774-04-08"/>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName> Ap<hi rend="superscript">r.</hi> 8<hi rend="superscript">th.</hi> 1774</dateline>
+
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I wrote yesterday the first part of such remarks as occured to me relative to
+                    this country, which I inclosed for you under two different Covers. The remaining
+                    part I now send you, which concludes all the Observations I have to communicate
+                    with regard to <bibl type="authorial">
+                        <title ref="bidb.xml#bi0043">your
+                            Tour</title>
+                    </bibl> — Neither at present, or formerly, have I paid any
+                    attention to language or arrangement. What I principally aimed at was to convey
+                    to you the bare knowledge of facts. Even in that respect I am sensible that, by
+                    the <add place="above">uncertain</add> information of others, I may sometimes
+                    have been led into mistake. <sic>But I am not conscious that it has not all along
+                    been</sic> my own endeavour to divest myself of every prejudice which I might be
+                    naturally led to imbibe in favour of my own country, and to keep strictly within
+                    the verge of truth.</p>
+                <p>Any letters you are pleased to favour me with will find their way to me at
+                        <placeName ref="pldb.xml#pl0277">
+                        <hi rend="underline">Killin</hi>
+                    </placeName> by <placeName ref="pldb.xml#pl0295">
+                        <hi rend="underline">Crieff</hi>
+                    </placeName>, as formerly, till the middle
+                    of May. After that, you'll be so good as to direct for me Minister of the Gospel
+                    at <placeName ref="pldb.xml#pl1008">
+                        <hi rend="underline">Arrochar</hi>
+                    </placeName>, by <placeName ref="pldb.xml#pl0226">Dumbarton</placeName> ––––– </p>
+                <p>I shall be obliged to you for informing me when you propose to print <bibl type="authorial">
+                        <title ref="bidb.xml#bi0026">your new edition of the Br.
+                            Z.</title>
+                    </bibl>, as I may possibly add a few more Galic names to your
+                    list, and correct one or two of the old ones a little.</p>
+                <p>Wishing you all imagined success in your present and all future publications,</p>
+                <closer>
+                    <salute>I remain <lb/>Dear Sir <lb/>Your most obliged hu<hi rend="superscript">e.</hi> Serv<hi rend="superscript">t.</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0023">John Stuart</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

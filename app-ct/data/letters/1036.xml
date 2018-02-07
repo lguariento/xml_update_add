@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1036">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 38</locus>
+                        </ab>
+                    </msContents>
+                    <additional>
+                        <p>The letter is incomplete.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1784-02-22"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute> <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> Febr. 22<hi rend="superscript">d</hi>. 1784.</dateline>
+                </opener>
+                <p>You lay me under fresh obligations not ony by the <rs type="art" ref="ardb.xml#ar0071">print of <persName ref="pe0348">L<hi rend="superscript">d</hi> Herbert</persName>
+                    </rs> 
+                    <note type="editorial">Bull may have sent a print of one of the several 'Herberts' named in Pennant, A tour in Wales.MDCCLXX, vol. 2: William Herbert, earl of Pembroke, alive in 1468 (p. 121); Edward Lord Herbert, alive during the reign of Edward VI (p. 368); William Herbert, who sat in parliament for the borough of Montgomery in 1542 (p. 373; = ?William Herbert, first earl of Pembroke, 1506/7–1570), soldier and magnate; ODNB); Richard Herbert, d.1597, 'father to the famous Lord Herbert' whose monument at Montgomery church Pennant noted (p. 378); Sir William Herbert, second son of the earl of Pembroke; created Lord Powys; alive during the reign of Elizabeth (p. 378); Lord Edward Herbert (p. 379).</note>
+                    &amp; others contained in the Box sent to <persName ref="pe0014">Moses</persName>: but by the genteel 
+                    &amp; beautiful present you made him. He has the most grateful sense of it: &amp; <gap unit="chars" quantity="6" reason="illegible"/>
+                    offers his best acknowlegements. It came only last night. The delay was owing to the neglect of my carrier.</p>
+                <p>In the P.S. is a translation of <persName ref="pe0495">Glyndwr</persName>'s verses
+                    <note type="editorial">The postscript has not been preserved with the manuscript letter. This description given of its contents may indicate that it contained the cywydd, 'Eryr digrif afrifed / Owain &amp;c', by Gruffudd Llwyd ap Dafydd ab Einion Lygliw. See Rhiannon Ifans, Gwaith Gruffudd Llwyd a’r Llygliwiaid Eraill (Aberystwyth, 2000), no. 11. It was translated by Richard Williams, Fron, for inclusion in A tour in Wales. MDCCLXX, vol. 1, pp. iii, 311–15. Perhaps this is not the right work, however, since this would have been published already and Bull would therefore have no need of a translation.</note>
+                    You will see that there is not much in them. In p <gap unit="word" quantity="7" reason="illegible"/> vol II. is as full an account as I could give of 
+                    <placeName ref="pldb.xml#pl1046">Pistill Rhaid<hi rend="superscript">r</hi>
+                    </placeName> I am very happy in a 
+                    <rs type="art" ref="ardb.xml#ar0072">print you sent me of that waterfall</rs>.</p>
+                <p>As you are silent about the house I gave you an account of I suspect it is not to your purpose. I wish it may be so for I have since learned that it is quite unfurnished. I shall be sorry 
+                    <del>
+                        <gap unit="chars" quantity="6" reason="illegible"/>
+                    </del> should you have changed your mind about <placeName ref="pldb.xml#pl0731">Wales</placeName>
+                    for many reasons. one is that I have an offer of another house ready furnished, &amp; a place you very <del>as</del> well acquainted with
+                    by description or <persName ref="pe0014">Moses</persName> &amp; I are bunglers. see <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012">
+                            <placeName ref="pldb.xml#pl1047">Tower</placeName> p. 399 of welsh tour vol. I.</title>
+                    </bibl>
+                    <note type="editorial">Tower, near Mold, Flintshire, is described as stated by Pennant in A tour in Wales. MDCCLXX, (London: Henry Hughes, 1778), vol. 1, pp. 399–400.</note>
+                    It belongs to a <persName ref="pe0496">worthy young gentleman</persName> who married the <persName ref="pe0497">heiress</persName>
+                    but in may is going to reside at his own house, <placeName ref="pldb.xml#pl1048">Leeswood</placeName> see p. 
+                    <gap unit="chars" quantity="7" reason="illegible"/> the same. <note type="editorial">Leeswood was the property of the Eyton family. A tour in Wales. MDCCLXX, vol. 1, pp. 401.</note> I shall not put this letter</p>
+             </div>
+        </body>
+    </text>
+</TEI>

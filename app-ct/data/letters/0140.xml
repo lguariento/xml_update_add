@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0140">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, on texts of use to George Low's work on the
+                    Northern Isles; requesting information on Bute and Arran; remarks on
+                    depopulation of the Highlands</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>61</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-10-13"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pl0696">Custom House, Edinburgh</placeName>
+
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>your letters are always so acceptable as never to need apology. I wish much that
+                        <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName> had
+                        <bibl type="authorial">
+                        <title ref="bi0086">Saxo Grammaticus</title>
+                    </bibl>
+                    for with that is printed <bibl type="authorial">
+                        <title ref="bi0087">Torfæus’s
+                            hist. of the orcades</title>
+                    </bibl>: I will lend him mine <sic>if not be
+                        got.</sic> also <bibl type="authorial">
+                        <title ref="bi0088">olaus
+                            magnus</title>
+                    </bibl> which treats much of northern nations. I shall
+                    soon write to him again to urge his visit next summer to <placeName ref="pl0700">the
+                        Shetlands</placeName>; in terms I hope he will not decline. Those isles shd
+                    go with the other to complete our plan.</p>
+                <p>If you can pick up anything historical ab<hi rend="superscript">t</hi>
+                    <placeName ref="pl0714">Bute</placeName> its Castles of <placeName ref="pl0619">Rosay</placeName> &amp; <placeName ref="pl1186">Kaymes</placeName> or of
+                        <placeName ref="pl0719">the isle of arran</placeName> it will be most
+                    welcome.</p>
+                <p>I scarce know that to say about <bibl type="authorial">
+                        <title ref="bi0089">y<hi rend="superscript">r</hi> M.S.</title>
+                    </bibl> The steed is stolen,
+                    the foundation of depopulation is Laid in <placeName ref="pl0708">the
+                        isles</placeName> &amp; <placeName ref="pl0711">Highlands</placeName>; &amp;
+                    I fear it will be too late to discuss on what might have been done. But still
+                    would it come readily it might merit perusal.</p>
+                <p>Be so good as to transmit the inclosed &amp; return me the answer from <placeName ref="pe0022">the Doctor</placeName>.</p>
+                <closer>
+                    <salute>I am, Dear Sir, <lb/>Y<hi rend="superscript">r</hi> very faithfull
+                        H. Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant.</persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pl0001">Downing</placeName> Oct<hi rend="superscript">r</hi> 13<hi rend="superscript">th</hi> 1773.</dateline>
+            </div>
+            <div>
+                <p>Downing</p>
+                <p>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>M<hi rend="superscript">r</hi> Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                        <addrLine>Edenburgh</addrLine>
+                    </address>
+                </p>
+                <p>
+                    <hi rend="superscript">Free</hi>
+                    <persName ref="pe0113">JGlynn</persName>
+                </p>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0002">CHESTER</placeName>
+                    </stamp>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0002">CHESTER</placeName>
+                    </stamp>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0002">CHESTER</placeName>
+                    </stamp>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

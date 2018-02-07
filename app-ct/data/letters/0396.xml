@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0396">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to David Skene</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberdeen</settlement>
+                        <repository>Aberdeen University Library, Special Collections</repository>
+                        <idno>MS 483</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>60-62</locus>
+                        </ab>
+                    </msContents>
+                    <additional>
+                        <p>Transcribed from a volume of scribal copies of Pennant's original letters
+                            to David Skene. The copies are likely the work of Alexander Thomson, who
+                            on his death in 1868, bequeathed the collection to Aberdeen University
+                            Library. See Colin A. McLaren, ‘Reports and surveys of archives in
+                            northern Scotland’ in <hi rend="italic">Northern Scotland: A Historical
+                                Journal</hi>, Volume 1 (1972), pp.115-125.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1770-01-07"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0210">David Skene</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>Jan. 7<hi rend="superscript">th.</hi> 1770.</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>Your acceptable favour of the 30<hi rend="superscript">th.</hi> of Nov<hi rend="superscript">r.</hi> arrived here in due time. Your account of the
+                    prices of provisions &amp;c. claim my best thanks.</p>
+                <p>Your fish I believe to be the Perca marina of <bibl type="authorial">
+                        <title ref="bi0418">Linnaeus</title>
+                    </bibl>: it agrees so exactly with one I
+                    lately acquired: believe me that in general the numbers of Ray’s is a fallible
+                    guide to the knowledge of fish; so if other marks agree I readily give credit
+                    for a few rays more or less; and make this no objection to its being of a
+                    similar species, provided it agrees in other characters.<note type="editorial">Pennant is referring to the practice of counting the number of spines or
+                        rays in the fins and tails of fish as a method of identifying the
+                        species.</note> Next month I hope to publish the first part of <bibl type="authorial">
+                        <title ref="bi0019">my Iconical British
+                        Zoology</title>
+                    </bibl> of which I must beg your acceptance of a copy.
+                        <persName ref="pe0014">My artist</persName> is now busy drawing your
+                    mollusca &amp;c., to enable me to perform my promise of returning them in spring
+                    with due interest in form of <placeName ref="pl0702">Flintshire</placeName> ones
+                    &amp;c. &amp;c. I must beg the favour of you to continue your communicative
+                    disposition and enrich me with the mention of your new acquisitions in
+                    Zoology.</p>
+                <p>I shall be in <placeName ref="pl0699">London</placeName> next month where I hope
+                    to have the pleasure of hearing from you. Please to direct to me at <persName ref="pe0591">Mr. Mynotts Taylor</persName> in <placeName ref="pl1180">St.
+                        James’s street</placeName>. I beg my complements to <persName ref="pe0247">Mr. Oglevie</persName>; could he find means about that time to convey his
+                    new bird &amp;c to <placeName ref="pl0699">London</placeName>, I should be
+                    extremely glad.</p>
+                <p>You seem desirous of knowing what I am about. Perhaps I may forfeit your opinion
+                    of my sanity when I say I am going to form a universal Zoology as far as relates
+                    to the first four classes; and to treat it in divisions according to the four
+                    continents for example the quadrupeds, Birds, Reptiles, and fish of <placeName ref="pl0697">North America</placeName> by themselves, <placeName ref="pl0698">South America</placeName> by itself and thus, the three other
+                    quarters of the globe. You must know I am very fond of Geography so can indulge
+                    myself in Tracing my animals from Noah’s Ark till they had spread themselves
+                    over the face of the earth; a task I fear I shall often find in a <lb/>Dignus
+                    vindice nodus<note type="editorial">A Latin expression signifying a difficult
+                        task that merits the undertaking.</note>
+                    <lb/>But howsoever we may stumble on many conjectures at least, which may serve
+                    for more able heads hereafter to build new systems on. Inclosed are <rs type="art" ref="ar0102">a few prints of the work in hand</rs> that you may
+                    anticipate a little of it: I must now conclude with my best wishes and that</p>
+                <closer>I am Dear Sir <lb/>Your faithful humble servant <signed>
+                        <persName ref="pe0232">Thomas Pennant</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

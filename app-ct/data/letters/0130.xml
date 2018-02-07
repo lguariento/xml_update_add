@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0130">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, thanking for book and information and
+                    mentioning Lord Buchan's drawings</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>48-49</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-04-01"/>
+                    <placeName ref="pldb.xml#pl0699">London</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+
+                <p>Your kind favors &amp; <bibl type="authorial">
+                        <title ref="bidb.xml#bi0071">the book of the feuds
+                            of the isles</title>
+                    </bibl> demand my gratefull thanks. everything else
+                    you mention will be welcome: <persName ref="pe0040">Ld
+                        Buchan</persName> need not be troubled ab<hi rend="superscript">t</hi>
+                    <rs type="art" ref="ar0111">his drawings</rs> for I have all that <unclear reason="illegible">
+                        <placeName ref="pldb.xml#pl0651">Iona</placeName>
+                    </unclear> can afford his notes &amp; inscriptions will be
+                    most acceptable. But do not fatigue yrself ab<hi rend="superscript">t</hi> that
+                    or anything else. the parcel is gone.</p>
+                <closer>
+                    <salute>I am Dear Sir y<hi rend="superscript">r</hi> faithful &amp; affect
+                        H. Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho.
+                    Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0699">London</placeName> April 1.
+                    1773.</dateline>
+            </div>
+        </body>
+    </text>
+</TEI>

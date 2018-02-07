@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0542">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title> George Paton to Thomas Pennant</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP326</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>11</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0228">George Paton</persName>
+                    <date when="1788-12-03"/>
+                    <placeName ref="pl0696">Custom House Edinburgh</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>Last Week your agreeable Favours of 2<hi rend="superscript">d.</hi> Current came
+                    to hand, which ought to have been immediately acknowledged, had not Business
+                    prevented.</p>
+                <p>Not chusing to destroy any of your Letters, I presume to return inclosed that for
+                    <persName ref="pe0505">
+                        <hi rend="underline">Professor
+                    Zimmerman</hi>
+                    </persName>.</p>
+                <p>Be pleased to give yourself no further uneasyness about <bibl type="authorial">
+                        <title ref="bi0058">M<hi rend="superscript">r.</hi> Low's M.S.</title>
+                    </bibl>
+                    having been served with a return some time ago from <persName ref="pe0104">M<hi rend="superscript">r.</hi> Gough</persName>, corresponding with a Note I
+                    accidentaly met with amongst some of my loose Papers: I am now certain that
+                    <bibl type="authorial">
+                        <title ref="bi0424">
+                            <hi rend="underline">the M.S. Journal
+                                of his Voyage thro' Orkney &amp; Zetland</hi>
+                        </title>
+                    </bibl> was
+                    returned to him several years ago &amp; have accordingly refresht his Memory by
+                    Letter on that subject: probably the distress with Rheumatisms &amp;<hi rend="superscript">c.</hi> that he has been so long tormented with may have
+                        short<add place="above">en</add>ed his Memory &amp;<hi rend="superscript">c.</hi> being fully persuaded, this must be by him or in the Hands of some
+                    of his Friends in <placeName ref="pl0701">Orkney</placeName> as it was soon after it's
+                    arrival from <placeName ref="pl0699">London</placeName> transmitted by me to him, with
+                    this remark to <hi rend="underline">attentively read it over again &amp; correct
+                        as much as possible the Language for the Publick Eye</hi>: of this I wrote
+                    him several weeks ago but have had no Answer, nor heard from him since he wrote
+                    me the beginning of the Year, when he was <sic>in very pityable Situation</sic>,
+                    since from the late agreable weather we have been favour'd with, he has got
+                    considerably relieved, of this I am assured by friends who saw him not long
+                    since.</p>
+                <p>His silence deserves Censure, especialy to you, but I can &amp; do forgive him,
+                    having no Inclination to differ with any Person, unless I be maltreated, — then
+                    I've no further connection, when all correspondence is at an End. ––––– But from
+                    my Knowledge of <persName ref="pe0156">M<hi rend="superscript">r.</hi> Low</persName>,
+                    I think, I may assure you, that provided a Publication takes place, any
+                    reasonable request (as you modestly suggest to me) will be granted: this I'm
+                    under necessity to see performed to both your mutual satisfactions, since the
+                    first Correspondence <add place="above">commenced</add>.</p>
+                <p>Pray can you inform me to what extent of N<hi rend="superscript">os.</hi> is
+                    <persName ref="pe0058">M<hi rend="superscript">r.</hi> Cordiner</persName> to
+                    continue his <rs type="art" ref="bi0251">"Picturesque Views &amp;<hi rend="superscript">c.</hi> in Scotland"</rs>?</p>
+                <p>I am sorry to hear that <persName ref="pe0104">M<hi rend="superscript">r.</hi>
+                        Gough</persName> has had the misfortune any how to be <q>
+                        <hi rend="underline">roughly treated</hi>
+                    </q>; the particulars are unknown
+                    to me &amp; it grieves me much that any such difference has happened: for my own
+                    part I freely confess since the year 1772, <sic>this most cordial correspondent
+                    friendly Intimacy has to this moment</sic> &amp; hope shall in future subsist as long
+                    as we live: — that such be the same between us shall ever be the study of</p>
+                <closer>
+                    <salute>Dear Sir <lb/>Your most obed<hi rend="superscript">t.</hi> Serv<hi rend="superscript">t.</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0228">GPaton</persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pl0696">Custom h<hi rend="superscript">o.</hi>Edinburgh</placeName>
+                    <lb/>12 August 1788}</dateline>
+            </div>
+            <div>
+                <p>
+                    <handShift/>† M<hi rend="superscript">r</hi> Low died in 1795 —</p>
+                <p>
+                    <address>
+                        <addrLine>Thomas Pennant Esq<hi rend="superscript">r.</hi>
+                        </addrLine>
+                        <addrLine>Downing</addrLine>
+                    </address>
+                </p>
+
+            </div>
+        </body>
+    </text>
+</TEI>

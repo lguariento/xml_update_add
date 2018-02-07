@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1007">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 7</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1780-05-30"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> May 30<hi rend="superscript">th</hi> 1780.</dateline>
+                    <salute>Dear
+                    Sir</salute>
+                </opener>
+                <p>I<del>f</del>n anything I can serve you, I shall take real pleasure: <persName ref="pe0324">Ingleby</persName> came to me yesterday &amp; offers
+                    to copy any of my drawings at 5<hi rend="superscript">s</hi>. apiece which I
+                    think reasonable. please to signify to me if that is <sic>agreable</sic>; &amp;
+                    I will set him about which you please. I have quantities of <persName ref="pe0058">Mr Cordiner</persName>’s. perhaps you would like some
+                    of those he refers to you, &amp; has not engraven.</p>
+                <p>As to the arms in my copy of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012">Welsh Tour</title>
+                    </bibl>
+                    <persName ref="pe0324">Ingleby</persName> agrees with me you had best
+                    send the book down in boards, &amp; he will put the arms in the margin as
+                        <sic>in in</sic> mine. do you wish the <rs type="art" ref="ardb.xml#ar0011 ardb.xml#ar0012 ardb.xml#ar0013 ardb.xml#ar0014 ardb.xml#ar0015 ardb.xml#ar0016 ardb.xml#ar0017">little churches &amp;c</rs>?<note type="editorial">Pennant's own
+                        extra-illustrated copy of A tour in Wales. MDCCLXX (1778), SEVEN, includes
+                        drawings of the parish church of St Mary at Tan-lan, p. 15; Flint church, p.
+                        42; St Mary's church, Halkin, p. 80; St Peter's church, Northop, p. 84;
+                        Hawarden church, p. 100; Erbistock church, p. 215; [St Deiniol's church],
+                        Worthenbury, p. 217; Overton, p. 226; Bangor, p. 229.</note> if you send it
+                    down let it be in boards. The <placeName ref="pldb.xml#pl0002">Chester</placeName> waggon is the conveyance. directed to me here.</p>
+                <p>I send by <persName ref="pe0065">my Son</persName> next week twenty
+                    drawings of places I saw in 1772 in the <placeName ref="pl0786">Hebrides</placeName> &amp; <placeName ref="pldb.xml#pl0705">scotland</placeName>.<note type="editorial">A journey recorded in Thomas
+                        Pennant, A Tour in Scotland and Voyage to the Hebrides 1772 (1774). Moses
+                        Griffith accompanied Pennant on this journey and on the earlier 1769 tour in
+                        Scotland. Drawings from both journeys were published in the 1774 volume, but
+                        this reference may be to additional drawings, either Griffith's work or
+                        drawings given as gifts to Pennant during the tour. See NLW, 2530A, Thomas
+                        Pennant, ‘Presents of Drawing’, undated; and for a discussion of Scottish
+                        drawings shared by Pennant among antiquarian circles, Ailsa Hutton and Nigel
+                        Leask, ''The First Antiquary of his Country': Robert Riddell's
+                        extra-illustrated and annotated volumes of Thomas Pennant's Tours in
+                        Scotland', in Mary-Ann Constantine and Nigel Leask (eds.), Enlightenment and
+                        British Identities: Thomas Pennant's Tours in Scotland and Wales
+                        (forthcoming, Anthem), pp. 173–96, esp. pp. 181–4.</note> These will be at <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> service as long as you please, for perhaps you may like to have them
+                    copied under <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> own eye. They will be at <persName ref="pe0325">Mr Elliots
+                        taylor</persName>
+                    <placeName ref="pldb.xml#pl0787">vere street oxford road</placeName> on monday
+                    sevenight to be delivered to <choice>
+                        <abbr>yr</abbr>
+                        <expan>your</expan>
+                    </choice> order. The arms being in a valuable book of <persName ref="pe0326">Sir Watkin Williams</persName>, I cannot part with it.
+                    - The <rs type="art" ref="ardb.xml#ar0018">ground plot</rs> is of <placeName ref="pldb.xml#pl0788">Hawarden castle</placeName>.<note type="editorial">&gt;A
+                        ground plan of Hawarden castle is included in A tour in Wales MDCCLXX
+                        (London, 1778), Plate XI, p. 216+.</note>
+                </p>
+                <closer>
+                    <salute>I am <lb/>Dear Sir <lb/>most truely <choice>
+                        <abbr>y<hi rend="superscript">rs</hi>
+                            </abbr>
+                        <expan>your</expan>
+                    </choice>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>Tho.</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant</persName>.</signed>
+                </closer>
+                <postscript>
+                    <p>Many thanks for the offer of franks but I will not trouble you till I know
+                        you are to outlive next month.<note type="editorial">Richard Bull would
+                            have had franks at his disposal by virtue of his seat in Parliament, as
+                            one of the members for Newport, Cornwall, 1756–1780. Bull left
+                            Parliament in 1780 after his relative and friend, Humphry Morice, on
+                            whose interest he was initially returned, sold his boroughs. History of
+                            Parliament online. </note>
+                    </p>
+                    <p>Would you like to be in a guinea subscription to send a young man from
+                            <placeName ref="pldb.xml#pl0699">London</placeName> to <placeName ref="pldb.xml#pl0789">Tickencote saxon church</placeName> near
+                            <placeName ref="pldb.xml#pl0790">Stamford</placeName> to draw that
+                        falling pile. &amp; other places. no monopoly is meant of the drawings; they
+                        are to open to any who chuse to purchase.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0549">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to John Murray, 3rd Duke of Atholl</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement/>
+                        <repository>Blair Atholl Castle Archives</repository>
+                        <idno>54 (3)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>237</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1772-11-09"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0087">John Murray, 3<hi rend="superscript">rd</hi> Duke of
+                        Atholl</persName>
+                    </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>My Lord</salute>
+                </opener>
+                <p>I should have done myself the honor of writing sooner; if I had not in vain
+                    waited for an answer about the moose Deer, from the friend I applied to. I must
+                    no longer defer sending my gratefull thanks for the last instances of y<hi rend="superscript">r</hi> Grace's friendship, which I can never forget.</p>
+                <p>Inclosed in six pacquets is my account of the Patagonians.<note type="editorial">Possibly  an early version of Pennant's <bibl type="editorial">
+                            <title ref="bi0033">
+                                <hi rend="italic">Of the
+                            Patagonians</hi>
+                            </title>
+                        </bibl>, which would not be published until
+                        1788.</note> y<hi rend="superscript">r</hi> Grace need not be at the trouble
+                    of returning it. it had best be stitched up; &amp; then will be read with more
+                    facility. I shall be much obliged to y<hi rend="superscript">r</hi> Grace for
+                    Letting <persName ref="pe0082">Doctor Robertson of Edinburgh</persName> have the
+                    perusal, as it may be of use to him in his history of the W.Indies.<note type="editorial">William Robertson never published a discrete work on the
+                        West Indies, however his <bibl type="editorial">
+                            <title ref="bi0582">
+                                <hi rend="italic">History of America</hi>
+                            </title>
+                        </bibl> does
+                        incorporate material on the <placeName ref="pl0704">West Indies</placeName>
+                        and <placeName ref="pl1179">Patagonia</placeName>. <persName ref="pe0580">Thomas Falkner's</persName>
+                        <bibl type="editorial">
+                            <title ref="bi0439">
+                                <hi rend="italic">A Description
+                                    of Patagonia </hi>
+                            </title>(1774)</bibl> is cited by Robertson in
+                        his <hi rend="italic">History of America</hi> (p.406n); Falkner was also the
+                        primary source for Pennant's <bibl type="editorial">
+                            <title ref="bi0033">
+                                <hi rend="italic">Of the Patagonians</hi>
+                            </title> (1788)</bibl>. See
+                        also Pennant's <bibl type="editorial">
+                            <title ref="bi0041">
+                                <hi rend="italic">Literary Life</hi>
+                            </title>
+                            <biblScope unit="page">pp.47-69</biblScope>.</bibl>
+                    </note> But I am very
+                    desirous that it sh<hi rend="superscript">d</hi> not get into any hands who may
+                    copy or publish it; for it w<hi rend="superscript">d</hi> grieve me to have it
+                    appear incomplete as I fear it yet is.</p>
+                <p>My respectfull compliments attend <persName ref="pe0577">the
+                    Dutchess</persName>.</p>
+                <closer>
+                    <salute>I am my Lord <lb/>Y<hi rend="superscript">r</hi> Grace's much
+                        obliged <lb/>&amp; obedient Humble Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Thomas
+                        Pennant</persName>
+                    </signed>
+                    <dateline>Downing Nov<hi rend="superscript">r</hi> 9<hi rend="superscript">th</hi> 1772.</dateline>
+                </closer>
+            </div>
+            <div>
+                <p>
+                    <handShift/>from <persName ref="pe0232">M<hi rend="superscript">r.</hi>
+                        Penant</persName>
+                </p>
+                <p>
+                    <placeName ref="pl0001">Downing</placeName> Nov<hi rend="superscript">r.</hi>
+                        9<hi rend="superscript">th.</hi>
+                </p>
+                <p>
+                    <hi rend="underline">1772</hi>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

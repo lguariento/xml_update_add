@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1018">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 20</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                    <date when="1782-05-26"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName>May 26<hi rend="superscript">th</hi> 1782</dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>Inclosed is an order for the L. P. prints of the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0032">journey to London</title>
+                    </bibl>.
+                    the letter press is on its road to this place &amp; shall be done for you with all dispatch.
+                    You may depend on <choice>
+                        <abbr>y <hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice>
+                    <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012">Snowdon</title>
+                    </bibl>'s reaching 
+                    <placeName ref="pldb.xml#pl0759">stratton street</placeName> in five weeks, also above eight views in 
+                    <placeName ref="pldb.xml#pl0002">Chester<note type="editorial">These could be for The journey from Chester to London or for A tour in Wales, Pennant's extra-illustrated volumes of which included numerous Chester views. See NLW, Pennant's extra-illustrated Tour in Wales, ONE, SEVEN. Elsewhere, drawings relating to Chester by Moses Griffith include 'View of Chester from Boughton [sic]' 1780 (watercolour at Grosvenor Museum, Chester); 'View of East Gate, Chester' (engraved on title page to The journey from Chester to London (1782) by P. Mazell); 'View of Chester in 1777', sculptured by W. Angus in 1811 edn. to front the title. Further on Moses Griffith and Cheshire, see 'Beeston Castle Cheshire', c.1780, pen and ink &amp; watercolour wash at NLW; another drawing of the same at BL. The NLW drawing was engraved for The journey from Chester to London, p. 10+.</note>
+                    </placeName>
+                </p>
+                <p>Let me congratulate you on the good news which I hope will be a strong persuasion to peace with our inveterate enemies.
+                   <note type="editorial">A reference to British victory at the Battle of the Saints, 9–12 April 1782.</note> It inspirits every body as it flatters us that the scale is turning in our favor. We are rather shocked at the national ingratitude 
+                    <del>o</del> in the recall of <persName ref="pe0351">
+                        <note type="editorial">George Bridges Rodney, first Baron Rodney (bap.1718, d.1792), was replaced in his position as commander-in-chief in the Leeward Islands before news reached Britain of his victory at the Battle of the Saints. ODNB.</note>
+                    </persName>
+                    who had before done so much for us &amp; given some lustre to our tarnished flag. An engraver sent me some political prints; but so stupid that I must send them to their proper place. I hear of a 
+                    <rs type="art" ref="ardb.xml#ar0036">Dame Rat &amp; her little ones</rs>.<note type="editorial">James Gillray, Dame rat, and her poor little ones (J. Browning, Oxford Street, 26 March 1782), hand-coloured etching: Catalogue of Political and Personal Satires preserved in the Department of Prints and Drawings, vol. V (1935).</note>
+                    if the last does not exceed 1<hi rend="superscript">s</hi>. pray favor me with it. My best 
+                <choice>
+                        <abbr>Complim <hi rend="superscript">ts</hi>
+                        </abbr>
+                        <expan>Compliments</expan>
+                    </choice> attend
+                    <persName ref="pe0331 pe0336 pe0346">the Ladies</persName>.</p>
+                <closer>
+                    <salute>I am
+                    <lb/>Dear Sir,
+                    <lb/>faithfully <choice>
+                            <abbr>y<hi rend="superscript">rs</hi>
+                            </abbr>
+                            <expan>yours</expan>
+                        </choice>
+                    </salute> <signed>
+                        <persName ref="pe0232">
+                            <choice>
+                                <abbr>Tho..</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant.</persName>
+                    </signed>
+                    </closer>
+               </div>
+        </body>
+    </text>
+</TEI>

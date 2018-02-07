@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0161.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, on errata and Scottish history</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>87</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1774-11-29"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>D<hi rend="superscript">r</hi> Sir</salute>
+                </opener>
+                <p>Many thanks for y<hi rend="superscript">r</hi> kind favor. Please still to direct
+                    as usual. The illness of <persName ref="pe0233">a very antient aunt</persName>
+                    to whom I am much bound by gratitude will I fear stop my journey. I believe
+                        <persName ref="pe0083">D<hi rend="superscript">r</hi> Saunders</persName> is
+                    right; but <rs type="art" ref="ar0124">the prints</rs> were inscrib’d as I said,
+                    so I presume it was a mistake of the engraver whoever he was, not mine I assure
+                    you. Who prints <persName ref="pe0265">M<hi rend="superscript">r</hi>
+                        Shaws</persName>
+                    <bibl type="authorial">
+                        <title ref="bi0081">history</title>
+                    </bibl> for I w<hi rend="superscript">d</hi> like to send a short Letter to the Editor to be
+                    printed; to set the matter right. I hope you looked to the affair of the other
+                    mistake.</p>
+                <p>Thanks for the inclosed Letters. I am amply provided about <placeName ref="pl0323">Montrose</placeName>. I have found out <placeName ref="pl0743">Battledikes</placeName>. <bibl type="authorial">
+                        <title ref="bi0122">
+                            <unclear reason="illegible">Struts</unclear> book</title>
+                    </bibl> is
+                    good.</p>
+                <p>You hear nothing of <persName ref="pe0157">M<hi rend="superscript">r</hi>
+                        Macgovan</persName>. I wish to y<hi rend="superscript">r</hi> Country all
+                    the honor I can, so expect those small supports of drawings.</p>
+                <closer>
+                    <salute>I am Dear Sir <lb/>very sincerely y<hi rend="superscript">rs</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant</persName>
+                    </signed>
+                    <placeName ref="pl0001">
+                        <hi rend="underline">Downing</hi>
+                    </placeName>.</closer>
+                <dateline>Nov<hi rend="superscript">r</hi> 29<hi rend="superscript">th</hi>
+                    1774.</dateline>
+
+                <postscript>
+                    <p> The pride of y<hi rend="superscript">r</hi> country suffocates truth.
+                            <placeName ref="pl0142">
+                            <hi rend="underline">Bog in <unclear reason="illegible">Geiht</unclear>
+                            </hi>
+                        </placeName> was the <hi rend="underline">original</hi> name of <placeName ref="pl0142">Gordon
+                            Castle</placeName> .<note type="editorial">Pennant writes that the
+                            castle 'was originally called the castle of the bog of Gight' in his
+                                <bibl type="editorial">
+                                <title ref="bi0004">
+                                    <hi rend="italic">Tour in
+                                        Scotland 1769</hi>
+                                </title>, 3<hi rend="italic">rd</hi> edn.
+                                (Warrington: 1774), <biblScope unit="page">p.157</biblScope>.</bibl>
+                        </note> vidè <bibl type="authorial">
+                            <title ref="bi0123">Hist. of the
+                                Gordons</title>
+                            <biblScope unit="volume">vol.1.</biblScope>
+                            <biblScope unit="page">p. 98</biblScope>
+                        </bibl>.</p>
+                    <p> There were two battles at <placeName ref="pl0205">Inverlochy</placeName>.
+                        one with <persName ref="pe0605">Montrose</persName>. another 2 or 3
+                        centuries before. can you point out the last. &amp; who speaks of it.</p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>M<hi rend="superscript">r</hi>. Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                        <addrLine>Edinburg</addrLine>
+                    </address>
+                </p>
+                <p> Free<persName ref="pe0243">PH:<hi rend="underline">Yorke</hi>
+                    </persName>
+                </p>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0002">
+                            <unclear>CHESTER</unclear>
+                        </placeName>
+                    </stamp>
+                </p>
+                <p>
+                    <stamp type="postmark">FREE</stamp>
+                </p>
+                <p>
+                    <stamp type="postmark">
+                        <gap reason="illegible" unit="chars" quantity="2"/>/DE </stamp>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

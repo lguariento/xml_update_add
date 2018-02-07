@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, requesting information on Dundee and
+                    books</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>100</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1774-11-04"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>Your kind Letter came safe. for the future you may inclose as usual. I heard from
+                        <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName> &amp;
+                    hope soon he will be so comfortably settled as to have leisure to enjoy himself
+                    &amp; proceed in his works. Be so good as to forward to him the inclosed. also
+                    the card to <persName ref="pe0157">M<hi rend="superscript">r</hi>
+                        Macgovan</persName>.</p>
+                <p>I have every half year a polite promissory Letter from <persName ref="pe0076">Doctor Blinshall</persName> of <placeName ref="pl0316">Dundee</placeName>
+                    giving me hopes of a full account of his Town; but I find no effect. I am sorry
+                    such a fine city should go unsung therefore wish much to have these queries
+                    answered. It is cruel all this trouble should rest on you: but I am deserted by
+                    two people that common gratitude sh<hi rend="superscript">d</hi> have made
+                    adhere to me.</p>
+                <p>Be so good as to watch the sales of books in y<hi rend="superscript">r</hi> city.
+                    If <bibl type="authorial">
+                        <title ref="bi0193">the History of
+                            Renfrewshire</title>
+                    </bibl> should cast up, pray buy it. I know it to be
+                    dear but do not mind that. I also wish for <bibl type="authorial">
+                        <title ref="bi0080">Moyse’s memoirs</title>
+                    </bibl>. I go on very fast with my
+                    M.S. &amp; shall very soon go to the press.<note type="editorial">Pennant is
+                        likely referring to progress on his <bibl type="editorial">
+                            <title ref="bi0007">
+                                <hi rend="italic">Tour in Scotland 1772 Part
+                                II</hi>
+                            </title>
+                        </bibl>, which would be published in 1776.</note>
+                </p>
+                <closer>
+                    <salute>I am with sincere regard <lb/>Dear Sir <lb/>y<hi rend="superscript">r</hi> most obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+                    </salute> Tho. Pennant</closer>
+
+                <dateline>Downing Nov<hi rend="superscript">r</hi> 4<hi rend="superscript">th</hi>
+                    1774.</dateline>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>To M<hi rend="superscript">r.</hi> Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+                <p>Free<persName ref="pe0115">JWalsh</persName>
+                </p>
+                <p>
+                    <stamp type="frank">FREE</stamp>
+                </p>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0703">NORTHOP</placeName>
+                    </stamp>
+                </p>
+                <p>
+                    <stamp type="postmark">7/NO</stamp>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

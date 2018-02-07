@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0395">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to David Skene</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberdeen</settlement>
+                        <repository>Aberdeen University Library, Special Collections</repository>
+                        <idno>MS 483</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>58-59</locus>
+                        </ab>
+                    </msContents>
+                    <additional>
+                        <p>Transcribed from a volume of scribal copies of Pennant's original letters
+                            to David Skene. The copies are likely the work of Alexander Thomson, who
+                            on his death in 1868, bequeathed the collection to Aberdeen University
+                            Library. See Colin A. McLaren, ‘Reports and surveys of archives in
+                            northern Scotland’ in <hi rend="italic">Northern Scotland: A Historical
+                                Journal</hi>, Volume 1 (1972), pp.115-125.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1769-11-10"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0210">David Skene</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I deferred answering your obliging favour till the receipt of the box but that
+                    being still on its road I would no longer defer my thanks for the account you
+                    favour me with of the Stocking Trade. Be so good in your next to give me <add place="above">the</add> number of inhabitants in <placeName ref="pl0128">Aberdeen</placeName>; also the price of Provisions of all sorts fowls
+                    &amp;c. in your market with the number of <unclear reason="illegible">ozs.</unclear> that go to a pound in Beef, and Mutton and the like. My
+                    object is accuracy in what I mean to publish. <note type="editorial">Pennant's
+                        description of Aberdeen in his <bibl type="editorial">
+                            <title ref="bi0004">
+                                <hi rend="italic">Tour in Scotland 1769</hi>
+                            </title>
+                            incorporates information on the price of provisions, probably provided
+                            by Skene: see 3<hi rend="superscript">rd</hi> edition (Warrington:
+                            1774), <biblScope unit="page">pp.136-140</biblScope>
+                        </bibl>.</note>
+                </p>
+                <p>To show you I have not been idle inclosed are two engravings for the next 50
+                    plates the lowest fig. of the birds furnishing one with a pretence of mentioning
+                    my good friend <persName ref="pe0210">Doctor Skene</persName>, <note type="editorial">See <bibl>
+                            <title>
+                                <hi rend="italic">British Zoology
+                                    Illustrated by Plates and Brief Explanations</hi>
+                            </title>
+                            (Chester: 1770), <rs type="art" ref="ar0101">Plate XIX. (engravings of a
+                                Little Auk and Auk)</rs>, and Pennant's note: 'I met with it in the
+                            cabinet of Doctor David Skene, at Aberdeen, shot on the coast about
+                            twenty miles north of that city, in the spring of the year', <biblScope unit="page">p.24</biblScope>
+                        </bibl>.</note>when you have done with
+                    them please to send them with my respects to <persName ref="pe0590">Sir
+                        Archibald Grant</persName> that he may see I merit by my activity the loan
+                    of his snake. <persName ref="pe0247">Mr. Professor Oglevie</persName> who has
+                    been so kind as to promise me a box will I dare say be so good as to put the
+                    snake into it. I trouble you to forward the inclosed to him.<note type="editorial">The snake is described and identified as Linneaus's <hi rend="italic">Anguis Eryx</hi> in both an appendix to the <bibl type="editorial">
+                            <title ref="bi0001">
+                                <hi rend="italic">Tour in Scotland
+                                    1769</hi>
+                            </title> (Chester: 1771),
+                                <biblScope>pp.281-82</biblScope>
+                        </bibl>, and in Pennant's
+                        'Caledonian Zoology', included in <bibl type="editorial">John Lightfoot's
+                                <hi rend="italic">
+                                <title ref="bi0231">Flora Scotica</title>
+                            </hi>
+                            (London: 1777), pp.48-49</bibl>.</note>
+                </p>
+                <p>I will not anticipate my account of my journey after I left <placeName ref="pl0128">Aberdeen</placeName>, for as much as I can lug into the
+                    explanation of my 50 plates, shall be given there.</p>
+                <p>If anything new occurs in the natural history way let me hope for its being
+                    communicated. I flatter myself I shall often have that pleasure. Let me add one
+                    more trouble that of the prices of the paving granite as put on board.</p>
+                <closer>
+                    <salute>I am Dear Sir with <lb/>True regard <lb/>Your obliged and <lb/>most
+                        obedient servant</salute>
+                    <signed>
+                        <persName ref="pe0232">Thomas Pennant</persName>
+                    </signed>
+                </closer>
+
+                <dateline>Nov<hi rend="superscript">r. </hi>10<hi rend="superscript">th.</hi> 1769.
+                        <placeName ref="pl0001">Downing</placeName>.</dateline>
+
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0019">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, requesting information on paintings and
+                    natural history; plans to reprint Robert Sibbald's <hi rend="italic">Phalainologia nova</hi>
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>31-32</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1772-10-23"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>after a weeks arrival at this place I take up my pen to thank you for every act
+                    of friendship you shewed me at <placeName ref="pldb.xml#pl0076">Edinburgh</placeName> which I shall retain a warm sense of.</p>
+                <p>I think bad as <rs type="art" ref="ardb.xml#ar0047">Sibbalds plates</rs> are they
+                    should be engraven again first as the work will be deficient, 2<hi rend="superscript">d</hi>ly as numbers of authors having referred to them,
+                    the public will feel the want of them.<note type="editorial">
+                        <bibl type="editorial">Robert Sibbald's 1692 <title ref="bidb.xml#bi0050">
+                                <hi rend="italic">Phalainologia nova</hi>
+                            </title>
+                        </bibl>, contained
+                        the first scientific description of the Blue Whale among other accounts of
+                        Scottish marine species, and was reprinted at Pennant's expense in
+                        1773.</note>
+                    <rs type="art" ref="ardb.xml#ar0048">The best figure of the whale</rs> you
+                    allude to is in the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0049">Ph.
+                            Trans.</title>
+                        <biblScope unit="volume">vol LX</biblScope> tab. IX.</bibl> it may easily be
+                    reduced to oct<hi rend="superscript">vo</hi> size as mine is <bibl type="authorial">
+                        <title ref="bi0018">vol. III. Br. Zool.</title>
+                    </bibl> I wish I cd.
+                    get a <bibl type="authorial">
+                        <title ref="bidb.xml#bi0050">Sibbald Baleen</title>
+                    </bibl> &amp; I
+                        w<hi rend="superscript">d</hi> give you some notes &amp;c.</p>
+                <p>Pray let the magazine be sent by Post except when I am absent which I will advise
+                    you of; &amp; then they may lie by &amp; sent in a hasp as I shall request. The
+                    depth of the Bridge will be most acceptable.</p>
+                <p>Pray examine <rs type="art" ref="ardb.xml#ar0002">the great Picture in <placeName ref="pldb.xml#pl0724">Hamilton Lodgings H.Rood house</placeName>, called
+                        H. Darnley,</rs> is not the Hat lying on a table by him &amp; has it not a
+                    feather in it.</p>
+                <p>If possible learn from any friends in <placeName ref="pldb.xml#pl0076">Edinburgh</placeName>; the time of migrations of woodcocks in <placeName ref="pldb.xml#pl0701">orknies</placeName> or <placeName ref="pldb.xml#pl0700">Shetland</placeName> &amp; whether they come in
+                    numbers.</p>
+                <p>My best complim<hi rend="superscript">ts</hi> to <persName ref="pe0019">M<hi rend="superscript">r</hi> Menzies</persName>. He will oblige me by
+                    expediting his answers.</p>
+                <p>The same to <persName ref="pe0016">M<hi rend="superscript">r</hi>
+                        Campbell of the Bank</persName>: tell him <rs type="art" ref="ardb.xml#ar0003">his Picture is of Sir Tho. Father to the
+                        chancellor</rs>.</p>
+                <closer>
+                    <salute>in haste <lb/>y<hi rend="superscript">r</hi> affect Friend</salute>
+                    <signed>Tho. Pennant</signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName> oct<hi rend="superscript">r</hi> 23<hi rend="superscript">d</hi> 1772.</dateline>
+
+                <postscript>
+                    <p>
+                        <add place="margin">Does this come free?</add>
+                    </p>
+                </postscript>
+
+            </div>
+            <div>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pldb.xml#pl0703">NORTHOP</placeName>
+                    </stamp>
+                </p>
+                <p>
+                    <handShift/>
+                    <unclear reason="illegible">
+                        <del rend="overstrike">M</del>
+                    </unclear>
+                </p>
+                <p>
+                    <unclear reason="illegible">6</unclear>
+                </p>
+                <p>
+                    <handShift/>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>M<hi rend="superscript">r</hi> Paton</addrLine>
+                        <addrLine>at the Custom house</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

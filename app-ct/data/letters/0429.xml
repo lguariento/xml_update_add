@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0429">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>John Stuart to Thomas Pennant: supplementary to his descriptions of
+                    islands</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP369</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>8/1-8/2</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0023">John Stuart</persName>
+                    <date when="1774-01-07"/>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+
+                <language ident="gd">Gaelic</language>
+                <language ident="la">Latin</language>
+
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0277">Killin</placeName> Jan<hi rend="superscript">y.</hi> 7<hi rend="superscript">th.</hi> 1774</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>Yours of Dec<hi rend="superscript">r.</hi> 24<hi rend="superscript">th.</hi> has
+                    come safely to my hands –––––</p>
+                <p>I have little doubt but the 500 £, which we were told that <persName ref="pe0363">M<hi rend="superscript">r.</hi> Campbell of Shawfield</persName> pays of feu
+                    duty for <placeName ref="pldb.xml#pl0717">
+                        <hi rend="underline">Ilay</hi>
+                    </placeName>, is
+                    Sterling and not Scotch money. It was the old rent paid for all that island.</p>
+                <p>Almost all the W. islanders, as far as I could learn, still observe <hi rend="underline">Pasch</hi> and <hi rend="underline">Yule</hi> or Christmas,
+                    as they did in <bibl type="authorial">
+                        <title ref="bidb.xml#bi0116">Martin</title>
+                    </bibl>'s days.</p>
+                <p>Eight days ago I sent you such remarks relative to <placeName ref="pldb.xml#pl0651">
+                        <hi rend="underline">Iona</hi>
+                    </placeName> as I
+                    thought would be of any service to you — As for the notes which I had taken down
+                    when I visited that island formerly, which was as far as I remember in Aug<hi rend="superscript">t.</hi> 1769, to prevent your being led into any mistake
+                    I would only again beg of you to remember that all the lengths and distances
+                    mentioned in them were only guessed at. Such as I told you of in my last letter
+                    may I think be depended upon, as I was at the pains to measure them all,
+                    excepting the length and breadth of <placeName ref="pldb.xml#pl0976">
+                        <hi rend="underline">Reilig-Ourain</hi>
+                    </placeName>
+                    <hi rend="superscript">x</hi>
+                   <note type="authorial">x <placeName ref="pldb.xml#pl0976">
+                            <hi rend="underline">Reilig-Ourain</hi>
+                        </placeName> i.e. the burying-place of S<hi rend="superscript">t.</hi> Ouran.</note> which I hope you have marked
+                    down with accuracy in your own notes.</p>
+                <p>I unluckily neglected to make any enquiry as to the name of <placeName ref="pldb.xml#pl0985">the
+                        little island, that forms the harbour on the E. side of the sound of <hi rend="underline">Iona</hi>
+                    </placeName>, so that I cannot give you
+                    information as to that particular —</p>
+                <p>South of <placeName ref="pldb.xml#pl0976">Ouran's Chapel</placeName> lies the grave stone of one
+                    of the old Mull Doctors with the following inscription around it: <quote>Hic
+                        jacet Isannes Betonus Maclenorum familæ medicus qui mortuus est 19 nowembris
+                        anno Domini 1657, et ætatis suæ 63. Donaldus Betonus facit 1674.</quote>
+                </p>
+                <p>Near the head of the stone is cut the Coat-of-arms of the Betons, and below is
+                    the following epitaph: <quote>
+                        <lb/>Ecce cadit iaculo victrici mortis iniquæ <lb/>Qui toties alios solveral
+                        ipse malis. <lb/>Soli Deo gloria. </quote>
+                </p>
+                <p> I have great doubts as to the justice of the interpretation given of the Galic
+                    inscription upon the stone in <placeName ref="pldb.xml#pl0651">
+                        <hi rend="underline">I-colm-kill</hi>
+                    </placeName> now not to be seen, but a
+                    print of which is preserved in the <bibl type="authorial">
+                        <title ref="bidb.xml#bi0049">Phil.
+                            Trans.</title>
+                        <biblScope unit="vol">Vol. 22.</biblScope>
+                        <biblScope unit="page">p.790</biblScope>
+                    </bibl>: The meaning of the other
+                    Galic inscription, which is still visible there, is tolerably clear –––––</p>
+                <p>If I mistake not, you carried along with you specimens of the granite used in the
+                    buildings in <placeName ref="pldb.xml#pl0651">
+                        <hi rend="underline">Iona</hi>
+                    </placeName>. It
+                    was taken, they told us, not from <placeName ref="pldb.xml#pl0729">Mull</placeName>, but from
+                    an island in the sound.</p>
+                <p>I wrote you in my last the principal anecdotes I knew relative to the rural
+                    œconomy of the inhabitants of <placeName ref="pldb.xml#pl0651">
+                        <hi rend="underline">I-colm-kill</hi>
+                    </placeName> — They are all poor. They live much upon
+                    fish, various kinds of which are caught in great quantities round the island.
+                    Black or <hi rend="underline">graddan</hi> meal is mostly used. A <hi rend="underline">quern</hi> or hand-mill is kept in every family; but all
+                    the possessions are <hi rend="underline">multured</hi> to a water miln
+                    <placeName ref="pldb.xml#pl0729">Mull</placeName>.</p>
+
+                <p>Their houses are mean. They are all built near one another, and hard by the ruins
+                    of <placeName ref="pldb.xml#pl0975">the Nunnery</placeName>. They are thatched with bear straw,
+                    which is always for this purpose pulled by the roots.</p>
+                <p>As there does <add place="above">not</add> a single tree grow in the island, they
+                    are at a loss for wood, even for the purposes of agriculture.</p>
+                <p>
+                    <hi rend="underline">Peats</hi> and <hi rend="underline">turf</hi> are their only
+                    fuel.</p>
+                <p>In some of the higher grounds there is moss, but it has no depth, and it is mixed
+                    with much earth and sand.</p>
+                <p>I imagine there must certainly be a mistake, either in my information, or, in the
+                    notes I gathered down, relative to the encrease of bear in <placeName ref="pldb.xml#pl0651">
+                        <hi rend="underline">Iona</hi>
+                    </placeName>. It must
+                    surely be greater at an average than four or five-fold. — Indeed I see great
+                    reason to suspect that this is not the only instance in which there may have
+                    been a danger of being led into a mistake. Notwithstanding the greatest care and
+                    attention in making all proper inquiry, and the having recourse to the best
+                    mediums of information which the different places visited could at the time
+                    afford, yet in countries where few ever of the better and more intelligent
+                    people are accustomed to make any nice observations of this kind, the falling in
+                    some instances into error seems indeed unavoidable. Any inconsiderable mistakes
+                    however which may thus creep <del rend="strikethrough">into</del> into
+                            <bibl type="authorial">
+                        <title ref="bidb.xml#bi0008">your work</title>
+                    </bibl>, can, upon
+                    better information afterwards be easily amended in a second edition; and in the
+                    mean time must be readily excused by all who are possessed of any degree of
+                    candour —</p>
+                <p>I shall endeavour to send you the remarks relative to <placeName ref="pldb.xml#pl0653">
+                        <hi rend="underline">Cana</hi>
+                    </placeName> by to-morrow eight day's Post, or
+                    sooner, if there is an opportunity — </p>
+                <p>In the mean time, wishing you a good new-year, and many happy returns,</p>
+                <closer>
+                    <salute>I remain <lb/>Dear Sir <lb/>Your most obliged &amp; humble Serv<hi rend="superscript">t.</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0023">John Stuart</persName>
+                    </signed>
+                </closer>
+
+                <postscript>
+                    <p>P.S. with regard to any distances &amp;c. in <placeName ref="pldb.xml#pl0651">
+                            <hi rend="underline">Iona</hi>
+                        </placeName> as have not been measured by
+                        any certain medium, it is certainly better not to descend to any particulars
+                        —</p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <handShift/>
+                    <persName ref="pe0023">M<hi rend="superscript">r J. Stuart</hi>
+                    </persName>
+                        Dec<hi rend="superscript">r</hi> 31. &amp; Jan. 7 <hi rend="superscript">th</hi> 1774.</p>
+                <p>on <placeName ref="pldb.xml#pl0651">Iona</placeName> Tiends, &amp;c.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

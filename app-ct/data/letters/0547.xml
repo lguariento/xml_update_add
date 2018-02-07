@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0547">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to John Murray, 3rd Duke of Atholl</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement/>
+                        <repository>Blair Atholl Castle Archives</repository>
+                        <idno>54 (2)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>187</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1771-12-20"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0087">John Murray, 3<hi rend="superscript">rd</hi> Duke of
+                        Atholl</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+
+                <opener>
+                    <salute>My Lord</salute>
+                </opener>
+                <p>Give me leave to present your Grace with a copy of <bibl type="authorial">
+                        <title ref="bi0001">my tour thro Scotland</title>
+                    </bibl>, as a poor mark of the
+                    sense I have of the hospitable reception I met with at <placeName ref="pl0110">Athol House</placeName>, &amp; the favors I received since. I flatter
+                    myself That your Grace will think <persName ref="pe0143">my Engraver</persName>
+                    has done justice to the Drawings.<note type="editorial">
+                        <persName ref="pe0232">Pennant</persName> is probably referring to two drawings of scenes on
+                        the <placeName ref="pl0821">Atholl estate</placeName> originally taken by
+                            <persName ref="pe0330">Paul Sandby</persName>, that were reproduced in
+                        the first edition of the <bibl type="editorial">
+                            <title ref="bi0001">
+                                <hi rend="italic">Tour in Scotland 1769</hi>
+                            </title>
+                        </bibl>: see <rs type="art" ref="ar0094">'Dunkeld Cathedral' (Plate II., p.75)</rs> and
+                            <rs type="art" ref="ar0095">'View near Blair' (Plate IV., p.98)</rs>.
+                        Pennant's letters on 27<hi rend="superscript">th</hi> August 1772 and 21<hi rend="superscript">st</hi> April 1774, suggest that the Duke was
+                        disappointed by Pennant's reuse of Sandby's views.</note>
+                </p>
+                <p>It is with great impatience I wish to make another visit to <placeName ref="pl0705">N. Britain</placeName> &amp; to ramble thro those parts that I
+                    did not see in 1769. If I may presume so far I should think myself highly
+                    honored by recommendations to such parts as your influence extends; for there is
+                    no travelling with convenience or edification without Letters.<note type="editorial">
+                        <persName ref="pe0232">Pennant</persName> would make a
+                        second tour of <placeName ref="pl0705">Scotland</placeName> in summer
+                        1772.</note>
+                </p>
+                <p>Please to do me the honor to present my respectfull compliments to <persName ref="pe0577">the Dutchess</persName> &amp; think me with great regard</p>
+                <closer>
+                    <salute>My Lord <lb/>Your much obliged &amp; <lb/>most obed<hi rend="superscript">t</hi> humble Servant</salute>
+                    <signed>
+                        <persName ref="pe0232">Thomas Pennant</persName>
+                    </signed>
+                    <dateline>
+                        <placeName ref="pl0001">Downing Flintshire</placeName> Dec<hi rend="superscript">r</hi> 20<hi rend="superscript">th</hi>
+                        1771.</dateline>
+                </closer>
+                <postscript>
+                    <p>P.S. Should your Grace happen to be in <placeName ref="pl0699">London</placeName>, <persName ref="pe0026">M<hi rend="superscript">r</hi> White Bookseller in Fleetstreet</persName> will obey the
+                        inclosed order.</p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <handShift/>from M<hi rend="superscript">r.</hi> Th<hi rend="superscript">s.</hi>
+                    Penant</p>
+                <p>
+                    <placeName ref="pl0702">Flint</placeName> Dec<hi rend="superscript">r.</hi> 20<hi rend="superscript">th.</hi>
+                </p>
+                <p>
+                    <hi rend="underline">1769</hi>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0112">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton: describing plans and retinue for 1772
+                    Tour</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>20</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1772-04-24"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> 
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+
+                <p>y<hi rend="superscript">r</hi> very obliging favor has just reached me I can
+                    think of no other books: but leave to you any additions<hi rend="superscript">x</hi>
+                    <note type="authorial" place="foot">x <bibl type="authorial">
+                            <title ref="bidb.xml#bi0193">Crawfords’ Renfrew</title>
+                        </bibl> &amp;
+                                <bibl type="authorial">
+                            <title ref="bidb.xml#bi0048">Sir Al Murray’s
+                            Surveys</title>
+                        </bibl>. I possibly shall I possibly shall touch on
+                            <placeName ref="pldb.xml#pl0680">Ardnamurchan</placeName>.</note> you
+                    think requisite on that <unclear reason="illegible">head</unclear>. could you
+                    borrow for my own use a good light gun I should be much obliged. It is
+                    impossible for me to revisit <placeName ref="pldb.xml#pl0145">Elgin</placeName>:
+                    but every communication will be gratefully &amp; publically acknowledged to
+                    every Gentleman that favors me with them.</p>
+                <p>I shall have the pleasure of seeing you at <placeName ref="pldb.xml#pl0076">Edinburgh</placeName> before I visit <placeName ref="pldb.xml#pl0386">Roslin</placeName>.</p>
+                <p>As <persName ref="pe0015">my good neighbour our member</persName> is
+                    absent I am at a loss for Franks; therefore beg the favor of you to present my
+                    thanks to <persName ref="pe0012">Doctor Hope</persName> for his kind
+                    Letter.</p>
+                <p>I shall be very glad of <persName ref="pe0023">M<hi rend="superscript">r</hi> Stewarts</persName> company if he can stow himself aboard the
+                    ship which is hired at my sole expence: He will be welcome to such diet as I
+                    make use of; the voyage shall cost him nothing, but it is to be hoped <placeName ref="pldb.xml#pl0705">Scotland</placeName> will furnish him with sheets,
+                    &amp; frank him to <placeName ref="pldb.xml#pl0603">Greenock</placeName> &amp;
+                    from <placeName ref="pldb.xml#pl0266">Ardmady</placeName> the conclusion of the
+                    voyage to his own house. I am ready to do all I can for y<hi rend="superscript">r</hi> country, but my own expences will be great, for my troop consists of
+                        <persName ref="pe0139">Rev<hi rend="superscript">d</hi> M<hi rend="superscript">r</hi> Lightfoot</persName>. <persName ref="pe0101">French serv<hi rend="superscript">t</hi>
+                    </persName>.
+                        <persName ref="pe0014">painter serv<hi rend="superscript">t.</hi>
+                    </persName> <persName ref="pe0303">
+                        <sic>Lanscape</sic>
+                        painter</persName> a <persName ref="pe0470">fowler</persName>.
+                    &amp; <del>
+                        <gap reason="illegible" quantity="1" unit="word"/>
+                    </del>
+                    <add place="above">besides a <persName ref="pe0471">groom</persName> I
+                        must leave with the horse.</add> not that I w<hi rend="superscript">d</hi>
+                    discourage <persName ref="pe0023">M<hi rend="superscript">r</hi>
+                        Stewart</persName> from going for I wish to leave an Eleve behind in
+                        <placeName ref="pldb.xml#pl0705">N. Britain</placeName>: if he chuses to
+                    come he must repair to <placeName ref="pl0229">Glasgow</placeName> by June 15<hi rend="superscript">th</hi>. Please to direct y<hi rend="superscript">r</hi>
+                    next to the Postoffice <placeName ref="pl0253">Carlisle</placeName>.</p>
+                <closer>
+                    <salute>I am Dear Sir <lb/>y<hi rend="superscript">r</hi> much oblig<hi rend="superscript">d</hi>
+                        <lb/>humble Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <lb/>
+                    <signed>
+                        <persName ref="pe0232">TPennant</persName>
+                    </signed>
+                </closer>
+
+                <dateline>Downing April 24<hi rend="superscript">th</hi> 1772.</dateline>
+                <postscript>
+                    <p>Pray send <persName ref="pe0104">Mr Gough</persName> one of <bibl type="authorial">
+                            <title ref="bidb.xml#bi0539">my printed letters</title>
+                        </bibl>
+                        if you can get it franked.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

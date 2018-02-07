@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0106">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton: on natural history publications and
+                    specimens</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>8-9</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1771-08-30"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pldb.xml#pl0706">Comptroller's Office, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> 
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName> Aug. 30<hi rend="superscript">th</hi>. 1771.</dateline>
+                <opener>
+                    <salute>Sir</salute>
+                </opener>
+                <p>I much rejoice that there is now some prospect of ascertaining the Lyres. Be so
+                    good as to shew it to my friend <persName ref="pe0022">Doctor
+                        Ramsay</persName> who will inform us whether it be nondescript, &amp; settle
+                    this long wished for point. I have engraven the birds you mention. I suppose
+                    they are what I call the Auk, &amp; the Puffin.</p>
+                <p>
+                    <rs type="art" ref="ar0096">The drawing of the small snipe</rs> will be most
+                    acceptable.</p>
+                <p>I shall be very happy to see the Insect whose classical name shall be sent you.
+                    All communications from the <placeName ref="pldb.xml#pl0704">W.
+                        Indies</placeName> will be acceptable.</p>
+                <p>My <bibl type="authorial">
+                        <title ref="bidb.xml#bi0045">Synopsis of Quadrupeds</title>
+                    </bibl> has
+                    been published these 3 months.</p>
+                <p>The 2<hi rend="superscript">d</hi> part of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0019">the 4<hi rend="superscript">th</hi> vol. Br.
+                            Zool.</title>
+                    </bibl> oct<hi rend="superscript">vo</hi> concludes <hi rend="underline">that</hi> volume. It is impossible to say when the whole
+                    will be concluded, for tho’ much has been done, much is yet to be done
+                    particularly in respect to crustacea, testacea &amp; molluscs. Any rare
+                        <placeName ref="pldb.xml#pl0705">N. British</placeName> productions of those
+                    classes will be most acceptable to,</p>
+                <closer>
+                    <salute>Dear Sir, <lb/>your most obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho.
+                    Pennant.</persName>
+                    </signed>
+                </closer>
+
+
+                <postscript>
+                    <p>I hope I do not mistake your saying that Letters come free to you.</p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pldb.xml#pl0703">NORTHOP</placeName>
+                    </stamp>
+                </p>
+
+                <p>
+                    <handShift/>
+                    <unclear reason="illegible">M</unclear>
+                </p>
+                <p>
+                    <unclear reason="illegible">6</unclear>
+                </p>
+
+                <p>
+                    <handShift/>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>M<hi rend="superscript">r</hi> George Paton</addrLine>
+                        <addrLine>at the Comptroller’s office</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+            </div>
+
+        </body>
+    </text>
+</TEI>

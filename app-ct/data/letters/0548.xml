@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0548">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to John Murray, 3rd Duke of Atholl</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement/>
+                        <repository>Blair Atholl Castle Archives</repository>
+                        <idno>54 (3)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>181</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1772-08-27"/>
+                    <placeName ref="pl0092">Dupplin</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0087">John Murray, 3<hi rend="superscript">rd</hi> Duke of
+                        Atholl</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pl0092">Dupplin</placeName> Aug. 27<hi rend="superscript">th.</hi> 1772.</dateline>
+                <opener>
+                    <salute>My Lord</salute>
+                </opener>
+                <p>I beg leave to return my best thanks for the obliging reception I met with at
+                        <placeName ref="pl0110">Athol House</placeName>. The <hi rend="underline">seeing</hi> of <placeName ref="pl1127">Dunkeld</placeName> afforded me very
+                    sensible pleasure. I am sorry that my ignorance of its beauties in 1769 has so
+                    justly brought my taste in question. I found nothing to be drawn
+                    there as <rs type="art" ref="ar0100">your Graces, <add place="above">paintings</add>
+                    </rs> &amp; <rs type="art" ref="ar0099">a drawing</rs> I
+                    got from <persName ref="pe0582">Stuart</persName> deprived <persName ref="pe0345">my
+                        Servant</persName> of the means of adding anything new.</p>
+                <p>after seeing <placeName ref="pl0298">the Camp at Comerie</placeName> I took the
+                    Liberty of ordering some respects to be done on y<hi rend="superscript">r</hi>
+                    Grace's Land by digging into one of the Graves. <persName ref="pe0581">M<hi rend="superscript">r</hi> M<hi rend="superscript">c</hi>Nabb the
+                        schoolmaster</persName> is my instrument.</p>
+                <p>I beg the favor of y<hi rend="superscript">r</hi> Grace to present my respects to
+                        <persName ref="pe0577">the Dutchess</persName> &amp; family and am, my
+                    Lord</p>
+                <closer>
+                    <salute>Y<hi rend="superscript">r</hi> Grace's much obliged<lb/> &amp; most
+                            obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Thomas
+                        Pennant.</persName>
+                    </signed>
+                </closer>
+            </div>
+            <div>
+                <p>
+                    <handShift/>from <persName ref="pe0232">M<hi rend="superscript">r</hi>
+                        Penant</persName>
+                </p>
+                <p>
+                    <placeName ref="pl0092">Duplin</placeName> 22<hi rend="superscript">d.</hi>
+                    August</p>
+                <p>
+                    <hi rend="underline">1772</hi>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

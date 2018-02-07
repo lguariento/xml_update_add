@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0394">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to David Skene</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberdeen</settlement>
+                        <repository>Aberdeen University Library, Special Collections</repository>
+                        <idno>MS 483</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>57</locus>
+                        </ab>
+                    </msContents>
+                    <additional>
+                        <p>Transcribed from a volume of scribal copies of Pennant's original letters
+                            to David Skene. The copies are likely the work of Alexander Thomson, who
+                            on his death in 1868, bequeathed the collection to Aberdeen University
+                            Library. See Colin A. McLaren, ‘Reports and surveys of archives in
+                            northern Scotland’ in <hi rend="italic">Northern Scotland: A Historical
+                                Journal</hi>, Volume 1 (1972), pp.115-125.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1769-09-13"/>
+                    <placeName ref="pl0132">Edinburgh</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0210">David Skene</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pl0076">Edinburgh</placeName> Sept 13<hi rend="superscript">th.</hi> 1769.</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I returned last night from my long tour which was passed much to my satisfaction;
+                    in spite of the deluges in the western <placeName ref="pl0711">highlands</placeName>. Assure yourself that in no place I met with equal
+                    edification than what your cabinet gave. I lament much the detention of the box;
+                    but must beg that it may be expedited to <persName ref="pe0012">Doctor
+                        Hope</persName> as soon as possible; with a letter of advice; as to myself I
+                    set out for <persName ref="pl0001">Downing</persName> in three days time;
+                    therefore hope to be favoured with your promised letter inclosed to <persName ref="pe0015">Sir Roger Mostyn Bar<hi rend="superscript">t.</hi> M.
+                        P.</persName> at <placeName ref="pl0695">Mostyn Flintshire</placeName>. I am
+                    at this time so much hurried; as to be incapable of saying more than that.</p>
+                <closer>
+                    <salute>I am Dear Sir with true <lb/>regard <lb/>Your obliged and faithful
+                        Servant</salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant</persName>
+                    </signed>
+                </closer>
+
+                <postscript>
+                    <p>I beg my best complements to <persName ref="pe0589">Dr. G. Skene</persName>
+                        and <persName ref="pe0586">D<hi rend="superscript">r.</hi>
+                            Levingston</persName>. I am ashamed to leave <placeName ref="pl0128">Aberdeen</placeName> without paying for the box but it shall not be
+                        forgot.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

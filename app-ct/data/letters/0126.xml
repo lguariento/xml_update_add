@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0126">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, instructing him to send letters and materials
+                    to London and Chester</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>41-42</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-01-26"/>
+                    </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> 
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>D<hi rend="superscript">r</hi> Sir</salute>
+                </opener>
+                <p>as I shall be in <placeName ref="pldb.xml#pl0699">London</placeName> the 5<hi rend="superscript">th</hi> of March please to order y<hi rend="superscript">r</hi> pacquets to be left at <persName ref="pe0026">M<hi rend="superscript">r</hi> White, Bookseller</persName>
+                    <placeName ref="pldb.xml#pl1012">Fleetstreet</placeName>. if anything material direct y<hi rend="superscript">r</hi> next to me at <placeName ref="pldb.xml#pl0002">Chester</placeName> &amp; do not mind a frank. Complim<hi rend="superscript">ts</hi> &amp; thanks to <persName ref="pe0203">M<hi rend="superscript">r</hi> Mackenzie</persName>
+                    <add place="above">for his obliging</add> answer, but send none.</p>
+                <closer>
+                    <salute>I am Dr Sir <lb/>y<hi rend="superscript">r</hi> most obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">T Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>Jan 26<hi rend="superscript">th</hi> 1773</dateline>
+            </div>
+            <div>
+                <p>
+                    <handShift/>11</p>
+                <p>
+                    <handShift/>
+                    <address>
+                        <addrLine>M<hi rend="superscript">r</hi> Paton</addrLine>
+                        <addrLine>at the Custom house</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>                
+            </div>
+        </body>
+    </text>
+</TEI>

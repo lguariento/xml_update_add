@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0127">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, on plans for republication of Sibbald's <hi rend="italic">Phalainologia nova</hi> and instructions for sending letters
+                    and packets</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>43-44</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-02-14"/>
+                    <placeName ref="pldb.xml#pl0002">Chester</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+
+                <p>In a former Letter I told you I had been able to procure against my arrival in
+                        <placeName ref="pldb.xml#pl0699">London</placeName> a copy of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0050">Sib. Phalain.</title>
+                    </bibl>
+                    therefore never trouble y<hi rend="superscript">r</hi> self with more than
+                    tracing off <rs type="art" ref="ar0047">the old plates.</rs> I will speak to <persName ref="pe0026">White</persName> &amp; dare say get both risque &amp;
+                    trouble off y<hi rend="superscript">r</hi> hands.</p>
+                <p>Those <bibl type="authorial">
+                        <title ref="bidb.xml#bi0063">Indexes you speak of to
+                            Sibbald</title>
+                    </bibl> will be most gratefull. inclose to <persName ref="pe0015">Sir Roger Mostyn Bart. M.P.</persName>
+                    <placeName ref="pldb.xml#pl0734">Bruton street London.</placeName> observe not
+                    to let y<hi rend="superscript">r</hi> pacquets weigh an <unclear reason="illegible">O<hi rend="superscript">z</hi>
+                    </unclear>. Pray do not
+                    inclose anything to <persName ref="pe0104">M<hi rend="superscript">r</hi> Gough</persName> or any body else, but myself. it creates fresh
+                    trouble. I shall send you <bibl type="authorial">
+                        <title ref="bidb.xml#bi0003">my
+                            supplement</title>
+                    </bibl> 2 copies) in franks: &amp; with much pleasure
+                    execute any other orders you have.</p>
+                <closer>
+                    <salute>being much y<hi rend="superscript">rs</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">T Pennant</persName>
+                    </signed>
+                </closer>
+
+                <dateline>
+                    <placeName ref="pldb.xml#pl0002">Chester</placeName> Feb. 14<hi rend="superscript">th</hi> 1773.</dateline>
+
+                <postscript>
+                    <p>
+                        <del rend="overstrike">Pray for the future let the <bibl type="authorial">
+                                <title ref="bidb.xml#bi0064">Edinburgh magazine</title>
+                            </bibl> b</del>
+                        Let <bibl type="authorial">
+                            <title ref="bidb.xml#bi0064">the magazine</title>
+                        </bibl> go on as
+                        usual tho I am absent, as I have friends that will like to read them.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

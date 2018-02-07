@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0133">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, relaying instructions for George Low and
+                    requesting notes and materials on Scottish sites</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>52</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-05-15"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            <div>
+                <dateline>Downing May 15<hi rend="superscript">th</hi> 1773.</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+
+                <p>I am extremely glad that my trifling present was acceptable: but I still must
+                    hold myself in y<hi rend="superscript">r</hi> debt. I rejoice that <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName> has got my Books,
+                    being sure he will make good use of them. I do my best to stimulate him to visit
+                        <placeName ref="pl0700">Shetland</placeName> which will complete the history
+                    of our isles. When you write to him beg he would collect the eggs of the arctic
+                    gull &amp; observe how many they lay.</p>
+                <p>All y<hi rend="superscript">r</hi> notes will be acceptable; especially any you
+                    can collect respecting <placeName ref="pl0572">Caerlavoroc castle</placeName>
+                    &amp; its sieges.</p>
+                <p>I can very well content myself with <rs type="art" ref="ar0113">the engraving of
+                        the Cruikston Dollar</rs> in <bibl type="authorial">
+                        <title ref="bi0578">Anderson</title>
+                    </bibl>.<note type="editorial">A reference to a coin
+                        supposed to have been minted by <persName ref="pe0527">Mary Queen of
+                            Scots</persName> to commemorate her union with <persName ref="pe0456">Lord Darnley</persName> at <placeName ref="pl0604">Crookston
+                            Castle</placeName>: an opinion disputed in Pennant's <bibl type="editorial">
+                            <title ref="bi0008">
+                                <hi rend="italic">Tour in Scotland
+                                    1772</hi>
+                            </title> (Chester: 1774), <biblScope unit="page">p.163</biblScope>
+                        </bibl>.</note>
+                </p>
+                <p>I am much obliged to <persName ref="pe0157">M<hi rend="superscript">r</hi>
+                        Macgovan</persName> for his parcel which I shall acknowledge on its arrival.
+                    Be so good as to put the Letter for <placeName ref="pl0323">Montrose</placeName>
+                    into the post &amp; send the other to <placeName ref="pe0022">D<hi rend="superscript">r</hi> Ramsay</placeName>.</p>
+                <closer>
+                    <salute>I am Dear Sir with much regard</salute> y<hi rend="superscript">rs</hi>
+                    <signed>
+                        <persName ref="pe0232">Tho.
+                    Pennant</persName>
+                    </signed>
+                </closer>
+
+                <postscript>
+                    <p>I think <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName>
+                        should know what papers relate to <placeName ref="pl0701">orkney</placeName>
+                        in the <placeName ref="pl1022">advocates library</placeName>.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

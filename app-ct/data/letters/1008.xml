@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1008">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 8</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1780-09-08"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                        <choice>
+                            <abbr>Aug.</abbr>
+                            <expan>August</expan>
+                        </choice> 8<hi rend="superscript">th</hi>. 1780.</dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I sent for <persName ref="pe0324">Ingleby</persName> on the
+                        <sic>receit</sic> of your favor. he assures me that <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice>
+                    <bibl type="authorial">
+                        <title ref="bidb.xml#bi0012">Book</title>
+                    </bibl>
+                   <note type="editorial">This appears to refer to Bull's copy of Pennant's A tour
+                        in Wales. MDCCLXX (1778). See discussion in NLW 5500C, no. 7. LINK TO WORKS
+                        LIST: Thomas Pennant, A tour in Wales. MDCCLXX (London: Henry Hughes, 1778):
+                        Bull's copy</note> shall be finished by the day you wish. If no public
+                    calamity happens, I hope to put <bibl type="authorial">
+                        <title ref="bidb.xml#bi0013">my second &amp; last part of the welsh
+                        tour</title>
+                    </bibl>.<note type="editorial">A Journey to Snowdon (London: Henry
+                        Hughes: 1781): generic. This was not in fact the final volume of Pennant's
+                        Welsh tours.</note> in the press in october. a copy on large paper will beg <choice>
+                        <abbr>y<hi rend="superscript">r</hi>
+                        </abbr>
+                        <expan>your</expan>
+                    </choice> acceptance.<note type="editorial">A Journey to Snowdon (London:
+                        printed by Henry Hughes, 1781): Bull's copy [LP]</note> I mean that two on
+                    that size shall be sent as every six sheets are worked off: &amp; <persName ref="pe0324">Ingleby</persName> if you desire, shall instantly copy
+                    all the marginal <del>e</del>
+                    <sic>aditions</sic>, <persName ref="pe0014">Moses</persName> puts on my
+                    copy<note type="editorial">A Journey to Snowdon (London: printed by Henry
+                        Hughes, 1781): TP's copy [LP]</note>
+                </p>
+                <p>In respect to <persName ref="pe0327">Robson</persName> he was very
+                    faulty in not seeing the catch word V. at the bottom of the <choice>
+                        <abbr>p.</abbr>
+                        <expan>page</expan>
+                    </choice> in my swiss views;<note type="editorial">There is no trace of a
+                        publication directly on Switzerland by Pennant and no manuscript compilation
+                        has been identified either. The 'swiss views' discussed here is clearly a
+                        printed work (vide Robson's involvement and the reference to 'the letter
+                        press of the swiss views' in no. 9). Pennant may be referring to a personal
+                        copy of a work by another, clearly with a strong visual element. The
+                        evidence of two drawings labelled in pencil as the work of 'T Pennant' and
+                        which appear to be related to the latter's travels in Switzerland should
+                        also be considered. The drawings in question are included in Pennant's
+                        extra-illustrated manuscript copy of his Literary life (NLW 12706E). One of
+                        them is a print and it seems possible that it formed part of a publication
+                        on Switzerland by Pennant himself. As a gentleman, Pennant would have been
+                        wary of circulating his own drawings in print, and this may account for the
+                        disappearance of this publication from public view and from the public
+                        record.</note> but I hope he will be honest enough to do me justice &amp;
+                    that I shall not suffer for his neglect. I had heard many complaints since
+                        <persName ref="pe0328">Faulder</persName> left him of having only
+                    raw lads in his shops, which will certainly injure him. As I have sent the book
+                    back, I shall be extremely obliged to you for watching the arrival of the second
+                    part of the description. It must now be new bound in two. viz. the plates in one
+                    &amp; description in the other. If you give yourself the trouble of calling at
+                        <persName ref="pe0327">Robsons</persName> next week you will see
+                    what a fine book it was. I admire it much for the great fidelity of the views in
+                    all parts of <placeName ref="pldb.xml#pl0791">Swisserland</placeName> which I
+                    visited.</p>
+                <p>I am most extremely sensible of your friendship but will not trespass on it too
+                    far. I may perhaps trouble you once more about the binding of the book<note type="editorial">Referring once again to 'swiss views'.</note> which has
+                    plagued me so much.</p>
+                <closer>
+                    <salute>I remain <lb/>with true regard <lb/>Dear Sir <lb/>your obliged &amp; most <lb/>
+                        <choice>
+                        <abbr>obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+                            </abbr>
+                        <expan>obedient Servant</expan>
+                    </choice>
+                    </salute>
+                    <signed>
+                        <persName ref="bidb.xml#bi0012">
+                            <choice>
+                                <abbr>Tho.</abbr>
+                                <expan>Thomas</expan>
+                            </choice> Pennant</persName>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

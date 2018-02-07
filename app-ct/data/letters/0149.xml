@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, requesting texts and complaining of unwanted
+                    magazines; informing him of publication plans</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>75</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1774-01-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I have just time to thank you for y<hi rend="superscript">r</hi> favor of Jan.
+                        10<hi rend="superscript">th</hi>. &amp; to say it will be needless to bustle
+                        y<hi rend="superscript">r</hi>self ab<hi rend="superscript">t</hi> the
+                    macleans; except there be something very remarkable.</p>
+                <p>If you can give me <bibl type="authorial">
+                        <title ref="bi0103">the oct<hi rend="superscript">vo</hi> Edition of abercrombie</title>
+                    </bibl> I
+                    shall be glad &amp; will pay you for that &amp; <bibl type="authorial">
+                        <title ref="bi0064">magazines</title>
+                    </bibl>: but why do they persist in
+                    sending them.</p>
+                <p>About 130 pages of my 3<hi rend="superscript">d</hi> edition q<hi rend="superscript">to</hi> are printed.<note type="editorial">A reference to
+                        the third edition of Pennant's <bibl type="editorial">
+                            <title ref="bi0004">
+                                Tour in Scotland 1769</title> (Warrington: 1774)</bibl>.</note> The
+                    other will be soon ready I hope. Be so good as to read seal, &amp; forward my
+                    letter to M<hi rend="superscript">r</hi> Low.</p>
+                <closer>
+                    <salute>yrs in vast hurry</salute>
+                    <signed>
+                        <persName ref="pe0232">T. Pennant</persName>
+                    </signed>
+                </closer>
+                <dateline>Jan. 18<hi rend="superscript">th</hi>. 1774.</dateline>
+
+                <postscript>
+                    <p>Pray how much english money is a scotch mark</p>
+                    <p>
+                        <handShift/>1.1 ⅓</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

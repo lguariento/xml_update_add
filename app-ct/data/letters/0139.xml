@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0139">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, thanking him for assistance and requesting
+                    information on Western Isles</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>60</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-09-29"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pl0001">Downing Sept<hi rend="superscript">r</hi> 29<hi rend="superscript">th</hi> 1773.</placeName>
+                </dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>your kind favors of aug 23 sep<hi rend="superscript">tr.</hi> 2<hi rend="superscript">d</hi> &amp; 17<hi rend="superscript">th</hi> met me
+                    yesterday at this: which with their agreable &amp; instructive contents demand
+                    my best thanks. The use they are to me is very important: I have near fifty
+                    Letters before me so dare say you will excuse me for not enlarging more. I can
+                    only say that I feel very sensibly my inability to make an adequate return. I am
+                    unwilling to force the willing horse: <sic>all I can say that if</sic> you can
+                    soon pick up anything more respecting <placeName ref="pl0636">Giga</placeName>.
+                    &amp;c or any of <placeName ref="pl0708">the western isles</placeName>
+                    <sic>(</sic> you know those I saw it will be most acceptable. Be so good as to
+                    forward the inclosed &amp; think me</p>
+                <closer>
+                    <salute>Dear Sir <lb/>with the sincerest regard <lb/>Y<hi rend="superscript">rs</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant.</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>My compliments attend <persName ref="pe0020">M<hi rend="superscript">r</hi>
+                            Oliphant</persName>. also to <persName ref="pe0157">M<hi rend="superscript">r</hi> Macgovan</persName>: the box with his kind
+                        present has never been heard of: I wrote to <persName ref="pe0018">M<hi rend="superscript">r</hi> Secretary Jackson</persName> about it;
+                        begging him to write to the person who had care of it, as the loss will be
+                        heavy to the poor young man. </p>
+                </postscript>
+            </div>
+            <div>
+                <p>Downing</p>
+                <p>
+                    <address>
+                        <addrLine>To</addrLine>
+                        <addrLine>M<hi rend="superscript">r.</hi> Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                        <addrLine>
+                            <sic>Edenburgh</sic>
+                        </addrLine>
+                    </address>
+                </p>
+                <p>Free <lb/>
+                    <persName ref="pe0113">JGlynn</persName>
+                </p>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0002">CHESTER</placeName>
+                    </stamp>
+                </p>
+                <p>
+                    <stamp type="handstamp">
+                        <placeName ref="pl0002">CHESTER</placeName>
+                    </stamp>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

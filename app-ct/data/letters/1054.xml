@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1054">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 54</locus>
+                        </ab>
+                    </msContents>
+                    <physDesc>
+                        <additions>
+                            <p>Endorsement in Richard Bull's hand:</p>
+                            <p>
+                                <hi rend="underline">Pennant Pennant</hi>
+                            </p>
+                            <p>Marginalia in Richard Bull's hand:</p>
+                            <p>
+                                <rs type="art" ref="ar0142">view of Nanny House</rs>
+                            <lb/>vastly wa<gap unit="chars" quantity="1" reason="illegible"/>ted</p>
+                            <p>Where put
+                                <lb/>
+                                <rs type="art" ref="ar0143">
+                                    <persName ref="pe0113">
+                                        <choice>
+                                            <abbr>L<hi rend="superscript">d</hi>. Ch: Jus:</abbr>
+                                            <expan>Lord Chief Justice Glynne</expan>
+                                        </choice>
+                                    </persName>
+                                </rs>
+                                <note type="editorial">Sir John Glynne (1603–1666), judge and politician, who negotiated successfully the turbulent years of civil war and restoration in Britain to carve out a successful career and emerge a wealthy man. Pennant's full account of his life is given in A tour in Wales, MDCCLXX, vol. 1 ([1778]), pp. 101–4, with Plate XII, 'Chief Justice Glynne', at p. 102+.</note>
+                                <lb/>&amp; <placeName ref="pl1359">Fisherwick House</placeName>, <persName ref="pe0810">Donnegals</persName>
+                                <note type="editorial">Fisherwick, Staffordshire, was in the ownership of Arthur Chichester, fifth earl of Donegall (1739–1799), MP for Malmesbury in Wiltshire between 1768 and 1774. History of Parliament on-line. See The journey from Chester to London (1782), p. 117: 'Passed through Fisherwick park, a fine seat of the Earl of Donnegal'. </note>
+                            </p>
+                            <p>You <note type="editorial">This may be Bull's query as to where to put a drawing of Pennant in his extra-illustrated Tour in Wales. Pennant placed his on the OPENING LEAF in his extra-illustrated Tour in Wales (2nd edn.), vol. 1, part 1, ONE, p. v.</note>
+                                <lb/>
+                                <table style="letter">
+                                    <row role="data">
+                                        <cell style="left" role="data">3700</cell>
+                                        
+                                        <cell style="left" role="data">84.</cell>
+                                        <cell role="data"/>
+                                    </row>
+                                    <row role="data">
+                                        <cell style="left" role="data">442</cell>
+                                        
+                                        <cell style="left" role="data">28.</cell>
+                                        <cell role="data"/>
+                                    </row>
+                                    <row role="data">
+                                        <cell style="left" role="data">578</cell>
+                                        
+                                        <cell style="left" role="data">___</cell>
+                                        <cell role="data"/>
+                                    </row>
+                                    <row role="data">
+                                        <cell style="left" role="data">___</cell>
+                                        
+                                        <cell style="left" role="data">672</cell>
+                                        <cell role="data"/>
+                                    </row>
+                                    <row role="data">
+                                        <cell style="left" role="data">4720</cell>
+                                        
+                                        <cell style="left" role="data">168</cell>
+                                        <cell role="data"/>
+                                    </row>
+                                    <row role="data">
+                                        <cell style="left" role="data">1924</cell>
+                                        
+                                        <cell style="left" role="data">___</cell>
+                                        <cell role="data"/>
+                                    </row>
+                                    <row role="data">
+                                        <cell style="left" role="data">___</cell>
+                                        
+                                        <cell style="left" role="data">2352</cell>
+                                        <cell role="data"/>
+                                    </row>
+                                    <row role="data">
+                                        <cell style="left" role="data">6644</cell>
+                                        
+                                        <cell style="left" role="data"> </cell>
+                                        <cell role="data"/>
+                                    </row>
+                                    <row role="data">
+                                        <cell style="left" role="data"> </cell>
+                                        
+                                        <cell style="left" role="data">2300</cell>
+                                        <cell role="data"/>
+                                    </row>
+                                    <row role="data">
+                                        <cell style="left" role="data"> </cell>
+                                        
+                                        <cell style="left" role="data">100.</cell>
+                                        <cell role="data"/>
+                                    </row>
+                                    <row role="data">
+                                        <cell style="left" role="data"> </cell>
+                                        
+                                        <cell style="left" role="data">15.</cell>
+                                        <cell role="data"/>
+                                    </row>
+                                    <row role="data">
+                                        <cell style="left" role="data"> </cell>
+                                        
+                                        <cell style="left" role="data">___</cell>
+                                        <cell role="data"/>
+                                    </row>
+                                    <row role="data">
+                                        <cell style="left" role="data"> </cell>
+                                        
+                                        <cell style="left" role="data">2415</cell>
+                                        <cell role="data"/>
+                                    </row>
+                                </table>
+                            </p>
+                        </additions>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pedb.xml#pe0232">Thomas Pennant</persName>
+                    <date when="1786-06-19"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pedb.xml#pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute> <dateline>
+                        <placeName ref="pl0001">Downing</placeName> June 19<hi rend="superscript">th</hi>. 1786.</dateline>
+                </opener>
+                <p>I thank you for your kind favor the moment <persName ref="pe0015">M.P.</persName> is arrived. Be so good as to accept
+                    the inclosed &amp; let our friends mess<hi rend="superscript">rs</hi> <persName ref="pe0293">Burel</persName> &amp;
+                    <persName ref="pe0332">Storer</persName> have their thirds. you shall not suffer by this fr<del>
+                        <gap unit="chars" quantity="2" reason="illegible"/>
+                    </del>ank
+                    of mine for I must desire your acceptance of the <rs type="art" ref="ar0141">salisbury arms</rs>, <note type="editorial">The arms of the Earl of Salusbury are included in Pennant's extra-illustrated Tour in Wales, SEVEN, p. 93.</note>
+                    which you will lose by it. I set <persName ref="pe0389">M<hi rend="superscript">r</hi> Faden</persName> about making 
+                    engravings to continue the roads from <placeName ref="pl1356">coventry</placeName> by <placeName ref="pl1017">Lichfield</placeName> to
+                    <placeName ref="pl0002">chester</placeName> to to suit my route. He made drawings but dare not engrave them for fear of being punished as a pyrate. He offered them to me at 8 4<hi rend="superscript">s</hi>.
+                    they are worth it but too much for the Individual. I wish we c<hi rend="superscript">d</hi> form a partnership about them &amp;
+                    contrive to lessen the weight of the price by getting them copied. I am in the same case as you respecting <persName ref="pe0379">M<hi rend="superscript">r</hi> Chiswel</persName>
+                    yet I encourage his plan; &amp; shall get my copy done a second time. <persName ref="pe0014">moses</persName> is actually
+                    gone among the mountains a gleaning of subjects for it. He shall do for you all you wish: but he is abominably used by my rascally countrymen. I rejoice to hear 
+                    <del>
+                        <gap unit="chars" quantity="7" reason="illegible"/>
+                    </del> you talk of returning to y<hi rend="superscript">r</hi>
+                    own house in <placeName ref="pl0759">Stratton street</placeName>: that I may flatter myself with meeting you in March 
+                    &amp; April next I am glad for self sake you have not left the <placeName ref="pl1020">isle of wight</placeName>. I pursue the 
+                    In<del>Ind</del>troduction to the <bibl type="authorial">
+                        <title ref="bi0037">Indian Zoology</title>
+                    </bibl> with zeal. I must pass by you
+                    &amp; am sorry I cannot land &amp; make you a visit to save you the trouble of answering the annexed queries. my labor is great but my Spirit not less. I hope 
+                    <persName ref="pedb.xml#pe0331 pedb.xml#pe0336">Miss Bulls</persName> receive all the benefit they c<hi rend="superscript">d</hi> wish.</p>
+                <closer>
+                    <salute>I am
+                    <lb/>Dear Sir
+                    <lb/>most faithfully y<hi rend="superscript">rs</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pedb.xml#pe0232">Thomas Pennant</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Is the salt in the <placeName ref="pl1020">isle of W.</placeName> made from the salt water only or is the rock salt brought in aid. how much is exported annually.</p>
+                    <p>How high is the highest tide on any part of the back of the <placeName ref="pl1020">isle</placeName>. how
+                        <del>
+                            <gap unit="chars" quantity="2" reason="illegible"/>
+                        </del> high in <placeName ref="pl1357">Portsmouth harbour</placeName>
+                    </p>
+                    <p>I <placeName ref="pl1358">caresbrook castle</placeName> seen from the sea on the back of the <placeName ref="pl1020">isle</placeName>.</p>
+                    <p>If you have no franker at hand you may inclose to <persName ref="pe0015">Sir R. M.</persName> <placeName ref="pl0695">Mostyn Flintshire</placeName>.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

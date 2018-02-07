@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0541">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>George Paton to Thomas Pennant</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP326</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>9</locus>
+                        </ab>
+                    </msContents>
+                    <additional>
+                        <p>Two dates appear on this document. The later date of March 10<hi rend="superscript">th</hi> 1784 has been used for the purpose of
+                            dating the letter.</p>
+                    </additional>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0228">George Paton</persName>
+                    <date when="1784-03-10"/>
+                    <placeName ref="pldb.xml#pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>
+                    <persName ref="pe0067">M<hi rend="superscript">r.</hi> Denman</persName> having
+                    called on me this morning informed of an Opportunity of conveying a small Parcel
+                    to you, so in a hurry accept thereof in transmitting you a few Portraits &amp;
+                    Views, having noted down thereon the names of the Persons <choice>
+                        <abbr>caract<hi rend="superscript">d.</hi>
+                        </abbr>
+                        <expan>caricatured</expan>
+                    </choice> from the Letter <hi rend="underline">K</hi> you will please know are
+                    etched by one <persName ref="pe0009">
+                        <hi rend="underline">Kay</hi>
+                    </persName> a
+                    Barber &amp; Wigmaker here, who has ushered into the place a variety of similar
+                    Objects commonly stalking about our Streets; unseen by you — when here, which I
+                    omitted to send, but should You be pleased with <rs type="art" ref="ar0086">these Specimens</rs>, be pleased to hint &amp; I will after wards send you
+                    every one of them his first Essays, he seems to be ashamed of, since his
+                    operations are noticed. —</p>
+                <p>The other <hi rend="underline">DG</hi> is a young Lad <persName ref="pe0571">David Gibson</persName> a Portrait Painter most in <sic>Minature</sic> a
+                    disciple of an ingenious tho' careless <add place="above">young</add> Man
+                        <persName ref="pe0572">
+                        <hi rend="underline">John Brown</hi>
+                    </persName> a
+                    most excellent designer &amp; an uncommon elegant executor in the <hi rend="underline">Black lead</hi> miniature line that has appeared here, who
+                    after a ten years residence in <placeName ref="pl1164">Italy</placeName>
+                        &amp;<hi rend="superscript">c.</hi> passes the time in this place not
+                    suitable to his merit, altho' requests from <placeName ref="pl0699">London</placeName>
+                    <sic>has</sic> been repeatedly various, having often promised to agree yet
+                    postpones it untill at last his scanty income <add place="above">may</add>
+                    compell his departure, being realy a Genius he will not labour but <del rend="overstrike">
+                        <gap reason="illegible" unit="chars" atLeast="3" atMost="5"/>
+                    </del> when the fancy invites. — These are <rs type="art" ref="ar0081">Gibson's first Essays</rs>.</p>
+                <p>As to my friend <persName ref="pe0049">M<hi rend="superscript">r.</hi>
+                        Cardonnel</persName> who draws well, within these few weeks, for Amusement
+                    at a leisure hour, has taken a fancy for Etching, these are his first attempts
+                    so leave them <sic>submissely</sic> to yourself &amp; beg to have your
+                    Sentiments, <rs type="art" ref="ar0082">the plates of our <hi rend="underline">Scottish Coins</hi>
+                    </rs> are of his Execution, those of <persName ref="pe0573">our <hi rend="underline">William</hi>
+                    </persName> are of a late
+                    discovered Treasure since you was here, found at the Burial place of the Family
+                    of Brodie <placeName ref="pl1173">Parish of Dyke Morayshire</placeName>, few of
+                    which, alas! as I can learn were preserved from the melting pot, but these two
+                    varieties viz<hi rend="superscript">t.</hi>
+                    <placeName ref="pl1174">
+                        <hi rend="underline">
+                            <unclear reason="illegible">Roceburg</unclear>
+                        </hi>
+                    </placeName> i.e <placeName ref="pl1174">Roxburgh</placeName> and <placeName ref="pl0094">
+                        <hi rend="underline">Pert</hi>
+                    </placeName> or <placeName ref="pl0094">Perth</placeName>,
+                    which indicate them to be of Scottish mintage, unnoticed by every
+                        <sic>Collictor</sic>, Writer &amp;C<hi rend="superscript">a.</hi> on that
+                    Subject before that has fal'n into my hands or ever before known to any one I've
+                    conversed with since the discovery: I must confess it happened to be my Lot to
+                    obtain <hi rend="underline">on of these <placeName ref="pl1174">Roxburgh
+                            Coins</placeName>
+                    </hi> from <placeName ref="pl0701">Orkney</placeName>
+                    two or three years ago, to which place these had been carried by some Pedlars;
+                    it is the <add place="above">more</add> remarkable the Reverse differs from all
+                    our Scottish Coinage prior to later, so cannot account for this alteration: pray
+                    oblige me with your Sentiments on this point: I cannot observe any similar
+                    British &amp;C<hi rend="superscript">a.</hi> Coinage but in <bibl type="authorial">
+                        <title ref="bi0576">
+                            <hi rend="underline">Ducarel's Norman
+                                Coins</hi> 4<hi rend="superscript">to.</hi>
+                        </title>
+                    </bibl> but is
+                    imperfete, &amp; inserted in his <bibl type="authorial">
+                        <title ref="bi0576">Norman Coins</title> fig. 1. plate 1.</bibl> — <persName ref="pe0049">M<hi rend="superscript">r.</hi> Cardonnel</persName> has some thoughts
+                    of Etching a series of our <hi rend="underline">Silver Scottish
+                        Mintage</hi>
+                    <note type="editorial">See Cardonnel's 1786 <bibl type="authorial">
+                            <title ref="bi0577">
+                                <hi rend="italic">Numismata Scotiæ,
+                                    or a series of the Scottish coinage, from the reign of William
+                                    the Lion to the Union</hi>
+                            </title>.</bibl>
+                    </note> &amp; that
+                    more completely arranged than has yet been done, it will be a work of time, if
+                    you have <sic>an</sic> varieties or know of such it would be very kind to
+                    communicate drawings of such at Convenience, especially such as are not in <bibl type="authorial">
+                        <title ref="bi0578">Andersons Diplom. &amp; Numismata
+                            Scotiæ</title>
+                    </bibl> or <bibl type="authorial">
+                        <title ref="bi0579">Snelling's Silver Coins</title>
+                    </bibl>, these two we have &amp; are the
+                    most capital Collection ever arrange yet are both imperfete as many late
+                    discoveries convince us. What is your opinion of such a design: <persName ref="pe0049">M<hi rend="superscript">r.</hi> Cardonnel</persName> is one of
+                    the Secretary's Clerks in the <placeName ref="pl0696">Custom house</placeName>
+                    here. — Among them you will find <rs type="art" ref="ar0083 ar0084">two drawings
+                        of the <hi rend="underline">Isle</hi>
+                    </rs> or <hi rend="underline">Rock
+                        Bass</hi> from <bibl type="authorial">
+                        <title ref="bi0127">Slezer</title>
+                    </bibl>, am sorry do not please me but are justly enough
+                    copied, <persName ref="pe0122">M<hi rend="superscript">r.</hi>
+                        Runciman</persName> has been so bad this Winter which has disqualified him
+                    from working any &amp; am affraid is in a very delicate state promising not long
+                    life, if he finishes <rs type="art" ref="ar0085">his Sketch</rs> you shall get
+                    one.</p>
+                <p>The late Demands from Parliament for Accounts for these four Months past have
+                    exercised every moment I had, this with the dread of it's dissolution every post
+                    deterred me from writing you, else would have not been so long silent: <persName ref="pe0156">M<hi rend="superscript">r.</hi> Low</persName> is expected up
+                    here from <placeName ref="pl0701">Orkney</placeName> later end of May or
+                    beginning of June, so suppose giving me a positive Answer about his <bibl type="authorial">
+                        <title ref="bi0424">
+                            <hi rend="underline">Tour &amp;<hi rend="superscript">ca</hi>
+                            </hi>
+                        </title>
+                    </bibl> till we meet, of
+                    which you shall be informed how soon any thing is fixed.</p>
+                <p>I shall rejoice in having every opportunity of serving you so await your
+                    instructions being</p>
+                <closer>
+                    <salute>D<hi rend="superscript">r</hi> Sir <lb/>Your most obedient
+                        Servant</salute>
+                    <signed>
+                        <persName ref="pe0228">GPaton</persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pl0076">Edinburgh</placeName> 10 March 1784.</dateline>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>Thomas Pennant Esq<hi rend="superscript">r.</hi>
+                        </addrLine>
+                        <addrLine>Downing</addrLine>
+                        <addrLine>Flintshire</addrLine>
+                    </address>
+                </p>
+                <p>with a small Roll</p>
+            </div>
+        </body>
+    </text>
+</TEI>

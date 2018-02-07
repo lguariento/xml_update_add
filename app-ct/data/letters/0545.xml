@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0542">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>George Paton to Thomas Pennant</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Warwick</settlement>
+                        <repository>Warwickshire County Record Office</repository>
+                        <idno>CR2017/TP326</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>13</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0228">George Paton</persName>
+                    <date when="1790-03-04"/>
+                    <placeName ref="pl0696">Custom House Edinburgh</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <placeName ref="pl0734">Bruton Street London</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>The <sic>vicessitudes</sic> of Life are many, &amp; those come upon Mankind
+                    unexpectedly, which require the exercise of Christian fortitude in the strongest
+                    degree: — I am sorry to learn that you have lost so many Friends, heartily do I
+                    wish this may be supplied by the comfortable enjoyment of your Family, especialy
+                    when engaged so laudably in the acquisition of Knowledge: may <persName ref="pe0236">your Son's</persName> Visit abroad be prosperous &amp; his
+                    Return to <placeName ref="pl0777">Britain</placeName> again be safe. — From a
+                    Paper lately fallen into my hands, written by my Father I cannot look for the
+                    length of my days now, as it assures me to have past more years than I thought
+                    i.e since July 1721, but to drop this topick at the time, — let us pass our
+                    Lives as we ought to do.</p>
+                <p>I am glad that the short hints on the Salt were of any Service to you, return
+                    thanks for the Specimen of your Labour, with what you may be pleased to oblige the World <del rend="overstrike">with</del> I shall be always happy to peruse &amp; assign
+                    a carefull corner in my small Collection.</p>
+                <p>
+                    <bibl type="authorial">
+                        <title ref="bi0304">M<hi rend="superscript">r.</hi>
+                            <hi rend="underline">Smellie's Philosophy of Natural
+                            History</hi>
+                        </title>
+                    </bibl> was published t'other day, an Acquaintance
+                    passing to <placeName ref="pl0699">London</placeName> now on the way I am
+                    hopefull that you will find two Copies, shortly hence, at <persName ref="pe0026">M<hi rend="superscript">r.</hi> White's Bookseller</persName> for your
+                    Acceptance from me, having ordered the Parcel to be left there to meet you while
+                    residing in <placeName ref="pl0699">London</placeName> expecting this will reach
+                    you in due time.</p>
+                <p>You have inclosed <rs type="art" ref="ar0087">Kay's Sketch of Cap<hi rend="superscript">t.</hi> Grose</rs>, hope he will soon begin his Tour
+                    in our Western Regions,<note type="editorial">The antiquarian Francis Grose made
+                        tours of Scotland in 1788, 1789 and 1790, in order to gather materials for
+                        his <bibl type="editorial">
+                            <title ref="bi0243">
+                                <hi rend="italic">Antiquities
+                                    of Scotland</hi>
+                            </title>
+                        </bibl>, published 1789-1791.</note> if
+                    you chance to see him, my best Compliments wait of him, I do hear that the
+                        <placeName ref="pl1178">
+                        <hi rend="underline">old Tower house of
+                        Udny</hi>
+                    </placeName> in <placeName ref="pl0732">Aberdeenshire</placeName>
+                    is well worthy of his inspection, the plan of this building being of a singular
+                    kind: <rs type="art" ref="ar0088">a draft of it</rs> was made by <persName ref="pe0001">Doctor Anderson</persName>, if he has a Copy thereof, I shall
+                    solicit a Sketch of it for you from him. — <persName ref="pe0001">The
+                        Doctor</persName> some days ago exprest his warmest returns for the
+                    Civilities you shewed him while you was in the north of <placeName ref="pl0705">this Country</placeName>, his Letter to me with his M.S Plan I inclose for
+                    your perusal &amp; if <persName ref="pe0236">your Son</persName> can procure the
+                    Literary Countenance of any qualified Person in the Course of his Travels, this
+                    would be a very high piece of merit to <persName ref="pe0001">D<hi rend="superscript">r.</hi> Anderson</persName> to gain their
+                    Correspondence, such a plan as he <sic>pourposes</sic> will be of real Service
+                    to the world: — when his proposals are printed I shall be sure to lend you some
+                    of them, the inclosed is handed for your recomendation of its contents for
+                        <sic>your's</sic> notice if deserving it.<note type="editorial">The proposal
+                        and manuscript plan Paton refers to likey relate to James Anderson's
+                        attempts to gather support for his periodical project, <bibl type="editorial">
+                            <title ref="bi0138">
+                                <hi rend="italic">The Bee, or
+                                    Literary Weekly Intelligencer</hi>
+                            </title>
+                        </bibl> (1791-1794), a
+                            <bibl type="authorial">
+                            <title ref="bi0581">
+                                <hi rend="italic">Prospectus</hi>
+                            </title>
+                        </bibl> for which was printed in
+                        1790.</note>
+                </p>
+                <p>
+                    <persName ref="pe0049">M<hi rend="superscript">r.</hi> Cardonnel</persName>
+                    desired me to present his best Compliments with gratefull thanks for <rs type="art" ref="ar0089">the Drafts</rs> he received from you by <persName ref="pe0105">Cap<hi rend="superscript">t.</hi> Grose</persName>. — I've
+                    added <rs type="art" ref="ar0090">a portrait of a remarkable Man at
+                        Dunfermline</rs>, he is an adept in the Hebrew &amp;<hi rend="superscript">c.</hi> &amp; other Eastern Languages from some peculiarity has refrained
+                    the shaving or cutting his Beards, have seen him walking thro' our Streets, but
+                    the young Boys now restrain their following after him as an uncommon person; he
+                    was educated to have been a Clergyman: <persName ref="pe0068">D<hi rend="superscript">r.</hi> Lort</persName> when here was much pleased
+                        <gap reason="illegible" unit="chars" atLeast="1" atMost="4"/> that Portrait,
+                    it is very like him.<note type="editorial">Several portraits of Lort are known
+                        to have been made. Paton may be referring to <rs type="art" ref="ar0091">John Downman's 1777 portrait</rs>, or <rs type="art" ref="ar0092">Francis Grose's more recent caricature of Lort, <hi rend="italic">The
+                                Antiquarian Mastiff</hi>
+                        </rs>.</note>
+                </p>
+                <closer>
+                    <salute>I am sincerely <lb/>D<hi rend="superscript">r.</hi> Sir <lb/>Your
+                        most obed<hi rend="superscript">t.</hi> Serv<hi rend="superscript">t.</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0228">GPaton</persName>
+                    </signed>
+                </closer>
+                <dateline>
+                    <placeName ref="pl0696">Custom h<hi rend="superscript">o.</hi> Edinb<hi rend="superscript">r</hi>
+                    </placeName>
+                    <lb/>4 March 1790}</dateline>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>Thomas Pennant Esq<hi rend="superscript">r.</hi>
+                        </addrLine>
+                        <addrLine>Bruton Street</addrLine>
+                        <addrLine>London</addrLine>
+                    </address>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

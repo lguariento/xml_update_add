@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0150.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, requesting materials from Advocates Library
+                    and thanking him from prints; discussing arrangements for George Low's
+                    voyage</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>76</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1774-01-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>Jan. 23<hi rend="superscript">d</hi> 1774.</dateline>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>one favor with a Letter from <persName ref="pe0188">M<hi rend="superscript">r</hi> Campbell</persName> another with the prints are received with
+                    thanks.</p>
+                <p>I scarce know what to advise about <persName ref="pe0005">M<hi rend="superscript">r</hi> aulds</persName>
+                    <unclear reason="illegible">compunction</unclear>. are <bibl type="authorial">
+                        <title ref="bi0530">N<hi rend="superscript">s</hi>. 9. 10 11. 12 vol.
+                            II Advoc. Libr.</title>
+                    </bibl> worth attention?</p>
+                <p>
+                    <bibl type="authorial">
+                        <title ref="bi0105">Stukely’s Stone hinge</title>
+                    </bibl>
+                    is a fanciful book. <bibl type="authorial">
+                        <title ref="bi0106">Borlases
+                            Antiquities of Cornwall</title>
+                    </bibl> is the best book <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName> can have.</p>
+                <p>I have told him to draw on me for twenty pounds in aid of his voyage.</p>
+                <p>In respect to y<hi rend="superscript">r</hi> earnestness ab<hi rend="superscript">t</hi> sending him books, you are very kind but he had best collect all his
+                    materials &amp; then form his remarks from Books.</p>
+                <p>Pray transmit to him the inclosed hints.</p>
+                <closer>
+                    <salute>I am Dear Sir <lb/>Y<hi rend="superscript">r</hi> obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant.</persName>
+                    </signed>
+                </closer>
+
+                <postscript>
+                    <p>I like <rs type="art" ref="ar0121">the Prints</rs> much, you favord me with.
+                        They are prettily designed.</p>
+                    <p>Pray inform me of the weight of an <placeName ref="pl0715">isle of
+                            skie</placeName> Steer, &amp; cow the Butchers or graziers are best to
+                        advise with. </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

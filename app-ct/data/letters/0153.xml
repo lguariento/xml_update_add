@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0153.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, on printing matters and Shaw's <hi rend="italic">History of Moray</hi>
+                </title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>79</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1774-02-18"/>
+                    <placeName ref="pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                    <placeName ref="pl0696">Custom House, Edinburgh</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pl0001">Downing</placeName>. Febr. 18<hi rend="superscript">th</hi>. 1774.</dateline>
+                <opener>
+                    <salute>Dr Sir</salute>
+                </opener>
+                <p>I am obliged to you for y<hi rend="superscript">r</hi> favour of the 4<hi rend="superscript">th</hi> in<hi rend="superscript">t</hi>. &amp; for the
+                    sheets of <bibl type="authorial">
+                        <title ref="bi0109">Gal’s Gabions</title> but
+                        from <biblScope unit="page">p.112 to 145</biblScope>
+                    </bibl> are wanting. I
+                    have printed in <bibl type="authorial">
+                        <title ref="bi0004">the appendix of my
+                                3<hi rend="superscript">d</hi> edition</title>
+                    </bibl> what I suppose
+                    is <bibl type="authorial">
+                        <title ref="bi0081">an abridged history of Murray by
+                                M<hi rend="superscript">r</hi> Shaw</title>
+                    </bibl> sent to me by
+                    him. So <persName ref="pe0005">M<hi rend="superscript">r</hi> Aulde</persName>
+                    had best wait till he sees it.</p>
+                <p>Be so good as to forward the inclosed to <persName ref="pe0156">M<hi rend="superscript">r</hi> Low</persName>. I have reason to think <bibl type="authorial">
+                        <title ref="bi0421">his History</title>
+                    </bibl> will sell
+                    well.</p>
+                <p>Please to inclose y<hi rend="superscript">r</hi> next to <persName ref="pe0015">Sir Roger Mostyn</persName> &amp;c. <placeName ref="pl0734">Bruton street
+                        London</placeName>.</p>
+                <closer>
+                    <salute>I am Dear Sir <lb/>y<hi rend="superscript">r</hi> obed<hi rend="superscript">t</hi> Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant</persName>
+                    </signed>
+                </closer>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>M<hi rend="superscript">r</hi> Paton</addrLine>
+                        <addrLine>Custom House</addrLine>
+                        <addrLine>Edinburgh</addrLine>
+                    </address>
+                </p>
+                <p>Free <persName ref="pe0289">WWilliams</persName>
+                </p>
+                <p>
+                    <del rend="overstrike">10</del>
+                </p>
+                <p>8 11</p>
+            </div>
+        </body>
+    </text>
+</TEI>

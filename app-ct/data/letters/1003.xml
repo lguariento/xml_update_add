@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1003">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 2</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1778-09-15"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <dateline>Sept<hi rend="superscript">r</hi> 15<hi rend="superscript">th</hi>
+                        1778</dateline>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>It will always give me real pleasure to contribute to your amusement: I lament
+                    that the evil days we have the misfortune to see, must stop our litterary
+                    luxuries. Before the dreadful prospect opened,<note type="editorial">America
+                        declared independence from Britain on 4 July 1776. France allied with the
+                        Americans early in 1778.</note> I had put a <rs type="art" ref="ardb.xml#ar0006">drawing of old <persName ref="pe0321">Sir
+                            John Wynn</persName> of <placeName ref="pldb.xml#pl0760">Gwedir</placeName>
+                    </rs> from a fine original at <placeName ref="pldb.xml#pl0761">Wynnstay</placeName>
+                    <note type="editorial">Sir John Wynn, first baronet (1553–1627), of Gwydir,
+                        Llanrwst. A plate of 'Sir John Wynne, Bart. from the original at Wynne-Stay'
+                        is included in A tour in Wales (1st edn., [1778]), vol. II [ECCO; ABBR.], p.
+                        140. It was engraved by William Sharp.</note> into <persName ref="pe0014">an artist</persName>'s<note type="editorial">This may
+                        be Moses Griffith, who was employed by Thomas Pennant from 1769.
+                        ODNB.</note> hands. when that is finished, proofs will be at yr service. if
+                    I visit town next spring I shall not fail waiting on you, being with the truest
+                    esteem</p>
+                <closer>
+                    <salute>Dear Sir <lb/>Y<hi rend="superscript">rs</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho.
+                    Pennant</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>excuse the liberty I take in begging that the inclosed may be returned
+                        directed to <lb/>the <persName ref="pe0322">Rev<hi rend="superscript">d</hi> M<hi rend="superscript">r</hi> John
+                            Jones</persName>
+                        <lb/>Fellow of <placeName ref="pldb.xml#pl0762">Jesus College
+                            <lb/>oxford</placeName>
+                        <note type="editorial">John Jones, a graduate of Jesus College, Oxford, was
+                            named by Pennant for his 'indefatigble [work] in furnishing me with
+                            extracts from the manuscripts of the university’ in the Advertisement to
+                            A Tour in Wales. MDCCLXX (London: Henry Hughes, 1778),
+                        iii–iv.</note>.</p>
+                </postscript>
+            </div>
+
+        </body>
+    </text>
+</TEI>

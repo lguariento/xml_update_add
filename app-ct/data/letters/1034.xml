@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct1034">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to Richard Bull</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Aberystwyth</settlement>
+                        <repository>National Library of Wales</repository>
+                        <idno>5500C</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>no. 36</locus>
+                        </ab>
+                    </msContents>
+                    <physDesc>
+                        <additions>Marginalia: in Richard Bull's hand: <placeName ref="pldb.xml#pl0802">Gorhambury</placeName> House</additions>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1784-01-09"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0313">Richard Bull</persName>
+                    <placeName ref="pldb.xml#pl0802">Gorhambury House</placeName>
+                </correspAction>
+            </correspDesc>
+            <langUsage> <!-- delete as appropriate -->
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute> <dateline>
+                        <placeName ref="pldb.xml#pl0001">Downing</placeName> <choice>
+                            <abbr>Jan.</abbr>
+                        </choice> 9<hi rend="superscript">th</hi> 1784.</dateline>
+                </opener>
+                <p>I am happy to hear from you from any quarter of the Globe; but am made more happy to find that you have the satisfaction of finding that your situation has so well 
+                    an<del>
+                        <gap unit="chars" quantity="2" reason="illegible"/>
+                    </del>swered the purpose. I have thoughts of visiting 
+                    <placeName ref="pldb.xml#pl0699">town</placeName> before this winter is past; perhaps next month &amp; shall be much mortified not to meet with you there. have not you 
+                    &amp; <persName ref="pe0331 pe0336">the Ladies</persName> fortitude enough, <hi rend="underline">contemnere <note type="editorial">"to despise</note>fashion</hi>,
+                    &amp; to be regular amindst the temptations of an irregular age? It is surely worthy the tryal especially when health is to be
+                    <del>
+                        <gap unit="chars" quantity="2" reason="illegible"/>
+                    </del>the reward</p>
+                <p>A Letter of mine was probably in <placeName ref="pldb.xml#pl0758">stratton-street</placeName> when yours reached me. I must refer to that for an account of 
+                    <persName ref="pe0014">Moses</persName>'s labors. <note type="editorial">Could this possibly refer to the undated no. 35?</note>
+                    I w<del>
+                        <gap unit="chars" quantity="1" reason="illegible"/>
+                    </del>ish I could flatter you with the hopes of having a volume in any reasonable time, but other work crosses us 
+                    &amp; occasions delays. I thank you much for your kind remembranc in the work of <persName ref="pe0401">Holbein</persName>
+                    <note type="editorial">This is the first in a series of apparent references to what emerges, from the evidence of no. 75, to be a gift of a collection of Holbein drawings from Bull to Pennant, in at least two 'parts'. See nos. 46, 75. LINK TO BIOGRAPHIES: {Hans Holbein, the younger} [although this could also refer to his father, Hans Holbein the Elder, but I don't think so. Holbein the younger far more interesting to Bull as a British art collector]</note>
+                    but it is really unnecessary. The hard weather has left us in the gentlest manner &amp; as grain is reasonable, 
+                    &amp; there is a vast addition of manufactur<del>or</del>es, our poor are tolerably well off.  The known &amp; unknown of this house present their best complim<hi rend="superscript">s</hi>
+                    &amp; wishes of the season to <persName ref="pe0331 pe0336">Miss Bulls</persName>
+                </p>
+                <closer>
+                    <salute>&amp; I remain with true regard
+                        <lb/>Dear Sir
+                        <lb/>Your obliged &amp; affec<hi rend="superscript">t</hi>
+                    <lb/>humble serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Tho. Pennant.</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>
+                        <persName ref="pe0143">Mazel</persName> is publishing a pretty work of scotch views for <persName ref="pe0058">M<hi rend="superscript">r</hi> Cordiner</persName>
+                        as appendages to my scotch tour. <!-- Generic: HOW TO TAG? -->
+                    </p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

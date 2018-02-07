@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0124">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, on Sibbald's <hi rend="italic">Phalainologia
+                        nova</hi>, George Low's manuscript and information about Islay</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>39</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1773-01-10"/>
+                    <placeName ref="pldb.xml#pl0001">Downing</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>Downing Jan. 10<hi rend="superscript">th</hi>1773</dateline>
+                <opener>Dear Sir</opener>
+                <p>accept the best wishes of the season. there is a glimpse of hope that the lost
+                    box is at <placeName ref="pldb.xml#pl0489">Manchester</placeName>. if it proves
+                    true I shall inform you of it.</p>
+                <p>abundance of thanks for y<hi rend="superscript">r</hi> kind intentions respecting
+                    the books but quotations on the points I query will suffice.</p>
+                <p>The plates I mention shall be engraven in good time: as I cannot here procure a
+                            <bibl type="authorial">
+                        <title ref="bidb.xml#bi0049">Sibbald Baleen</title>
+                    </bibl>. it
+                    will be impossible to give you the notes I mean, so must wait till I reach
+                        <placeName ref="pldb.xml#pl0699">London</placeName> in March. as It is a
+                    book often quoted &amp; <rs type="art" ref="ar0047">the old plates</rs> referred to, they must be regraven. The
+                    size sh<hi rend="superscript">d</hi> be oct<hi rend="superscript">vo</hi> The
+                    size of <bibl type="authorial">
+                        <title ref="bidb.xml#bi0045">my synopsis of
+                        quadrupeds</title>
+                    </bibl>. I am much obliged to you for the <rs type="art" ref="ar0104">print of the old
+                    cross</rs>.</p>
+                <p>I long for <persName ref="pe0156">M<hi rend="superscript">r</hi>
+                        Low’s</persName> answer: if his <bibl type="authorial">
+                        <title ref="bidb.xml#bi0058">M.S.</title>
+                    </bibl> arrives I shall then advise you of the means of
+                    conveyance. Please to make my complim<hi rend="superscript">ts</hi> to <persName ref="pe0019">M<hi rend="superscript">r</hi> Menzies</persName>
+                    &amp; let him know I daily expect <persName ref="pe0251">his Shipmate
+                        the Rev<hi rend="superscript">d</hi> M<hi rend="superscript">r</hi>
+                        Dickinson</persName>. I propose <persName ref="pe0026">my
+                        bookseller</persName> to you <sic>meerly</sic> because of his note; for he
+                    will sell for you more than any: not that you should exclude any other
+                    Bookseller you please from any certain number. To make it sell the better could
+                    you add any <bibl type="authorial">
+                        <title ref="bidb.xml#bi0052">short unpublished tracts of
+                            Sibbalds</title>
+                    </bibl> to it.</p>
+                <closer>
+                    <salute>I am with much regard Y<hi rend="superscript">rs</hi>
+                    </salute>
+                    <signed>T. Pennant</signed>
+                </closer>
+
+                <postscript>
+                    <p>There is one Book I wish to <hi rend="underline">have</hi> exceedingly.
+                                <bibl type="authorial">
+                            <title ref="bidb.xml#bi0061">a history of Ilay or of the M<hi rend="superscript">c</hi>donalds of Ilay</title>
+                        </bibl>. It was
+                        one I heard of in the island, but it was one the natives did not like, I
+                        suppose because it represented those times too truely.</p>
+                    <p>Pray is <persName ref="pe0100">M<hi rend="superscript">r</hi>
+                            Freebairn of Ilay</persName> in <placeName ref="pldb.xml#pl0076">Edinburgh</placeName> for I want to write to him.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

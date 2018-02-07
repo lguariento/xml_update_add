@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0550">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to John Murray, 3rd Duke of Atholl</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement/>
+                        <repository>Blair Atholl Castle Archives</repository>
+                        <idno>54 (5)</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <ab>
+                            <locus>62</locus>
+                        </ab>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1774-04-21"/>
+                    <placeName ref="pl0699">London</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0087">John Murray, 3<hi rend="superscript">rd</hi> Duke of
+                        Atholl</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <dateline>
+                    <placeName ref="pl0699">London</placeName> April 21. 1774.</dateline>
+                <opener>
+                    <salute>My Lord</salute>
+                </opener>
+                <p>I shall think myself very happy if (<hi rend="underline">This Time</hi>) I shall
+                    be able to do justice to the Beauty of <placeName ref="pl0821">your grace's
+                        places</placeName>.<note type="editorial">See Pennant's letters to the 3<hi rend="superscript">rd</hi> Duke of Atholl on 20<hi rend="superscript">th</hi> December 1771 and 27<hi rend="superscript">th</hi> August
+                        1774.</note> but as I am also sollicitous about accuracy; I take The liberty
+                    to request a full history of <placeName ref="pl0110">the castle of
+                        Blair</placeName>, in foundation &amp; the various greater events that have
+                    befell it. I shall be most extremely happy if your Grace would direct that such
+                    an account be drawn up in a brief manner &amp; transtmitted to me by post to
+                        <placeName ref="pl0001">Downing Flintshire</placeName>, with convenient
+                    speed.</p>
+                <p>I beg my respectfull compliments to <persName ref="pe0577">the
+                        Dutchess</persName>; &amp; am with great esteem, my Lord</p>
+                <closer>
+                    <salute>Your Grace's <lb/>obliged &amp; most obedient <lb/>humble Serv<hi rend="superscript">t</hi>
+                    </salute>
+                    <signed>
+                        <persName ref="pe0232">Thomas
+                            Pennant</persName>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>I think this summer to visit <placeName ref="pl0707">y<hi rend="superscript">r</hi> Graces's Kingdom of Man</placeName>.</p>
+                </postscript>
+            </div>
+            <div>
+                <p>
+                    <handShift/>from M<hi rend="superscript">r.</hi>
+                    <persName ref="pe0232">Penant</persName>
+                </p>
+                <p>
+                    <placeName ref="pl0699">London</placeName> April 21<hi rend="superscript">st.</hi>
+                </p>
+                <p>
+                    <hi rend="underline">1771</hi>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

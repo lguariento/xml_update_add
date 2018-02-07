@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="CT.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ct0155.xml">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Thomas Pennant to George Paton, asking Paton to buy a book on his behalf and
+                    inclosing a query from Richard Gough</title>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>Edinburgh</settlement>
+                        <repository>National Library of Scotland</repository>
+                        <idno>ADV. MSS. 29.5.5 (2 vols.) i</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <p>
+                            <locus>81</locus>
+                        </p>
+                    </msContents>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName ref="pe0232">Thomas Pennant</persName>
+                    <date when="1774-03-23"/>
+                    <placeName ref="pl0699">London</placeName>
+                </correspAction>
+                <correspAction type="received">
+                    <persName ref="pe0228">George Paton</persName>
+                </correspAction>
+            </correspDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="la">Latin</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <salute>Dear Sir</salute>
+                </opener>
+                <p>I just received y<hi rend="superscript">r</hi> favour. also <bibl type="authorial">
+                        <title ref="bi0071">a complete copy of the hist. of the
+                            isles</title>
+                    </bibl>. I beg my best thanks. <persName ref="pe0104">M<hi rend="superscript">r</hi> Gough</persName> sends the inclosed &amp; begs
+                        y<hi rend="superscript">r</hi> answer. My complim<hi rend="superscript">ts</hi> to <persName ref="pe0180">M<hi rend="superscript">r</hi>
+                        Balfour</persName>: I will answer his Letter as soon as I can with any
+                    degree of precision. I hear there is a <bibl type="authorial">
+                        <title ref="bi0112">Regiam majestatem</title>
+                    </bibl> in his Sale. Be so good as
+                    to buy it being a book I want much.</p>
+                <closer>
+                    <salute>I am D<hi rend="superscript">r</hi> Sir in haste y<hi rend="superscript">rs</hi>.</salute>
+                    <signed>
+                        <persName ref="pe0232">T. Pennant</persName>
+                    </signed>
+                </closer>
+
+                <dateline>
+                    <placeName ref="pl0699">London</placeName> March 23<hi rend="superscript">d</hi>. 1774.</dateline>
+            </div>
+            <div>
+                <p>
+                    <address>
+                        <addrLine>M<hi rend="superscript">r</hi> Paton</addrLine>
+                    </address>
+                </p>
+                <p>
+                    <stamp type="postmark">25/MR</stamp>
+                </p>
+                <p>
+                    <stamp type="postmark">
+                        <gap reason="illegible" unit="chars" quantity="1"/>4/<unclear reason="illegible">M</unclear>R</stamp>
+                </p>
+                <p>
+                    <stamp type="postmark">2<gap reason="illegible" unit="chars" quantity="1"/>/M<gap reason="illegible" unit="chars" quantity="1"/>
+                    </stamp>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
